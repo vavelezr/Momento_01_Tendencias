@@ -1,0 +1,30 @@
+# Plantilla de configuración de Flyway — Momento 1 (CI/CD en Base de Datos).
+#
+# Copia este archivo a `flyway.conf` en la raíz del repo y completa los valores reales.
+# `flyway.conf` NUNCA se versiona (ver .gitignore) — cada integrante arma el suyo en local,
+# y el workflow de GitHub Actions arma el suyo a partir de los Secrets del repositorio.
+#
+# Neon entrega el connection string en formato URI:
+#   postgresql://usuario:password@ep-xxxx.us-east-2.aws.neon.tech/neondb?sslmode=require
+# Flyway espera JDBC, con usuario y password como campos separados:
+#   jdbc:postgresql://ep-xxxx.us-east-2.aws.neon.tech/neondb?sslmode=require
+# Divide el connection string de tu branch (dev o main) antes de pegarlo aquí.
+
+flyway.url=jdbc:postgresql://<host>.neon.tech/<database>?sslmode=require
+flyway.user=<usuario>
+flyway.password=<password>
+
+# Dónde vive el SQL versionado de este repo (migraciones V__ y R__ de la Fase 3/4).
+flyway.locations=filesystem:sql_migrations
+
+# El estado base (scripts/inyeccion_semilla.py) ya creó el schema "a mano": category,
+# business, business_category, users, review. `baseline` le dice a Flyway "asume que todo
+# esto ya está aplicado hasta esta versión" — sin este paso, la primera migración real
+# fallaría intentando crear tablas que ya existen.
+#
+# Deliberadamente NO se usa flyway.baselineOnMigrate=true: el baseline es un acto único y
+# consciente que se corre a mano una vez por entorno (dev, luego main) — igual que el
+# guardrail de inyeccion_semilla.py, el entorno destino nunca debe quedar implícito en un
+# flag automático.
+flyway.baselineVersion=1
+flyway.baselineDescription=Estado base (inyeccion_semilla.py): category, business, business_category, users, review
