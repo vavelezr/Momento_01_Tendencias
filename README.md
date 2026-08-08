@@ -20,9 +20,9 @@ aisladas), migraciones de esquema con **Flyway**, y despliegue automatizado con
 | Dominio de negocio + ER | ✅ [`docs/dominio_de_negocio.md`](docs/dominio_de_negocio.md) |
 | Estado base (schema + carga) | ✅ [`scripts/inyeccion_semilla.py`](scripts/inyeccion_semilla.py) |
 | Protección de rama `main` | ✅ ruleset "No push to main" — ver [`docs/evidences/`](docs/evidences/) |
-| Configuración Flyway + baseline | ✅ [`flyway.conf.example`](flyway.conf.example) — baseline pendiente de correr manualmente contra dev/main (ver abajo) |
-| Migraciones Flyway (`V__`/`R__`) | 🚧 pendiente |
-| Workflows de CI/CD | 🚧 pendiente |
+| Configuración Flyway + baseline | ✅ [`flyway.conf.example`](flyway.conf.example) |
+| Migraciones Flyway (`V__`/`R__`) | ✅ 3 `V__` (tabla, columna, índice/restricción) + 1 `R__` en [`sql_migrations/`](sql_migrations/) — cumple el mínimo del enunciado |
+| Workflows de CI/CD | 🚧 pendiente — sin esto, las migraciones de arriba no se han desplegado todavía vía pipeline |
 | Evidencia de falla + roll forward | 🚧 pendiente |
 
 ---
