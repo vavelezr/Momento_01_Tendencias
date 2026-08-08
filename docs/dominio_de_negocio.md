@@ -21,9 +21,10 @@ viceversa?".
 Los datos son una **muestra real acotada** del [Yelp Academic Dataset]: todos los
 negocios de **Goodyear, AZ** (un suburbio de Phoenix, ~308 negocios) y únicamente las
 reseñas, tips, check-ins y usuarios asociados a esos negocios — no el dataset completo
-(que pesa ~1.3 GB y excede el tier gratuito de Neon). El proceso de extracción vive en
-[`scripts/extraer_muestra.py`](../scripts/extraer_muestra.py) y se documenta en el
-[`README`](../README.md).
+(que pesa ~1.3 GB y excede el tier gratuito de Neon). El filtrado se hizo una única vez,
+fuera de este repositorio; los archivos ya filtrados son los que viven en
+[`data/`](../data/) y son la fuente de verdad de la muestra — no se versiona el dataset
+completo ni un script de extracción sobre él.
 
 ## 2. Diagrama entidad-relación
 
@@ -78,6 +79,9 @@ erDiagram
         date yelping_since
         numeric average_stars
         int fans
+        int votes_useful
+        int votes_funny
+        int votes_cool
     }
     REVIEW {
         text review_id PK
@@ -117,10 +121,17 @@ erDiagram
 | `users` | Baseline | Usuarios autores de al menos una reseña o tip (2 757) |
 | `review` | Baseline | Reseñas de esos negocios (4 978) |
 | `business_hours` | Migración `V__` (tabla nueva) | Horario semanal por negocio (1 026 filas) |
-| `business.primary_category` | Migración `V__` (columna nueva) | Categoría principal denormalizada — nace con un error de diseño (`VARCHAR(15)`), corregido por roll forward. Ver `docs/evidencias/`. |
+| `business.primary_category` | Migración `V__` (columna nueva) | Categoría principal denormalizada — nace con un error de diseño (`VARCHAR(15)`), corregido por roll forward. Ver [`docs/evidences/`](evidences/). |
 | `tip` | Migración `V__` (tabla nueva) | Recomendaciones cortas (2 239 filas) |
 | `checkin` | Migración `V__` (tabla nueva) | Check-ins agregados por hora/día (8 635 filas) |
 | Índice + restricción sobre `review`/`business` | Migración `V__` | Ver `sql_migrations/` |
+
+> **Nota sobre `users`.** El JSON fuente trae `votes_useful`, `votes_funny` y `votes_cool`
+> por usuario (votos recibidos en sus reseñas/tips, acumulados históricamente por Yelp) —
+> no forman parte de la pregunta de negocio central del dominio, pero se conservan en el
+> baseline porque ya vienen en el dataset y no cuesta nada guardarlos. El diagrama de la
+> sección 2 los incluye explícitamente para que coincida con
+> [`scripts/inyeccion_semilla.py`](../scripts/inyeccion_semilla.py).
 
 Volumen total de la muestra: **21 005 filas en 8 tablas**, muy por debajo del límite de
 0.5 GB del tier gratuito de Neon.
