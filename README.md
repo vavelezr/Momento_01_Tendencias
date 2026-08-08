@@ -20,6 +20,7 @@ aisladas), migraciones de esquema con **Flyway**, y despliegue automatizado con
 | Dominio de negocio + ER | ✅ [`docs/dominio_de_negocio.md`](docs/dominio_de_negocio.md) |
 | Estado base (schema + carga) | ✅ [`scripts/inyeccion_semilla.py`](scripts/inyeccion_semilla.py) |
 | Protección de rama `main` | ✅ ruleset "No push to main" — ver [`docs/evidences/`](docs/evidences/) |
+| Configuración Flyway + baseline | ✅ [`flyway.conf.example`](flyway.conf.example) — baseline pendiente de correr manualmente contra dev/main (ver abajo) |
 | Migraciones Flyway (`V__`/`R__`) | 🚧 pendiente |
 | Workflows de CI/CD | 🚧 pendiente |
 | Evidencia de falla + roll forward | 🚧 pendiente |
@@ -43,6 +44,7 @@ aisladas), migraciones de esquema con **Flyway**, y despliegue automatizado con
 ```bash
 git --version
 uv --version     # https://docs.astral.sh/uv/  — curl -LsSf https://astral.sh/uv/install.sh | sh
+flyway -v        # https://documentation.red-gate.com/fd/command-line-184127404.html
 ```
 
 Cuenta en [Neon.tech](https://neon.tech) (tier gratuito) con acceso al proyecto del equipo.
@@ -128,6 +130,50 @@ la sección 3 de [`docs/dominio_de_negocio.md`](docs/dominio_de_negocio.md).
 
 ---
 
+## Flyway — control de versiones del schema
+
+A partir de aquí, ningún cambio de schema se hace corriendo `inyeccion_semilla.py` de
+nuevo: se hace con migraciones versionadas en [`sql_migrations/`](sql_migrations/)
+(`V__` evolutivas, `R__` repetibles — Fases 3 y 4). Flyway necesita saber, antes de
+aplicar la primera migración, que el schema del baseline ya existe — eso es lo que hace
+`baseline`.
+
+### 1. Configurar `flyway.conf`
+
+```bash
+cp flyway.conf.example flyway.conf
+```
+
+Edita `flyway.conf` y pega tu connection string de Neon **convertido a formato JDBC**
+(el archivo trae el detalle de la conversión en un comentario). `flyway.conf` no se
+versiona — está en `.gitignore`, igual que `.env`.
+
+### 2. Correr el baseline (una vez por entorno: primero `dev`, luego `main`)
+
+Requiere que `scripts/inyeccion_semilla.py` ya se haya corrido contra ese entorno (el
+baseline le dice a Flyway "este schema que ya existe, cuéntalo como la versión 1" — no
+crea nada por sí mismo).
+
+```bash
+# Contra dev — banco de pruebas, aquí se valida el flujo primero.
+flyway -configFiles=flyway.conf baseline
+
+# Contra main — solo una vez, bootstrap consciente, igual que con inyeccion_semilla.py.
+# Cambia flyway.url/user/password en flyway.conf a los de la branch main antes de correrlo,
+# o usa flags -url/-user/-password para no tocar el archivo:
+flyway -configFiles=flyway.conf \
+  -url="jdbc:postgresql://<host-main>.neon.tech/<database>?sslmode=require" \
+  -user="<usuario>" -password="<password>" \
+  baseline
+```
+
+Salida esperada: `Successfully baselined schema with version: 1`. A partir de este punto,
+`flyway migrate` sobre cualquiera de los dos entornos solo aplicará migraciones con
+versión posterior a la 1 — exactamente el guardrail que necesitamos antes de empezar a
+escribir `V__` reales en la Fase 3.
+
+---
+
 ## Flujo de trabajo del repositorio
 
 `main` está protegida con un *ruleset* de GitHub ("No push to main"): **no se permite push
@@ -160,10 +206,11 @@ Momento_01_Tendencias/
 ├── README.md                    ← este archivo
 ├── pyproject.toml / uv.lock      ← proyecto Python (uv)
 ├── .env.example                  ← plantilla de credenciales (sin valores reales)
+├── flyway.conf.example            ← plantilla de configuración de Flyway
 ├── data/                         ← datos semilla (JSON), fuente de verdad de la muestra
 ├── scripts/
 │   └── inyeccion_semilla.py      ← carga el estado base en Neon
-├── sql_migrations/                🚧 migraciones Flyway (pendiente)
+├── sql_migrations/                ← migraciones Flyway — baseline v1 listo, V__/R__ 🚧 pendiente (Fases 3/4)
 ├── docs/
 │   ├── dominio_de_negocio.md     ← descripción del dominio + diagrama ER
 │   └── evidences/                ← capturas y evidencia de cada fase
