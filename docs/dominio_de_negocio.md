@@ -27,7 +27,7 @@ reseñas, tips, check-ins y usuarios asociados a esos negocios — no el dataset
 
 ## 2. Diagrama entidad-relación
 
-El diagrama refleja el esquema final, después de aplicar el baseline y todas las
+El diagrama refleja el esquema **final**, después de aplicar el baseline y todas las
 migraciones evolutivas de `sql_migrations/`. Las tablas marcadas como *(migración)*
 no existen en el baseline: las crea una migración `V__` posterior — ver el detalle en
 la sección 3.
