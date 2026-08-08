@@ -1,0 +1,770 @@
+[
+ {
+  "id": 1,
+  "name": "Accessories"
+ },
+ {
+  "id": 2,
+  "name": "Active Life"
+ },
+ {
+  "id": 3,
+  "name": "Airlines"
+ },
+ {
+  "id": 4,
+  "name": "American (New)"
+ },
+ {
+  "id": 5,
+  "name": "American (Traditional)"
+ },
+ {
+  "id": 6,
+  "name": "Antiques"
+ },
+ {
+  "id": 7,
+  "name": "Apartments"
+ },
+ {
+  "id": 8,
+  "name": "Appliances"
+ },
+ {
+  "id": 9,
+  "name": "Arts & Crafts"
+ },
+ {
+  "id": 10,
+  "name": "Arts & Entertainment"
+ },
+ {
+  "id": 11,
+  "name": "Asian Fusion"
+ },
+ {
+  "id": 12,
+  "name": "Auto Glass Services"
+ },
+ {
+  "id": 13,
+  "name": "Auto Parts & Supplies"
+ },
+ {
+  "id": 14,
+  "name": "Auto Repair"
+ },
+ {
+  "id": 15,
+  "name": "Automotive"
+ },
+ {
+  "id": 16,
+  "name": "Baby Gear & Furniture"
+ },
+ {
+  "id": 17,
+  "name": "Bagels"
+ },
+ {
+  "id": 18,
+  "name": "Bakeries"
+ },
+ {
+  "id": 19,
+  "name": "Banks & Credit Unions"
+ },
+ {
+  "id": 20,
+  "name": "Barbeque"
+ },
+ {
+  "id": 21,
+  "name": "Barbers"
+ },
+ {
+  "id": 22,
+  "name": "Bars"
+ },
+ {
+  "id": 23,
+  "name": "Beauty & Spas"
+ },
+ {
+  "id": 24,
+  "name": "Beer, Wine & Spirits"
+ },
+ {
+  "id": 25,
+  "name": "Bike Rentals"
+ },
+ {
+  "id": 26,
+  "name": "Bikes"
+ },
+ {
+  "id": 27,
+  "name": "Books, Mags, Music & Video"
+ },
+ {
+  "id": 28,
+  "name": "Bookstores"
+ },
+ {
+  "id": 29,
+  "name": "Brazilian"
+ },
+ {
+  "id": 30,
+  "name": "Breakfast & Brunch"
+ },
+ {
+  "id": 31,
+  "name": "Buffets"
+ },
+ {
+  "id": 32,
+  "name": "Burgers"
+ },
+ {
+  "id": 33,
+  "name": "Cafes"
+ },
+ {
+  "id": 34,
+  "name": "Car Rental"
+ },
+ {
+  "id": 35,
+  "name": "Car Wash"
+ },
+ {
+  "id": 36,
+  "name": "Cheesesteaks"
+ },
+ {
+  "id": 37,
+  "name": "Chicken Wings"
+ },
+ {
+  "id": 38,
+  "name": "Child Care & Day Care"
+ },
+ {
+  "id": 39,
+  "name": "Chinese"
+ },
+ {
+  "id": 40,
+  "name": "Chiropractors"
+ },
+ {
+  "id": 41,
+  "name": "Churches"
+ },
+ {
+  "id": 42,
+  "name": "Cinema"
+ },
+ {
+  "id": 43,
+  "name": "Coffee & Tea"
+ },
+ {
+  "id": 44,
+  "name": "Computers"
+ },
+ {
+  "id": 45,
+  "name": "Contractors"
+ },
+ {
+  "id": 46,
+  "name": "Convenience Stores"
+ },
+ {
+  "id": 47,
+  "name": "Cosmetic Dentists"
+ },
+ {
+  "id": 48,
+  "name": "Cosmetics & Beauty Supply"
+ },
+ {
+  "id": 49,
+  "name": "Day Spas"
+ },
+ {
+  "id": 50,
+  "name": "Delis"
+ },
+ {
+  "id": 51,
+  "name": "Dentists"
+ },
+ {
+  "id": 52,
+  "name": "Department Stores"
+ },
+ {
+  "id": 53,
+  "name": "Desserts"
+ },
+ {
+  "id": 54,
+  "name": "Diners"
+ },
+ {
+  "id": 55,
+  "name": "Dive Bars"
+ },
+ {
+  "id": 56,
+  "name": "Doctors"
+ },
+ {
+  "id": 57,
+  "name": "Dog Parks"
+ },
+ {
+  "id": 58,
+  "name": "Drugstores"
+ },
+ {
+  "id": 59,
+  "name": "Ear Nose & Throat"
+ },
+ {
+  "id": 60,
+  "name": "Education"
+ },
+ {
+  "id": 61,
+  "name": "Electronics"
+ },
+ {
+  "id": 62,
+  "name": "Event Photography"
+ },
+ {
+  "id": 63,
+  "name": "Event Planning & Services"
+ },
+ {
+  "id": 64,
+  "name": "Eyelash Service"
+ },
+ {
+  "id": 65,
+  "name": "Eyewear & Opticians"
+ },
+ {
+  "id": 66,
+  "name": "Family Practice"
+ },
+ {
+  "id": 67,
+  "name": "Farmers Market"
+ },
+ {
+  "id": 68,
+  "name": "Fashion"
+ },
+ {
+  "id": 69,
+  "name": "Fast Food"
+ },
+ {
+  "id": 70,
+  "name": "Fences & Gates"
+ },
+ {
+  "id": 71,
+  "name": "Financial Services"
+ },
+ {
+  "id": 72,
+  "name": "Fitness & Instruction"
+ },
+ {
+  "id": 73,
+  "name": "Florists"
+ },
+ {
+  "id": 74,
+  "name": "Flowers & Gifts"
+ },
+ {
+  "id": 75,
+  "name": "Food"
+ },
+ {
+  "id": 76,
+  "name": "Furniture Stores"
+ },
+ {
+  "id": 77,
+  "name": "Gardeners"
+ },
+ {
+  "id": 78,
+  "name": "Gas & Service Stations"
+ },
+ {
+  "id": 79,
+  "name": "Gastropubs"
+ },
+ {
+  "id": 80,
+  "name": "General Dentistry"
+ },
+ {
+  "id": 81,
+  "name": "Gluten-Free"
+ },
+ {
+  "id": 82,
+  "name": "Golf"
+ },
+ {
+  "id": 83,
+  "name": "Greek"
+ },
+ {
+  "id": 84,
+  "name": "Grocery"
+ },
+ {
+  "id": 85,
+  "name": "Gyms"
+ },
+ {
+  "id": 86,
+  "name": "Hair Salons"
+ },
+ {
+  "id": 87,
+  "name": "Hair Stylists"
+ },
+ {
+  "id": 88,
+  "name": "Handyman"
+ },
+ {
+  "id": 89,
+  "name": "Hardware Stores"
+ },
+ {
+  "id": 90,
+  "name": "Health & Medical"
+ },
+ {
+  "id": 91,
+  "name": "Hobby Shops"
+ },
+ {
+  "id": 92,
+  "name": "Home & Garden"
+ },
+ {
+  "id": 93,
+  "name": "Home Decor"
+ },
+ {
+  "id": 94,
+  "name": "Home Services"
+ },
+ {
+  "id": 95,
+  "name": "Home Window Tinting"
+ },
+ {
+  "id": 96,
+  "name": "Horseback Riding"
+ },
+ {
+  "id": 97,
+  "name": "Hospitals"
+ },
+ {
+  "id": 98,
+  "name": "Hot Dogs"
+ },
+ {
+  "id": 99,
+  "name": "Hotels"
+ },
+ {
+  "id": 100,
+  "name": "Hotels & Travel"
+ },
+ {
+  "id": 101,
+  "name": "Ice Cream & Frozen Yogurt"
+ },
+ {
+  "id": 102,
+  "name": "Indian"
+ },
+ {
+  "id": 103,
+  "name": "Insurance"
+ },
+ {
+  "id": 104,
+  "name": "Internal Medicine"
+ },
+ {
+  "id": 105,
+  "name": "Internet Cafes"
+ },
+ {
+  "id": 106,
+  "name": "Irrigation"
+ },
+ {
+  "id": 107,
+  "name": "Italian"
+ },
+ {
+  "id": 108,
+  "name": "Japanese"
+ },
+ {
+  "id": 109,
+  "name": "Jewelry"
+ },
+ {
+  "id": 110,
+  "name": "Juice Bars & Smoothies"
+ },
+ {
+  "id": 111,
+  "name": "Knitting Supplies"
+ },
+ {
+  "id": 112,
+  "name": "Landscaping"
+ },
+ {
+  "id": 113,
+  "name": "Local Services"
+ },
+ {
+  "id": 114,
+  "name": "Lounges"
+ },
+ {
+  "id": 115,
+  "name": "Makeup Artists"
+ },
+ {
+  "id": 116,
+  "name": "Martial Arts"
+ },
+ {
+  "id": 117,
+  "name": "Massage"
+ },
+ {
+  "id": 118,
+  "name": "Mattresses"
+ },
+ {
+  "id": 119,
+  "name": "Mediterranean"
+ },
+ {
+  "id": 120,
+  "name": "Men's Clothing"
+ },
+ {
+  "id": 121,
+  "name": "Mexican"
+ },
+ {
+  "id": 122,
+  "name": "Mobile Phones"
+ },
+ {
+  "id": 123,
+  "name": "Motorcycle Dealers"
+ },
+ {
+  "id": 124,
+  "name": "Motorcycle Repair"
+ },
+ {
+  "id": 125,
+  "name": "Movers"
+ },
+ {
+  "id": 126,
+  "name": "Music & DVDs"
+ },
+ {
+  "id": 127,
+  "name": "Nail Salons"
+ },
+ {
+  "id": 128,
+  "name": "Nightlife"
+ },
+ {
+  "id": 129,
+  "name": "Notaries"
+ },
+ {
+  "id": 130,
+  "name": "Obstetricians & Gynecologists"
+ },
+ {
+  "id": 131,
+  "name": "Office Equipment"
+ },
+ {
+  "id": 132,
+  "name": "Oil Change Stations"
+ },
+ {
+  "id": 133,
+  "name": "Optometrists"
+ },
+ {
+  "id": 134,
+  "name": "Outdoor Gear"
+ },
+ {
+  "id": 135,
+  "name": "Parks"
+ },
+ {
+  "id": 136,
+  "name": "Party & Event Planning"
+ },
+ {
+  "id": 137,
+  "name": "Pediatric Dentists"
+ },
+ {
+  "id": 138,
+  "name": "Pediatricians"
+ },
+ {
+  "id": 139,
+  "name": "Pet Groomers"
+ },
+ {
+  "id": 140,
+  "name": "Pet Services"
+ },
+ {
+  "id": 141,
+  "name": "Pet Stores"
+ },
+ {
+  "id": 142,
+  "name": "Pet Training"
+ },
+ {
+  "id": 143,
+  "name": "Pets"
+ },
+ {
+  "id": 144,
+  "name": "Photographers"
+ },
+ {
+  "id": 145,
+  "name": "Physical Therapy"
+ },
+ {
+  "id": 146,
+  "name": "Piano Bars"
+ },
+ {
+  "id": 147,
+  "name": "Pizza"
+ },
+ {
+  "id": 148,
+  "name": "Plumbing"
+ },
+ {
+  "id": 149,
+  "name": "Pool Cleaners"
+ },
+ {
+  "id": 150,
+  "name": "Preschools"
+ },
+ {
+  "id": 151,
+  "name": "Printing Services"
+ },
+ {
+  "id": 152,
+  "name": "Professional Services"
+ },
+ {
+  "id": 153,
+  "name": "Real Estate"
+ },
+ {
+  "id": 154,
+  "name": "Religious Organizations"
+ },
+ {
+  "id": 155,
+  "name": "Restaurants"
+ },
+ {
+  "id": 156,
+  "name": "Sandwiches"
+ },
+ {
+  "id": 157,
+  "name": "Seafood"
+ },
+ {
+  "id": 158,
+  "name": "Session Photography"
+ },
+ {
+  "id": 159,
+  "name": "Shipping Centers"
+ },
+ {
+  "id": 160,
+  "name": "Shoe Stores"
+ },
+ {
+  "id": 161,
+  "name": "Shopping"
+ },
+ {
+  "id": 162,
+  "name": "Skin Care"
+ },
+ {
+  "id": 163,
+  "name": "Southern"
+ },
+ {
+  "id": 164,
+  "name": "Specialty Food"
+ },
+ {
+  "id": 165,
+  "name": "Speech Therapists"
+ },
+ {
+  "id": 166,
+  "name": "Sporting Goods"
+ },
+ {
+  "id": 167,
+  "name": "Sports Bars"
+ },
+ {
+  "id": 168,
+  "name": "Sports Clubs"
+ },
+ {
+  "id": 169,
+  "name": "Stadiums & Arenas"
+ },
+ {
+  "id": 170,
+  "name": "Steakhouses"
+ },
+ {
+  "id": 171,
+  "name": "Street Vendors"
+ },
+ {
+  "id": 172,
+  "name": "Sushi Bars"
+ },
+ {
+  "id": 173,
+  "name": "Tanning"
+ },
+ {
+  "id": 174,
+  "name": "Tattoo"
+ },
+ {
+  "id": 175,
+  "name": "Tex-Mex"
+ },
+ {
+  "id": 176,
+  "name": "Thai"
+ },
+ {
+  "id": 177,
+  "name": "Thrift Stores"
+ },
+ {
+  "id": 178,
+  "name": "Tires"
+ },
+ {
+  "id": 179,
+  "name": "Toy Stores"
+ },
+ {
+  "id": 180,
+  "name": "Trainers"
+ },
+ {
+  "id": 181,
+  "name": "Transportation"
+ },
+ {
+  "id": 182,
+  "name": "Travel Services"
+ },
+ {
+  "id": 183,
+  "name": "Tutoring Centers"
+ },
+ {
+  "id": 184,
+  "name": "Urgent Care"
+ },
+ {
+  "id": 185,
+  "name": "Venues & Event Spaces"
+ },
+ {
+  "id": 186,
+  "name": "Veterinarians"
+ },
+ {
+  "id": 187,
+  "name": "Videos & Video Game Rental"
+ },
+ {
+  "id": 188,
+  "name": "Vietnamese"
+ },
+ {
+  "id": 189,
+  "name": "Wheel & Rim Repair"
+ },
+ {
+  "id": 190,
+  "name": "Wine Bars"
+ },
+ {
+  "id": 191,
+  "name": "Women's Clothing"
+ },
+ {
+  "id": 192,
+  "name": "Yoga"
+ }
+]

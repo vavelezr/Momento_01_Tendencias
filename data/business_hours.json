@@ -1,0 +1,6158 @@
+[
+ {
+  "business_id": "aivGtJ8QlzyS_nzZV6CUUQ",
+  "day_of_week": "Monday",
+  "open_time": "06:00",
+  "close_time": "21:00"
+ },
+ {
+  "business_id": "aivGtJ8QlzyS_nzZV6CUUQ",
+  "day_of_week": "Tuesday",
+  "open_time": "06:00",
+  "close_time": "21:00"
+ },
+ {
+  "business_id": "aivGtJ8QlzyS_nzZV6CUUQ",
+  "day_of_week": "Friday",
+  "open_time": "06:00",
+  "close_time": "10:30"
+ },
+ {
+  "business_id": "aivGtJ8QlzyS_nzZV6CUUQ",
+  "day_of_week": "Wednesday",
+  "open_time": "06:00",
+  "close_time": "21:00"
+ },
+ {
+  "business_id": "aivGtJ8QlzyS_nzZV6CUUQ",
+  "day_of_week": "Sunday",
+  "open_time": "06:00",
+  "close_time": "21:00"
+ },
+ {
+  "business_id": "aivGtJ8QlzyS_nzZV6CUUQ",
+  "day_of_week": "Saturday",
+  "open_time": "06:00",
+  "close_time": "21:00"
+ },
+ {
+  "business_id": "FuqWdD44gYFhofESN6JD1A",
+  "day_of_week": "Monday",
+  "open_time": "11:00",
+  "close_time": "22:00"
+ },
+ {
+  "business_id": "FuqWdD44gYFhofESN6JD1A",
+  "day_of_week": "Tuesday",
+  "open_time": "11:00",
+  "close_time": "22:00"
+ },
+ {
+  "business_id": "FuqWdD44gYFhofESN6JD1A",
+  "day_of_week": "Friday",
+  "open_time": "11:00",
+  "close_time": "22:00"
+ },
+ {
+  "business_id": "FuqWdD44gYFhofESN6JD1A",
+  "day_of_week": "Wednesday",
+  "open_time": "11:00",
+  "close_time": "22:00"
+ },
+ {
+  "business_id": "FuqWdD44gYFhofESN6JD1A",
+  "day_of_week": "Thursday",
+  "open_time": "11:00",
+  "close_time": "22:00"
+ },
+ {
+  "business_id": "FuqWdD44gYFhofESN6JD1A",
+  "day_of_week": "Sunday",
+  "open_time": "11:00",
+  "close_time": "22:00"
+ },
+ {
+  "business_id": "FuqWdD44gYFhofESN6JD1A",
+  "day_of_week": "Saturday",
+  "open_time": "11:00",
+  "close_time": "22:00"
+ },
+ {
+  "business_id": "3X081wewB-J5tIMO_aOPnA",
+  "day_of_week": "Monday",
+  "open_time": "11:00",
+  "close_time": "22:00"
+ },
+ {
+  "business_id": "3X081wewB-J5tIMO_aOPnA",
+  "day_of_week": "Tuesday",
+  "open_time": "11:00",
+  "close_time": "22:00"
+ },
+ {
+  "business_id": "3X081wewB-J5tIMO_aOPnA",
+  "day_of_week": "Friday",
+  "open_time": "11:00",
+  "close_time": "22:00"
+ },
+ {
+  "business_id": "3X081wewB-J5tIMO_aOPnA",
+  "day_of_week": "Wednesday",
+  "open_time": "11:00",
+  "close_time": "22:00"
+ },
+ {
+  "business_id": "3X081wewB-J5tIMO_aOPnA",
+  "day_of_week": "Thursday",
+  "open_time": "11:00",
+  "close_time": "22:00"
+ },
+ {
+  "business_id": "3X081wewB-J5tIMO_aOPnA",
+  "day_of_week": "Sunday",
+  "open_time": "12:00",
+  "close_time": "21:00"
+ },
+ {
+  "business_id": "3X081wewB-J5tIMO_aOPnA",
+  "day_of_week": "Saturday",
+  "open_time": "11:00",
+  "close_time": "22:00"
+ },
+ {
+  "business_id": "Ybp4q-EPT7RaIQ-xkrqdug",
+  "day_of_week": "Monday",
+  "open_time": "10:00",
+  "close_time": "20:00"
+ },
+ {
+  "business_id": "Ybp4q-EPT7RaIQ-xkrqdug",
+  "day_of_week": "Tuesday",
+  "open_time": "10:00",
+  "close_time": "20:00"
+ },
+ {
+  "business_id": "Ybp4q-EPT7RaIQ-xkrqdug",
+  "day_of_week": "Friday",
+  "open_time": "10:00",
+  "close_time": "20:00"
+ },
+ {
+  "business_id": "Ybp4q-EPT7RaIQ-xkrqdug",
+  "day_of_week": "Wednesday",
+  "open_time": "10:00",
+  "close_time": "20:00"
+ },
+ {
+  "business_id": "Ybp4q-EPT7RaIQ-xkrqdug",
+  "day_of_week": "Thursday",
+  "open_time": "10:00",
+  "close_time": "20:00"
+ },
+ {
+  "business_id": "Ybp4q-EPT7RaIQ-xkrqdug",
+  "day_of_week": "Sunday",
+  "open_time": "12:00",
+  "close_time": "17:00"
+ },
+ {
+  "business_id": "Ybp4q-EPT7RaIQ-xkrqdug",
+  "day_of_week": "Saturday",
+  "open_time": "09:00",
+  "close_time": "18:00"
+ },
+ {
+  "business_id": "1FmyMPP4o1TvTvo7Ngz73w",
+  "day_of_week": "Monday",
+  "open_time": "09:00",
+  "close_time": "18:00"
+ },
+ {
+  "business_id": "1FmyMPP4o1TvTvo7Ngz73w",
+  "day_of_week": "Tuesday",
+  "open_time": "09:00",
+  "close_time": "18:00"
+ },
+ {
+  "business_id": "1FmyMPP4o1TvTvo7Ngz73w",
+  "day_of_week": "Friday",
+  "open_time": "09:00",
+  "close_time": "18:00"
+ },
+ {
+  "business_id": "1FmyMPP4o1TvTvo7Ngz73w",
+  "day_of_week": "Wednesday",
+  "open_time": "09:00",
+  "close_time": "18:00"
+ },
+ {
+  "business_id": "1FmyMPP4o1TvTvo7Ngz73w",
+  "day_of_week": "Thursday",
+  "open_time": "09:00",
+  "close_time": "18:00"
+ },
+ {
+  "business_id": "1FmyMPP4o1TvTvo7Ngz73w",
+  "day_of_week": "Sunday",
+  "open_time": "11:00",
+  "close_time": "17:00"
+ },
+ {
+  "business_id": "1FmyMPP4o1TvTvo7Ngz73w",
+  "day_of_week": "Saturday",
+  "open_time": "08:00",
+  "close_time": "17:00"
+ },
+ {
+  "business_id": "3rTS_sopbW1pgj2DRav1ww",
+  "day_of_week": "Monday",
+  "open_time": "09:00",
+  "close_time": "21:00"
+ },
+ {
+  "business_id": "3rTS_sopbW1pgj2DRav1ww",
+  "day_of_week": "Tuesday",
+  "open_time": "09:00",
+  "close_time": "21:00"
+ },
+ {
+  "business_id": "3rTS_sopbW1pgj2DRav1ww",
+  "day_of_week": "Friday",
+  "open_time": "09:00",
+  "close_time": "21:00"
+ },
+ {
+  "business_id": "3rTS_sopbW1pgj2DRav1ww",
+  "day_of_week": "Wednesday",
+  "open_time": "09:00",
+  "close_time": "21:00"
+ },
+ {
+  "business_id": "3rTS_sopbW1pgj2DRav1ww",
+  "day_of_week": "Thursday",
+  "open_time": "09:00",
+  "close_time": "21:00"
+ },
+ {
+  "business_id": "3rTS_sopbW1pgj2DRav1ww",
+  "day_of_week": "Sunday",
+  "open_time": "10:00",
+  "close_time": "19:00"
+ },
+ {
+  "business_id": "3rTS_sopbW1pgj2DRav1ww",
+  "day_of_week": "Saturday",
+  "open_time": "09:00",
+  "close_time": "21:00"
+ },
+ {
+  "business_id": "miUjtW5ZOc4WN0pB53VokA",
+  "day_of_week": "Monday",
+  "open_time": "11:00",
+  "close_time": "22:00"
+ },
+ {
+  "business_id": "miUjtW5ZOc4WN0pB53VokA",
+  "day_of_week": "Tuesday",
+  "open_time": "11:00",
+  "close_time": "22:00"
+ },
+ {
+  "business_id": "miUjtW5ZOc4WN0pB53VokA",
+  "day_of_week": "Friday",
+  "open_time": "11:00",
+  "close_time": "23:00"
+ },
+ {
+  "business_id": "miUjtW5ZOc4WN0pB53VokA",
+  "day_of_week": "Wednesday",
+  "open_time": "11:00",
+  "close_time": "22:00"
+ },
+ {
+  "business_id": "miUjtW5ZOc4WN0pB53VokA",
+  "day_of_week": "Thursday",
+  "open_time": "11:00",
+  "close_time": "22:00"
+ },
+ {
+  "business_id": "miUjtW5ZOc4WN0pB53VokA",
+  "day_of_week": "Sunday",
+  "open_time": "11:00",
+  "close_time": "22:00"
+ },
+ {
+  "business_id": "miUjtW5ZOc4WN0pB53VokA",
+  "day_of_week": "Saturday",
+  "open_time": "11:00",
+  "close_time": "23:00"
+ },
+ {
+  "business_id": "e0wJd1deF4Wl-etBC7nBgQ",
+  "day_of_week": "Monday",
+  "open_time": "08:00",
+  "close_time": "18:00"
+ },
+ {
+  "business_id": "e0wJd1deF4Wl-etBC7nBgQ",
+  "day_of_week": "Tuesday",
+  "open_time": "08:00",
+  "close_time": "18:00"
+ },
+ {
+  "business_id": "e0wJd1deF4Wl-etBC7nBgQ",
+  "day_of_week": "Friday",
+  "open_time": "08:00",
+  "close_time": "18:00"
+ },
+ {
+  "business_id": "e0wJd1deF4Wl-etBC7nBgQ",
+  "day_of_week": "Wednesday",
+  "open_time": "08:00",
+  "close_time": "18:00"
+ },
+ {
+  "business_id": "e0wJd1deF4Wl-etBC7nBgQ",
+  "day_of_week": "Thursday",
+  "open_time": "08:00",
+  "close_time": "18:00"
+ },
+ {
+  "business_id": "e0wJd1deF4Wl-etBC7nBgQ",
+  "day_of_week": "Saturday",
+  "open_time": "08:00",
+  "close_time": "17:00"
+ },
+ {
+  "business_id": "K45lBLY0uTnPduIOw7U_BQ",
+  "day_of_week": "Monday",
+  "open_time": "11:00",
+  "close_time": "22:00"
+ },
+ {
+  "business_id": "K45lBLY0uTnPduIOw7U_BQ",
+  "day_of_week": "Tuesday",
+  "open_time": "11:00",
+  "close_time": "22:00"
+ },
+ {
+  "business_id": "K45lBLY0uTnPduIOw7U_BQ",
+  "day_of_week": "Friday",
+  "open_time": "11:00",
+  "close_time": "23:00"
+ },
+ {
+  "business_id": "K45lBLY0uTnPduIOw7U_BQ",
+  "day_of_week": "Wednesday",
+  "open_time": "11:00",
+  "close_time": "22:00"
+ },
+ {
+  "business_id": "K45lBLY0uTnPduIOw7U_BQ",
+  "day_of_week": "Thursday",
+  "open_time": "11:00",
+  "close_time": "22:00"
+ },
+ {
+  "business_id": "K45lBLY0uTnPduIOw7U_BQ",
+  "day_of_week": "Sunday",
+  "open_time": "11:00",
+  "close_time": "22:00"
+ },
+ {
+  "business_id": "K45lBLY0uTnPduIOw7U_BQ",
+  "day_of_week": "Saturday",
+  "open_time": "11:00",
+  "close_time": "23:00"
+ },
+ {
+  "business_id": "4ZZCdTOIJS7mchFLZfAzBA",
+  "day_of_week": "Monday",
+  "open_time": "07:30",
+  "close_time": "19:00"
+ },
+ {
+  "business_id": "4ZZCdTOIJS7mchFLZfAzBA",
+  "day_of_week": "Tuesday",
+  "open_time": "07:30",
+  "close_time": "19:00"
+ },
+ {
+  "business_id": "4ZZCdTOIJS7mchFLZfAzBA",
+  "day_of_week": "Friday",
+  "open_time": "07:30",
+  "close_time": "19:00"
+ },
+ {
+  "business_id": "4ZZCdTOIJS7mchFLZfAzBA",
+  "day_of_week": "Wednesday",
+  "open_time": "07:30",
+  "close_time": "19:00"
+ },
+ {
+  "business_id": "4ZZCdTOIJS7mchFLZfAzBA",
+  "day_of_week": "Thursday",
+  "open_time": "07:30",
+  "close_time": "19:00"
+ },
+ {
+  "business_id": "4ZZCdTOIJS7mchFLZfAzBA",
+  "day_of_week": "Sunday",
+  "open_time": "08:00",
+  "close_time": "17:00"
+ },
+ {
+  "business_id": "4ZZCdTOIJS7mchFLZfAzBA",
+  "day_of_week": "Saturday",
+  "open_time": "08:00",
+  "close_time": "18:00"
+ },
+ {
+  "business_id": "64IrwpAlZKQ-Pd70gNmiOQ",
+  "day_of_week": "Monday",
+  "open_time": "11:00",
+  "close_time": "02:00"
+ },
+ {
+  "business_id": "64IrwpAlZKQ-Pd70gNmiOQ",
+  "day_of_week": "Tuesday",
+  "open_time": "11:00",
+  "close_time": "02:00"
+ },
+ {
+  "business_id": "64IrwpAlZKQ-Pd70gNmiOQ",
+  "day_of_week": "Friday",
+  "open_time": "11:00",
+  "close_time": "02:00"
+ },
+ {
+  "business_id": "64IrwpAlZKQ-Pd70gNmiOQ",
+  "day_of_week": "Wednesday",
+  "open_time": "11:00",
+  "close_time": "02:00"
+ },
+ {
+  "business_id": "64IrwpAlZKQ-Pd70gNmiOQ",
+  "day_of_week": "Thursday",
+  "open_time": "11:00",
+  "close_time": "02:00"
+ },
+ {
+  "business_id": "64IrwpAlZKQ-Pd70gNmiOQ",
+  "day_of_week": "Sunday",
+  "open_time": "11:00",
+  "close_time": "02:00"
+ },
+ {
+  "business_id": "64IrwpAlZKQ-Pd70gNmiOQ",
+  "day_of_week": "Saturday",
+  "open_time": "11:00",
+  "close_time": "02:00"
+ },
+ {
+  "business_id": "A9DZjctmZyH7Wwl_pODL1g",
+  "day_of_week": "Monday",
+  "open_time": "07:30",
+  "close_time": "18:00"
+ },
+ {
+  "business_id": "A9DZjctmZyH7Wwl_pODL1g",
+  "day_of_week": "Tuesday",
+  "open_time": "07:30",
+  "close_time": "18:00"
+ },
+ {
+  "business_id": "A9DZjctmZyH7Wwl_pODL1g",
+  "day_of_week": "Friday",
+  "open_time": "07:30",
+  "close_time": "18:00"
+ },
+ {
+  "business_id": "A9DZjctmZyH7Wwl_pODL1g",
+  "day_of_week": "Wednesday",
+  "open_time": "07:30",
+  "close_time": "18:00"
+ },
+ {
+  "business_id": "A9DZjctmZyH7Wwl_pODL1g",
+  "day_of_week": "Thursday",
+  "open_time": "07:30",
+  "close_time": "18:00"
+ },
+ {
+  "business_id": "A9DZjctmZyH7Wwl_pODL1g",
+  "day_of_week": "Saturday",
+  "open_time": "09:00",
+  "close_time": "12:00"
+ },
+ {
+  "business_id": "EOq_et3St_S4S7DCLl_gww",
+  "day_of_week": "Monday",
+  "open_time": "00:00",
+  "close_time": "23:59"
+ },
+ {
+  "business_id": "EOq_et3St_S4S7DCLl_gww",
+  "day_of_week": "Tuesday",
+  "open_time": "00:00",
+  "close_time": "23:59"
+ },
+ {
+  "business_id": "EOq_et3St_S4S7DCLl_gww",
+  "day_of_week": "Friday",
+  "open_time": "00:00",
+  "close_time": "23:59"
+ },
+ {
+  "business_id": "EOq_et3St_S4S7DCLl_gww",
+  "day_of_week": "Wednesday",
+  "open_time": "00:00",
+  "close_time": "23:59"
+ },
+ {
+  "business_id": "EOq_et3St_S4S7DCLl_gww",
+  "day_of_week": "Thursday",
+  "open_time": "00:00",
+  "close_time": "23:59"
+ },
+ {
+  "business_id": "EOq_et3St_S4S7DCLl_gww",
+  "day_of_week": "Sunday",
+  "open_time": "00:00",
+  "close_time": "23:59"
+ },
+ {
+  "business_id": "EOq_et3St_S4S7DCLl_gww",
+  "day_of_week": "Saturday",
+  "open_time": "00:00",
+  "close_time": "23:59"
+ },
+ {
+  "business_id": "XLn3Tm6Kr8SzJp8HuYXwnQ",
+  "day_of_week": "Monday",
+  "open_time": "16:00",
+  "close_time": "00:00"
+ },
+ {
+  "business_id": "XLn3Tm6Kr8SzJp8HuYXwnQ",
+  "day_of_week": "Tuesday",
+  "open_time": "16:00",
+  "close_time": "00:00"
+ },
+ {
+  "business_id": "XLn3Tm6Kr8SzJp8HuYXwnQ",
+  "day_of_week": "Friday",
+  "open_time": "16:00",
+  "close_time": "00:00"
+ },
+ {
+  "business_id": "XLn3Tm6Kr8SzJp8HuYXwnQ",
+  "day_of_week": "Wednesday",
+  "open_time": "16:00",
+  "close_time": "00:00"
+ },
+ {
+  "business_id": "XLn3Tm6Kr8SzJp8HuYXwnQ",
+  "day_of_week": "Thursday",
+  "open_time": "16:00",
+  "close_time": "00:00"
+ },
+ {
+  "business_id": "XLn3Tm6Kr8SzJp8HuYXwnQ",
+  "day_of_week": "Sunday",
+  "open_time": "16:00",
+  "close_time": "00:00"
+ },
+ {
+  "business_id": "XLn3Tm6Kr8SzJp8HuYXwnQ",
+  "day_of_week": "Saturday",
+  "open_time": "16:00",
+  "close_time": "00:00"
+ },
+ {
+  "business_id": "-iJZ-PEnOw2oVUBFfg5wJw",
+  "day_of_week": "Tuesday",
+  "open_time": "07:00",
+  "close_time": "17:00"
+ },
+ {
+  "business_id": "-iJZ-PEnOw2oVUBFfg5wJw",
+  "day_of_week": "Friday",
+  "open_time": "07:00",
+  "close_time": "17:00"
+ },
+ {
+  "business_id": "-iJZ-PEnOw2oVUBFfg5wJw",
+  "day_of_week": "Wednesday",
+  "open_time": "07:00",
+  "close_time": "17:00"
+ },
+ {
+  "business_id": "-iJZ-PEnOw2oVUBFfg5wJw",
+  "day_of_week": "Thursday",
+  "open_time": "07:00",
+  "close_time": "17:00"
+ },
+ {
+  "business_id": "-iJZ-PEnOw2oVUBFfg5wJw",
+  "day_of_week": "Saturday",
+  "open_time": "07:00",
+  "close_time": "17:00"
+ },
+ {
+  "business_id": "dVBQHpOvBlgpbb2HkFSEFg",
+  "day_of_week": "Monday",
+  "open_time": "00:00",
+  "close_time": "00:00"
+ },
+ {
+  "business_id": "dVBQHpOvBlgpbb2HkFSEFg",
+  "day_of_week": "Tuesday",
+  "open_time": "00:00",
+  "close_time": "00:00"
+ },
+ {
+  "business_id": "dVBQHpOvBlgpbb2HkFSEFg",
+  "day_of_week": "Friday",
+  "open_time": "00:00",
+  "close_time": "00:00"
+ },
+ {
+  "business_id": "dVBQHpOvBlgpbb2HkFSEFg",
+  "day_of_week": "Wednesday",
+  "open_time": "00:00",
+  "close_time": "00:00"
+ },
+ {
+  "business_id": "dVBQHpOvBlgpbb2HkFSEFg",
+  "day_of_week": "Thursday",
+  "open_time": "00:00",
+  "close_time": "00:00"
+ },
+ {
+  "business_id": "dVBQHpOvBlgpbb2HkFSEFg",
+  "day_of_week": "Sunday",
+  "open_time": "00:00",
+  "close_time": "00:00"
+ },
+ {
+  "business_id": "dVBQHpOvBlgpbb2HkFSEFg",
+  "day_of_week": "Saturday",
+  "open_time": "00:00",
+  "close_time": "00:00"
+ },
+ {
+  "business_id": "wcOps1Ya0t4wWuakOSItYQ",
+  "day_of_week": "Monday",
+  "open_time": "08:00",
+  "close_time": "22:00"
+ },
+ {
+  "business_id": "wcOps1Ya0t4wWuakOSItYQ",
+  "day_of_week": "Tuesday",
+  "open_time": "08:00",
+  "close_time": "22:00"
+ },
+ {
+  "business_id": "wcOps1Ya0t4wWuakOSItYQ",
+  "day_of_week": "Friday",
+  "open_time": "08:00",
+  "close_time": "22:00"
+ },
+ {
+  "business_id": "wcOps1Ya0t4wWuakOSItYQ",
+  "day_of_week": "Wednesday",
+  "open_time": "08:00",
+  "close_time": "22:00"
+ },
+ {
+  "business_id": "wcOps1Ya0t4wWuakOSItYQ",
+  "day_of_week": "Thursday",
+  "open_time": "08:00",
+  "close_time": "22:00"
+ },
+ {
+  "business_id": "wcOps1Ya0t4wWuakOSItYQ",
+  "day_of_week": "Sunday",
+  "open_time": "08:00",
+  "close_time": "21:00"
+ },
+ {
+  "business_id": "wcOps1Ya0t4wWuakOSItYQ",
+  "day_of_week": "Saturday",
+  "open_time": "08:00",
+  "close_time": "22:00"
+ },
+ {
+  "business_id": "lz2pW0Zr27IVhq-5g-GSyw",
+  "day_of_week": "Tuesday",
+  "open_time": "09:00",
+  "close_time": "18:00"
+ },
+ {
+  "business_id": "lz2pW0Zr27IVhq-5g-GSyw",
+  "day_of_week": "Friday",
+  "open_time": "07:00",
+  "close_time": "16:00"
+ },
+ {
+  "business_id": "lz2pW0Zr27IVhq-5g-GSyw",
+  "day_of_week": "Monday",
+  "open_time": "07:00",
+  "close_time": "16:00"
+ },
+ {
+  "business_id": "lz2pW0Zr27IVhq-5g-GSyw",
+  "day_of_week": "Wednesday",
+  "open_time": "07:00",
+  "close_time": "16:00"
+ },
+ {
+  "business_id": "lz2pW0Zr27IVhq-5g-GSyw",
+  "day_of_week": "Thursday",
+  "open_time": "09:00",
+  "close_time": "18:00"
+ },
+ {
+  "business_id": "GLzndPnr-2iDKv5uzdR5ng",
+  "day_of_week": "Monday",
+  "open_time": "00:00",
+  "close_time": "00:00"
+ },
+ {
+  "business_id": "GLzndPnr-2iDKv5uzdR5ng",
+  "day_of_week": "Tuesday",
+  "open_time": "00:00",
+  "close_time": "00:00"
+ },
+ {
+  "business_id": "GLzndPnr-2iDKv5uzdR5ng",
+  "day_of_week": "Friday",
+  "open_time": "00:00",
+  "close_time": "00:00"
+ },
+ {
+  "business_id": "GLzndPnr-2iDKv5uzdR5ng",
+  "day_of_week": "Wednesday",
+  "open_time": "00:00",
+  "close_time": "00:00"
+ },
+ {
+  "business_id": "GLzndPnr-2iDKv5uzdR5ng",
+  "day_of_week": "Thursday",
+  "open_time": "00:00",
+  "close_time": "00:00"
+ },
+ {
+  "business_id": "GLzndPnr-2iDKv5uzdR5ng",
+  "day_of_week": "Sunday",
+  "open_time": "00:00",
+  "close_time": "00:00"
+ },
+ {
+  "business_id": "GLzndPnr-2iDKv5uzdR5ng",
+  "day_of_week": "Saturday",
+  "open_time": "00:00",
+  "close_time": "00:00"
+ },
+ {
+  "business_id": "_SWb6l-M_ohosfSmet3e1w",
+  "day_of_week": "Monday",
+  "open_time": "11:00",
+  "close_time": "02:00"
+ },
+ {
+  "business_id": "_SWb6l-M_ohosfSmet3e1w",
+  "day_of_week": "Tuesday",
+  "open_time": "11:00",
+  "close_time": "02:00"
+ },
+ {
+  "business_id": "_SWb6l-M_ohosfSmet3e1w",
+  "day_of_week": "Friday",
+  "open_time": "11:00",
+  "close_time": "02:00"
+ },
+ {
+  "business_id": "_SWb6l-M_ohosfSmet3e1w",
+  "day_of_week": "Wednesday",
+  "open_time": "11:00",
+  "close_time": "02:00"
+ },
+ {
+  "business_id": "_SWb6l-M_ohosfSmet3e1w",
+  "day_of_week": "Thursday",
+  "open_time": "11:00",
+  "close_time": "02:00"
+ },
+ {
+  "business_id": "_SWb6l-M_ohosfSmet3e1w",
+  "day_of_week": "Sunday",
+  "open_time": "11:00",
+  "close_time": "02:00"
+ },
+ {
+  "business_id": "_SWb6l-M_ohosfSmet3e1w",
+  "day_of_week": "Saturday",
+  "open_time": "11:00",
+  "close_time": "02:00"
+ },
+ {
+  "business_id": "RFMcLH3_58eAwvSfvLhJew",
+  "day_of_week": "Monday",
+  "open_time": "06:00",
+  "close_time": "21:00"
+ },
+ {
+  "business_id": "RFMcLH3_58eAwvSfvLhJew",
+  "day_of_week": "Tuesday",
+  "open_time": "06:00",
+  "close_time": "21:00"
+ },
+ {
+  "business_id": "RFMcLH3_58eAwvSfvLhJew",
+  "day_of_week": "Friday",
+  "open_time": "06:00",
+  "close_time": "21:00"
+ },
+ {
+  "business_id": "RFMcLH3_58eAwvSfvLhJew",
+  "day_of_week": "Wednesday",
+  "open_time": "06:00",
+  "close_time": "21:00"
+ },
+ {
+  "business_id": "RFMcLH3_58eAwvSfvLhJew",
+  "day_of_week": "Thursday",
+  "open_time": "06:00",
+  "close_time": "21:00"
+ },
+ {
+  "business_id": "RFMcLH3_58eAwvSfvLhJew",
+  "day_of_week": "Sunday",
+  "open_time": "07:00",
+  "close_time": "20:00"
+ },
+ {
+  "business_id": "RFMcLH3_58eAwvSfvLhJew",
+  "day_of_week": "Saturday",
+  "open_time": "07:00",
+  "close_time": "21:00"
+ },
+ {
+  "business_id": "NtVb4bepyRxhJ3ytIx41qA",
+  "day_of_week": "Monday",
+  "open_time": "07:30",
+  "close_time": "18:00"
+ },
+ {
+  "business_id": "NtVb4bepyRxhJ3ytIx41qA",
+  "day_of_week": "Tuesday",
+  "open_time": "07:30",
+  "close_time": "18:00"
+ },
+ {
+  "business_id": "NtVb4bepyRxhJ3ytIx41qA",
+  "day_of_week": "Friday",
+  "open_time": "07:30",
+  "close_time": "18:00"
+ },
+ {
+  "business_id": "NtVb4bepyRxhJ3ytIx41qA",
+  "day_of_week": "Wednesday",
+  "open_time": "07:30",
+  "close_time": "18:00"
+ },
+ {
+  "business_id": "NtVb4bepyRxhJ3ytIx41qA",
+  "day_of_week": "Thursday",
+  "open_time": "07:30",
+  "close_time": "18:00"
+ },
+ {
+  "business_id": "NtVb4bepyRxhJ3ytIx41qA",
+  "day_of_week": "Sunday",
+  "open_time": "07:30",
+  "close_time": "18:00"
+ },
+ {
+  "business_id": "NtVb4bepyRxhJ3ytIx41qA",
+  "day_of_week": "Saturday",
+  "open_time": "07:30",
+  "close_time": "18:00"
+ },
+ {
+  "business_id": "v-d8Fvd77bOLCysXCb21Cw",
+  "day_of_week": "Monday",
+  "open_time": "06:00",
+  "close_time": "00:00"
+ },
+ {
+  "business_id": "v-d8Fvd77bOLCysXCb21Cw",
+  "day_of_week": "Tuesday",
+  "open_time": "06:00",
+  "close_time": "00:00"
+ },
+ {
+  "business_id": "v-d8Fvd77bOLCysXCb21Cw",
+  "day_of_week": "Friday",
+  "open_time": "06:00",
+  "close_time": "02:00"
+ },
+ {
+  "business_id": "v-d8Fvd77bOLCysXCb21Cw",
+  "day_of_week": "Wednesday",
+  "open_time": "06:00",
+  "close_time": "00:00"
+ },
+ {
+  "business_id": "v-d8Fvd77bOLCysXCb21Cw",
+  "day_of_week": "Thursday",
+  "open_time": "06:00",
+  "close_time": "00:00"
+ },
+ {
+  "business_id": "v-d8Fvd77bOLCysXCb21Cw",
+  "day_of_week": "Sunday",
+  "open_time": "06:00",
+  "close_time": "00:00"
+ },
+ {
+  "business_id": "v-d8Fvd77bOLCysXCb21Cw",
+  "day_of_week": "Saturday",
+  "open_time": "06:00",
+  "close_time": "02:00"
+ },
+ {
+  "business_id": "yq4NDtkYiNv__Qik0TYzyQ",
+  "day_of_week": "Monday",
+  "open_time": "05:00",
+  "close_time": "01:00"
+ },
+ {
+  "business_id": "yq4NDtkYiNv__Qik0TYzyQ",
+  "day_of_week": "Tuesday",
+  "open_time": "05:00",
+  "close_time": "01:00"
+ },
+ {
+  "business_id": "yq4NDtkYiNv__Qik0TYzyQ",
+  "day_of_week": "Friday",
+  "open_time": "05:00",
+  "close_time": "01:00"
+ },
+ {
+  "business_id": "yq4NDtkYiNv__Qik0TYzyQ",
+  "day_of_week": "Wednesday",
+  "open_time": "05:00",
+  "close_time": "01:00"
+ },
+ {
+  "business_id": "yq4NDtkYiNv__Qik0TYzyQ",
+  "day_of_week": "Thursday",
+  "open_time": "05:00",
+  "close_time": "01:00"
+ },
+ {
+  "business_id": "yq4NDtkYiNv__Qik0TYzyQ",
+  "day_of_week": "Sunday",
+  "open_time": "05:00",
+  "close_time": "01:00"
+ },
+ {
+  "business_id": "yq4NDtkYiNv__Qik0TYzyQ",
+  "day_of_week": "Saturday",
+  "open_time": "05:00",
+  "close_time": "01:00"
+ },
+ {
+  "business_id": "Nh9BjVPHdrZMn2naUxO6hg",
+  "day_of_week": "Monday",
+  "open_time": "11:00",
+  "close_time": "22:00"
+ },
+ {
+  "business_id": "Nh9BjVPHdrZMn2naUxO6hg",
+  "day_of_week": "Tuesday",
+  "open_time": "11:00",
+  "close_time": "22:00"
+ },
+ {
+  "business_id": "Nh9BjVPHdrZMn2naUxO6hg",
+  "day_of_week": "Friday",
+  "open_time": "11:00",
+  "close_time": "22:00"
+ },
+ {
+  "business_id": "Nh9BjVPHdrZMn2naUxO6hg",
+  "day_of_week": "Wednesday",
+  "open_time": "11:00",
+  "close_time": "22:00"
+ },
+ {
+  "business_id": "Nh9BjVPHdrZMn2naUxO6hg",
+  "day_of_week": "Thursday",
+  "open_time": "11:00",
+  "close_time": "22:00"
+ },
+ {
+  "business_id": "Nh9BjVPHdrZMn2naUxO6hg",
+  "day_of_week": "Sunday",
+  "open_time": "11:00",
+  "close_time": "22:00"
+ },
+ {
+  "business_id": "Nh9BjVPHdrZMn2naUxO6hg",
+  "day_of_week": "Saturday",
+  "open_time": "11:00",
+  "close_time": "22:00"
+ },
+ {
+  "business_id": "3DIG0gD6rL7AmukW3cdeKg",
+  "day_of_week": "Monday",
+  "open_time": "07:30",
+  "close_time": "17:30"
+ },
+ {
+  "business_id": "3DIG0gD6rL7AmukW3cdeKg",
+  "day_of_week": "Tuesday",
+  "open_time": "07:30",
+  "close_time": "17:30"
+ },
+ {
+  "business_id": "3DIG0gD6rL7AmukW3cdeKg",
+  "day_of_week": "Friday",
+  "open_time": "07:30",
+  "close_time": "17:30"
+ },
+ {
+  "business_id": "3DIG0gD6rL7AmukW3cdeKg",
+  "day_of_week": "Wednesday",
+  "open_time": "07:30",
+  "close_time": "17:30"
+ },
+ {
+  "business_id": "3DIG0gD6rL7AmukW3cdeKg",
+  "day_of_week": "Thursday",
+  "open_time": "07:30",
+  "close_time": "17:30"
+ },
+ {
+  "business_id": "3DIG0gD6rL7AmukW3cdeKg",
+  "day_of_week": "Saturday",
+  "open_time": "07:30",
+  "close_time": "17:30"
+ },
+ {
+  "business_id": "qFhBAD2hzvr7VC7n0ZNCOw",
+  "day_of_week": "Monday",
+  "open_time": "16:00",
+  "close_time": "21:00"
+ },
+ {
+  "business_id": "qFhBAD2hzvr7VC7n0ZNCOw",
+  "day_of_week": "Tuesday",
+  "open_time": "16:00",
+  "close_time": "21:00"
+ },
+ {
+  "business_id": "qFhBAD2hzvr7VC7n0ZNCOw",
+  "day_of_week": "Friday",
+  "open_time": "16:00",
+  "close_time": "21:30"
+ },
+ {
+  "business_id": "qFhBAD2hzvr7VC7n0ZNCOw",
+  "day_of_week": "Wednesday",
+  "open_time": "16:00",
+  "close_time": "21:00"
+ },
+ {
+  "business_id": "qFhBAD2hzvr7VC7n0ZNCOw",
+  "day_of_week": "Thursday",
+  "open_time": "16:00",
+  "close_time": "21:00"
+ },
+ {
+  "business_id": "qFhBAD2hzvr7VC7n0ZNCOw",
+  "day_of_week": "Sunday",
+  "open_time": "11:00",
+  "close_time": "21:00"
+ },
+ {
+  "business_id": "qFhBAD2hzvr7VC7n0ZNCOw",
+  "day_of_week": "Saturday",
+  "open_time": "11:00",
+  "close_time": "21:30"
+ },
+ {
+  "business_id": "HHLpjTYURXShPRs6nuRaUQ",
+  "day_of_week": "Tuesday",
+  "open_time": "08:00",
+  "close_time": "16:00"
+ },
+ {
+  "business_id": "HHLpjTYURXShPRs6nuRaUQ",
+  "day_of_week": "Friday",
+  "open_time": "08:00",
+  "close_time": "16:00"
+ },
+ {
+  "business_id": "HHLpjTYURXShPRs6nuRaUQ",
+  "day_of_week": "Monday",
+  "open_time": "08:00",
+  "close_time": "16:00"
+ },
+ {
+  "business_id": "HHLpjTYURXShPRs6nuRaUQ",
+  "day_of_week": "Wednesday",
+  "open_time": "08:00",
+  "close_time": "16:00"
+ },
+ {
+  "business_id": "HHLpjTYURXShPRs6nuRaUQ",
+  "day_of_week": "Thursday",
+  "open_time": "08:00",
+  "close_time": "16:00"
+ },
+ {
+  "business_id": "PXOMsNgU8gfyombvRO1IfA",
+  "day_of_week": "Monday",
+  "open_time": "08:00",
+  "close_time": "18:00"
+ },
+ {
+  "business_id": "PXOMsNgU8gfyombvRO1IfA",
+  "day_of_week": "Tuesday",
+  "open_time": "08:00",
+  "close_time": "18:00"
+ },
+ {
+  "business_id": "PXOMsNgU8gfyombvRO1IfA",
+  "day_of_week": "Friday",
+  "open_time": "08:00",
+  "close_time": "18:00"
+ },
+ {
+  "business_id": "PXOMsNgU8gfyombvRO1IfA",
+  "day_of_week": "Wednesday",
+  "open_time": "08:00",
+  "close_time": "18:00"
+ },
+ {
+  "business_id": "PXOMsNgU8gfyombvRO1IfA",
+  "day_of_week": "Thursday",
+  "open_time": "08:00",
+  "close_time": "18:00"
+ },
+ {
+  "business_id": "PXOMsNgU8gfyombvRO1IfA",
+  "day_of_week": "Saturday",
+  "open_time": "08:00",
+  "close_time": "14:00"
+ },
+ {
+  "business_id": "_CUuy5l9IAn8f4iJt7cZmQ",
+  "day_of_week": "Monday",
+  "open_time": "09:00",
+  "close_time": "17:00"
+ },
+ {
+  "business_id": "_CUuy5l9IAn8f4iJt7cZmQ",
+  "day_of_week": "Tuesday",
+  "open_time": "09:00",
+  "close_time": "19:00"
+ },
+ {
+  "business_id": "_CUuy5l9IAn8f4iJt7cZmQ",
+  "day_of_week": "Friday",
+  "open_time": "09:00",
+  "close_time": "19:00"
+ },
+ {
+  "business_id": "_CUuy5l9IAn8f4iJt7cZmQ",
+  "day_of_week": "Wednesday",
+  "open_time": "09:00",
+  "close_time": "19:00"
+ },
+ {
+  "business_id": "_CUuy5l9IAn8f4iJt7cZmQ",
+  "day_of_week": "Thursday",
+  "open_time": "09:00",
+  "close_time": "19:00"
+ },
+ {
+  "business_id": "_CUuy5l9IAn8f4iJt7cZmQ",
+  "day_of_week": "Sunday",
+  "open_time": "12:00",
+  "close_time": "16:00"
+ },
+ {
+  "business_id": "_CUuy5l9IAn8f4iJt7cZmQ",
+  "day_of_week": "Saturday",
+  "open_time": "09:00",
+  "close_time": "17:00"
+ },
+ {
+  "business_id": "HU1b1D0WUQE62M7ZiyqYoA",
+  "day_of_week": "Monday",
+  "open_time": "10:00",
+  "close_time": "21:00"
+ },
+ {
+  "business_id": "HU1b1D0WUQE62M7ZiyqYoA",
+  "day_of_week": "Tuesday",
+  "open_time": "10:00",
+  "close_time": "21:00"
+ },
+ {
+  "business_id": "HU1b1D0WUQE62M7ZiyqYoA",
+  "day_of_week": "Friday",
+  "open_time": "10:00",
+  "close_time": "21:00"
+ },
+ {
+  "business_id": "HU1b1D0WUQE62M7ZiyqYoA",
+  "day_of_week": "Wednesday",
+  "open_time": "10:00",
+  "close_time": "21:00"
+ },
+ {
+  "business_id": "HU1b1D0WUQE62M7ZiyqYoA",
+  "day_of_week": "Thursday",
+  "open_time": "10:00",
+  "close_time": "21:00"
+ },
+ {
+  "business_id": "HU1b1D0WUQE62M7ZiyqYoA",
+  "day_of_week": "Sunday",
+  "open_time": "11:00",
+  "close_time": "19:00"
+ },
+ {
+  "business_id": "HU1b1D0WUQE62M7ZiyqYoA",
+  "day_of_week": "Saturday",
+  "open_time": "09:00",
+  "close_time": "21:00"
+ },
+ {
+  "business_id": "EYRaUAgeLc1gntkpZv2WHg",
+  "day_of_week": "Monday",
+  "open_time": "11:00",
+  "close_time": "22:00"
+ },
+ {
+  "business_id": "EYRaUAgeLc1gntkpZv2WHg",
+  "day_of_week": "Tuesday",
+  "open_time": "11:00",
+  "close_time": "22:00"
+ },
+ {
+  "business_id": "EYRaUAgeLc1gntkpZv2WHg",
+  "day_of_week": "Friday",
+  "open_time": "11:00",
+  "close_time": "22:00"
+ },
+ {
+  "business_id": "EYRaUAgeLc1gntkpZv2WHg",
+  "day_of_week": "Wednesday",
+  "open_time": "11:00",
+  "close_time": "22:00"
+ },
+ {
+  "business_id": "EYRaUAgeLc1gntkpZv2WHg",
+  "day_of_week": "Thursday",
+  "open_time": "11:00",
+  "close_time": "22:00"
+ },
+ {
+  "business_id": "EYRaUAgeLc1gntkpZv2WHg",
+  "day_of_week": "Sunday",
+  "open_time": "11:00",
+  "close_time": "22:00"
+ },
+ {
+  "business_id": "EYRaUAgeLc1gntkpZv2WHg",
+  "day_of_week": "Saturday",
+  "open_time": "11:00",
+  "close_time": "22:00"
+ },
+ {
+  "business_id": "rjm5zAnCJ8Cxg0wb1CxtMg",
+  "day_of_week": "Monday",
+  "open_time": "11:00",
+  "close_time": "22:00"
+ },
+ {
+  "business_id": "rjm5zAnCJ8Cxg0wb1CxtMg",
+  "day_of_week": "Tuesday",
+  "open_time": "11:00",
+  "close_time": "22:00"
+ },
+ {
+  "business_id": "rjm5zAnCJ8Cxg0wb1CxtMg",
+  "day_of_week": "Friday",
+  "open_time": "11:00",
+  "close_time": "23:00"
+ },
+ {
+  "business_id": "rjm5zAnCJ8Cxg0wb1CxtMg",
+  "day_of_week": "Wednesday",
+  "open_time": "11:00",
+  "close_time": "22:00"
+ },
+ {
+  "business_id": "rjm5zAnCJ8Cxg0wb1CxtMg",
+  "day_of_week": "Thursday",
+  "open_time": "11:00",
+  "close_time": "22:00"
+ },
+ {
+  "business_id": "rjm5zAnCJ8Cxg0wb1CxtMg",
+  "day_of_week": "Sunday",
+  "open_time": "11:00",
+  "close_time": "22:00"
+ },
+ {
+  "business_id": "rjm5zAnCJ8Cxg0wb1CxtMg",
+  "day_of_week": "Saturday",
+  "open_time": "11:00",
+  "close_time": "23:00"
+ },
+ {
+  "business_id": "G1ub1s3EELLrGWqrq3a2tw",
+  "day_of_week": "Monday",
+  "open_time": "06:30",
+  "close_time": "21:00"
+ },
+ {
+  "business_id": "G1ub1s3EELLrGWqrq3a2tw",
+  "day_of_week": "Tuesday",
+  "open_time": "06:30",
+  "close_time": "22:00"
+ },
+ {
+  "business_id": "G1ub1s3EELLrGWqrq3a2tw",
+  "day_of_week": "Friday",
+  "open_time": "06:30",
+  "close_time": "00:00"
+ },
+ {
+  "business_id": "G1ub1s3EELLrGWqrq3a2tw",
+  "day_of_week": "Wednesday",
+  "open_time": "06:30",
+  "close_time": "22:00"
+ },
+ {
+  "business_id": "G1ub1s3EELLrGWqrq3a2tw",
+  "day_of_week": "Thursday",
+  "open_time": "06:30",
+  "close_time": "22:00"
+ },
+ {
+  "business_id": "G1ub1s3EELLrGWqrq3a2tw",
+  "day_of_week": "Sunday",
+  "open_time": "08:00",
+  "close_time": "21:00"
+ },
+ {
+  "business_id": "G1ub1s3EELLrGWqrq3a2tw",
+  "day_of_week": "Saturday",
+  "open_time": "07:00",
+  "close_time": "00:00"
+ },
+ {
+  "business_id": "0CG3ns3gwWV5nOnfzSfUIQ",
+  "day_of_week": "Monday",
+  "open_time": "06:00",
+  "close_time": "22:00"
+ },
+ {
+  "business_id": "0CG3ns3gwWV5nOnfzSfUIQ",
+  "day_of_week": "Tuesday",
+  "open_time": "06:00",
+  "close_time": "22:00"
+ },
+ {
+  "business_id": "0CG3ns3gwWV5nOnfzSfUIQ",
+  "day_of_week": "Friday",
+  "open_time": "06:00",
+  "close_time": "22:00"
+ },
+ {
+  "business_id": "0CG3ns3gwWV5nOnfzSfUIQ",
+  "day_of_week": "Wednesday",
+  "open_time": "06:00",
+  "close_time": "22:00"
+ },
+ {
+  "business_id": "0CG3ns3gwWV5nOnfzSfUIQ",
+  "day_of_week": "Thursday",
+  "open_time": "06:00",
+  "close_time": "22:00"
+ },
+ {
+  "business_id": "0CG3ns3gwWV5nOnfzSfUIQ",
+  "day_of_week": "Sunday",
+  "open_time": "06:00",
+  "close_time": "22:00"
+ },
+ {
+  "business_id": "0CG3ns3gwWV5nOnfzSfUIQ",
+  "day_of_week": "Saturday",
+  "open_time": "06:00",
+  "close_time": "22:00"
+ },
+ {
+  "business_id": "Oc-F6O91vOe3T8iOsCBB8Q",
+  "day_of_week": "Monday",
+  "open_time": "11:00",
+  "close_time": "22:00"
+ },
+ {
+  "business_id": "Oc-F6O91vOe3T8iOsCBB8Q",
+  "day_of_week": "Tuesday",
+  "open_time": "11:00",
+  "close_time": "22:00"
+ },
+ {
+  "business_id": "Oc-F6O91vOe3T8iOsCBB8Q",
+  "day_of_week": "Friday",
+  "open_time": "11:00",
+  "close_time": "22:30"
+ },
+ {
+  "business_id": "Oc-F6O91vOe3T8iOsCBB8Q",
+  "day_of_week": "Wednesday",
+  "open_time": "11:00",
+  "close_time": "22:00"
+ },
+ {
+  "business_id": "Oc-F6O91vOe3T8iOsCBB8Q",
+  "day_of_week": "Thursday",
+  "open_time": "11:00",
+  "close_time": "22:00"
+ },
+ {
+  "business_id": "Oc-F6O91vOe3T8iOsCBB8Q",
+  "day_of_week": "Sunday",
+  "open_time": "11:00",
+  "close_time": "22:00"
+ },
+ {
+  "business_id": "Oc-F6O91vOe3T8iOsCBB8Q",
+  "day_of_week": "Saturday",
+  "open_time": "11:00",
+  "close_time": "22:00"
+ },
+ {
+  "business_id": "kEICEqqG_01RgaNgvXc6Fw",
+  "day_of_week": "Monday",
+  "open_time": "11:00",
+  "close_time": "21:00"
+ },
+ {
+  "business_id": "kEICEqqG_01RgaNgvXc6Fw",
+  "day_of_week": "Tuesday",
+  "open_time": "11:00",
+  "close_time": "21:00"
+ },
+ {
+  "business_id": "kEICEqqG_01RgaNgvXc6Fw",
+  "day_of_week": "Friday",
+  "open_time": "11:00",
+  "close_time": "21:00"
+ },
+ {
+  "business_id": "kEICEqqG_01RgaNgvXc6Fw",
+  "day_of_week": "Wednesday",
+  "open_time": "11:00",
+  "close_time": "21:00"
+ },
+ {
+  "business_id": "kEICEqqG_01RgaNgvXc6Fw",
+  "day_of_week": "Thursday",
+  "open_time": "11:00",
+  "close_time": "21:00"
+ },
+ {
+  "business_id": "kEICEqqG_01RgaNgvXc6Fw",
+  "day_of_week": "Sunday",
+  "open_time": "12:00",
+  "close_time": "21:00"
+ },
+ {
+  "business_id": "kEICEqqG_01RgaNgvXc6Fw",
+  "day_of_week": "Saturday",
+  "open_time": "12:00",
+  "close_time": "21:00"
+ },
+ {
+  "business_id": "0WI0ydH2HtFxFswYXhE--w",
+  "day_of_week": "Monday",
+  "open_time": "11:00",
+  "close_time": "21:00"
+ },
+ {
+  "business_id": "0WI0ydH2HtFxFswYXhE--w",
+  "day_of_week": "Tuesday",
+  "open_time": "11:00",
+  "close_time": "21:00"
+ },
+ {
+  "business_id": "0WI0ydH2HtFxFswYXhE--w",
+  "day_of_week": "Friday",
+  "open_time": "11:00",
+  "close_time": "22:00"
+ },
+ {
+  "business_id": "0WI0ydH2HtFxFswYXhE--w",
+  "day_of_week": "Wednesday",
+  "open_time": "11:00",
+  "close_time": "21:00"
+ },
+ {
+  "business_id": "0WI0ydH2HtFxFswYXhE--w",
+  "day_of_week": "Thursday",
+  "open_time": "11:00",
+  "close_time": "21:00"
+ },
+ {
+  "business_id": "0WI0ydH2HtFxFswYXhE--w",
+  "day_of_week": "Sunday",
+  "open_time": "11:00",
+  "close_time": "21:00"
+ },
+ {
+  "business_id": "0WI0ydH2HtFxFswYXhE--w",
+  "day_of_week": "Saturday",
+  "open_time": "11:00",
+  "close_time": "22:00"
+ },
+ {
+  "business_id": "heA3OyKJq7O3HYPRAdfR4A",
+  "day_of_week": "Monday",
+  "open_time": "11:00",
+  "close_time": "21:00"
+ },
+ {
+  "business_id": "heA3OyKJq7O3HYPRAdfR4A",
+  "day_of_week": "Tuesday",
+  "open_time": "11:00",
+  "close_time": "21:00"
+ },
+ {
+  "business_id": "heA3OyKJq7O3HYPRAdfR4A",
+  "day_of_week": "Friday",
+  "open_time": "11:00",
+  "close_time": "21:00"
+ },
+ {
+  "business_id": "heA3OyKJq7O3HYPRAdfR4A",
+  "day_of_week": "Wednesday",
+  "open_time": "11:00",
+  "close_time": "21:00"
+ },
+ {
+  "business_id": "heA3OyKJq7O3HYPRAdfR4A",
+  "day_of_week": "Thursday",
+  "open_time": "11:00",
+  "close_time": "21:00"
+ },
+ {
+  "business_id": "heA3OyKJq7O3HYPRAdfR4A",
+  "day_of_week": "Sunday",
+  "open_time": "11:00",
+  "close_time": "21:00"
+ },
+ {
+  "business_id": "heA3OyKJq7O3HYPRAdfR4A",
+  "day_of_week": "Saturday",
+  "open_time": "11:00",
+  "close_time": "21:00"
+ },
+ {
+  "business_id": "Zpq2THIjuzs6wenHn569XQ",
+  "day_of_week": "Monday",
+  "open_time": "07:30",
+  "close_time": "17:30"
+ },
+ {
+  "business_id": "Zpq2THIjuzs6wenHn569XQ",
+  "day_of_week": "Tuesday",
+  "open_time": "07:30",
+  "close_time": "17:30"
+ },
+ {
+  "business_id": "Zpq2THIjuzs6wenHn569XQ",
+  "day_of_week": "Friday",
+  "open_time": "07:30",
+  "close_time": "17:30"
+ },
+ {
+  "business_id": "Zpq2THIjuzs6wenHn569XQ",
+  "day_of_week": "Wednesday",
+  "open_time": "07:30",
+  "close_time": "17:30"
+ },
+ {
+  "business_id": "Zpq2THIjuzs6wenHn569XQ",
+  "day_of_week": "Thursday",
+  "open_time": "07:30",
+  "close_time": "17:30"
+ },
+ {
+  "business_id": "Zpq2THIjuzs6wenHn569XQ",
+  "day_of_week": "Saturday",
+  "open_time": "07:30",
+  "close_time": "16:00"
+ },
+ {
+  "business_id": "xSVpRivdivdz1qgEdgXkAQ",
+  "day_of_week": "Monday",
+  "open_time": "06:00",
+  "close_time": "23:00"
+ },
+ {
+  "business_id": "xSVpRivdivdz1qgEdgXkAQ",
+  "day_of_week": "Tuesday",
+  "open_time": "06:00",
+  "close_time": "23:00"
+ },
+ {
+  "business_id": "xSVpRivdivdz1qgEdgXkAQ",
+  "day_of_week": "Friday",
+  "open_time": "06:00",
+  "close_time": "23:00"
+ },
+ {
+  "business_id": "xSVpRivdivdz1qgEdgXkAQ",
+  "day_of_week": "Wednesday",
+  "open_time": "06:00",
+  "close_time": "23:00"
+ },
+ {
+  "business_id": "xSVpRivdivdz1qgEdgXkAQ",
+  "day_of_week": "Thursday",
+  "open_time": "06:00",
+  "close_time": "23:00"
+ },
+ {
+  "business_id": "xSVpRivdivdz1qgEdgXkAQ",
+  "day_of_week": "Sunday",
+  "open_time": "06:00",
+  "close_time": "23:00"
+ },
+ {
+  "business_id": "xSVpRivdivdz1qgEdgXkAQ",
+  "day_of_week": "Saturday",
+  "open_time": "06:00",
+  "close_time": "23:00"
+ },
+ {
+  "business_id": "x0NOgX6P4x-82cC0kcO1hg",
+  "day_of_week": "Monday",
+  "open_time": "11:00",
+  "close_time": "14:00"
+ },
+ {
+  "business_id": "x0NOgX6P4x-82cC0kcO1hg",
+  "day_of_week": "Tuesday",
+  "open_time": "11:00",
+  "close_time": "14:00"
+ },
+ {
+  "business_id": "x0NOgX6P4x-82cC0kcO1hg",
+  "day_of_week": "Friday",
+  "open_time": "11:00",
+  "close_time": "14:00"
+ },
+ {
+  "business_id": "x0NOgX6P4x-82cC0kcO1hg",
+  "day_of_week": "Wednesday",
+  "open_time": "16:00",
+  "close_time": "21:00"
+ },
+ {
+  "business_id": "x0NOgX6P4x-82cC0kcO1hg",
+  "day_of_week": "Thursday",
+  "open_time": "16:00",
+  "close_time": "21:00"
+ },
+ {
+  "business_id": "x0NOgX6P4x-82cC0kcO1hg",
+  "day_of_week": "Sunday",
+  "open_time": "17:00",
+  "close_time": "21:00"
+ },
+ {
+  "business_id": "x0NOgX6P4x-82cC0kcO1hg",
+  "day_of_week": "Saturday",
+  "open_time": "12:00",
+  "close_time": "22:00"
+ },
+ {
+  "business_id": "hECOlng2SZ97IbUcabRH2Q",
+  "day_of_week": "Monday",
+  "open_time": "06:00",
+  "close_time": "21:00"
+ },
+ {
+  "business_id": "hECOlng2SZ97IbUcabRH2Q",
+  "day_of_week": "Tuesday",
+  "open_time": "06:00",
+  "close_time": "21:00"
+ },
+ {
+  "business_id": "hECOlng2SZ97IbUcabRH2Q",
+  "day_of_week": "Friday",
+  "open_time": "06:00",
+  "close_time": "21:00"
+ },
+ {
+  "business_id": "hECOlng2SZ97IbUcabRH2Q",
+  "day_of_week": "Wednesday",
+  "open_time": "06:00",
+  "close_time": "21:00"
+ },
+ {
+  "business_id": "hECOlng2SZ97IbUcabRH2Q",
+  "day_of_week": "Thursday",
+  "open_time": "06:00",
+  "close_time": "21:00"
+ },
+ {
+  "business_id": "hECOlng2SZ97IbUcabRH2Q",
+  "day_of_week": "Sunday",
+  "open_time": "06:00",
+  "close_time": "18:00"
+ },
+ {
+  "business_id": "hECOlng2SZ97IbUcabRH2Q",
+  "day_of_week": "Saturday",
+  "open_time": "06:00",
+  "close_time": "21:00"
+ },
+ {
+  "business_id": "2Fretr5fh0ez34WqtLKrQg",
+  "day_of_week": "Tuesday",
+  "open_time": "08:00",
+  "close_time": "17:00"
+ },
+ {
+  "business_id": "2Fretr5fh0ez34WqtLKrQg",
+  "day_of_week": "Monday",
+  "open_time": "08:00",
+  "close_time": "17:00"
+ },
+ {
+  "business_id": "2Fretr5fh0ez34WqtLKrQg",
+  "day_of_week": "Wednesday",
+  "open_time": "08:00",
+  "close_time": "17:00"
+ },
+ {
+  "business_id": "2Fretr5fh0ez34WqtLKrQg",
+  "day_of_week": "Thursday",
+  "open_time": "08:00",
+  "close_time": "17:00"
+ },
+ {
+  "business_id": "QFM_2n6DE80Mgw_f-WPMuw",
+  "day_of_week": "Monday",
+  "open_time": "09:30",
+  "close_time": "21:30"
+ },
+ {
+  "business_id": "QFM_2n6DE80Mgw_f-WPMuw",
+  "day_of_week": "Tuesday",
+  "open_time": "09:30",
+  "close_time": "21:30"
+ },
+ {
+  "business_id": "QFM_2n6DE80Mgw_f-WPMuw",
+  "day_of_week": "Friday",
+  "open_time": "09:30",
+  "close_time": "21:30"
+ },
+ {
+  "business_id": "QFM_2n6DE80Mgw_f-WPMuw",
+  "day_of_week": "Wednesday",
+  "open_time": "09:30",
+  "close_time": "21:30"
+ },
+ {
+  "business_id": "QFM_2n6DE80Mgw_f-WPMuw",
+  "day_of_week": "Thursday",
+  "open_time": "09:30",
+  "close_time": "21:30"
+ },
+ {
+  "business_id": "QFM_2n6DE80Mgw_f-WPMuw",
+  "day_of_week": "Sunday",
+  "open_time": "11:00",
+  "close_time": "20:00"
+ },
+ {
+  "business_id": "QFM_2n6DE80Mgw_f-WPMuw",
+  "day_of_week": "Saturday",
+  "open_time": "09:30",
+  "close_time": "21:30"
+ },
+ {
+  "business_id": "AzDfm1RUDMrKIsBeDv04nQ",
+  "day_of_week": "Monday",
+  "open_time": "06:00",
+  "close_time": "18:00"
+ },
+ {
+  "business_id": "AzDfm1RUDMrKIsBeDv04nQ",
+  "day_of_week": "Tuesday",
+  "open_time": "06:00",
+  "close_time": "18:00"
+ },
+ {
+  "business_id": "AzDfm1RUDMrKIsBeDv04nQ",
+  "day_of_week": "Friday",
+  "open_time": "06:00",
+  "close_time": "18:00"
+ },
+ {
+  "business_id": "AzDfm1RUDMrKIsBeDv04nQ",
+  "day_of_week": "Wednesday",
+  "open_time": "06:00",
+  "close_time": "18:00"
+ },
+ {
+  "business_id": "AzDfm1RUDMrKIsBeDv04nQ",
+  "day_of_week": "Thursday",
+  "open_time": "06:00",
+  "close_time": "18:00"
+ },
+ {
+  "business_id": "AzDfm1RUDMrKIsBeDv04nQ",
+  "day_of_week": "Sunday",
+  "open_time": "07:00",
+  "close_time": "14:00"
+ },
+ {
+  "business_id": "AzDfm1RUDMrKIsBeDv04nQ",
+  "day_of_week": "Saturday",
+  "open_time": "06:00",
+  "close_time": "15:00"
+ },
+ {
+  "business_id": "qKMyeuwmp-8immdLCqTwXA",
+  "day_of_week": "Monday",
+  "open_time": "09:00",
+  "close_time": "19:00"
+ },
+ {
+  "business_id": "qKMyeuwmp-8immdLCqTwXA",
+  "day_of_week": "Tuesday",
+  "open_time": "09:00",
+  "close_time": "19:00"
+ },
+ {
+  "business_id": "qKMyeuwmp-8immdLCqTwXA",
+  "day_of_week": "Friday",
+  "open_time": "09:00",
+  "close_time": "19:00"
+ },
+ {
+  "business_id": "qKMyeuwmp-8immdLCqTwXA",
+  "day_of_week": "Wednesday",
+  "open_time": "09:00",
+  "close_time": "19:00"
+ },
+ {
+  "business_id": "qKMyeuwmp-8immdLCqTwXA",
+  "day_of_week": "Thursday",
+  "open_time": "09:00",
+  "close_time": "19:00"
+ },
+ {
+  "business_id": "qKMyeuwmp-8immdLCqTwXA",
+  "day_of_week": "Saturday",
+  "open_time": "10:00",
+  "close_time": "19:00"
+ },
+ {
+  "business_id": "OYdhdmejrmymQRa-gTaP4g",
+  "day_of_week": "Tuesday",
+  "open_time": "08:30",
+  "close_time": "17:30"
+ },
+ {
+  "business_id": "OYdhdmejrmymQRa-gTaP4g",
+  "day_of_week": "Friday",
+  "open_time": "08:30",
+  "close_time": "17:30"
+ },
+ {
+  "business_id": "OYdhdmejrmymQRa-gTaP4g",
+  "day_of_week": "Monday",
+  "open_time": "08:30",
+  "close_time": "17:30"
+ },
+ {
+  "business_id": "OYdhdmejrmymQRa-gTaP4g",
+  "day_of_week": "Thursday",
+  "open_time": "08:30",
+  "close_time": "17:30"
+ },
+ {
+  "business_id": "OYdhdmejrmymQRa-gTaP4g",
+  "day_of_week": "Wednesday",
+  "open_time": "08:30",
+  "close_time": "17:30"
+ },
+ {
+  "business_id": "XKXLd7bFp4YtcIq0GgEXJQ",
+  "day_of_week": "Monday",
+  "open_time": "17:00",
+  "close_time": "22:00"
+ },
+ {
+  "business_id": "XKXLd7bFp4YtcIq0GgEXJQ",
+  "day_of_week": "Tuesday",
+  "open_time": "11:30",
+  "close_time": "14:30"
+ },
+ {
+  "business_id": "XKXLd7bFp4YtcIq0GgEXJQ",
+  "day_of_week": "Friday",
+  "open_time": "11:30",
+  "close_time": "23:00"
+ },
+ {
+  "business_id": "XKXLd7bFp4YtcIq0GgEXJQ",
+  "day_of_week": "Wednesday",
+  "open_time": "17:00",
+  "close_time": "22:00"
+ },
+ {
+  "business_id": "XKXLd7bFp4YtcIq0GgEXJQ",
+  "day_of_week": "Thursday",
+  "open_time": "17:00",
+  "close_time": "22:00"
+ },
+ {
+  "business_id": "XKXLd7bFp4YtcIq0GgEXJQ",
+  "day_of_week": "Sunday",
+  "open_time": "12:00",
+  "close_time": "22:00"
+ },
+ {
+  "business_id": "XKXLd7bFp4YtcIq0GgEXJQ",
+  "day_of_week": "Saturday",
+  "open_time": "12:00",
+  "close_time": "23:00"
+ },
+ {
+  "business_id": "9d4i9ssv0XAc2I93ZgH5-Q",
+  "day_of_week": "Monday",
+  "open_time": "10:00",
+  "close_time": "21:00"
+ },
+ {
+  "business_id": "9d4i9ssv0XAc2I93ZgH5-Q",
+  "day_of_week": "Tuesday",
+  "open_time": "10:00",
+  "close_time": "21:00"
+ },
+ {
+  "business_id": "9d4i9ssv0XAc2I93ZgH5-Q",
+  "day_of_week": "Friday",
+  "open_time": "10:00",
+  "close_time": "21:30"
+ },
+ {
+  "business_id": "9d4i9ssv0XAc2I93ZgH5-Q",
+  "day_of_week": "Wednesday",
+  "open_time": "10:00",
+  "close_time": "21:00"
+ },
+ {
+  "business_id": "9d4i9ssv0XAc2I93ZgH5-Q",
+  "day_of_week": "Thursday",
+  "open_time": "10:00",
+  "close_time": "21:00"
+ },
+ {
+  "business_id": "9d4i9ssv0XAc2I93ZgH5-Q",
+  "day_of_week": "Sunday",
+  "open_time": "11:00",
+  "close_time": "21:00"
+ },
+ {
+  "business_id": "9d4i9ssv0XAc2I93ZgH5-Q",
+  "day_of_week": "Saturday",
+  "open_time": "10:00",
+  "close_time": "21:30"
+ },
+ {
+  "business_id": "1kPUkLq_3gMtX_HRwcF17A",
+  "day_of_week": "Monday",
+  "open_time": "10:00",
+  "close_time": "21:00"
+ },
+ {
+  "business_id": "1kPUkLq_3gMtX_HRwcF17A",
+  "day_of_week": "Tuesday",
+  "open_time": "10:00",
+  "close_time": "21:00"
+ },
+ {
+  "business_id": "1kPUkLq_3gMtX_HRwcF17A",
+  "day_of_week": "Friday",
+  "open_time": "10:00",
+  "close_time": "21:00"
+ },
+ {
+  "business_id": "1kPUkLq_3gMtX_HRwcF17A",
+  "day_of_week": "Wednesday",
+  "open_time": "10:00",
+  "close_time": "21:00"
+ },
+ {
+  "business_id": "1kPUkLq_3gMtX_HRwcF17A",
+  "day_of_week": "Thursday",
+  "open_time": "10:00",
+  "close_time": "21:00"
+ },
+ {
+  "business_id": "1kPUkLq_3gMtX_HRwcF17A",
+  "day_of_week": "Sunday",
+  "open_time": "11:00",
+  "close_time": "18:00"
+ },
+ {
+  "business_id": "1kPUkLq_3gMtX_HRwcF17A",
+  "day_of_week": "Saturday",
+  "open_time": "10:00",
+  "close_time": "21:00"
+ },
+ {
+  "business_id": "TP2b0UT0qsb6XSkIZdhsdQ",
+  "day_of_week": "Monday",
+  "open_time": "09:00",
+  "close_time": "21:00"
+ },
+ {
+  "business_id": "TP2b0UT0qsb6XSkIZdhsdQ",
+  "day_of_week": "Tuesday",
+  "open_time": "09:00",
+  "close_time": "21:00"
+ },
+ {
+  "business_id": "TP2b0UT0qsb6XSkIZdhsdQ",
+  "day_of_week": "Friday",
+  "open_time": "09:00",
+  "close_time": "21:00"
+ },
+ {
+  "business_id": "TP2b0UT0qsb6XSkIZdhsdQ",
+  "day_of_week": "Wednesday",
+  "open_time": "09:00",
+  "close_time": "21:00"
+ },
+ {
+  "business_id": "TP2b0UT0qsb6XSkIZdhsdQ",
+  "day_of_week": "Thursday",
+  "open_time": "09:00",
+  "close_time": "21:00"
+ },
+ {
+  "business_id": "TP2b0UT0qsb6XSkIZdhsdQ",
+  "day_of_week": "Sunday",
+  "open_time": "10:00",
+  "close_time": "19:00"
+ },
+ {
+  "business_id": "TP2b0UT0qsb6XSkIZdhsdQ",
+  "day_of_week": "Saturday",
+  "open_time": "09:00",
+  "close_time": "21:00"
+ },
+ {
+  "business_id": "m-zkVdThpPsJxj3pZ2C7aw",
+  "day_of_week": "Monday",
+  "open_time": "11:00",
+  "close_time": "22:00"
+ },
+ {
+  "business_id": "m-zkVdThpPsJxj3pZ2C7aw",
+  "day_of_week": "Tuesday",
+  "open_time": "11:00",
+  "close_time": "22:00"
+ },
+ {
+  "business_id": "m-zkVdThpPsJxj3pZ2C7aw",
+  "day_of_week": "Friday",
+  "open_time": "11:00",
+  "close_time": "23:00"
+ },
+ {
+  "business_id": "m-zkVdThpPsJxj3pZ2C7aw",
+  "day_of_week": "Wednesday",
+  "open_time": "11:00",
+  "close_time": "22:00"
+ },
+ {
+  "business_id": "m-zkVdThpPsJxj3pZ2C7aw",
+  "day_of_week": "Thursday",
+  "open_time": "11:00",
+  "close_time": "22:00"
+ },
+ {
+  "business_id": "m-zkVdThpPsJxj3pZ2C7aw",
+  "day_of_week": "Sunday",
+  "open_time": "11:00",
+  "close_time": "22:00"
+ },
+ {
+  "business_id": "m-zkVdThpPsJxj3pZ2C7aw",
+  "day_of_week": "Saturday",
+  "open_time": "11:00",
+  "close_time": "23:00"
+ },
+ {
+  "business_id": "qZEYgONHPn3B-ZobPSaONA",
+  "day_of_week": "Monday",
+  "open_time": "11:00",
+  "close_time": "22:00"
+ },
+ {
+  "business_id": "qZEYgONHPn3B-ZobPSaONA",
+  "day_of_week": "Tuesday",
+  "open_time": "11:00",
+  "close_time": "22:00"
+ },
+ {
+  "business_id": "qZEYgONHPn3B-ZobPSaONA",
+  "day_of_week": "Friday",
+  "open_time": "11:00",
+  "close_time": "23:00"
+ },
+ {
+  "business_id": "qZEYgONHPn3B-ZobPSaONA",
+  "day_of_week": "Wednesday",
+  "open_time": "11:00",
+  "close_time": "22:00"
+ },
+ {
+  "business_id": "qZEYgONHPn3B-ZobPSaONA",
+  "day_of_week": "Thursday",
+  "open_time": "11:00",
+  "close_time": "22:00"
+ },
+ {
+  "business_id": "qZEYgONHPn3B-ZobPSaONA",
+  "day_of_week": "Sunday",
+  "open_time": "11:00",
+  "close_time": "22:00"
+ },
+ {
+  "business_id": "qZEYgONHPn3B-ZobPSaONA",
+  "day_of_week": "Saturday",
+  "open_time": "11:00",
+  "close_time": "23:00"
+ },
+ {
+  "business_id": "LYRAX4OZPGD3DRJew0zW4g",
+  "day_of_week": "Monday",
+  "open_time": "08:00",
+  "close_time": "17:00"
+ },
+ {
+  "business_id": "LYRAX4OZPGD3DRJew0zW4g",
+  "day_of_week": "Tuesday",
+  "open_time": "08:00",
+  "close_time": "17:00"
+ },
+ {
+  "business_id": "LYRAX4OZPGD3DRJew0zW4g",
+  "day_of_week": "Friday",
+  "open_time": "08:00",
+  "close_time": "17:00"
+ },
+ {
+  "business_id": "LYRAX4OZPGD3DRJew0zW4g",
+  "day_of_week": "Wednesday",
+  "open_time": "08:00",
+  "close_time": "17:00"
+ },
+ {
+  "business_id": "LYRAX4OZPGD3DRJew0zW4g",
+  "day_of_week": "Thursday",
+  "open_time": "08:00",
+  "close_time": "17:00"
+ },
+ {
+  "business_id": "LYRAX4OZPGD3DRJew0zW4g",
+  "day_of_week": "Saturday",
+  "open_time": "10:00",
+  "close_time": "14:00"
+ },
+ {
+  "business_id": "Th3ebWA6dqFmeetbIkIvGQ",
+  "day_of_week": "Monday",
+  "open_time": "09:00",
+  "close_time": "17:00"
+ },
+ {
+  "business_id": "Th3ebWA6dqFmeetbIkIvGQ",
+  "day_of_week": "Tuesday",
+  "open_time": "09:00",
+  "close_time": "17:00"
+ },
+ {
+  "business_id": "Th3ebWA6dqFmeetbIkIvGQ",
+  "day_of_week": "Friday",
+  "open_time": "09:00",
+  "close_time": "17:00"
+ },
+ {
+  "business_id": "Th3ebWA6dqFmeetbIkIvGQ",
+  "day_of_week": "Wednesday",
+  "open_time": "09:00",
+  "close_time": "17:00"
+ },
+ {
+  "business_id": "Th3ebWA6dqFmeetbIkIvGQ",
+  "day_of_week": "Thursday",
+  "open_time": "09:00",
+  "close_time": "17:00"
+ },
+ {
+  "business_id": "Th3ebWA6dqFmeetbIkIvGQ",
+  "day_of_week": "Saturday",
+  "open_time": "09:00",
+  "close_time": "17:00"
+ },
+ {
+  "business_id": "SDs4eWoV-cpJystzTAH0qg",
+  "day_of_week": "Monday",
+  "open_time": "11:00",
+  "close_time": "21:00"
+ },
+ {
+  "business_id": "SDs4eWoV-cpJystzTAH0qg",
+  "day_of_week": "Tuesday",
+  "open_time": "11:00",
+  "close_time": "21:00"
+ },
+ {
+  "business_id": "SDs4eWoV-cpJystzTAH0qg",
+  "day_of_week": "Friday",
+  "open_time": "11:00",
+  "close_time": "22:00"
+ },
+ {
+  "business_id": "SDs4eWoV-cpJystzTAH0qg",
+  "day_of_week": "Wednesday",
+  "open_time": "11:00",
+  "close_time": "21:00"
+ },
+ {
+  "business_id": "SDs4eWoV-cpJystzTAH0qg",
+  "day_of_week": "Thursday",
+  "open_time": "11:00",
+  "close_time": "21:00"
+ },
+ {
+  "business_id": "SDs4eWoV-cpJystzTAH0qg",
+  "day_of_week": "Sunday",
+  "open_time": "11:00",
+  "close_time": "21:00"
+ },
+ {
+  "business_id": "SDs4eWoV-cpJystzTAH0qg",
+  "day_of_week": "Saturday",
+  "open_time": "11:00",
+  "close_time": "22:00"
+ },
+ {
+  "business_id": "a8_lHwlsqvsEub43vgYqrw",
+  "day_of_week": "Monday",
+  "open_time": "11:00",
+  "close_time": "22:00"
+ },
+ {
+  "business_id": "a8_lHwlsqvsEub43vgYqrw",
+  "day_of_week": "Tuesday",
+  "open_time": "11:00",
+  "close_time": "22:00"
+ },
+ {
+  "business_id": "a8_lHwlsqvsEub43vgYqrw",
+  "day_of_week": "Friday",
+  "open_time": "11:00",
+  "close_time": "23:00"
+ },
+ {
+  "business_id": "a8_lHwlsqvsEub43vgYqrw",
+  "day_of_week": "Wednesday",
+  "open_time": "11:00",
+  "close_time": "22:00"
+ },
+ {
+  "business_id": "a8_lHwlsqvsEub43vgYqrw",
+  "day_of_week": "Thursday",
+  "open_time": "11:00",
+  "close_time": "22:00"
+ },
+ {
+  "business_id": "a8_lHwlsqvsEub43vgYqrw",
+  "day_of_week": "Sunday",
+  "open_time": "11:00",
+  "close_time": "22:00"
+ },
+ {
+  "business_id": "a8_lHwlsqvsEub43vgYqrw",
+  "day_of_week": "Saturday",
+  "open_time": "11:00",
+  "close_time": "23:00"
+ },
+ {
+  "business_id": "crSme9ZoLQNMtRGxv0htTw",
+  "day_of_week": "Monday",
+  "open_time": "11:00",
+  "close_time": "02:00"
+ },
+ {
+  "business_id": "crSme9ZoLQNMtRGxv0htTw",
+  "day_of_week": "Tuesday",
+  "open_time": "11:00",
+  "close_time": "02:00"
+ },
+ {
+  "business_id": "crSme9ZoLQNMtRGxv0htTw",
+  "day_of_week": "Friday",
+  "open_time": "11:00",
+  "close_time": "02:00"
+ },
+ {
+  "business_id": "crSme9ZoLQNMtRGxv0htTw",
+  "day_of_week": "Wednesday",
+  "open_time": "11:00",
+  "close_time": "02:00"
+ },
+ {
+  "business_id": "crSme9ZoLQNMtRGxv0htTw",
+  "day_of_week": "Thursday",
+  "open_time": "11:00",
+  "close_time": "02:00"
+ },
+ {
+  "business_id": "crSme9ZoLQNMtRGxv0htTw",
+  "day_of_week": "Sunday",
+  "open_time": "11:00",
+  "close_time": "02:00"
+ },
+ {
+  "business_id": "crSme9ZoLQNMtRGxv0htTw",
+  "day_of_week": "Saturday",
+  "open_time": "11:00",
+  "close_time": "02:00"
+ },
+ {
+  "business_id": "NlH2I30NNDocEC-j62MxIQ",
+  "day_of_week": "Monday",
+  "open_time": "10:30",
+  "close_time": "22:00"
+ },
+ {
+  "business_id": "NlH2I30NNDocEC-j62MxIQ",
+  "day_of_week": "Tuesday",
+  "open_time": "10:30",
+  "close_time": "22:00"
+ },
+ {
+  "business_id": "NlH2I30NNDocEC-j62MxIQ",
+  "day_of_week": "Friday",
+  "open_time": "10:30",
+  "close_time": "23:00"
+ },
+ {
+  "business_id": "NlH2I30NNDocEC-j62MxIQ",
+  "day_of_week": "Wednesday",
+  "open_time": "10:30",
+  "close_time": "22:00"
+ },
+ {
+  "business_id": "NlH2I30NNDocEC-j62MxIQ",
+  "day_of_week": "Thursday",
+  "open_time": "10:30",
+  "close_time": "22:00"
+ },
+ {
+  "business_id": "NlH2I30NNDocEC-j62MxIQ",
+  "day_of_week": "Sunday",
+  "open_time": "11:30",
+  "close_time": "22:00"
+ },
+ {
+  "business_id": "NlH2I30NNDocEC-j62MxIQ",
+  "day_of_week": "Saturday",
+  "open_time": "10:30",
+  "close_time": "23:00"
+ },
+ {
+  "business_id": "LcyRBpYIki-Sx2-M5_bidQ",
+  "day_of_week": "Monday",
+  "open_time": "09:00",
+  "close_time": "20:00"
+ },
+ {
+  "business_id": "LcyRBpYIki-Sx2-M5_bidQ",
+  "day_of_week": "Tuesday",
+  "open_time": "09:00",
+  "close_time": "20:00"
+ },
+ {
+  "business_id": "LcyRBpYIki-Sx2-M5_bidQ",
+  "day_of_week": "Friday",
+  "open_time": "09:00",
+  "close_time": "21:00"
+ },
+ {
+  "business_id": "LcyRBpYIki-Sx2-M5_bidQ",
+  "day_of_week": "Wednesday",
+  "open_time": "09:00",
+  "close_time": "20:00"
+ },
+ {
+  "business_id": "LcyRBpYIki-Sx2-M5_bidQ",
+  "day_of_week": "Thursday",
+  "open_time": "09:00",
+  "close_time": "21:00"
+ },
+ {
+  "business_id": "LcyRBpYIki-Sx2-M5_bidQ",
+  "day_of_week": "Sunday",
+  "open_time": "09:30",
+  "close_time": "20:00"
+ },
+ {
+  "business_id": "LcyRBpYIki-Sx2-M5_bidQ",
+  "day_of_week": "Saturday",
+  "open_time": "09:00",
+  "close_time": "15:00"
+ },
+ {
+  "business_id": "nOvUzM8gHkWmDj0eUQTSow",
+  "day_of_week": "Monday",
+  "open_time": "09:00",
+  "close_time": "19:00"
+ },
+ {
+  "business_id": "nOvUzM8gHkWmDj0eUQTSow",
+  "day_of_week": "Tuesday",
+  "open_time": "09:00",
+  "close_time": "19:00"
+ },
+ {
+  "business_id": "nOvUzM8gHkWmDj0eUQTSow",
+  "day_of_week": "Friday",
+  "open_time": "09:00",
+  "close_time": "19:00"
+ },
+ {
+  "business_id": "nOvUzM8gHkWmDj0eUQTSow",
+  "day_of_week": "Wednesday",
+  "open_time": "09:00",
+  "close_time": "19:00"
+ },
+ {
+  "business_id": "nOvUzM8gHkWmDj0eUQTSow",
+  "day_of_week": "Thursday",
+  "open_time": "09:00",
+  "close_time": "19:00"
+ },
+ {
+  "business_id": "nOvUzM8gHkWmDj0eUQTSow",
+  "day_of_week": "Sunday",
+  "open_time": "11:00",
+  "close_time": "17:00"
+ },
+ {
+  "business_id": "nOvUzM8gHkWmDj0eUQTSow",
+  "day_of_week": "Saturday",
+  "open_time": "09:00",
+  "close_time": "18:00"
+ },
+ {
+  "business_id": "9NG_-_pdzfzFTlswEhJ-1g",
+  "day_of_week": "Monday",
+  "open_time": "10:00",
+  "close_time": "22:00"
+ },
+ {
+  "business_id": "9NG_-_pdzfzFTlswEhJ-1g",
+  "day_of_week": "Tuesday",
+  "open_time": "10:00",
+  "close_time": "22:00"
+ },
+ {
+  "business_id": "9NG_-_pdzfzFTlswEhJ-1g",
+  "day_of_week": "Friday",
+  "open_time": "10:00",
+  "close_time": "23:00"
+ },
+ {
+  "business_id": "9NG_-_pdzfzFTlswEhJ-1g",
+  "day_of_week": "Wednesday",
+  "open_time": "10:00",
+  "close_time": "22:00"
+ },
+ {
+  "business_id": "9NG_-_pdzfzFTlswEhJ-1g",
+  "day_of_week": "Thursday",
+  "open_time": "10:00",
+  "close_time": "22:00"
+ },
+ {
+  "business_id": "9NG_-_pdzfzFTlswEhJ-1g",
+  "day_of_week": "Sunday",
+  "open_time": "11:00",
+  "close_time": "22:00"
+ },
+ {
+  "business_id": "9NG_-_pdzfzFTlswEhJ-1g",
+  "day_of_week": "Saturday",
+  "open_time": "10:00",
+  "close_time": "23:00"
+ },
+ {
+  "business_id": "txnCvfN26q_k4ICowNpigg",
+  "day_of_week": "Monday",
+  "open_time": "10:00",
+  "close_time": "02:00"
+ },
+ {
+  "business_id": "txnCvfN26q_k4ICowNpigg",
+  "day_of_week": "Tuesday",
+  "open_time": "10:00",
+  "close_time": "02:00"
+ },
+ {
+  "business_id": "txnCvfN26q_k4ICowNpigg",
+  "day_of_week": "Friday",
+  "open_time": "10:00",
+  "close_time": "02:00"
+ },
+ {
+  "business_id": "txnCvfN26q_k4ICowNpigg",
+  "day_of_week": "Wednesday",
+  "open_time": "10:00",
+  "close_time": "02:00"
+ },
+ {
+  "business_id": "txnCvfN26q_k4ICowNpigg",
+  "day_of_week": "Thursday",
+  "open_time": "10:00",
+  "close_time": "02:00"
+ },
+ {
+  "business_id": "txnCvfN26q_k4ICowNpigg",
+  "day_of_week": "Sunday",
+  "open_time": "10:00",
+  "close_time": "02:00"
+ },
+ {
+  "business_id": "txnCvfN26q_k4ICowNpigg",
+  "day_of_week": "Saturday",
+  "open_time": "10:00",
+  "close_time": "02:00"
+ },
+ {
+  "business_id": "GfBgJm1t8Ftiec5pMUHqtg",
+  "day_of_week": "Monday",
+  "open_time": "05:00",
+  "close_time": "23:00"
+ },
+ {
+  "business_id": "GfBgJm1t8Ftiec5pMUHqtg",
+  "day_of_week": "Tuesday",
+  "open_time": "05:00",
+  "close_time": "23:00"
+ },
+ {
+  "business_id": "GfBgJm1t8Ftiec5pMUHqtg",
+  "day_of_week": "Friday",
+  "open_time": "05:00",
+  "close_time": "22:00"
+ },
+ {
+  "business_id": "GfBgJm1t8Ftiec5pMUHqtg",
+  "day_of_week": "Wednesday",
+  "open_time": "05:00",
+  "close_time": "23:00"
+ },
+ {
+  "business_id": "GfBgJm1t8Ftiec5pMUHqtg",
+  "day_of_week": "Thursday",
+  "open_time": "05:00",
+  "close_time": "23:00"
+ },
+ {
+  "business_id": "GfBgJm1t8Ftiec5pMUHqtg",
+  "day_of_week": "Sunday",
+  "open_time": "08:00",
+  "close_time": "20:00"
+ },
+ {
+  "business_id": "GfBgJm1t8Ftiec5pMUHqtg",
+  "day_of_week": "Saturday",
+  "open_time": "20:00",
+  "close_time": "20:00"
+ },
+ {
+  "business_id": "o7iZrTxFCq4Ijwb0G8q1Mw",
+  "day_of_week": "Monday",
+  "open_time": "09:00",
+  "close_time": "21:00"
+ },
+ {
+  "business_id": "o7iZrTxFCq4Ijwb0G8q1Mw",
+  "day_of_week": "Tuesday",
+  "open_time": "09:00",
+  "close_time": "21:00"
+ },
+ {
+  "business_id": "o7iZrTxFCq4Ijwb0G8q1Mw",
+  "day_of_week": "Friday",
+  "open_time": "09:00",
+  "close_time": "21:00"
+ },
+ {
+  "business_id": "o7iZrTxFCq4Ijwb0G8q1Mw",
+  "day_of_week": "Wednesday",
+  "open_time": "09:00",
+  "close_time": "21:00"
+ },
+ {
+  "business_id": "o7iZrTxFCq4Ijwb0G8q1Mw",
+  "day_of_week": "Thursday",
+  "open_time": "09:00",
+  "close_time": "21:00"
+ },
+ {
+  "business_id": "o7iZrTxFCq4Ijwb0G8q1Mw",
+  "day_of_week": "Sunday",
+  "open_time": "10:00",
+  "close_time": "19:00"
+ },
+ {
+  "business_id": "o7iZrTxFCq4Ijwb0G8q1Mw",
+  "day_of_week": "Saturday",
+  "open_time": "09:00",
+  "close_time": "21:00"
+ },
+ {
+  "business_id": "3od0SuqOl4BHiqc2jErlzw",
+  "day_of_week": "Monday",
+  "open_time": "10:00",
+  "close_time": "20:00"
+ },
+ {
+  "business_id": "3od0SuqOl4BHiqc2jErlzw",
+  "day_of_week": "Tuesday",
+  "open_time": "10:00",
+  "close_time": "20:00"
+ },
+ {
+  "business_id": "3od0SuqOl4BHiqc2jErlzw",
+  "day_of_week": "Friday",
+  "open_time": "10:00",
+  "close_time": "20:00"
+ },
+ {
+  "business_id": "3od0SuqOl4BHiqc2jErlzw",
+  "day_of_week": "Wednesday",
+  "open_time": "10:00",
+  "close_time": "20:00"
+ },
+ {
+  "business_id": "3od0SuqOl4BHiqc2jErlzw",
+  "day_of_week": "Thursday",
+  "open_time": "10:00",
+  "close_time": "20:00"
+ },
+ {
+  "business_id": "3od0SuqOl4BHiqc2jErlzw",
+  "day_of_week": "Sunday",
+  "open_time": "11:00",
+  "close_time": "18:00"
+ },
+ {
+  "business_id": "3od0SuqOl4BHiqc2jErlzw",
+  "day_of_week": "Saturday",
+  "open_time": "10:00",
+  "close_time": "19:00"
+ },
+ {
+  "business_id": "qixbpFjrfUf6yBtr8ocwag",
+  "day_of_week": "Monday",
+  "open_time": "10:30",
+  "close_time": "22:00"
+ },
+ {
+  "business_id": "qixbpFjrfUf6yBtr8ocwag",
+  "day_of_week": "Tuesday",
+  "open_time": "10:30",
+  "close_time": "22:00"
+ },
+ {
+  "business_id": "qixbpFjrfUf6yBtr8ocwag",
+  "day_of_week": "Friday",
+  "open_time": "10:30",
+  "close_time": "23:00"
+ },
+ {
+  "business_id": "qixbpFjrfUf6yBtr8ocwag",
+  "day_of_week": "Wednesday",
+  "open_time": "10:30",
+  "close_time": "22:00"
+ },
+ {
+  "business_id": "qixbpFjrfUf6yBtr8ocwag",
+  "day_of_week": "Thursday",
+  "open_time": "10:30",
+  "close_time": "22:00"
+ },
+ {
+  "business_id": "qixbpFjrfUf6yBtr8ocwag",
+  "day_of_week": "Sunday",
+  "open_time": "10:30",
+  "close_time": "22:00"
+ },
+ {
+  "business_id": "qixbpFjrfUf6yBtr8ocwag",
+  "day_of_week": "Saturday",
+  "open_time": "10:30",
+  "close_time": "23:00"
+ },
+ {
+  "business_id": "KeZ9gv2R5ABNezqXnLvamw",
+  "day_of_week": "Tuesday",
+  "open_time": "09:00",
+  "close_time": "18:00"
+ },
+ {
+  "business_id": "KeZ9gv2R5ABNezqXnLvamw",
+  "day_of_week": "Friday",
+  "open_time": "09:00",
+  "close_time": "19:00"
+ },
+ {
+  "business_id": "KeZ9gv2R5ABNezqXnLvamw",
+  "day_of_week": "Wednesday",
+  "open_time": "09:00",
+  "close_time": "19:00"
+ },
+ {
+  "business_id": "KeZ9gv2R5ABNezqXnLvamw",
+  "day_of_week": "Thursday",
+  "open_time": "09:00",
+  "close_time": "19:00"
+ },
+ {
+  "business_id": "KeZ9gv2R5ABNezqXnLvamw",
+  "day_of_week": "Saturday",
+  "open_time": "09:00",
+  "close_time": "17:00"
+ },
+ {
+  "business_id": "KiCFtB4Y-wNLmPPjefLeJg",
+  "day_of_week": "Monday",
+  "open_time": "07:00",
+  "close_time": "00:00"
+ },
+ {
+  "business_id": "KiCFtB4Y-wNLmPPjefLeJg",
+  "day_of_week": "Tuesday",
+  "open_time": "07:00",
+  "close_time": "00:00"
+ },
+ {
+  "business_id": "KiCFtB4Y-wNLmPPjefLeJg",
+  "day_of_week": "Friday",
+  "open_time": "07:00",
+  "close_time": "01:00"
+ },
+ {
+  "business_id": "KiCFtB4Y-wNLmPPjefLeJg",
+  "day_of_week": "Wednesday",
+  "open_time": "07:00",
+  "close_time": "00:00"
+ },
+ {
+  "business_id": "KiCFtB4Y-wNLmPPjefLeJg",
+  "day_of_week": "Thursday",
+  "open_time": "07:00",
+  "close_time": "00:00"
+ },
+ {
+  "business_id": "KiCFtB4Y-wNLmPPjefLeJg",
+  "day_of_week": "Sunday",
+  "open_time": "07:00",
+  "close_time": "00:00"
+ },
+ {
+  "business_id": "KiCFtB4Y-wNLmPPjefLeJg",
+  "day_of_week": "Saturday",
+  "open_time": "07:00",
+  "close_time": "01:00"
+ },
+ {
+  "business_id": "7xyz5uuUjtSTMI5ux1u9Sw",
+  "day_of_week": "Monday",
+  "open_time": "08:00",
+  "close_time": "20:00"
+ },
+ {
+  "business_id": "7xyz5uuUjtSTMI5ux1u9Sw",
+  "day_of_week": "Tuesday",
+  "open_time": "08:00",
+  "close_time": "20:00"
+ },
+ {
+  "business_id": "7xyz5uuUjtSTMI5ux1u9Sw",
+  "day_of_week": "Friday",
+  "open_time": "08:00",
+  "close_time": "20:00"
+ },
+ {
+  "business_id": "7xyz5uuUjtSTMI5ux1u9Sw",
+  "day_of_week": "Wednesday",
+  "open_time": "08:00",
+  "close_time": "20:00"
+ },
+ {
+  "business_id": "7xyz5uuUjtSTMI5ux1u9Sw",
+  "day_of_week": "Thursday",
+  "open_time": "08:00",
+  "close_time": "20:00"
+ },
+ {
+  "business_id": "7xyz5uuUjtSTMI5ux1u9Sw",
+  "day_of_week": "Sunday",
+  "open_time": "08:00",
+  "close_time": "16:00"
+ },
+ {
+  "business_id": "7xyz5uuUjtSTMI5ux1u9Sw",
+  "day_of_week": "Saturday",
+  "open_time": "08:00",
+  "close_time": "16:00"
+ },
+ {
+  "business_id": "RoXpniL8AtWwnIzvY2XUXw",
+  "day_of_week": "Monday",
+  "open_time": "10:30",
+  "close_time": "22:00"
+ },
+ {
+  "business_id": "RoXpniL8AtWwnIzvY2XUXw",
+  "day_of_week": "Tuesday",
+  "open_time": "10:30",
+  "close_time": "22:00"
+ },
+ {
+  "business_id": "RoXpniL8AtWwnIzvY2XUXw",
+  "day_of_week": "Friday",
+  "open_time": "10:30",
+  "close_time": "23:00"
+ },
+ {
+  "business_id": "RoXpniL8AtWwnIzvY2XUXw",
+  "day_of_week": "Wednesday",
+  "open_time": "10:30",
+  "close_time": "22:00"
+ },
+ {
+  "business_id": "RoXpniL8AtWwnIzvY2XUXw",
+  "day_of_week": "Thursday",
+  "open_time": "10:30",
+  "close_time": "22:00"
+ },
+ {
+  "business_id": "RoXpniL8AtWwnIzvY2XUXw",
+  "day_of_week": "Sunday",
+  "open_time": "11:00",
+  "close_time": "22:00"
+ },
+ {
+  "business_id": "RoXpniL8AtWwnIzvY2XUXw",
+  "day_of_week": "Saturday",
+  "open_time": "10:30",
+  "close_time": "23:00"
+ },
+ {
+  "business_id": "OJX06tomzPbhl9TCHBLHbw",
+  "day_of_week": "Monday",
+  "open_time": "09:00",
+  "close_time": "21:00"
+ },
+ {
+  "business_id": "OJX06tomzPbhl9TCHBLHbw",
+  "day_of_week": "Tuesday",
+  "open_time": "09:00",
+  "close_time": "21:00"
+ },
+ {
+  "business_id": "OJX06tomzPbhl9TCHBLHbw",
+  "day_of_week": "Friday",
+  "open_time": "09:00",
+  "close_time": "21:00"
+ },
+ {
+  "business_id": "OJX06tomzPbhl9TCHBLHbw",
+  "day_of_week": "Wednesday",
+  "open_time": "09:00",
+  "close_time": "21:00"
+ },
+ {
+  "business_id": "OJX06tomzPbhl9TCHBLHbw",
+  "day_of_week": "Thursday",
+  "open_time": "09:00",
+  "close_time": "21:00"
+ },
+ {
+  "business_id": "OJX06tomzPbhl9TCHBLHbw",
+  "day_of_week": "Saturday",
+  "open_time": "09:00",
+  "close_time": "21:00"
+ },
+ {
+  "business_id": "F8sD8-VRr5RLCuxOY7SVaA",
+  "day_of_week": "Monday",
+  "open_time": "10:00",
+  "close_time": "21:00"
+ },
+ {
+  "business_id": "F8sD8-VRr5RLCuxOY7SVaA",
+  "day_of_week": "Tuesday",
+  "open_time": "10:00",
+  "close_time": "21:00"
+ },
+ {
+  "business_id": "F8sD8-VRr5RLCuxOY7SVaA",
+  "day_of_week": "Friday",
+  "open_time": "10:00",
+  "close_time": "21:00"
+ },
+ {
+  "business_id": "F8sD8-VRr5RLCuxOY7SVaA",
+  "day_of_week": "Wednesday",
+  "open_time": "10:00",
+  "close_time": "21:00"
+ },
+ {
+  "business_id": "F8sD8-VRr5RLCuxOY7SVaA",
+  "day_of_week": "Thursday",
+  "open_time": "10:00",
+  "close_time": "21:00"
+ },
+ {
+  "business_id": "F8sD8-VRr5RLCuxOY7SVaA",
+  "day_of_week": "Sunday",
+  "open_time": "10:00",
+  "close_time": "19:00"
+ },
+ {
+  "business_id": "F8sD8-VRr5RLCuxOY7SVaA",
+  "day_of_week": "Saturday",
+  "open_time": "09:00",
+  "close_time": "21:00"
+ },
+ {
+  "business_id": "Xzw38YxopZ9CRNTPI6jwOg",
+  "day_of_week": "Monday",
+  "open_time": "10:00",
+  "close_time": "16:00"
+ },
+ {
+  "business_id": "Xzw38YxopZ9CRNTPI6jwOg",
+  "day_of_week": "Tuesday",
+  "open_time": "09:00",
+  "close_time": "19:00"
+ },
+ {
+  "business_id": "Xzw38YxopZ9CRNTPI6jwOg",
+  "day_of_week": "Friday",
+  "open_time": "09:00",
+  "close_time": "16:00"
+ },
+ {
+  "business_id": "Xzw38YxopZ9CRNTPI6jwOg",
+  "day_of_week": "Wednesday",
+  "open_time": "09:00",
+  "close_time": "19:00"
+ },
+ {
+  "business_id": "Xzw38YxopZ9CRNTPI6jwOg",
+  "day_of_week": "Thursday",
+  "open_time": "09:00",
+  "close_time": "19:00"
+ },
+ {
+  "business_id": "Xzw38YxopZ9CRNTPI6jwOg",
+  "day_of_week": "Saturday",
+  "open_time": "09:00",
+  "close_time": "16:00"
+ },
+ {
+  "business_id": "fsL04IyN2sIMEU9kNQPJHQ",
+  "day_of_week": "Monday",
+  "open_time": "10:30",
+  "close_time": "22:00"
+ },
+ {
+  "business_id": "fsL04IyN2sIMEU9kNQPJHQ",
+  "day_of_week": "Tuesday",
+  "open_time": "10:30",
+  "close_time": "22:00"
+ },
+ {
+  "business_id": "fsL04IyN2sIMEU9kNQPJHQ",
+  "day_of_week": "Friday",
+  "open_time": "10:30",
+  "close_time": "11:00"
+ },
+ {
+  "business_id": "fsL04IyN2sIMEU9kNQPJHQ",
+  "day_of_week": "Wednesday",
+  "open_time": "10:30",
+  "close_time": "22:00"
+ },
+ {
+  "business_id": "fsL04IyN2sIMEU9kNQPJHQ",
+  "day_of_week": "Thursday",
+  "open_time": "10:30",
+  "close_time": "22:00"
+ },
+ {
+  "business_id": "fsL04IyN2sIMEU9kNQPJHQ",
+  "day_of_week": "Sunday",
+  "open_time": "10:30",
+  "close_time": "22:00"
+ },
+ {
+  "business_id": "fsL04IyN2sIMEU9kNQPJHQ",
+  "day_of_week": "Saturday",
+  "open_time": "10:30",
+  "close_time": "11:00"
+ },
+ {
+  "business_id": "hw2Z9dfAYa06UDzQkOi7gg",
+  "day_of_week": "Monday",
+  "open_time": "09:00",
+  "close_time": "21:00"
+ },
+ {
+  "business_id": "hw2Z9dfAYa06UDzQkOi7gg",
+  "day_of_week": "Tuesday",
+  "open_time": "09:00",
+  "close_time": "21:00"
+ },
+ {
+  "business_id": "hw2Z9dfAYa06UDzQkOi7gg",
+  "day_of_week": "Friday",
+  "open_time": "09:00",
+  "close_time": "20:00"
+ },
+ {
+  "business_id": "hw2Z9dfAYa06UDzQkOi7gg",
+  "day_of_week": "Wednesday",
+  "open_time": "09:00",
+  "close_time": "21:00"
+ },
+ {
+  "business_id": "hw2Z9dfAYa06UDzQkOi7gg",
+  "day_of_week": "Thursday",
+  "open_time": "09:00",
+  "close_time": "21:00"
+ },
+ {
+  "business_id": "hw2Z9dfAYa06UDzQkOi7gg",
+  "day_of_week": "Sunday",
+  "open_time": "10:00",
+  "close_time": "17:00"
+ },
+ {
+  "business_id": "hw2Z9dfAYa06UDzQkOi7gg",
+  "day_of_week": "Saturday",
+  "open_time": "09:00",
+  "close_time": "17:00"
+ },
+ {
+  "business_id": "MUMqaXllrS_b7-D8QAj6bA",
+  "day_of_week": "Monday",
+  "open_time": "09:00",
+  "close_time": "18:00"
+ },
+ {
+  "business_id": "MUMqaXllrS_b7-D8QAj6bA",
+  "day_of_week": "Tuesday",
+  "open_time": "09:00",
+  "close_time": "18:00"
+ },
+ {
+  "business_id": "MUMqaXllrS_b7-D8QAj6bA",
+  "day_of_week": "Friday",
+  "open_time": "09:00",
+  "close_time": "18:00"
+ },
+ {
+  "business_id": "MUMqaXllrS_b7-D8QAj6bA",
+  "day_of_week": "Wednesday",
+  "open_time": "09:00",
+  "close_time": "18:00"
+ },
+ {
+  "business_id": "MUMqaXllrS_b7-D8QAj6bA",
+  "day_of_week": "Thursday",
+  "open_time": "09:00",
+  "close_time": "18:00"
+ },
+ {
+  "business_id": "MUMqaXllrS_b7-D8QAj6bA",
+  "day_of_week": "Sunday",
+  "open_time": "10:00",
+  "close_time": "17:00"
+ },
+ {
+  "business_id": "MUMqaXllrS_b7-D8QAj6bA",
+  "day_of_week": "Saturday",
+  "open_time": "10:00",
+  "close_time": "17:00"
+ },
+ {
+  "business_id": "FOgi-jctbZW_8QpVnLl_Ow",
+  "day_of_week": "Monday",
+  "open_time": "09:00",
+  "close_time": "19:00"
+ },
+ {
+  "business_id": "FOgi-jctbZW_8QpVnLl_Ow",
+  "day_of_week": "Tuesday",
+  "open_time": "09:00",
+  "close_time": "19:00"
+ },
+ {
+  "business_id": "FOgi-jctbZW_8QpVnLl_Ow",
+  "day_of_week": "Friday",
+  "open_time": "09:00",
+  "close_time": "17:00"
+ },
+ {
+  "business_id": "FOgi-jctbZW_8QpVnLl_Ow",
+  "day_of_week": "Wednesday",
+  "open_time": "09:00",
+  "close_time": "19:00"
+ },
+ {
+  "business_id": "FOgi-jctbZW_8QpVnLl_Ow",
+  "day_of_week": "Thursday",
+  "open_time": "09:00",
+  "close_time": "19:00"
+ },
+ {
+  "business_id": "FOgi-jctbZW_8QpVnLl_Ow",
+  "day_of_week": "Saturday",
+  "open_time": "08:00",
+  "close_time": "14:30"
+ },
+ {
+  "business_id": "ewENELr4P4yetoSg663lHQ",
+  "day_of_week": "Tuesday",
+  "open_time": "08:00",
+  "close_time": "17:00"
+ },
+ {
+  "business_id": "ewENELr4P4yetoSg663lHQ",
+  "day_of_week": "Friday",
+  "open_time": "07:00",
+  "close_time": "16:00"
+ },
+ {
+  "business_id": "ewENELr4P4yetoSg663lHQ",
+  "day_of_week": "Wednesday",
+  "open_time": "08:00",
+  "close_time": "17:00"
+ },
+ {
+  "business_id": "ewENELr4P4yetoSg663lHQ",
+  "day_of_week": "Thursday",
+  "open_time": "08:00",
+  "close_time": "17:00"
+ },
+ {
+  "business_id": "zKwcHa-PysIseUoosMrO4w",
+  "day_of_week": "Monday",
+  "open_time": "00:00",
+  "close_time": "00:00"
+ },
+ {
+  "business_id": "zKwcHa-PysIseUoosMrO4w",
+  "day_of_week": "Tuesday",
+  "open_time": "00:00",
+  "close_time": "00:00"
+ },
+ {
+  "business_id": "zKwcHa-PysIseUoosMrO4w",
+  "day_of_week": "Friday",
+  "open_time": "00:00",
+  "close_time": "00:00"
+ },
+ {
+  "business_id": "zKwcHa-PysIseUoosMrO4w",
+  "day_of_week": "Wednesday",
+  "open_time": "00:00",
+  "close_time": "00:00"
+ },
+ {
+  "business_id": "zKwcHa-PysIseUoosMrO4w",
+  "day_of_week": "Thursday",
+  "open_time": "00:00",
+  "close_time": "00:00"
+ },
+ {
+  "business_id": "zKwcHa-PysIseUoosMrO4w",
+  "day_of_week": "Sunday",
+  "open_time": "00:00",
+  "close_time": "00:00"
+ },
+ {
+  "business_id": "zKwcHa-PysIseUoosMrO4w",
+  "day_of_week": "Saturday",
+  "open_time": "00:00",
+  "close_time": "00:00"
+ },
+ {
+  "business_id": "cWr1sZqJC7cC_EbczXOKqA",
+  "day_of_week": "Monday",
+  "open_time": "11:00",
+  "close_time": "19:00"
+ },
+ {
+  "business_id": "cWr1sZqJC7cC_EbczXOKqA",
+  "day_of_week": "Tuesday",
+  "open_time": "11:00",
+  "close_time": "19:00"
+ },
+ {
+  "business_id": "cWr1sZqJC7cC_EbczXOKqA",
+  "day_of_week": "Friday",
+  "open_time": "11:00",
+  "close_time": "19:00"
+ },
+ {
+  "business_id": "cWr1sZqJC7cC_EbczXOKqA",
+  "day_of_week": "Wednesday",
+  "open_time": "11:00",
+  "close_time": "19:00"
+ },
+ {
+  "business_id": "cWr1sZqJC7cC_EbczXOKqA",
+  "day_of_week": "Thursday",
+  "open_time": "11:00",
+  "close_time": "19:00"
+ },
+ {
+  "business_id": "cWr1sZqJC7cC_EbczXOKqA",
+  "day_of_week": "Saturday",
+  "open_time": "11:00",
+  "close_time": "14:00"
+ },
+ {
+  "business_id": "mcYkS0t4IHpXM1e2NI2jcg",
+  "day_of_week": "Tuesday",
+  "open_time": "06:30",
+  "close_time": "18:30"
+ },
+ {
+  "business_id": "mcYkS0t4IHpXM1e2NI2jcg",
+  "day_of_week": "Friday",
+  "open_time": "06:30",
+  "close_time": "18:30"
+ },
+ {
+  "business_id": "mcYkS0t4IHpXM1e2NI2jcg",
+  "day_of_week": "Monday",
+  "open_time": "06:30",
+  "close_time": "18:30"
+ },
+ {
+  "business_id": "mcYkS0t4IHpXM1e2NI2jcg",
+  "day_of_week": "Wednesday",
+  "open_time": "06:30",
+  "close_time": "18:30"
+ },
+ {
+  "business_id": "mcYkS0t4IHpXM1e2NI2jcg",
+  "day_of_week": "Thursday",
+  "open_time": "06:30",
+  "close_time": "18:30"
+ },
+ {
+  "business_id": "ORwyUtfcsJwONIDL7ldVOA",
+  "day_of_week": "Monday",
+  "open_time": "08:00",
+  "close_time": "22:00"
+ },
+ {
+  "business_id": "ORwyUtfcsJwONIDL7ldVOA",
+  "day_of_week": "Tuesday",
+  "open_time": "08:00",
+  "close_time": "22:00"
+ },
+ {
+  "business_id": "ORwyUtfcsJwONIDL7ldVOA",
+  "day_of_week": "Friday",
+  "open_time": "08:00",
+  "close_time": "22:00"
+ },
+ {
+  "business_id": "ORwyUtfcsJwONIDL7ldVOA",
+  "day_of_week": "Wednesday",
+  "open_time": "08:00",
+  "close_time": "22:00"
+ },
+ {
+  "business_id": "ORwyUtfcsJwONIDL7ldVOA",
+  "day_of_week": "Thursday",
+  "open_time": "08:00",
+  "close_time": "22:00"
+ },
+ {
+  "business_id": "ORwyUtfcsJwONIDL7ldVOA",
+  "day_of_week": "Sunday",
+  "open_time": "08:00",
+  "close_time": "22:00"
+ },
+ {
+  "business_id": "ORwyUtfcsJwONIDL7ldVOA",
+  "day_of_week": "Saturday",
+  "open_time": "08:00",
+  "close_time": "22:00"
+ },
+ {
+  "business_id": "fVVpTBLOHZDH4AIACjO4kg",
+  "day_of_week": "Monday",
+  "open_time": "06:00",
+  "close_time": "22:00"
+ },
+ {
+  "business_id": "fVVpTBLOHZDH4AIACjO4kg",
+  "day_of_week": "Tuesday",
+  "open_time": "06:00",
+  "close_time": "22:00"
+ },
+ {
+  "business_id": "fVVpTBLOHZDH4AIACjO4kg",
+  "day_of_week": "Friday",
+  "open_time": "06:00",
+  "close_time": "22:00"
+ },
+ {
+  "business_id": "fVVpTBLOHZDH4AIACjO4kg",
+  "day_of_week": "Wednesday",
+  "open_time": "06:00",
+  "close_time": "22:00"
+ },
+ {
+  "business_id": "fVVpTBLOHZDH4AIACjO4kg",
+  "day_of_week": "Thursday",
+  "open_time": "06:00",
+  "close_time": "22:00"
+ },
+ {
+  "business_id": "fVVpTBLOHZDH4AIACjO4kg",
+  "day_of_week": "Saturday",
+  "open_time": "06:00",
+  "close_time": "22:00"
+ },
+ {
+  "business_id": "jSi808gsCu7c1nLk_aZG_w",
+  "day_of_week": "Monday",
+  "open_time": "07:00",
+  "close_time": "15:30"
+ },
+ {
+  "business_id": "jSi808gsCu7c1nLk_aZG_w",
+  "day_of_week": "Tuesday",
+  "open_time": "07:00",
+  "close_time": "15:30"
+ },
+ {
+  "business_id": "jSi808gsCu7c1nLk_aZG_w",
+  "day_of_week": "Friday",
+  "open_time": "07:00",
+  "close_time": "12:00"
+ },
+ {
+  "business_id": "jSi808gsCu7c1nLk_aZG_w",
+  "day_of_week": "Wednesday",
+  "open_time": "07:00",
+  "close_time": "17:00"
+ },
+ {
+  "business_id": "jSi808gsCu7c1nLk_aZG_w",
+  "day_of_week": "Thursday",
+  "open_time": "07:00",
+  "close_time": "15:30"
+ },
+ {
+  "business_id": "jSi808gsCu7c1nLk_aZG_w",
+  "day_of_week": "Saturday",
+  "open_time": "07:00",
+  "close_time": "12:00"
+ },
+ {
+  "business_id": "cNANHnAOZ_7-4VYHbFszBQ",
+  "day_of_week": "Monday",
+  "open_time": "10:30",
+  "close_time": "20:00"
+ },
+ {
+  "business_id": "cNANHnAOZ_7-4VYHbFszBQ",
+  "day_of_week": "Tuesday",
+  "open_time": "10:30",
+  "close_time": "20:00"
+ },
+ {
+  "business_id": "cNANHnAOZ_7-4VYHbFszBQ",
+  "day_of_week": "Friday",
+  "open_time": "10:30",
+  "close_time": "20:00"
+ },
+ {
+  "business_id": "cNANHnAOZ_7-4VYHbFszBQ",
+  "day_of_week": "Wednesday",
+  "open_time": "10:30",
+  "close_time": "20:00"
+ },
+ {
+  "business_id": "cNANHnAOZ_7-4VYHbFszBQ",
+  "day_of_week": "Thursday",
+  "open_time": "10:30",
+  "close_time": "20:00"
+ },
+ {
+  "business_id": "cNANHnAOZ_7-4VYHbFszBQ",
+  "day_of_week": "Sunday",
+  "open_time": "11:00",
+  "close_time": "19:00"
+ },
+ {
+  "business_id": "cNANHnAOZ_7-4VYHbFszBQ",
+  "day_of_week": "Saturday",
+  "open_time": "10:30",
+  "close_time": "20:00"
+ },
+ {
+  "business_id": "74qDPs2dR6gSzDp6N1U-Og",
+  "day_of_week": "Monday",
+  "open_time": "11:00",
+  "close_time": "22:00"
+ },
+ {
+  "business_id": "74qDPs2dR6gSzDp6N1U-Og",
+  "day_of_week": "Tuesday",
+  "open_time": "11:00",
+  "close_time": "22:00"
+ },
+ {
+  "business_id": "74qDPs2dR6gSzDp6N1U-Og",
+  "day_of_week": "Friday",
+  "open_time": "11:00",
+  "close_time": "22:00"
+ },
+ {
+  "business_id": "74qDPs2dR6gSzDp6N1U-Og",
+  "day_of_week": "Wednesday",
+  "open_time": "11:00",
+  "close_time": "22:00"
+ },
+ {
+  "business_id": "74qDPs2dR6gSzDp6N1U-Og",
+  "day_of_week": "Thursday",
+  "open_time": "11:00",
+  "close_time": "22:00"
+ },
+ {
+  "business_id": "74qDPs2dR6gSzDp6N1U-Og",
+  "day_of_week": "Sunday",
+  "open_time": "11:00",
+  "close_time": "22:00"
+ },
+ {
+  "business_id": "74qDPs2dR6gSzDp6N1U-Og",
+  "day_of_week": "Saturday",
+  "open_time": "11:00",
+  "close_time": "22:00"
+ },
+ {
+  "business_id": "3B-eqvDRowzk1jcHmL7xNQ",
+  "day_of_week": "Tuesday",
+  "open_time": "09:00",
+  "close_time": "19:00"
+ },
+ {
+  "business_id": "3B-eqvDRowzk1jcHmL7xNQ",
+  "day_of_week": "Friday",
+  "open_time": "09:00",
+  "close_time": "19:00"
+ },
+ {
+  "business_id": "3B-eqvDRowzk1jcHmL7xNQ",
+  "day_of_week": "Wednesday",
+  "open_time": "09:00",
+  "close_time": "19:00"
+ },
+ {
+  "business_id": "3B-eqvDRowzk1jcHmL7xNQ",
+  "day_of_week": "Thursday",
+  "open_time": "09:00",
+  "close_time": "19:00"
+ },
+ {
+  "business_id": "3B-eqvDRowzk1jcHmL7xNQ",
+  "day_of_week": "Sunday",
+  "open_time": "09:00",
+  "close_time": "18:00"
+ },
+ {
+  "business_id": "3B-eqvDRowzk1jcHmL7xNQ",
+  "day_of_week": "Saturday",
+  "open_time": "09:00",
+  "close_time": "19:00"
+ },
+ {
+  "business_id": "vxgiVbwy15A2zxRgQI8mQw",
+  "day_of_week": "Monday",
+  "open_time": "07:30",
+  "close_time": "18:00"
+ },
+ {
+  "business_id": "vxgiVbwy15A2zxRgQI8mQw",
+  "day_of_week": "Tuesday",
+  "open_time": "07:30",
+  "close_time": "18:00"
+ },
+ {
+  "business_id": "vxgiVbwy15A2zxRgQI8mQw",
+  "day_of_week": "Friday",
+  "open_time": "07:30",
+  "close_time": "18:00"
+ },
+ {
+  "business_id": "vxgiVbwy15A2zxRgQI8mQw",
+  "day_of_week": "Wednesday",
+  "open_time": "07:30",
+  "close_time": "18:00"
+ },
+ {
+  "business_id": "vxgiVbwy15A2zxRgQI8mQw",
+  "day_of_week": "Thursday",
+  "open_time": "07:30",
+  "close_time": "18:00"
+ },
+ {
+  "business_id": "vxgiVbwy15A2zxRgQI8mQw",
+  "day_of_week": "Sunday",
+  "open_time": "09:00",
+  "close_time": "15:00"
+ },
+ {
+  "business_id": "vxgiVbwy15A2zxRgQI8mQw",
+  "day_of_week": "Saturday",
+  "open_time": "08:00",
+  "close_time": "17:00"
+ },
+ {
+  "business_id": "sI-2c9HZ0RjZX1OU-5DW0A",
+  "day_of_week": "Monday",
+  "open_time": "11:30",
+  "close_time": "22:30"
+ },
+ {
+  "business_id": "sI-2c9HZ0RjZX1OU-5DW0A",
+  "day_of_week": "Tuesday",
+  "open_time": "11:30",
+  "close_time": "22:30"
+ },
+ {
+  "business_id": "sI-2c9HZ0RjZX1OU-5DW0A",
+  "day_of_week": "Friday",
+  "open_time": "11:30",
+  "close_time": "23:30"
+ },
+ {
+  "business_id": "sI-2c9HZ0RjZX1OU-5DW0A",
+  "day_of_week": "Wednesday",
+  "open_time": "11:30",
+  "close_time": "22:30"
+ },
+ {
+  "business_id": "sI-2c9HZ0RjZX1OU-5DW0A",
+  "day_of_week": "Thursday",
+  "open_time": "11:30",
+  "close_time": "22:30"
+ },
+ {
+  "business_id": "sI-2c9HZ0RjZX1OU-5DW0A",
+  "day_of_week": "Sunday",
+  "open_time": "11:30",
+  "close_time": "22:00"
+ },
+ {
+  "business_id": "sI-2c9HZ0RjZX1OU-5DW0A",
+  "day_of_week": "Saturday",
+  "open_time": "11:30",
+  "close_time": "23:30"
+ },
+ {
+  "business_id": "hh-jaG2HPFdwul-yRddOOA",
+  "day_of_week": "Monday",
+  "open_time": "11:00",
+  "close_time": "22:00"
+ },
+ {
+  "business_id": "hh-jaG2HPFdwul-yRddOOA",
+  "day_of_week": "Tuesday",
+  "open_time": "11:00",
+  "close_time": "22:00"
+ },
+ {
+  "business_id": "hh-jaG2HPFdwul-yRddOOA",
+  "day_of_week": "Friday",
+  "open_time": "11:00",
+  "close_time": "22:00"
+ },
+ {
+  "business_id": "hh-jaG2HPFdwul-yRddOOA",
+  "day_of_week": "Wednesday",
+  "open_time": "11:00",
+  "close_time": "22:00"
+ },
+ {
+  "business_id": "hh-jaG2HPFdwul-yRddOOA",
+  "day_of_week": "Thursday",
+  "open_time": "11:00",
+  "close_time": "22:00"
+ },
+ {
+  "business_id": "hh-jaG2HPFdwul-yRddOOA",
+  "day_of_week": "Sunday",
+  "open_time": "11:00",
+  "close_time": "22:00"
+ },
+ {
+  "business_id": "hh-jaG2HPFdwul-yRddOOA",
+  "day_of_week": "Saturday",
+  "open_time": "11:00",
+  "close_time": "22:00"
+ },
+ {
+  "business_id": "-_JBgygYYD_UkuD-GVTp6A",
+  "day_of_week": "Monday",
+  "open_time": "10:00",
+  "close_time": "21:00"
+ },
+ {
+  "business_id": "-_JBgygYYD_UkuD-GVTp6A",
+  "day_of_week": "Tuesday",
+  "open_time": "10:00",
+  "close_time": "21:00"
+ },
+ {
+  "business_id": "-_JBgygYYD_UkuD-GVTp6A",
+  "day_of_week": "Friday",
+  "open_time": "10:00",
+  "close_time": "21:00"
+ },
+ {
+  "business_id": "-_JBgygYYD_UkuD-GVTp6A",
+  "day_of_week": "Wednesday",
+  "open_time": "10:00",
+  "close_time": "21:00"
+ },
+ {
+  "business_id": "-_JBgygYYD_UkuD-GVTp6A",
+  "day_of_week": "Thursday",
+  "open_time": "10:00",
+  "close_time": "21:00"
+ },
+ {
+  "business_id": "-_JBgygYYD_UkuD-GVTp6A",
+  "day_of_week": "Sunday",
+  "open_time": "11:00",
+  "close_time": "20:00"
+ },
+ {
+  "business_id": "-_JBgygYYD_UkuD-GVTp6A",
+  "day_of_week": "Saturday",
+  "open_time": "10:00",
+  "close_time": "21:00"
+ },
+ {
+  "business_id": "irsK7RjHAe91JVtGCL2rKw",
+  "day_of_week": "Monday",
+  "open_time": "06:00",
+  "close_time": "21:00"
+ },
+ {
+  "business_id": "irsK7RjHAe91JVtGCL2rKw",
+  "day_of_week": "Tuesday",
+  "open_time": "06:00",
+  "close_time": "21:00"
+ },
+ {
+  "business_id": "irsK7RjHAe91JVtGCL2rKw",
+  "day_of_week": "Friday",
+  "open_time": "06:00",
+  "close_time": "21:00"
+ },
+ {
+  "business_id": "irsK7RjHAe91JVtGCL2rKw",
+  "day_of_week": "Wednesday",
+  "open_time": "06:00",
+  "close_time": "21:00"
+ },
+ {
+  "business_id": "irsK7RjHAe91JVtGCL2rKw",
+  "day_of_week": "Thursday",
+  "open_time": "06:00",
+  "close_time": "21:00"
+ },
+ {
+  "business_id": "irsK7RjHAe91JVtGCL2rKw",
+  "day_of_week": "Sunday",
+  "open_time": "06:00",
+  "close_time": "17:00"
+ },
+ {
+  "business_id": "irsK7RjHAe91JVtGCL2rKw",
+  "day_of_week": "Saturday",
+  "open_time": "06:00",
+  "close_time": "21:00"
+ },
+ {
+  "business_id": "4ieuLil-D58FBU1DVd_xGA",
+  "day_of_week": "Monday",
+  "open_time": "16:30",
+  "close_time": "22:00"
+ },
+ {
+  "business_id": "4ieuLil-D58FBU1DVd_xGA",
+  "day_of_week": "Tuesday",
+  "open_time": "11:00",
+  "close_time": "15:00"
+ },
+ {
+  "business_id": "4ieuLil-D58FBU1DVd_xGA",
+  "day_of_week": "Friday",
+  "open_time": "16:30",
+  "close_time": "22:30"
+ },
+ {
+  "business_id": "4ieuLil-D58FBU1DVd_xGA",
+  "day_of_week": "Wednesday",
+  "open_time": "16:30",
+  "close_time": "22:00"
+ },
+ {
+  "business_id": "4ieuLil-D58FBU1DVd_xGA",
+  "day_of_week": "Thursday",
+  "open_time": "16:30",
+  "close_time": "22:00"
+ },
+ {
+  "business_id": "4ieuLil-D58FBU1DVd_xGA",
+  "day_of_week": "Sunday",
+  "open_time": "11:00",
+  "close_time": "21:30"
+ },
+ {
+  "business_id": "4ieuLil-D58FBU1DVd_xGA",
+  "day_of_week": "Saturday",
+  "open_time": "11:00",
+  "close_time": "22:30"
+ },
+ {
+  "business_id": "XYhjyY2mFI1Sn8NHZMfWfQ",
+  "day_of_week": "Monday",
+  "open_time": "07:00",
+  "close_time": "19:00"
+ },
+ {
+  "business_id": "XYhjyY2mFI1Sn8NHZMfWfQ",
+  "day_of_week": "Tuesday",
+  "open_time": "07:00",
+  "close_time": "19:00"
+ },
+ {
+  "business_id": "XYhjyY2mFI1Sn8NHZMfWfQ",
+  "day_of_week": "Friday",
+  "open_time": "07:00",
+  "close_time": "19:00"
+ },
+ {
+  "business_id": "XYhjyY2mFI1Sn8NHZMfWfQ",
+  "day_of_week": "Wednesday",
+  "open_time": "07:00",
+  "close_time": "19:00"
+ },
+ {
+  "business_id": "XYhjyY2mFI1Sn8NHZMfWfQ",
+  "day_of_week": "Thursday",
+  "open_time": "07:00",
+  "close_time": "19:00"
+ },
+ {
+  "business_id": "XYhjyY2mFI1Sn8NHZMfWfQ",
+  "day_of_week": "Sunday",
+  "open_time": "08:00",
+  "close_time": "17:00"
+ },
+ {
+  "business_id": "XYhjyY2mFI1Sn8NHZMfWfQ",
+  "day_of_week": "Saturday",
+  "open_time": "07:00",
+  "close_time": "18:00"
+ },
+ {
+  "business_id": "SJVPANlM-ZKzL6Za1i9HYQ",
+  "day_of_week": "Monday",
+  "open_time": "10:00",
+  "close_time": "22:00"
+ },
+ {
+  "business_id": "SJVPANlM-ZKzL6Za1i9HYQ",
+  "day_of_week": "Tuesday",
+  "open_time": "10:00",
+  "close_time": "22:00"
+ },
+ {
+  "business_id": "SJVPANlM-ZKzL6Za1i9HYQ",
+  "day_of_week": "Friday",
+  "open_time": "10:00",
+  "close_time": "23:00"
+ },
+ {
+  "business_id": "SJVPANlM-ZKzL6Za1i9HYQ",
+  "day_of_week": "Wednesday",
+  "open_time": "10:00",
+  "close_time": "22:00"
+ },
+ {
+  "business_id": "SJVPANlM-ZKzL6Za1i9HYQ",
+  "day_of_week": "Thursday",
+  "open_time": "10:00",
+  "close_time": "22:00"
+ },
+ {
+  "business_id": "SJVPANlM-ZKzL6Za1i9HYQ",
+  "day_of_week": "Sunday",
+  "open_time": "12:00",
+  "close_time": "22:00"
+ },
+ {
+  "business_id": "2_0GmIzO2GftvpFjcwnIKg",
+  "day_of_week": "Monday",
+  "open_time": "09:00",
+  "close_time": "17:00"
+ },
+ {
+  "business_id": "2_0GmIzO2GftvpFjcwnIKg",
+  "day_of_week": "Tuesday",
+  "open_time": "09:00",
+  "close_time": "17:00"
+ },
+ {
+  "business_id": "2_0GmIzO2GftvpFjcwnIKg",
+  "day_of_week": "Friday",
+  "open_time": "09:00",
+  "close_time": "17:00"
+ },
+ {
+  "business_id": "2_0GmIzO2GftvpFjcwnIKg",
+  "day_of_week": "Wednesday",
+  "open_time": "09:00",
+  "close_time": "17:00"
+ },
+ {
+  "business_id": "2_0GmIzO2GftvpFjcwnIKg",
+  "day_of_week": "Thursday",
+  "open_time": "09:00",
+  "close_time": "17:00"
+ },
+ {
+  "business_id": "2_0GmIzO2GftvpFjcwnIKg",
+  "day_of_week": "Sunday",
+  "open_time": "09:00",
+  "close_time": "17:00"
+ },
+ {
+  "business_id": "2_0GmIzO2GftvpFjcwnIKg",
+  "day_of_week": "Saturday",
+  "open_time": "08:00",
+  "close_time": "12:00"
+ },
+ {
+  "business_id": "2Bd3gy5lmINZ-2QxXVRLdA",
+  "day_of_week": "Monday",
+  "open_time": "06:30",
+  "close_time": "19:00"
+ },
+ {
+  "business_id": "2Bd3gy5lmINZ-2QxXVRLdA",
+  "day_of_week": "Tuesday",
+  "open_time": "06:30",
+  "close_time": "19:00"
+ },
+ {
+  "business_id": "2Bd3gy5lmINZ-2QxXVRLdA",
+  "day_of_week": "Friday",
+  "open_time": "06:30",
+  "close_time": "20:00"
+ },
+ {
+  "business_id": "2Bd3gy5lmINZ-2QxXVRLdA",
+  "day_of_week": "Wednesday",
+  "open_time": "06:30",
+  "close_time": "19:00"
+ },
+ {
+  "business_id": "2Bd3gy5lmINZ-2QxXVRLdA",
+  "day_of_week": "Thursday",
+  "open_time": "06:30",
+  "close_time": "19:00"
+ },
+ {
+  "business_id": "2Bd3gy5lmINZ-2QxXVRLdA",
+  "day_of_week": "Sunday",
+  "open_time": "08:00",
+  "close_time": "15:00"
+ },
+ {
+  "business_id": "2Bd3gy5lmINZ-2QxXVRLdA",
+  "day_of_week": "Saturday",
+  "open_time": "07:30",
+  "close_time": "20:00"
+ },
+ {
+  "business_id": "mXr-1rBHjaGGnqX4MgLctA",
+  "day_of_week": "Monday",
+  "open_time": "16:00",
+  "close_time": "00:00"
+ },
+ {
+  "business_id": "mXr-1rBHjaGGnqX4MgLctA",
+  "day_of_week": "Tuesday",
+  "open_time": "16:00",
+  "close_time": "00:00"
+ },
+ {
+  "business_id": "mXr-1rBHjaGGnqX4MgLctA",
+  "day_of_week": "Friday",
+  "open_time": "16:00",
+  "close_time": "02:00"
+ },
+ {
+  "business_id": "mXr-1rBHjaGGnqX4MgLctA",
+  "day_of_week": "Wednesday",
+  "open_time": "16:00",
+  "close_time": "00:00"
+ },
+ {
+  "business_id": "mXr-1rBHjaGGnqX4MgLctA",
+  "day_of_week": "Thursday",
+  "open_time": "16:00",
+  "close_time": "00:00"
+ },
+ {
+  "business_id": "mXr-1rBHjaGGnqX4MgLctA",
+  "day_of_week": "Sunday",
+  "open_time": "16:00",
+  "close_time": "00:00"
+ },
+ {
+  "business_id": "mXr-1rBHjaGGnqX4MgLctA",
+  "day_of_week": "Saturday",
+  "open_time": "16:00",
+  "close_time": "02:00"
+ },
+ {
+  "business_id": "8p7Y0dssso7pW_ZxnFtRxQ",
+  "day_of_week": "Monday",
+  "open_time": "10:30",
+  "close_time": "22:00"
+ },
+ {
+  "business_id": "8p7Y0dssso7pW_ZxnFtRxQ",
+  "day_of_week": "Tuesday",
+  "open_time": "10:30",
+  "close_time": "22:00"
+ },
+ {
+  "business_id": "8p7Y0dssso7pW_ZxnFtRxQ",
+  "day_of_week": "Friday",
+  "open_time": "10:30",
+  "close_time": "23:00"
+ },
+ {
+  "business_id": "8p7Y0dssso7pW_ZxnFtRxQ",
+  "day_of_week": "Wednesday",
+  "open_time": "10:30",
+  "close_time": "22:00"
+ },
+ {
+  "business_id": "8p7Y0dssso7pW_ZxnFtRxQ",
+  "day_of_week": "Thursday",
+  "open_time": "10:30",
+  "close_time": "22:00"
+ },
+ {
+  "business_id": "8p7Y0dssso7pW_ZxnFtRxQ",
+  "day_of_week": "Sunday",
+  "open_time": "10:30",
+  "close_time": "22:00"
+ },
+ {
+  "business_id": "8p7Y0dssso7pW_ZxnFtRxQ",
+  "day_of_week": "Saturday",
+  "open_time": "10:30",
+  "close_time": "23:00"
+ },
+ {
+  "business_id": "8bqjvBfe1cAlXv98uYxLVg",
+  "day_of_week": "Monday",
+  "open_time": "10:00",
+  "close_time": "22:00"
+ },
+ {
+  "business_id": "8bqjvBfe1cAlXv98uYxLVg",
+  "day_of_week": "Tuesday",
+  "open_time": "10:00",
+  "close_time": "22:00"
+ },
+ {
+  "business_id": "8bqjvBfe1cAlXv98uYxLVg",
+  "day_of_week": "Friday",
+  "open_time": "10:00",
+  "close_time": "00:00"
+ },
+ {
+  "business_id": "8bqjvBfe1cAlXv98uYxLVg",
+  "day_of_week": "Wednesday",
+  "open_time": "10:00",
+  "close_time": "22:00"
+ },
+ {
+  "business_id": "8bqjvBfe1cAlXv98uYxLVg",
+  "day_of_week": "Thursday",
+  "open_time": "10:00",
+  "close_time": "22:00"
+ },
+ {
+  "business_id": "8bqjvBfe1cAlXv98uYxLVg",
+  "day_of_week": "Sunday",
+  "open_time": "12:00",
+  "close_time": "18:00"
+ },
+ {
+  "business_id": "8bqjvBfe1cAlXv98uYxLVg",
+  "day_of_week": "Saturday",
+  "open_time": "10:00",
+  "close_time": "00:00"
+ },
+ {
+  "business_id": "V__GDaQ24wmPegUYBeAj7A",
+  "day_of_week": "Monday",
+  "open_time": "11:00",
+  "close_time": "22:00"
+ },
+ {
+  "business_id": "V__GDaQ24wmPegUYBeAj7A",
+  "day_of_week": "Tuesday",
+  "open_time": "11:00",
+  "close_time": "22:00"
+ },
+ {
+  "business_id": "V__GDaQ24wmPegUYBeAj7A",
+  "day_of_week": "Friday",
+  "open_time": "11:00",
+  "close_time": "23:00"
+ },
+ {
+  "business_id": "V__GDaQ24wmPegUYBeAj7A",
+  "day_of_week": "Wednesday",
+  "open_time": "11:00",
+  "close_time": "22:00"
+ },
+ {
+  "business_id": "V__GDaQ24wmPegUYBeAj7A",
+  "day_of_week": "Thursday",
+  "open_time": "11:00",
+  "close_time": "22:00"
+ },
+ {
+  "business_id": "V__GDaQ24wmPegUYBeAj7A",
+  "day_of_week": "Sunday",
+  "open_time": "11:00",
+  "close_time": "22:00"
+ },
+ {
+  "business_id": "V__GDaQ24wmPegUYBeAj7A",
+  "day_of_week": "Saturday",
+  "open_time": "11:00",
+  "close_time": "23:00"
+ },
+ {
+  "business_id": "7oRb1tESUHyo_0x2Q_Hbeg",
+  "day_of_week": "Monday",
+  "open_time": "09:00",
+  "close_time": "18:00"
+ },
+ {
+  "business_id": "7oRb1tESUHyo_0x2Q_Hbeg",
+  "day_of_week": "Tuesday",
+  "open_time": "09:00",
+  "close_time": "18:00"
+ },
+ {
+  "business_id": "7oRb1tESUHyo_0x2Q_Hbeg",
+  "day_of_week": "Friday",
+  "open_time": "09:00",
+  "close_time": "18:00"
+ },
+ {
+  "business_id": "7oRb1tESUHyo_0x2Q_Hbeg",
+  "day_of_week": "Wednesday",
+  "open_time": "09:00",
+  "close_time": "18:00"
+ },
+ {
+  "business_id": "7oRb1tESUHyo_0x2Q_Hbeg",
+  "day_of_week": "Thursday",
+  "open_time": "09:00",
+  "close_time": "18:00"
+ },
+ {
+  "business_id": "7oRb1tESUHyo_0x2Q_Hbeg",
+  "day_of_week": "Saturday",
+  "open_time": "10:00",
+  "close_time": "18:00"
+ },
+ {
+  "business_id": "ewqEvlKJQkHZZ7eFlKzw3g",
+  "day_of_week": "Monday",
+  "open_time": "10:00",
+  "close_time": "22:00"
+ },
+ {
+  "business_id": "ewqEvlKJQkHZZ7eFlKzw3g",
+  "day_of_week": "Tuesday",
+  "open_time": "10:00",
+  "close_time": "22:00"
+ },
+ {
+  "business_id": "ewqEvlKJQkHZZ7eFlKzw3g",
+  "day_of_week": "Friday",
+  "open_time": "10:00",
+  "close_time": "23:00"
+ },
+ {
+  "business_id": "ewqEvlKJQkHZZ7eFlKzw3g",
+  "day_of_week": "Wednesday",
+  "open_time": "10:00",
+  "close_time": "22:00"
+ },
+ {
+  "business_id": "ewqEvlKJQkHZZ7eFlKzw3g",
+  "day_of_week": "Thursday",
+  "open_time": "10:00",
+  "close_time": "22:00"
+ },
+ {
+  "business_id": "ewqEvlKJQkHZZ7eFlKzw3g",
+  "day_of_week": "Sunday",
+  "open_time": "10:00",
+  "close_time": "22:00"
+ },
+ {
+  "business_id": "ewqEvlKJQkHZZ7eFlKzw3g",
+  "day_of_week": "Saturday",
+  "open_time": "10:00",
+  "close_time": "23:00"
+ },
+ {
+  "business_id": "3CMoTN6UxlBSopTDPWajOQ",
+  "day_of_week": "Monday",
+  "open_time": "10:00",
+  "close_time": "18:00"
+ },
+ {
+  "business_id": "3CMoTN6UxlBSopTDPWajOQ",
+  "day_of_week": "Tuesday",
+  "open_time": "10:00",
+  "close_time": "18:00"
+ },
+ {
+  "business_id": "3CMoTN6UxlBSopTDPWajOQ",
+  "day_of_week": "Friday",
+  "open_time": "10:00",
+  "close_time": "18:00"
+ },
+ {
+  "business_id": "3CMoTN6UxlBSopTDPWajOQ",
+  "day_of_week": "Wednesday",
+  "open_time": "10:00",
+  "close_time": "18:00"
+ },
+ {
+  "business_id": "3CMoTN6UxlBSopTDPWajOQ",
+  "day_of_week": "Thursday",
+  "open_time": "10:00",
+  "close_time": "18:00"
+ },
+ {
+  "business_id": "3CMoTN6UxlBSopTDPWajOQ",
+  "day_of_week": "Saturday",
+  "open_time": "10:00",
+  "close_time": "17:00"
+ },
+ {
+  "business_id": "3GpihkrWZOmu1a5k1EfA6g",
+  "day_of_week": "Monday",
+  "open_time": "11:00",
+  "close_time": "21:00"
+ },
+ {
+  "business_id": "3GpihkrWZOmu1a5k1EfA6g",
+  "day_of_week": "Tuesday",
+  "open_time": "11:00",
+  "close_time": "21:00"
+ },
+ {
+  "business_id": "3GpihkrWZOmu1a5k1EfA6g",
+  "day_of_week": "Friday",
+  "open_time": "11:00",
+  "close_time": "22:00"
+ },
+ {
+  "business_id": "3GpihkrWZOmu1a5k1EfA6g",
+  "day_of_week": "Wednesday",
+  "open_time": "11:00",
+  "close_time": "21:00"
+ },
+ {
+  "business_id": "3GpihkrWZOmu1a5k1EfA6g",
+  "day_of_week": "Thursday",
+  "open_time": "11:00",
+  "close_time": "21:00"
+ },
+ {
+  "business_id": "3GpihkrWZOmu1a5k1EfA6g",
+  "day_of_week": "Saturday",
+  "open_time": "11:00",
+  "close_time": "22:00"
+ },
+ {
+  "business_id": "JDkgL5ZT67ONTBwiCM9moQ",
+  "day_of_week": "Monday",
+  "open_time": "09:00",
+  "close_time": "17:00"
+ },
+ {
+  "business_id": "JDkgL5ZT67ONTBwiCM9moQ",
+  "day_of_week": "Tuesday",
+  "open_time": "09:00",
+  "close_time": "17:00"
+ },
+ {
+  "business_id": "JDkgL5ZT67ONTBwiCM9moQ",
+  "day_of_week": "Friday",
+  "open_time": "09:00",
+  "close_time": "17:00"
+ },
+ {
+  "business_id": "JDkgL5ZT67ONTBwiCM9moQ",
+  "day_of_week": "Wednesday",
+  "open_time": "09:00",
+  "close_time": "17:00"
+ },
+ {
+  "business_id": "JDkgL5ZT67ONTBwiCM9moQ",
+  "day_of_week": "Thursday",
+  "open_time": "09:00",
+  "close_time": "17:00"
+ },
+ {
+  "business_id": "JDkgL5ZT67ONTBwiCM9moQ",
+  "day_of_week": "Saturday",
+  "open_time": "09:00",
+  "close_time": "12:00"
+ },
+ {
+  "business_id": "RroUdGop9iKwVOISl0KIeg",
+  "day_of_week": "Monday",
+  "open_time": "09:00",
+  "close_time": "19:00"
+ },
+ {
+  "business_id": "RroUdGop9iKwVOISl0KIeg",
+  "day_of_week": "Tuesday",
+  "open_time": "09:00",
+  "close_time": "19:00"
+ },
+ {
+  "business_id": "RroUdGop9iKwVOISl0KIeg",
+  "day_of_week": "Friday",
+  "open_time": "09:00",
+  "close_time": "19:00"
+ },
+ {
+  "business_id": "RroUdGop9iKwVOISl0KIeg",
+  "day_of_week": "Wednesday",
+  "open_time": "09:00",
+  "close_time": "19:00"
+ },
+ {
+  "business_id": "RroUdGop9iKwVOISl0KIeg",
+  "day_of_week": "Thursday",
+  "open_time": "09:00",
+  "close_time": "19:00"
+ },
+ {
+  "business_id": "RroUdGop9iKwVOISl0KIeg",
+  "day_of_week": "Sunday",
+  "open_time": "11:00",
+  "close_time": "17:00"
+ },
+ {
+  "business_id": "RroUdGop9iKwVOISl0KIeg",
+  "day_of_week": "Saturday",
+  "open_time": "09:00",
+  "close_time": "19:00"
+ },
+ {
+  "business_id": "L70XE-I7lfi9tJBlpqkoRw",
+  "day_of_week": "Monday",
+  "open_time": "06:00",
+  "close_time": "21:00"
+ },
+ {
+  "business_id": "L70XE-I7lfi9tJBlpqkoRw",
+  "day_of_week": "Tuesday",
+  "open_time": "06:00",
+  "close_time": "21:00"
+ },
+ {
+  "business_id": "L70XE-I7lfi9tJBlpqkoRw",
+  "day_of_week": "Friday",
+  "open_time": "06:00",
+  "close_time": "21:00"
+ },
+ {
+  "business_id": "L70XE-I7lfi9tJBlpqkoRw",
+  "day_of_week": "Wednesday",
+  "open_time": "06:00",
+  "close_time": "21:00"
+ },
+ {
+  "business_id": "L70XE-I7lfi9tJBlpqkoRw",
+  "day_of_week": "Thursday",
+  "open_time": "06:00",
+  "close_time": "21:00"
+ },
+ {
+  "business_id": "L70XE-I7lfi9tJBlpqkoRw",
+  "day_of_week": "Sunday",
+  "open_time": "08:00",
+  "close_time": "21:00"
+ },
+ {
+  "business_id": "L70XE-I7lfi9tJBlpqkoRw",
+  "day_of_week": "Saturday",
+  "open_time": "08:00",
+  "close_time": "21:00"
+ },
+ {
+  "business_id": "fDemJJAfFyqSZ6nirTVV0A",
+  "day_of_week": "Monday",
+  "open_time": "09:00",
+  "close_time": "18:00"
+ },
+ {
+  "business_id": "fDemJJAfFyqSZ6nirTVV0A",
+  "day_of_week": "Tuesday",
+  "open_time": "09:00",
+  "close_time": "18:00"
+ },
+ {
+  "business_id": "fDemJJAfFyqSZ6nirTVV0A",
+  "day_of_week": "Friday",
+  "open_time": "09:00",
+  "close_time": "18:00"
+ },
+ {
+  "business_id": "fDemJJAfFyqSZ6nirTVV0A",
+  "day_of_week": "Wednesday",
+  "open_time": "09:00",
+  "close_time": "18:00"
+ },
+ {
+  "business_id": "fDemJJAfFyqSZ6nirTVV0A",
+  "day_of_week": "Thursday",
+  "open_time": "09:00",
+  "close_time": "18:00"
+ },
+ {
+  "business_id": "fDemJJAfFyqSZ6nirTVV0A",
+  "day_of_week": "Saturday",
+  "open_time": "10:00",
+  "close_time": "15:00"
+ },
+ {
+  "business_id": "uoLKwJeH1rWeqUC0D1La2g",
+  "day_of_week": "Monday",
+  "open_time": "11:00",
+  "close_time": "00:00"
+ },
+ {
+  "business_id": "uoLKwJeH1rWeqUC0D1La2g",
+  "day_of_week": "Tuesday",
+  "open_time": "11:00",
+  "close_time": "00:00"
+ },
+ {
+  "business_id": "uoLKwJeH1rWeqUC0D1La2g",
+  "day_of_week": "Friday",
+  "open_time": "11:00",
+  "close_time": "02:00"
+ },
+ {
+  "business_id": "uoLKwJeH1rWeqUC0D1La2g",
+  "day_of_week": "Wednesday",
+  "open_time": "11:00",
+  "close_time": "00:00"
+ },
+ {
+  "business_id": "uoLKwJeH1rWeqUC0D1La2g",
+  "day_of_week": "Thursday",
+  "open_time": "11:00",
+  "close_time": "00:00"
+ },
+ {
+  "business_id": "uoLKwJeH1rWeqUC0D1La2g",
+  "day_of_week": "Sunday",
+  "open_time": "09:00",
+  "close_time": "00:00"
+ },
+ {
+  "business_id": "uoLKwJeH1rWeqUC0D1La2g",
+  "day_of_week": "Saturday",
+  "open_time": "11:00",
+  "close_time": "02:00"
+ },
+ {
+  "business_id": "cBwc3dhdHw0emmg9nd5SXw",
+  "day_of_week": "Monday",
+  "open_time": "11:00",
+  "close_time": "21:00"
+ },
+ {
+  "business_id": "cBwc3dhdHw0emmg9nd5SXw",
+  "day_of_week": "Tuesday",
+  "open_time": "11:00",
+  "close_time": "21:00"
+ },
+ {
+  "business_id": "cBwc3dhdHw0emmg9nd5SXw",
+  "day_of_week": "Friday",
+  "open_time": "11:00",
+  "close_time": "21:30"
+ },
+ {
+  "business_id": "cBwc3dhdHw0emmg9nd5SXw",
+  "day_of_week": "Wednesday",
+  "open_time": "11:00",
+  "close_time": "21:00"
+ },
+ {
+  "business_id": "cBwc3dhdHw0emmg9nd5SXw",
+  "day_of_week": "Thursday",
+  "open_time": "11:00",
+  "close_time": "21:00"
+ },
+ {
+  "business_id": "cBwc3dhdHw0emmg9nd5SXw",
+  "day_of_week": "Sunday",
+  "open_time": "11:00",
+  "close_time": "21:00"
+ },
+ {
+  "business_id": "cBwc3dhdHw0emmg9nd5SXw",
+  "day_of_week": "Saturday",
+  "open_time": "11:00",
+  "close_time": "21:30"
+ },
+ {
+  "business_id": "SXKSfLeqNDBLEJAAxjLdbA",
+  "day_of_week": "Monday",
+  "open_time": "11:00",
+  "close_time": "21:00"
+ },
+ {
+  "business_id": "SXKSfLeqNDBLEJAAxjLdbA",
+  "day_of_week": "Tuesday",
+  "open_time": "11:00",
+  "close_time": "21:00"
+ },
+ {
+  "business_id": "SXKSfLeqNDBLEJAAxjLdbA",
+  "day_of_week": "Friday",
+  "open_time": "11:00",
+  "close_time": "21:00"
+ },
+ {
+  "business_id": "SXKSfLeqNDBLEJAAxjLdbA",
+  "day_of_week": "Wednesday",
+  "open_time": "11:00",
+  "close_time": "21:00"
+ },
+ {
+  "business_id": "SXKSfLeqNDBLEJAAxjLdbA",
+  "day_of_week": "Thursday",
+  "open_time": "11:00",
+  "close_time": "21:00"
+ },
+ {
+  "business_id": "SXKSfLeqNDBLEJAAxjLdbA",
+  "day_of_week": "Sunday",
+  "open_time": "12:00",
+  "close_time": "20:00"
+ },
+ {
+  "business_id": "SXKSfLeqNDBLEJAAxjLdbA",
+  "day_of_week": "Saturday",
+  "open_time": "11:00",
+  "close_time": "21:00"
+ },
+ {
+  "business_id": "uFg43OzCr_65AJJ3dqfpfA",
+  "day_of_week": "Monday",
+  "open_time": "10:00",
+  "close_time": "19:00"
+ },
+ {
+  "business_id": "uFg43OzCr_65AJJ3dqfpfA",
+  "day_of_week": "Tuesday",
+  "open_time": "10:00",
+  "close_time": "19:00"
+ },
+ {
+  "business_id": "uFg43OzCr_65AJJ3dqfpfA",
+  "day_of_week": "Friday",
+  "open_time": "10:00",
+  "close_time": "19:00"
+ },
+ {
+  "business_id": "uFg43OzCr_65AJJ3dqfpfA",
+  "day_of_week": "Wednesday",
+  "open_time": "10:00",
+  "close_time": "19:00"
+ },
+ {
+  "business_id": "uFg43OzCr_65AJJ3dqfpfA",
+  "day_of_week": "Thursday",
+  "open_time": "10:00",
+  "close_time": "17:30"
+ },
+ {
+  "business_id": "uFg43OzCr_65AJJ3dqfpfA",
+  "day_of_week": "Sunday",
+  "open_time": "12:00",
+  "close_time": "16:00"
+ },
+ {
+  "business_id": "uFg43OzCr_65AJJ3dqfpfA",
+  "day_of_week": "Saturday",
+  "open_time": "10:00",
+  "close_time": "17:00"
+ },
+ {
+  "business_id": "Q0NUbJ_adu8g-pz79UgAFw",
+  "day_of_week": "Monday",
+  "open_time": "09:00",
+  "close_time": "21:00"
+ },
+ {
+  "business_id": "Q0NUbJ_adu8g-pz79UgAFw",
+  "day_of_week": "Tuesday",
+  "open_time": "09:00",
+  "close_time": "21:00"
+ },
+ {
+  "business_id": "Q0NUbJ_adu8g-pz79UgAFw",
+  "day_of_week": "Friday",
+  "open_time": "09:00",
+  "close_time": "21:00"
+ },
+ {
+  "business_id": "Q0NUbJ_adu8g-pz79UgAFw",
+  "day_of_week": "Wednesday",
+  "open_time": "09:00",
+  "close_time": "21:00"
+ },
+ {
+  "business_id": "Q0NUbJ_adu8g-pz79UgAFw",
+  "day_of_week": "Thursday",
+  "open_time": "09:00",
+  "close_time": "21:00"
+ },
+ {
+  "business_id": "Q0NUbJ_adu8g-pz79UgAFw",
+  "day_of_week": "Sunday",
+  "open_time": "10:00",
+  "close_time": "18:00"
+ },
+ {
+  "business_id": "Q0NUbJ_adu8g-pz79UgAFw",
+  "day_of_week": "Saturday",
+  "open_time": "09:00",
+  "close_time": "21:00"
+ },
+ {
+  "business_id": "idpRaOujsEvnI-LzDSKa6g",
+  "day_of_week": "Monday",
+  "open_time": "09:00",
+  "close_time": "21:00"
+ },
+ {
+  "business_id": "idpRaOujsEvnI-LzDSKa6g",
+  "day_of_week": "Tuesday",
+  "open_time": "09:00",
+  "close_time": "21:00"
+ },
+ {
+  "business_id": "idpRaOujsEvnI-LzDSKa6g",
+  "day_of_week": "Friday",
+  "open_time": "09:00",
+  "close_time": "21:00"
+ },
+ {
+  "business_id": "idpRaOujsEvnI-LzDSKa6g",
+  "day_of_week": "Wednesday",
+  "open_time": "09:00",
+  "close_time": "21:00"
+ },
+ {
+  "business_id": "idpRaOujsEvnI-LzDSKa6g",
+  "day_of_week": "Thursday",
+  "open_time": "09:00",
+  "close_time": "21:00"
+ },
+ {
+  "business_id": "idpRaOujsEvnI-LzDSKa6g",
+  "day_of_week": "Sunday",
+  "open_time": "09:00",
+  "close_time": "21:00"
+ },
+ {
+  "business_id": "idpRaOujsEvnI-LzDSKa6g",
+  "day_of_week": "Saturday",
+  "open_time": "09:00",
+  "close_time": "21:00"
+ },
+ {
+  "business_id": "qxKHGcTbRsGvodcF2kqOWQ",
+  "day_of_week": "Monday",
+  "open_time": "06:00",
+  "close_time": "17:00"
+ },
+ {
+  "business_id": "qxKHGcTbRsGvodcF2kqOWQ",
+  "day_of_week": "Tuesday",
+  "open_time": "06:00",
+  "close_time": "17:00"
+ },
+ {
+  "business_id": "qxKHGcTbRsGvodcF2kqOWQ",
+  "day_of_week": "Friday",
+  "open_time": "06:00",
+  "close_time": "17:00"
+ },
+ {
+  "business_id": "qxKHGcTbRsGvodcF2kqOWQ",
+  "day_of_week": "Wednesday",
+  "open_time": "06:00",
+  "close_time": "17:00"
+ },
+ {
+  "business_id": "qxKHGcTbRsGvodcF2kqOWQ",
+  "day_of_week": "Thursday",
+  "open_time": "06:00",
+  "close_time": "17:00"
+ },
+ {
+  "business_id": "qxKHGcTbRsGvodcF2kqOWQ",
+  "day_of_week": "Saturday",
+  "open_time": "06:00",
+  "close_time": "17:00"
+ },
+ {
+  "business_id": "e9I1Z1RofzajO6-s9tKqKw",
+  "day_of_week": "Monday",
+  "open_time": "11:00",
+  "close_time": "03:00"
+ },
+ {
+  "business_id": "e9I1Z1RofzajO6-s9tKqKw",
+  "day_of_week": "Tuesday",
+  "open_time": "11:00",
+  "close_time": "03:00"
+ },
+ {
+  "business_id": "e9I1Z1RofzajO6-s9tKqKw",
+  "day_of_week": "Friday",
+  "open_time": "11:00",
+  "close_time": "04:00"
+ },
+ {
+  "business_id": "e9I1Z1RofzajO6-s9tKqKw",
+  "day_of_week": "Wednesday",
+  "open_time": "11:00",
+  "close_time": "03:00"
+ },
+ {
+  "business_id": "e9I1Z1RofzajO6-s9tKqKw",
+  "day_of_week": "Thursday",
+  "open_time": "11:00",
+  "close_time": "04:00"
+ },
+ {
+  "business_id": "e9I1Z1RofzajO6-s9tKqKw",
+  "day_of_week": "Sunday",
+  "open_time": "10:00",
+  "close_time": "02:00"
+ },
+ {
+  "business_id": "e9I1Z1RofzajO6-s9tKqKw",
+  "day_of_week": "Saturday",
+  "open_time": "11:00",
+  "close_time": "04:00"
+ },
+ {
+  "business_id": "1EPf4WwkjSVMN0VvtfgZhw",
+  "day_of_week": "Monday",
+  "open_time": "10:00",
+  "close_time": "21:00"
+ },
+ {
+  "business_id": "1EPf4WwkjSVMN0VvtfgZhw",
+  "day_of_week": "Tuesday",
+  "open_time": "10:00",
+  "close_time": "21:00"
+ },
+ {
+  "business_id": "1EPf4WwkjSVMN0VvtfgZhw",
+  "day_of_week": "Friday",
+  "open_time": "10:00",
+  "close_time": "21:00"
+ },
+ {
+  "business_id": "1EPf4WwkjSVMN0VvtfgZhw",
+  "day_of_week": "Wednesday",
+  "open_time": "10:00",
+  "close_time": "21:00"
+ },
+ {
+  "business_id": "1EPf4WwkjSVMN0VvtfgZhw",
+  "day_of_week": "Thursday",
+  "open_time": "10:00",
+  "close_time": "21:00"
+ },
+ {
+  "business_id": "1EPf4WwkjSVMN0VvtfgZhw",
+  "day_of_week": "Sunday",
+  "open_time": "11:00",
+  "close_time": "18:00"
+ },
+ {
+  "business_id": "1EPf4WwkjSVMN0VvtfgZhw",
+  "day_of_week": "Saturday",
+  "open_time": "10:00",
+  "close_time": "20:00"
+ },
+ {
+  "business_id": "w2Zu5VzYNQCJYluSfQU_8w",
+  "day_of_week": "Monday",
+  "open_time": "10:00",
+  "close_time": "19:00"
+ },
+ {
+  "business_id": "w2Zu5VzYNQCJYluSfQU_8w",
+  "day_of_week": "Tuesday",
+  "open_time": "10:00",
+  "close_time": "19:00"
+ },
+ {
+  "business_id": "w2Zu5VzYNQCJYluSfQU_8w",
+  "day_of_week": "Friday",
+  "open_time": "10:00",
+  "close_time": "19:00"
+ },
+ {
+  "business_id": "w2Zu5VzYNQCJYluSfQU_8w",
+  "day_of_week": "Wednesday",
+  "open_time": "10:00",
+  "close_time": "19:00"
+ },
+ {
+  "business_id": "w2Zu5VzYNQCJYluSfQU_8w",
+  "day_of_week": "Thursday",
+  "open_time": "10:00",
+  "close_time": "19:00"
+ },
+ {
+  "business_id": "w2Zu5VzYNQCJYluSfQU_8w",
+  "day_of_week": "Sunday",
+  "open_time": "11:00",
+  "close_time": "17:00"
+ },
+ {
+  "business_id": "w2Zu5VzYNQCJYluSfQU_8w",
+  "day_of_week": "Saturday",
+  "open_time": "10:00",
+  "close_time": "18:00"
+ },
+ {
+  "business_id": "DWxZhDdqGjJbLVJBMGsWZQ",
+  "day_of_week": "Monday",
+  "open_time": "05:00",
+  "close_time": "19:00"
+ },
+ {
+  "business_id": "DWxZhDdqGjJbLVJBMGsWZQ",
+  "day_of_week": "Tuesday",
+  "open_time": "05:00",
+  "close_time": "19:00"
+ },
+ {
+  "business_id": "DWxZhDdqGjJbLVJBMGsWZQ",
+  "day_of_week": "Friday",
+  "open_time": "05:00",
+  "close_time": "19:00"
+ },
+ {
+  "business_id": "DWxZhDdqGjJbLVJBMGsWZQ",
+  "day_of_week": "Wednesday",
+  "open_time": "05:00",
+  "close_time": "19:00"
+ },
+ {
+  "business_id": "DWxZhDdqGjJbLVJBMGsWZQ",
+  "day_of_week": "Thursday",
+  "open_time": "05:00",
+  "close_time": "19:00"
+ },
+ {
+  "business_id": "DWxZhDdqGjJbLVJBMGsWZQ",
+  "day_of_week": "Sunday",
+  "open_time": "06:00",
+  "close_time": "17:00"
+ },
+ {
+  "business_id": "DWxZhDdqGjJbLVJBMGsWZQ",
+  "day_of_week": "Saturday",
+  "open_time": "05:00",
+  "close_time": "19:00"
+ },
+ {
+  "business_id": "EKZPf0b2jlQ7kpnzf9XDuw",
+  "day_of_week": "Monday",
+  "open_time": "14:00",
+  "close_time": "21:00"
+ },
+ {
+  "business_id": "EKZPf0b2jlQ7kpnzf9XDuw",
+  "day_of_week": "Tuesday",
+  "open_time": "11:00",
+  "close_time": "21:00"
+ },
+ {
+  "business_id": "EKZPf0b2jlQ7kpnzf9XDuw",
+  "day_of_week": "Friday",
+  "open_time": "11:00",
+  "close_time": "21:00"
+ },
+ {
+  "business_id": "EKZPf0b2jlQ7kpnzf9XDuw",
+  "day_of_week": "Wednesday",
+  "open_time": "11:00",
+  "close_time": "21:00"
+ },
+ {
+  "business_id": "EKZPf0b2jlQ7kpnzf9XDuw",
+  "day_of_week": "Thursday",
+  "open_time": "11:00",
+  "close_time": "21:00"
+ },
+ {
+  "business_id": "EKZPf0b2jlQ7kpnzf9XDuw",
+  "day_of_week": "Sunday",
+  "open_time": "14:00",
+  "close_time": "21:00"
+ },
+ {
+  "business_id": "EKZPf0b2jlQ7kpnzf9XDuw",
+  "day_of_week": "Saturday",
+  "open_time": "11:00",
+  "close_time": "21:00"
+ },
+ {
+  "business_id": "f8luua75t2Is5iP6nxcXQQ",
+  "day_of_week": "Monday",
+  "open_time": "11:00",
+  "close_time": "23:00"
+ },
+ {
+  "business_id": "f8luua75t2Is5iP6nxcXQQ",
+  "day_of_week": "Tuesday",
+  "open_time": "11:00",
+  "close_time": "23:00"
+ },
+ {
+  "business_id": "f8luua75t2Is5iP6nxcXQQ",
+  "day_of_week": "Friday",
+  "open_time": "11:00",
+  "close_time": "23:00"
+ },
+ {
+  "business_id": "f8luua75t2Is5iP6nxcXQQ",
+  "day_of_week": "Wednesday",
+  "open_time": "11:00",
+  "close_time": "23:00"
+ },
+ {
+  "business_id": "f8luua75t2Is5iP6nxcXQQ",
+  "day_of_week": "Thursday",
+  "open_time": "11:00",
+  "close_time": "23:00"
+ },
+ {
+  "business_id": "f8luua75t2Is5iP6nxcXQQ",
+  "day_of_week": "Sunday",
+  "open_time": "11:00",
+  "close_time": "23:00"
+ },
+ {
+  "business_id": "f8luua75t2Is5iP6nxcXQQ",
+  "day_of_week": "Saturday",
+  "open_time": "11:00",
+  "close_time": "23:00"
+ },
+ {
+  "business_id": "md2QmDET0QJyk5VsyWvoFA",
+  "day_of_week": "Monday",
+  "open_time": "08:00",
+  "close_time": "20:00"
+ },
+ {
+  "business_id": "md2QmDET0QJyk5VsyWvoFA",
+  "day_of_week": "Tuesday",
+  "open_time": "08:00",
+  "close_time": "20:00"
+ },
+ {
+  "business_id": "md2QmDET0QJyk5VsyWvoFA",
+  "day_of_week": "Friday",
+  "open_time": "08:00",
+  "close_time": "20:00"
+ },
+ {
+  "business_id": "md2QmDET0QJyk5VsyWvoFA",
+  "day_of_week": "Wednesday",
+  "open_time": "08:00",
+  "close_time": "20:00"
+ },
+ {
+  "business_id": "md2QmDET0QJyk5VsyWvoFA",
+  "day_of_week": "Thursday",
+  "open_time": "08:00",
+  "close_time": "20:00"
+ },
+ {
+  "business_id": "md2QmDET0QJyk5VsyWvoFA",
+  "day_of_week": "Sunday",
+  "open_time": "08:00",
+  "close_time": "18:00"
+ },
+ {
+  "business_id": "md2QmDET0QJyk5VsyWvoFA",
+  "day_of_week": "Saturday",
+  "open_time": "08:00",
+  "close_time": "18:00"
+ },
+ {
+  "business_id": "SRkFgiyXb7NlCox9WxltvQ",
+  "day_of_week": "Monday",
+  "open_time": "10:30",
+  "close_time": "21:00"
+ },
+ {
+  "business_id": "SRkFgiyXb7NlCox9WxltvQ",
+  "day_of_week": "Tuesday",
+  "open_time": "10:30",
+  "close_time": "21:00"
+ },
+ {
+  "business_id": "SRkFgiyXb7NlCox9WxltvQ",
+  "day_of_week": "Friday",
+  "open_time": "10:30",
+  "close_time": "22:30"
+ },
+ {
+  "business_id": "SRkFgiyXb7NlCox9WxltvQ",
+  "day_of_week": "Wednesday",
+  "open_time": "10:30",
+  "close_time": "21:00"
+ },
+ {
+  "business_id": "SRkFgiyXb7NlCox9WxltvQ",
+  "day_of_week": "Thursday",
+  "open_time": "10:30",
+  "close_time": "21:00"
+ },
+ {
+  "business_id": "SRkFgiyXb7NlCox9WxltvQ",
+  "day_of_week": "Sunday",
+  "open_time": "11:00",
+  "close_time": "21:00"
+ },
+ {
+  "business_id": "SRkFgiyXb7NlCox9WxltvQ",
+  "day_of_week": "Saturday",
+  "open_time": "10:30",
+  "close_time": "22:30"
+ },
+ {
+  "business_id": "dPvgpWSrNlc6FZoI6OwZUw",
+  "day_of_week": "Monday",
+  "open_time": "08:00",
+  "close_time": "19:30"
+ },
+ {
+  "business_id": "dPvgpWSrNlc6FZoI6OwZUw",
+  "day_of_week": "Tuesday",
+  "open_time": "08:00",
+  "close_time": "19:30"
+ },
+ {
+  "business_id": "dPvgpWSrNlc6FZoI6OwZUw",
+  "day_of_week": "Friday",
+  "open_time": "08:00",
+  "close_time": "19:30"
+ },
+ {
+  "business_id": "dPvgpWSrNlc6FZoI6OwZUw",
+  "day_of_week": "Wednesday",
+  "open_time": "08:00",
+  "close_time": "19:30"
+ },
+ {
+  "business_id": "dPvgpWSrNlc6FZoI6OwZUw",
+  "day_of_week": "Thursday",
+  "open_time": "08:00",
+  "close_time": "19:30"
+ },
+ {
+  "business_id": "dPvgpWSrNlc6FZoI6OwZUw",
+  "day_of_week": "Sunday",
+  "open_time": "08:00",
+  "close_time": "19:30"
+ },
+ {
+  "business_id": "dPvgpWSrNlc6FZoI6OwZUw",
+  "day_of_week": "Saturday",
+  "open_time": "08:00",
+  "close_time": "19:30"
+ },
+ {
+  "business_id": "mmWk2G5kTpluTBCdCGkfuw",
+  "day_of_week": "Monday",
+  "open_time": "10:00",
+  "close_time": "21:00"
+ },
+ {
+  "business_id": "mmWk2G5kTpluTBCdCGkfuw",
+  "day_of_week": "Tuesday",
+  "open_time": "10:00",
+  "close_time": "21:00"
+ },
+ {
+  "business_id": "mmWk2G5kTpluTBCdCGkfuw",
+  "day_of_week": "Friday",
+  "open_time": "10:00",
+  "close_time": "22:00"
+ },
+ {
+  "business_id": "mmWk2G5kTpluTBCdCGkfuw",
+  "day_of_week": "Wednesday",
+  "open_time": "10:00",
+  "close_time": "21:00"
+ },
+ {
+  "business_id": "mmWk2G5kTpluTBCdCGkfuw",
+  "day_of_week": "Thursday",
+  "open_time": "10:00",
+  "close_time": "21:00"
+ },
+ {
+  "business_id": "mmWk2G5kTpluTBCdCGkfuw",
+  "day_of_week": "Saturday",
+  "open_time": "10:00",
+  "close_time": "22:00"
+ },
+ {
+  "business_id": "j1KKCSn5f-JHboS5umbh2w",
+  "day_of_week": "Monday",
+  "open_time": "09:00",
+  "close_time": "21:00"
+ },
+ {
+  "business_id": "j1KKCSn5f-JHboS5umbh2w",
+  "day_of_week": "Tuesday",
+  "open_time": "09:00",
+  "close_time": "21:00"
+ },
+ {
+  "business_id": "j1KKCSn5f-JHboS5umbh2w",
+  "day_of_week": "Friday",
+  "open_time": "09:00",
+  "close_time": "21:00"
+ },
+ {
+  "business_id": "j1KKCSn5f-JHboS5umbh2w",
+  "day_of_week": "Wednesday",
+  "open_time": "09:00",
+  "close_time": "21:00"
+ },
+ {
+  "business_id": "j1KKCSn5f-JHboS5umbh2w",
+  "day_of_week": "Thursday",
+  "open_time": "09:00",
+  "close_time": "21:00"
+ },
+ {
+  "business_id": "j1KKCSn5f-JHboS5umbh2w",
+  "day_of_week": "Sunday",
+  "open_time": "09:00",
+  "close_time": "19:00"
+ },
+ {
+  "business_id": "j1KKCSn5f-JHboS5umbh2w",
+  "day_of_week": "Saturday",
+  "open_time": "09:00",
+  "close_time": "21:00"
+ },
+ {
+  "business_id": "2mVDVpTYuEYhIT68Xgka4w",
+  "day_of_week": "Tuesday",
+  "open_time": "15:00",
+  "close_time": "17:00"
+ },
+ {
+  "business_id": "2mVDVpTYuEYhIT68Xgka4w",
+  "day_of_week": "Friday",
+  "open_time": "16:30",
+  "close_time": "19:30"
+ },
+ {
+  "business_id": "2mVDVpTYuEYhIT68Xgka4w",
+  "day_of_week": "Monday",
+  "open_time": "16:30",
+  "close_time": "19:30"
+ },
+ {
+  "business_id": "2mVDVpTYuEYhIT68Xgka4w",
+  "day_of_week": "Wednesday",
+  "open_time": "16:30",
+  "close_time": "19:30"
+ },
+ {
+  "business_id": "2mVDVpTYuEYhIT68Xgka4w",
+  "day_of_week": "Thursday",
+  "open_time": "15:00",
+  "close_time": "17:00"
+ },
+ {
+  "business_id": "bc3AXuhpyrn7tnmhj1gIeA",
+  "day_of_week": "Monday",
+  "open_time": "11:00",
+  "close_time": "21:30"
+ },
+ {
+  "business_id": "bc3AXuhpyrn7tnmhj1gIeA",
+  "day_of_week": "Tuesday",
+  "open_time": "11:00",
+  "close_time": "21:30"
+ },
+ {
+  "business_id": "bc3AXuhpyrn7tnmhj1gIeA",
+  "day_of_week": "Friday",
+  "open_time": "11:00",
+  "close_time": "22:30"
+ },
+ {
+  "business_id": "bc3AXuhpyrn7tnmhj1gIeA",
+  "day_of_week": "Wednesday",
+  "open_time": "11:00",
+  "close_time": "21:30"
+ },
+ {
+  "business_id": "bc3AXuhpyrn7tnmhj1gIeA",
+  "day_of_week": "Thursday",
+  "open_time": "11:00",
+  "close_time": "21:30"
+ },
+ {
+  "business_id": "bc3AXuhpyrn7tnmhj1gIeA",
+  "day_of_week": "Sunday",
+  "open_time": "09:00",
+  "close_time": "21:30"
+ },
+ {
+  "business_id": "bc3AXuhpyrn7tnmhj1gIeA",
+  "day_of_week": "Saturday",
+  "open_time": "09:00",
+  "close_time": "22:30"
+ },
+ {
+  "business_id": "cjS2Ug0F7aXvcS0zEFlkBQ",
+  "day_of_week": "Monday",
+  "open_time": "16:00",
+  "close_time": "22:00"
+ },
+ {
+  "business_id": "cjS2Ug0F7aXvcS0zEFlkBQ",
+  "day_of_week": "Tuesday",
+  "open_time": "16:00",
+  "close_time": "22:00"
+ },
+ {
+  "business_id": "cjS2Ug0F7aXvcS0zEFlkBQ",
+  "day_of_week": "Friday",
+  "open_time": "11:30",
+  "close_time": "00:00"
+ },
+ {
+  "business_id": "cjS2Ug0F7aXvcS0zEFlkBQ",
+  "day_of_week": "Wednesday",
+  "open_time": "16:00",
+  "close_time": "22:00"
+ },
+ {
+  "business_id": "cjS2Ug0F7aXvcS0zEFlkBQ",
+  "day_of_week": "Thursday",
+  "open_time": "16:00",
+  "close_time": "22:00"
+ },
+ {
+  "business_id": "cjS2Ug0F7aXvcS0zEFlkBQ",
+  "day_of_week": "Sunday",
+  "open_time": "16:00",
+  "close_time": "22:00"
+ },
+ {
+  "business_id": "cjS2Ug0F7aXvcS0zEFlkBQ",
+  "day_of_week": "Saturday",
+  "open_time": "16:00",
+  "close_time": "00:00"
+ },
+ {
+  "business_id": "-TNwWa_OGPmZoBFl25zdYA",
+  "day_of_week": "Monday",
+  "open_time": "05:30",
+  "close_time": "16:00"
+ },
+ {
+  "business_id": "-TNwWa_OGPmZoBFl25zdYA",
+  "day_of_week": "Tuesday",
+  "open_time": "05:30",
+  "close_time": "16:00"
+ },
+ {
+  "business_id": "-TNwWa_OGPmZoBFl25zdYA",
+  "day_of_week": "Friday",
+  "open_time": "05:30",
+  "close_time": "16:00"
+ },
+ {
+  "business_id": "-TNwWa_OGPmZoBFl25zdYA",
+  "day_of_week": "Wednesday",
+  "open_time": "05:30",
+  "close_time": "16:00"
+ },
+ {
+  "business_id": "-TNwWa_OGPmZoBFl25zdYA",
+  "day_of_week": "Thursday",
+  "open_time": "05:30",
+  "close_time": "16:00"
+ },
+ {
+  "business_id": "-TNwWa_OGPmZoBFl25zdYA",
+  "day_of_week": "Sunday",
+  "open_time": "05:30",
+  "close_time": "14:00"
+ },
+ {
+  "business_id": "-TNwWa_OGPmZoBFl25zdYA",
+  "day_of_week": "Saturday",
+  "open_time": "05:30",
+  "close_time": "16:00"
+ },
+ {
+  "business_id": "02rrDia_FTc8jN7LGqzIbQ",
+  "day_of_week": "Monday",
+  "open_time": "08:30",
+  "close_time": "17:30"
+ },
+ {
+  "business_id": "02rrDia_FTc8jN7LGqzIbQ",
+  "day_of_week": "Tuesday",
+  "open_time": "08:30",
+  "close_time": "17:30"
+ },
+ {
+  "business_id": "02rrDia_FTc8jN7LGqzIbQ",
+  "day_of_week": "Friday",
+  "open_time": "08:30",
+  "close_time": "17:30"
+ },
+ {
+  "business_id": "02rrDia_FTc8jN7LGqzIbQ",
+  "day_of_week": "Wednesday",
+  "open_time": "08:30",
+  "close_time": "17:30"
+ },
+ {
+  "business_id": "02rrDia_FTc8jN7LGqzIbQ",
+  "day_of_week": "Thursday",
+  "open_time": "08:30",
+  "close_time": "17:30"
+ },
+ {
+  "business_id": "02rrDia_FTc8jN7LGqzIbQ",
+  "day_of_week": "Sunday",
+  "open_time": "08:30",
+  "close_time": "17:30"
+ },
+ {
+  "business_id": "02rrDia_FTc8jN7LGqzIbQ",
+  "day_of_week": "Saturday",
+  "open_time": "08:30",
+  "close_time": "17:30"
+ },
+ {
+  "business_id": "YamA4kKz2ks9p-8HvHGrXg",
+  "day_of_week": "Monday",
+  "open_time": "00:00",
+  "close_time": "00:00"
+ },
+ {
+  "business_id": "YamA4kKz2ks9p-8HvHGrXg",
+  "day_of_week": "Tuesday",
+  "open_time": "00:00",
+  "close_time": "00:00"
+ },
+ {
+  "business_id": "YamA4kKz2ks9p-8HvHGrXg",
+  "day_of_week": "Friday",
+  "open_time": "00:00",
+  "close_time": "00:00"
+ },
+ {
+  "business_id": "YamA4kKz2ks9p-8HvHGrXg",
+  "day_of_week": "Wednesday",
+  "open_time": "00:00",
+  "close_time": "00:00"
+ },
+ {
+  "business_id": "YamA4kKz2ks9p-8HvHGrXg",
+  "day_of_week": "Thursday",
+  "open_time": "00:00",
+  "close_time": "00:00"
+ },
+ {
+  "business_id": "YamA4kKz2ks9p-8HvHGrXg",
+  "day_of_week": "Sunday",
+  "open_time": "00:00",
+  "close_time": "00:00"
+ },
+ {
+  "business_id": "YamA4kKz2ks9p-8HvHGrXg",
+  "day_of_week": "Saturday",
+  "open_time": "00:00",
+  "close_time": "00:00"
+ },
+ {
+  "business_id": "8SvCSiGwtaGL2Z78tRSSlQ",
+  "day_of_week": "Monday",
+  "open_time": "11:00",
+  "close_time": "22:00"
+ },
+ {
+  "business_id": "8SvCSiGwtaGL2Z78tRSSlQ",
+  "day_of_week": "Tuesday",
+  "open_time": "11:00",
+  "close_time": "22:00"
+ },
+ {
+  "business_id": "8SvCSiGwtaGL2Z78tRSSlQ",
+  "day_of_week": "Friday",
+  "open_time": "11:00",
+  "close_time": "22:00"
+ },
+ {
+  "business_id": "8SvCSiGwtaGL2Z78tRSSlQ",
+  "day_of_week": "Wednesday",
+  "open_time": "11:00",
+  "close_time": "22:00"
+ },
+ {
+  "business_id": "8SvCSiGwtaGL2Z78tRSSlQ",
+  "day_of_week": "Thursday",
+  "open_time": "11:00",
+  "close_time": "22:00"
+ },
+ {
+  "business_id": "8SvCSiGwtaGL2Z78tRSSlQ",
+  "day_of_week": "Sunday",
+  "open_time": "11:00",
+  "close_time": "22:00"
+ },
+ {
+  "business_id": "8SvCSiGwtaGL2Z78tRSSlQ",
+  "day_of_week": "Saturday",
+  "open_time": "11:00",
+  "close_time": "22:00"
+ },
+ {
+  "business_id": "ZHug7pzB7d8oImcWZMIPKw",
+  "day_of_week": "Monday",
+  "open_time": "09:30",
+  "close_time": "19:00"
+ },
+ {
+  "business_id": "ZHug7pzB7d8oImcWZMIPKw",
+  "day_of_week": "Tuesday",
+  "open_time": "09:30",
+  "close_time": "19:00"
+ },
+ {
+  "business_id": "ZHug7pzB7d8oImcWZMIPKw",
+  "day_of_week": "Friday",
+  "open_time": "09:30",
+  "close_time": "19:00"
+ },
+ {
+  "business_id": "ZHug7pzB7d8oImcWZMIPKw",
+  "day_of_week": "Wednesday",
+  "open_time": "09:30",
+  "close_time": "19:00"
+ },
+ {
+  "business_id": "ZHug7pzB7d8oImcWZMIPKw",
+  "day_of_week": "Thursday",
+  "open_time": "09:30",
+  "close_time": "19:00"
+ },
+ {
+  "business_id": "ZHug7pzB7d8oImcWZMIPKw",
+  "day_of_week": "Saturday",
+  "open_time": "09:30",
+  "close_time": "18:00"
+ },
+ {
+  "business_id": "wmjyhv_pEYd_wi3XhVS6rw",
+  "day_of_week": "Monday",
+  "open_time": "10:30",
+  "close_time": "21:00"
+ },
+ {
+  "business_id": "wmjyhv_pEYd_wi3XhVS6rw",
+  "day_of_week": "Tuesday",
+  "open_time": "10:30",
+  "close_time": "21:00"
+ },
+ {
+  "business_id": "wmjyhv_pEYd_wi3XhVS6rw",
+  "day_of_week": "Friday",
+  "open_time": "10:30",
+  "close_time": "22:00"
+ },
+ {
+  "business_id": "wmjyhv_pEYd_wi3XhVS6rw",
+  "day_of_week": "Wednesday",
+  "open_time": "10:30",
+  "close_time": "21:00"
+ },
+ {
+  "business_id": "wmjyhv_pEYd_wi3XhVS6rw",
+  "day_of_week": "Thursday",
+  "open_time": "10:30",
+  "close_time": "21:00"
+ },
+ {
+  "business_id": "wmjyhv_pEYd_wi3XhVS6rw",
+  "day_of_week": "Sunday",
+  "open_time": "10:30",
+  "close_time": "21:00"
+ },
+ {
+  "business_id": "wmjyhv_pEYd_wi3XhVS6rw",
+  "day_of_week": "Saturday",
+  "open_time": "10:30",
+  "close_time": "22:00"
+ },
+ {
+  "business_id": "xHTPzzu1nln5Ix3wEOILSg",
+  "day_of_week": "Monday",
+  "open_time": "10:00",
+  "close_time": "20:00"
+ },
+ {
+  "business_id": "xHTPzzu1nln5Ix3wEOILSg",
+  "day_of_week": "Tuesday",
+  "open_time": "10:00",
+  "close_time": "20:00"
+ },
+ {
+  "business_id": "xHTPzzu1nln5Ix3wEOILSg",
+  "day_of_week": "Friday",
+  "open_time": "10:00",
+  "close_time": "20:00"
+ },
+ {
+  "business_id": "xHTPzzu1nln5Ix3wEOILSg",
+  "day_of_week": "Wednesday",
+  "open_time": "10:00",
+  "close_time": "20:00"
+ },
+ {
+  "business_id": "xHTPzzu1nln5Ix3wEOILSg",
+  "day_of_week": "Thursday",
+  "open_time": "10:00",
+  "close_time": "20:00"
+ },
+ {
+  "business_id": "xHTPzzu1nln5Ix3wEOILSg",
+  "day_of_week": "Sunday",
+  "open_time": "10:00",
+  "close_time": "17:00"
+ },
+ {
+  "business_id": "xHTPzzu1nln5Ix3wEOILSg",
+  "day_of_week": "Saturday",
+  "open_time": "10:00",
+  "close_time": "17:00"
+ },
+ {
+  "business_id": "z-ScJls8ILoLAnUG6zIJqA",
+  "day_of_week": "Monday",
+  "open_time": "10:00",
+  "close_time": "21:00"
+ },
+ {
+  "business_id": "z-ScJls8ILoLAnUG6zIJqA",
+  "day_of_week": "Tuesday",
+  "open_time": "10:00",
+  "close_time": "21:00"
+ },
+ {
+  "business_id": "z-ScJls8ILoLAnUG6zIJqA",
+  "day_of_week": "Friday",
+  "open_time": "10:00",
+  "close_time": "21:00"
+ },
+ {
+  "business_id": "z-ScJls8ILoLAnUG6zIJqA",
+  "day_of_week": "Wednesday",
+  "open_time": "10:00",
+  "close_time": "21:00"
+ },
+ {
+  "business_id": "z-ScJls8ILoLAnUG6zIJqA",
+  "day_of_week": "Thursday",
+  "open_time": "10:00",
+  "close_time": "21:00"
+ },
+ {
+  "business_id": "z-ScJls8ILoLAnUG6zIJqA",
+  "day_of_week": "Sunday",
+  "open_time": "11:00",
+  "close_time": "18:00"
+ },
+ {
+  "business_id": "z-ScJls8ILoLAnUG6zIJqA",
+  "day_of_week": "Saturday",
+  "open_time": "10:00",
+  "close_time": "21:00"
+ },
+ {
+  "business_id": "_VcrPnJrF770airgFiI1GQ",
+  "day_of_week": "Monday",
+  "open_time": "11:00",
+  "close_time": "21:00"
+ },
+ {
+  "business_id": "_VcrPnJrF770airgFiI1GQ",
+  "day_of_week": "Tuesday",
+  "open_time": "11:00",
+  "close_time": "21:00"
+ },
+ {
+  "business_id": "_VcrPnJrF770airgFiI1GQ",
+  "day_of_week": "Friday",
+  "open_time": "11:00",
+  "close_time": "22:00"
+ },
+ {
+  "business_id": "_VcrPnJrF770airgFiI1GQ",
+  "day_of_week": "Wednesday",
+  "open_time": "11:00",
+  "close_time": "21:00"
+ },
+ {
+  "business_id": "_VcrPnJrF770airgFiI1GQ",
+  "day_of_week": "Thursday",
+  "open_time": "11:00",
+  "close_time": "21:00"
+ },
+ {
+  "business_id": "_VcrPnJrF770airgFiI1GQ",
+  "day_of_week": "Sunday",
+  "open_time": "11:00",
+  "close_time": "21:00"
+ },
+ {
+  "business_id": "_VcrPnJrF770airgFiI1GQ",
+  "day_of_week": "Saturday",
+  "open_time": "11:00",
+  "close_time": "22:00"
+ },
+ {
+  "business_id": "597qhd_yZjnsXt8TyaBbSg",
+  "day_of_week": "Monday",
+  "open_time": "07:00",
+  "close_time": "18:00"
+ },
+ {
+  "business_id": "597qhd_yZjnsXt8TyaBbSg",
+  "day_of_week": "Tuesday",
+  "open_time": "07:00",
+  "close_time": "18:00"
+ },
+ {
+  "business_id": "597qhd_yZjnsXt8TyaBbSg",
+  "day_of_week": "Friday",
+  "open_time": "07:00",
+  "close_time": "18:00"
+ },
+ {
+  "business_id": "597qhd_yZjnsXt8TyaBbSg",
+  "day_of_week": "Wednesday",
+  "open_time": "07:00",
+  "close_time": "18:00"
+ },
+ {
+  "business_id": "597qhd_yZjnsXt8TyaBbSg",
+  "day_of_week": "Thursday",
+  "open_time": "07:00",
+  "close_time": "18:00"
+ },
+ {
+  "business_id": "597qhd_yZjnsXt8TyaBbSg",
+  "day_of_week": "Saturday",
+  "open_time": "08:00",
+  "close_time": "14:00"
+ },
+ {
+  "business_id": "UkirW5pACP7nllPNO3kqOA",
+  "day_of_week": "Monday",
+  "open_time": "07:00",
+  "close_time": "18:00"
+ },
+ {
+  "business_id": "UkirW5pACP7nllPNO3kqOA",
+  "day_of_week": "Tuesday",
+  "open_time": "07:00",
+  "close_time": "18:00"
+ },
+ {
+  "business_id": "UkirW5pACP7nllPNO3kqOA",
+  "day_of_week": "Friday",
+  "open_time": "07:00",
+  "close_time": "18:00"
+ },
+ {
+  "business_id": "UkirW5pACP7nllPNO3kqOA",
+  "day_of_week": "Wednesday",
+  "open_time": "07:00",
+  "close_time": "18:00"
+ },
+ {
+  "business_id": "UkirW5pACP7nllPNO3kqOA",
+  "day_of_week": "Thursday",
+  "open_time": "07:00",
+  "close_time": "18:00"
+ },
+ {
+  "business_id": "UkirW5pACP7nllPNO3kqOA",
+  "day_of_week": "Sunday",
+  "open_time": "08:00",
+  "close_time": "17:00"
+ },
+ {
+  "business_id": "UkirW5pACP7nllPNO3kqOA",
+  "day_of_week": "Saturday",
+  "open_time": "07:00",
+  "close_time": "18:00"
+ },
+ {
+  "business_id": "fy1MhKem4i5H3ad_EsBEJA",
+  "day_of_week": "Monday",
+  "open_time": "10:00",
+  "close_time": "21:00"
+ },
+ {
+  "business_id": "fy1MhKem4i5H3ad_EsBEJA",
+  "day_of_week": "Tuesday",
+  "open_time": "10:00",
+  "close_time": "21:00"
+ },
+ {
+  "business_id": "fy1MhKem4i5H3ad_EsBEJA",
+  "day_of_week": "Friday",
+  "open_time": "10:00",
+  "close_time": "21:00"
+ },
+ {
+  "business_id": "fy1MhKem4i5H3ad_EsBEJA",
+  "day_of_week": "Wednesday",
+  "open_time": "10:00",
+  "close_time": "21:00"
+ },
+ {
+  "business_id": "fy1MhKem4i5H3ad_EsBEJA",
+  "day_of_week": "Thursday",
+  "open_time": "10:00",
+  "close_time": "21:00"
+ },
+ {
+  "business_id": "fy1MhKem4i5H3ad_EsBEJA",
+  "day_of_week": "Sunday",
+  "open_time": "10:00",
+  "close_time": "20:00"
+ },
+ {
+  "business_id": "fy1MhKem4i5H3ad_EsBEJA",
+  "day_of_week": "Saturday",
+  "open_time": "10:00",
+  "close_time": "21:00"
+ },
+ {
+  "business_id": "4xJvGVgDTdlwrU32EoX9dw",
+  "day_of_week": "Tuesday",
+  "open_time": "07:00",
+  "close_time": "16:00"
+ },
+ {
+  "business_id": "4xJvGVgDTdlwrU32EoX9dw",
+  "day_of_week": "Friday",
+  "open_time": "07:00",
+  "close_time": "16:00"
+ },
+ {
+  "business_id": "4xJvGVgDTdlwrU32EoX9dw",
+  "day_of_week": "Monday",
+  "open_time": "07:00",
+  "close_time": "16:00"
+ },
+ {
+  "business_id": "4xJvGVgDTdlwrU32EoX9dw",
+  "day_of_week": "Wednesday",
+  "open_time": "07:00",
+  "close_time": "16:00"
+ },
+ {
+  "business_id": "4xJvGVgDTdlwrU32EoX9dw",
+  "day_of_week": "Thursday",
+  "open_time": "07:00",
+  "close_time": "16:00"
+ },
+ {
+  "business_id": "5gXgnr5VuTKeYu7UpDZWAg",
+  "day_of_week": "Monday",
+  "open_time": "08:00",
+  "close_time": "16:00"
+ },
+ {
+  "business_id": "5gXgnr5VuTKeYu7UpDZWAg",
+  "day_of_week": "Tuesday",
+  "open_time": "08:00",
+  "close_time": "16:00"
+ },
+ {
+  "business_id": "5gXgnr5VuTKeYu7UpDZWAg",
+  "day_of_week": "Friday",
+  "open_time": "08:00",
+  "close_time": "16:00"
+ },
+ {
+  "business_id": "5gXgnr5VuTKeYu7UpDZWAg",
+  "day_of_week": "Wednesday",
+  "open_time": "08:00",
+  "close_time": "16:00"
+ },
+ {
+  "business_id": "5gXgnr5VuTKeYu7UpDZWAg",
+  "day_of_week": "Thursday",
+  "open_time": "08:00",
+  "close_time": "16:00"
+ },
+ {
+  "business_id": "5gXgnr5VuTKeYu7UpDZWAg",
+  "day_of_week": "Saturday",
+  "open_time": "08:00",
+  "close_time": "15:00"
+ },
+ {
+  "business_id": "J4d0dY8k71Osot0GypK2kg",
+  "day_of_week": "Monday",
+  "open_time": "10:00",
+  "close_time": "20:30"
+ },
+ {
+  "business_id": "J4d0dY8k71Osot0GypK2kg",
+  "day_of_week": "Tuesday",
+  "open_time": "10:00",
+  "close_time": "20:30"
+ },
+ {
+  "business_id": "J4d0dY8k71Osot0GypK2kg",
+  "day_of_week": "Friday",
+  "open_time": "10:00",
+  "close_time": "20:30"
+ },
+ {
+  "business_id": "J4d0dY8k71Osot0GypK2kg",
+  "day_of_week": "Thursday",
+  "open_time": "10:00",
+  "close_time": "20:30"
+ },
+ {
+  "business_id": "J4d0dY8k71Osot0GypK2kg",
+  "day_of_week": "Sunday",
+  "open_time": "09:00",
+  "close_time": "19:00"
+ },
+ {
+  "business_id": "J4d0dY8k71Osot0GypK2kg",
+  "day_of_week": "Saturday",
+  "open_time": "10:00",
+  "close_time": "20:30"
+ },
+ {
+  "business_id": "An__PH4NQfr13CICyuWVDA",
+  "day_of_week": "Monday",
+  "open_time": "07:30",
+  "close_time": "18:00"
+ },
+ {
+  "business_id": "An__PH4NQfr13CICyuWVDA",
+  "day_of_week": "Tuesday",
+  "open_time": "07:30",
+  "close_time": "18:00"
+ },
+ {
+  "business_id": "An__PH4NQfr13CICyuWVDA",
+  "day_of_week": "Friday",
+  "open_time": "07:30",
+  "close_time": "18:00"
+ },
+ {
+  "business_id": "An__PH4NQfr13CICyuWVDA",
+  "day_of_week": "Wednesday",
+  "open_time": "07:30",
+  "close_time": "18:00"
+ },
+ {
+  "business_id": "An__PH4NQfr13CICyuWVDA",
+  "day_of_week": "Thursday",
+  "open_time": "07:30",
+  "close_time": "18:00"
+ },
+ {
+  "business_id": "An__PH4NQfr13CICyuWVDA",
+  "day_of_week": "Saturday",
+  "open_time": "08:00",
+  "close_time": "17:00"
+ },
+ {
+  "business_id": "X7Z4IfguKLoBGHtfsCT59w",
+  "day_of_week": "Monday",
+  "open_time": "11:00",
+  "close_time": "22:00"
+ },
+ {
+  "business_id": "X7Z4IfguKLoBGHtfsCT59w",
+  "day_of_week": "Tuesday",
+  "open_time": "11:00",
+  "close_time": "22:00"
+ },
+ {
+  "business_id": "X7Z4IfguKLoBGHtfsCT59w",
+  "day_of_week": "Friday",
+  "open_time": "11:00",
+  "close_time": "00:00"
+ },
+ {
+  "business_id": "X7Z4IfguKLoBGHtfsCT59w",
+  "day_of_week": "Wednesday",
+  "open_time": "11:00",
+  "close_time": "22:00"
+ },
+ {
+  "business_id": "X7Z4IfguKLoBGHtfsCT59w",
+  "day_of_week": "Thursday",
+  "open_time": "11:00",
+  "close_time": "22:00"
+ },
+ {
+  "business_id": "X7Z4IfguKLoBGHtfsCT59w",
+  "day_of_week": "Sunday",
+  "open_time": "10:00",
+  "close_time": "22:00"
+ },
+ {
+  "business_id": "X7Z4IfguKLoBGHtfsCT59w",
+  "day_of_week": "Saturday",
+  "open_time": "11:00",
+  "close_time": "00:00"
+ },
+ {
+  "business_id": "gWtfYPKHM46MmoI2aIEtMQ",
+  "day_of_week": "Monday",
+  "open_time": "16:00",
+  "close_time": "22:00"
+ },
+ {
+  "business_id": "gWtfYPKHM46MmoI2aIEtMQ",
+  "day_of_week": "Tuesday",
+  "open_time": "16:00",
+  "close_time": "22:00"
+ },
+ {
+  "business_id": "gWtfYPKHM46MmoI2aIEtMQ",
+  "day_of_week": "Friday",
+  "open_time": "16:00",
+  "close_time": "23:00"
+ },
+ {
+  "business_id": "gWtfYPKHM46MmoI2aIEtMQ",
+  "day_of_week": "Wednesday",
+  "open_time": "16:00",
+  "close_time": "22:00"
+ },
+ {
+  "business_id": "gWtfYPKHM46MmoI2aIEtMQ",
+  "day_of_week": "Thursday",
+  "open_time": "16:00",
+  "close_time": "22:00"
+ },
+ {
+  "business_id": "gWtfYPKHM46MmoI2aIEtMQ",
+  "day_of_week": "Sunday",
+  "open_time": "11:00",
+  "close_time": "22:00"
+ },
+ {
+  "business_id": "gWtfYPKHM46MmoI2aIEtMQ",
+  "day_of_week": "Saturday",
+  "open_time": "11:00",
+  "close_time": "23:00"
+ },
+ {
+  "business_id": "bMFQVEI_txQc0fiqrKl11Q",
+  "day_of_week": "Tuesday",
+  "open_time": "10:00",
+  "close_time": "21:00"
+ },
+ {
+  "business_id": "bMFQVEI_txQc0fiqrKl11Q",
+  "day_of_week": "Friday",
+  "open_time": "10:00",
+  "close_time": "21:00"
+ },
+ {
+  "business_id": "bMFQVEI_txQc0fiqrKl11Q",
+  "day_of_week": "Wednesday",
+  "open_time": "10:00",
+  "close_time": "21:00"
+ },
+ {
+  "business_id": "bMFQVEI_txQc0fiqrKl11Q",
+  "day_of_week": "Thursday",
+  "open_time": "10:00",
+  "close_time": "21:00"
+ },
+ {
+  "business_id": "bMFQVEI_txQc0fiqrKl11Q",
+  "day_of_week": "Sunday",
+  "open_time": "09:00",
+  "close_time": "17:00"
+ },
+ {
+  "business_id": "bMFQVEI_txQc0fiqrKl11Q",
+  "day_of_week": "Saturday",
+  "open_time": "10:00",
+  "close_time": "21:00"
+ },
+ {
+  "business_id": "OeRv62WhCFepxeUB9uW51A",
+  "day_of_week": "Monday",
+  "open_time": "09:00",
+  "close_time": "20:00"
+ },
+ {
+  "business_id": "OeRv62WhCFepxeUB9uW51A",
+  "day_of_week": "Tuesday",
+  "open_time": "09:00",
+  "close_time": "20:00"
+ },
+ {
+  "business_id": "OeRv62WhCFepxeUB9uW51A",
+  "day_of_week": "Friday",
+  "open_time": "09:00",
+  "close_time": "20:00"
+ },
+ {
+  "business_id": "OeRv62WhCFepxeUB9uW51A",
+  "day_of_week": "Wednesday",
+  "open_time": "09:00",
+  "close_time": "20:00"
+ },
+ {
+  "business_id": "OeRv62WhCFepxeUB9uW51A",
+  "day_of_week": "Thursday",
+  "open_time": "09:00",
+  "close_time": "20:00"
+ },
+ {
+  "business_id": "OeRv62WhCFepxeUB9uW51A",
+  "day_of_week": "Sunday",
+  "open_time": "09:00",
+  "close_time": "17:00"
+ },
+ {
+  "business_id": "OeRv62WhCFepxeUB9uW51A",
+  "day_of_week": "Saturday",
+  "open_time": "09:00",
+  "close_time": "20:00"
+ },
+ {
+  "business_id": "8K79GC8Vgj8zYMzWy4H7mg",
+  "day_of_week": "Monday",
+  "open_time": "11:00",
+  "close_time": "21:00"
+ },
+ {
+  "business_id": "8K79GC8Vgj8zYMzWy4H7mg",
+  "day_of_week": "Tuesday",
+  "open_time": "11:00",
+  "close_time": "21:00"
+ },
+ {
+  "business_id": "8K79GC8Vgj8zYMzWy4H7mg",
+  "day_of_week": "Friday",
+  "open_time": "11:00",
+  "close_time": "21:30"
+ },
+ {
+  "business_id": "8K79GC8Vgj8zYMzWy4H7mg",
+  "day_of_week": "Wednesday",
+  "open_time": "11:00",
+  "close_time": "21:00"
+ },
+ {
+  "business_id": "8K79GC8Vgj8zYMzWy4H7mg",
+  "day_of_week": "Thursday",
+  "open_time": "11:00",
+  "close_time": "21:00"
+ },
+ {
+  "business_id": "8K79GC8Vgj8zYMzWy4H7mg",
+  "day_of_week": "Sunday",
+  "open_time": "12:00",
+  "close_time": "21:00"
+ },
+ {
+  "business_id": "8K79GC8Vgj8zYMzWy4H7mg",
+  "day_of_week": "Saturday",
+  "open_time": "11:00",
+  "close_time": "21:30"
+ },
+ {
+  "business_id": "47xaD3fBnj_cLJbRgHmKfg",
+  "day_of_week": "Monday",
+  "open_time": "07:00",
+  "close_time": "22:00"
+ },
+ {
+  "business_id": "47xaD3fBnj_cLJbRgHmKfg",
+  "day_of_week": "Tuesday",
+  "open_time": "07:00",
+  "close_time": "22:00"
+ },
+ {
+  "business_id": "47xaD3fBnj_cLJbRgHmKfg",
+  "day_of_week": "Friday",
+  "open_time": "07:00",
+  "close_time": "22:30"
+ },
+ {
+  "business_id": "47xaD3fBnj_cLJbRgHmKfg",
+  "day_of_week": "Wednesday",
+  "open_time": "07:00",
+  "close_time": "22:00"
+ },
+ {
+  "business_id": "47xaD3fBnj_cLJbRgHmKfg",
+  "day_of_week": "Thursday",
+  "open_time": "07:00",
+  "close_time": "22:00"
+ },
+ {
+  "business_id": "47xaD3fBnj_cLJbRgHmKfg",
+  "day_of_week": "Sunday",
+  "open_time": "07:00",
+  "close_time": "22:00"
+ },
+ {
+  "business_id": "47xaD3fBnj_cLJbRgHmKfg",
+  "day_of_week": "Saturday",
+  "open_time": "07:00",
+  "close_time": "22:30"
+ }
+]
