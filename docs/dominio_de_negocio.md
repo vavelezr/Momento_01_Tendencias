@@ -37,10 +37,8 @@ la sección 3.
 erDiagram
     CATEGORY ||--o{ BUSINESS_CATEGORY : clasifica
     BUSINESS ||--o{ BUSINESS_CATEGORY : pertenece_a
-    BUSINESS ||--o{ BUSINESS_HOURS : abre_en
     BUSINESS ||--o{ REVIEW : recibe
     BUSINESS ||--o{ TIP : recibe
-    BUSINESS ||--o{ CHECKIN : registra
     USERS ||--o{ REVIEW : escribe
     USERS ||--o{ TIP : escribe
 
@@ -64,13 +62,6 @@ erDiagram
     BUSINESS_CATEGORY {
         text business_id PK_FK
         int category_id PK_FK
-    }
-    BUSINESS_HOURS {
-        int id PK
-        text business_id FK
-        text day_of_week
-        time open_time
-        time close_time
     }
     USERS {
         text user_id PK
@@ -102,13 +93,6 @@ erDiagram
         date tip_date
         int likes
     }
-    CHECKIN {
-        int id PK
-        text business_id FK
-        smallint day_index
-        smallint hour_of_day
-        int checkin_count
-    }
 ```
 
 ## 3. Qué existe desde el baseline y qué llega por migración
@@ -120,11 +104,9 @@ erDiagram
 | `business_category` | Baseline | Relación N:N negocio↔categoría (870 filas) |
 | `users` | Baseline | Usuarios autores de al menos una reseña o tip (2 757) |
 | `review` | Baseline | Reseñas de esos negocios (4 978) |
-| `business_hours` | Migración `V__` (tabla nueva) | Horario semanal por negocio (1 026 filas) |
 | `business.primary_category` | Migración `V__` (columna nueva) | Categoría principal denormalizada — nace con un error de diseño (`VARCHAR(15)`), corregido por roll forward. Ver [`docs/evidences/`](evidences/). |
 | `tip` | Migración `V__` (tabla nueva) | Recomendaciones cortas (2 239 filas) |
-| `checkin` | Migración `V__` (tabla nueva) | Check-ins agregados por hora/día (8 635 filas) |
-| Índice + restricción sobre `review`/`business` | Migración `V__` | Ver `sql_migrations/` |
+| Índice sobre `review` + restricción sobre `tip` | Migración `V__` | Ver `sql_migrations/` |
 
 > **Nota sobre `users`.** El JSON fuente trae `votes_useful`, `votes_funny` y `votes_cool`
 > por usuario (votos recibidos en sus reseñas/tips, acumulados históricamente por Yelp) —
@@ -133,7 +115,14 @@ erDiagram
 > sección 2 los incluye explícitamente para que coincida con
 > [`scripts/inyeccion_semilla.py`](../scripts/inyeccion_semilla.py).
 
-Volumen total de la muestra: **21 005 filas en 8 tablas**, muy por debajo del límite de
-0.5 GB del tier gratuito de Neon.
+> **Alcance de este Momento 1.** `data/business_hours.json` y `data/checkins.json` son
+> parte de la muestra extraída (horario semanal y check-ins agregados, respectivamente),
+> pero no se versionan como migración: 3 migraciones `V__` (tabla nueva, columna nueva,
+> índice/restricción) ya cubren el mínimo exigido, y agregar dos tablas más no aportaba
+> nada a la evidencia de CI/CD que pide la rúbrica. Quedan como candidatas naturales para
+> una fase futura del pipeline.
+
+Volumen total versionado en este Momento: **11 344 filas en 6 tablas** (9 105 del
+baseline + 2 239 de `tip`), muy por debajo del límite de 0.5 GB del tier gratuito de Neon.
 
 [Yelp Academic Dataset]: https://www.yelp.com/dataset
