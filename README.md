@@ -20,9 +20,9 @@ aisladas), migraciones de esquema con **Flyway**, y despliegue automatizado con
 | Dominio de negocio + ER | ✅ [`docs/dominio_de_negocio.md`](docs/dominio_de_negocio.md) |
 | Estado base (schema + carga) | ✅ [`scripts/inyeccion_semilla.py`](scripts/inyeccion_semilla.py) |
 | Protección de rama `main` | ✅ ruleset "No push to main" — ver [`docs/evidences/`](docs/evidences/) |
-| Configuración Flyway + baseline | ✅ [`flyway.conf.example`](flyway.conf.example) — baseline pendiente de correr manualmente contra dev/main (ver abajo) |
-| Migraciones Flyway (`V__`/`R__`) | 🚧 pendiente |
-| Workflows de CI/CD | 🚧 pendiente |
+| Configuración Flyway + baseline | ✅ [`flyway.conf.example`](flyway.conf.example) — baseline corrido contra `dev`; **pendiente contra `main`** (ver abajo, requisito antes del primer deploy) |
+| Migraciones Flyway (`V__`/`R__`) | ✅ 3 `V__` (tabla, columna, índice/restricción) + 1 `R__` en [`sql_migrations/`](sql_migrations/) |
+| Workflows de CI/CD | ✅ [`.github/workflows/`](.github/workflows/) — deploy a `main` + validación en cada PR contra `dev` |
 | Evidencia de falla + roll forward | 🚧 pendiente |
 
 ---
@@ -169,8 +169,30 @@ flyway -configFiles=flyway.conf \
 
 Salida esperada: `Successfully baselined schema with version: 1`. A partir de este punto,
 `flyway migrate` sobre cualquiera de los dos entornos solo aplicará migraciones con
-versión posterior a la 1 — exactamente el guardrail que necesitamos antes de empezar a
-escribir `V__` reales en la Fase 3.
+versión posterior a la 1.
+
+> ⚠️ **El baseline de `main` es un prerrequisito real, no opcional.** El workflow de
+> despliegue ([abajo](#workflows-de-cicd)) corre `flyway migrate` sin
+> `-baselineOnMigrate=true` a propósito — igual que `flyway.conf.example` explica. Si
+> `main` no tiene el baseline corrido *antes* del primer push que toque
+> `sql_migrations/`, ese primer run del workflow falla con
+> `Found non-empty schema "public" without metadata table`.
+
+---
+
+## Workflows de CI/CD
+
+Dos workflows en [`.github/workflows/`](.github/workflows/), ambos usando la misma
+imagen Docker fijada (`flyway/flyway:13.1.0-alpine`) para que local y CI corran
+exactamente lo mismo:
+
+| Workflow | Dispara con | Contra | Qué hace |
+|---|---|---|---|
+| [`flyway-validate-pr.yml`](.github/workflows/flyway-validate-pr.yml) | `pull_request` hacia `main`, tocando `sql_migrations/` | Neon `dev` | `flyway validate` + `flyway migrate`. Es el status check `flyway-validate` que el ruleset de `main` exige en verde antes de mergear. |
+| [`flyway-migrate.yml`](.github/workflows/flyway-migrate.yml) | `push` a `main`, tocando `sql_migrations/` | Neon `main` | `flyway validate` + `flyway migrate`. Es lo único que efectivamente escribe en producción — corre después de cada merge. |
+
+Ninguno usa `flyway clean` (`-cleanDisabled=true` en ambos) y ninguno auto-baselinea: el
+baseline de cada entorno se corre a mano, una vez, como se documentó arriba.
 
 ---
 
@@ -194,8 +216,8 @@ Ver [`docs/evidences/`](docs/evidences/) para la prueba de que la protección es
 
 | Secreto | Contenido | Usado por |
 |---|---|---|
-| `NEON_DEV_DATABASE_URL` | Connection string de la branch `dev` de Neon | Workflow de validación en cada PR *(pendiente)* |
-| `NEON_MAIN_DATABASE_URL` | Connection string de la branch `main` de Neon | Workflow de despliegue en cada push a `main` *(pendiente)* |
+| `NEON_DEV_DATABASE_URL` | Connection string de la branch `dev` de Neon | [`flyway-validate-pr.yml`](.github/workflows/flyway-validate-pr.yml) |
+| `NEON_MAIN_DATABASE_URL` | Connection string de la branch `main` de Neon | [`flyway-migrate.yml`](.github/workflows/flyway-migrate.yml) |
 
 ---
 
@@ -210,9 +232,11 @@ Momento_01_Tendencias/
 ├── data/                         ← datos semilla (JSON), fuente de verdad de la muestra
 ├── scripts/
 │   └── inyeccion_semilla.py      ← carga el estado base en Neon
-├── sql_migrations/                ← migraciones Flyway — baseline v1 listo, V__/R__ 🚧 pendiente (Fases 3/4)
+├── sql_migrations/                ← migraciones Flyway: 3 V__ + 1 R__
 ├── docs/
 │   ├── dominio_de_negocio.md     ← descripción del dominio + diagrama ER
 │   └── evidences/                ← capturas y evidencia de cada fase
-└── .github/workflows/             🚧 pendiente
+└── .github/workflows/
+    ├── flyway-validate-pr.yml    ← corre en cada PR, contra dev
+    └── flyway-migrate.yml        ← corre en cada push a main, contra main
 ```
