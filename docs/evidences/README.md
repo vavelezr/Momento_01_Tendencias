@@ -75,11 +75,52 @@ Flyway entre a gestionar el esquema.
 
 ---
 
+## 3. Migraciones Flyway aplicadas: baseline + `V__` + `R__`
+
+`flyway info` antes de aplicar la migración repetible, seguido de `flyway migrate`:
+
+![Terminal: flyway info mostrando baseline + 3 V__ Success + R__ Pending, luego flyway migrate aplicándola](images/R_applied.png)
+
+```text
+Schema version: 20260808190400
+
+ Category    | Version      | Description         | Type | State    |
+ ------------|--------------|----------------------|------|----------|
+             | 1            | Yelp database base   | BASELINE | Baseline |
+ Versioned   | 20260808190100 | add primary category | SQL  | Success  |
+ Versioned   | 20260808190200 | add tip              | SQL  | Success  |
+ Versioned   | 20260808190400 | add index review     | SQL  | Success  |
+ Repeatable  |              | fn nivel negocio     | SQL  | Pending  |
+
+Successfully validated 5 migrations (execution time 00:00.402s)
+Migrating schema "public" with repeatable migration "fn nivel negocio"
+Successfully applied 1 migration to schema "public" (execution time 00:00.825s)
+```
+
+**Qué prueba:**
+- El `baseline` (versión 1) y las 3 migraciones `V__` (`add_primary_category`, `add_tip`,
+  `add_index_review`) están realmente aplicadas — no son solo archivos `.sql` en el repo sin
+  ejecutar.
+- `R__fn_nivel_negocio` pasa de `Pending` a aplicada tras el `migrate`, confirmando que
+  Flyway detecta el archivo nuevo por checksum y lo corre sin necesitar una migración
+  versionada aparte.
+- `flyway validate` (parte de `migrate`) pasó sin errores sobre las 5 migraciones antes de
+  aplicar nada — la misma puerta de calidad que se automatiza en el workflow de la Fase 5.
+
+> Corrido localmente contra la branch `dev` de Neon, siguiendo la regla del proyecto: la
+> terminal de un integrante nunca toca `main` directamente salvo el bootstrap único ya
+> documentado en la sección 2. `main` recibirá estas mismas migraciones cuando exista el
+> workflow de despliegue (Fase 5).
+
+---
+
 ## Pendiente de documentar (se agrega en cada fase siguiente)
 
-- [ ] `flyway baseline` sobre `dev` y sobre `main` — Fase 2
+- [x] `flyway baseline` sobre `dev` — ver arriba (sección 3)
+- [ ] `flyway baseline` sobre `main`
 - [ ] Workflow `flyway-validate-pr.yml` corriendo en un PR (éxito) — Fase 5
 - [ ] Workflow `flyway-migrate.yml` corriendo tras un merge a `main` (éxito) — Fase 5
-- [ ] Runs de las migraciones `V__`/`R__` — Fase 3–4
+- [x] Runs de las migraciones `V__`/`R__` contra `dev` — ver arriba (sección 3)
+- [ ] Runs de las migraciones `V__`/`R__` contra `main` (vía pipeline)
 - [ ] Falla real por editar una migración ya aplicada (checksum mismatch en CI) — Fase 6
 - [ ] Roll forward corregido y desplegado — Fase 6

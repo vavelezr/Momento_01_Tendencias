@@ -23,6 +23,9 @@ aisladas), migraciones de esquema con **Flyway**, y despliegue automatizado con
 | Configuración Flyway + baseline | ✅ [`flyway.conf.example`](flyway.conf.example) — baseline corrido contra `dev`; **pendiente contra `main`** (ver abajo, requisito antes del primer deploy) |
 | Migraciones Flyway (`V__`/`R__`) | ✅ 3 `V__` (tabla, columna, índice/restricción) + 1 `R__` en [`sql_migrations/`](sql_migrations/) |
 | Workflows de CI/CD | ✅ [`.github/workflows/`](.github/workflows/) — deploy a `main` + validación en cada PR contra `dev` |
+| Configuración Flyway + baseline | ✅ [`flyway.conf.example`](flyway.conf.example) |
+| Migraciones Flyway (`V__`/`R__`) | ✅ 3 `V__` (tabla, columna, índice/restricción) + 1 `R__` en [`sql_migrations/`](sql_migrations/) — cumple el mínimo del enunciado |
+| Workflows de CI/CD | 🚧 pendiente — sin esto, las migraciones de arriba no se han desplegado todavía vía pipeline |
 | Evidencia de falla + roll forward | 🚧 pendiente |
 
 ---
