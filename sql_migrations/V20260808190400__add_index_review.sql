@@ -8,12 +8,9 @@ DROP INDEX IF EXISTS idx_review_business_id;
 CREATE INDEX idx_review_business_id_review_date
     ON review (business_id, review_date DESC);
 
--- Restricciones: `review.stars BETWEEN 1 AND 5` ya quedó como CHECK desde el baseline.
--- `checkin.day_index`/`hour_of_day` llegaron sin restricción de rango en su migración
--- (V__add_checkin.sql) a propósito, para no mezclar "tabla nueva" con "restricción nueva"
--- en el mismo cambio — se agregan aquí.
-ALTER TABLE checkin
-    ADD CONSTRAINT chk_checkin_day_index CHECK (day_index BETWEEN 0 AND 6);
-
-ALTER TABLE checkin
-    ADD CONSTRAINT chk_checkin_hour_of_day CHECK (hour_of_day BETWEEN 0 AND 23);
+-- Restricción: `review.stars BETWEEN 1 AND 5` ya quedó como CHECK desde el baseline, así
+-- que no la repetimos aquí. `tip.likes` (la única tabla nueva del Momento 1, ver
+-- V__add_tip.sql) llegó sin restricción de rango — un conteo de likes negativo no tiene
+-- sentido de negocio, así que se agrega aquí.
+ALTER TABLE tip
+    ADD CONSTRAINT chk_tip_likes CHECK (likes >= 0);
