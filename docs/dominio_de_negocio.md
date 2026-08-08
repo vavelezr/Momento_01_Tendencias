@@ -125,4 +125,28 @@ erDiagram
 Volumen total versionado en este Momento: **11 344 filas en 6 tablas** (9 105 del
 baseline + 2 239 de `tip`), muy por debajo del límite de 0.5 GB del tier gratuito de Neon.
 
+## 4. Lógica de negocio (migración repetible)
+
+[`R__fn_nivel_negocio.sql`](../sql_migrations/R__fn_nivel_negocio.sql) clasifica un negocio
+en un nivel de reputación combinando su calificación promedio (`business.stars`) y su
+volumen de reseñas (`business.review_count`):
+
+| Nivel | Condición |
+|---|---|
+| `Nuevo` | menos de 5 reseñas — no hay evidencia suficiente para calificar |
+| `Destacado` | `stars >= 4.5` y `review_count >= 50` |
+| `Recomendado` | `stars >= 4.0` y `review_count >= 10` |
+| `Regular` | cualquier otro caso |
+
+Es lógica de negocio pura (no toca tablas), por eso es `R__` y no `V__`: si mañana cambian
+los umbrales, el archivo se reemplaza entero y Flyway lo vuelve a aplicar solo.
+
+```sql
+SELECT business_id, name, stars, review_count,
+       fn_nivel_negocio(stars, review_count) AS nivel
+FROM business
+ORDER BY stars DESC
+LIMIT 5;
+```
+
 [Yelp Academic Dataset]: https://www.yelp.com/dataset
