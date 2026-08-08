@@ -1,0 +1,11 @@
+# Credenciales y configuración local — nunca se versionan
+.env
+flyway.conf
+
+# Entornos Python (uv)
+.venv/
+__pycache__/
+*.pyc
+
+# Artefactos generados por scripts de extracción/carga
+data/output/
