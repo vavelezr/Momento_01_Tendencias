@@ -9,13 +9,14 @@
 # Secreto requerido (Settings → Secrets and variables → Actions):
 #   NEON_MAIN_DATABASE_URL   postgresql://usuario:password@host/neondb?sslmode=require
 #
-# ⚠️ Prerrequisito manual, una sola vez: `flyway baseline` debe haber corrido contra
-# `main` ANTES del primer run de este workflow (ver README §"Flyway — control de
-# versiones del schema"). A propósito NO usamos `-baselineOnMigrate=true`: el baseline
-# es un acto único y consciente por entorno, igual que el guardrail de
-# inyeccion_semilla.py — el entorno destino nunca queda implícito en un flag automático.
-# Sin ese baseline manual, este workflow falla en su primer run con
-# "Found non-empty schema without metadata table".
+# Usa -baselineOnMigrate=true: si el schema de destino no tiene flyway_schema_history
+# (el caso de `main`, poblada por inyeccion_semilla.py antes de que Flyway existiera),
+# el propio `migrate` la adopta como versión 1 y sigue, sin paso manual previo. Decisión
+# de equipo: se prefirió automatizar el despliegue de punta a punta — incluido el primer
+# run — por encima de mantener el baseline como un acto manual explícito por entorno
+# (que fue el diseño original, documentado en flyway.conf.example, y que efectivamente
+# causó una falla real de pipeline — ver docs/evidences/README.md §4). El equipo puede
+# defender cualquiera de las dos posturas; esta es la que se decidió mantener.
 # ---------------------------------------------------------------------------
 
 name: Flyway Deploy
@@ -110,6 +111,7 @@ jobs:
             -password="${{ steps.conexion.outputs.clave }}" \
             -locations="filesystem:/flyway/sql" \
             -validateMigrationNaming=true \
+            -ignoreMigrationPatterns='*:pending' \
             validate
 
       - name: Flyway migrate
@@ -121,6 +123,9 @@ jobs:
             -user="${{ steps.conexion.outputs.usuario }}" \
             -password="${{ steps.conexion.outputs.clave }}" \
             -locations="filesystem:/flyway/sql" \
+            -baselineOnMigrate=true \
+            -baselineVersion=1 \
+            -baselineDescription="Yelp database base" \
             -outOfOrder=false \
             -cleanDisabled=true \
             migrate

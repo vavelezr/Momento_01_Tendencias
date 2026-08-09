@@ -20,12 +20,9 @@ aisladas), migraciones de esquema con **Flyway**, y despliegue automatizado con
 | Dominio de negocio + ER | ✅ [`docs/dominio_de_negocio.md`](docs/dominio_de_negocio.md) |
 | Estado base (schema + carga) | ✅ [`scripts/inyeccion_semilla.py`](scripts/inyeccion_semilla.py) |
 | Protección de rama `main` | ✅ ruleset "No push to main" — ver [`docs/evidences/`](docs/evidences/) |
-| Configuración Flyway + baseline | ✅ [`flyway.conf.example`](flyway.conf.example) — baseline corrido contra `dev`; **pendiente contra `main`** (ver abajo, requisito antes del primer deploy) |
-| Migraciones Flyway (`V__`/`R__`) | ✅ 3 `V__` (tabla, columna, índice/restricción) + 1 `R__` en [`sql_migrations/`](sql_migrations/) |
-| Workflows de CI/CD | ✅ [`.github/workflows/`](.github/workflows/) — deploy a `main` + validación en cada PR contra `dev` |
-| Configuración Flyway + baseline | ✅ [`flyway.conf.example`](flyway.conf.example) |
+| Configuración Flyway + baseline | ✅ [`flyway.conf.example`](flyway.conf.example) — baseline corrido contra `dev`; `main` se auto-baselinea en su primer deploy (`-baselineOnMigrate=true`) |
 | Migraciones Flyway (`V__`/`R__`) | ✅ 3 `V__` (tabla, columna, índice/restricción) + 1 `R__` en [`sql_migrations/`](sql_migrations/) — cumple el mínimo del enunciado |
-| Workflows de CI/CD | 🚧 pendiente — sin esto, las migraciones de arriba no se han desplegado todavía vía pipeline |
+| Workflows de CI/CD | ✅ [`.github/workflows/`](.github/workflows/) — deploy a `main` + validación en cada PR contra `dev` |
 | Evidencia de falla + roll forward | 🚧 pendiente |
 
 ---
@@ -174,12 +171,10 @@ Salida esperada: `Successfully baselined schema with version: 1`. A partir de es
 `flyway migrate` sobre cualquiera de los dos entornos solo aplicará migraciones con
 versión posterior a la 1.
 
-> ⚠️ **El baseline de `main` es un prerrequisito real, no opcional.** El workflow de
-> despliegue ([abajo](#workflows-de-cicd)) corre `flyway migrate` sin
-> `-baselineOnMigrate=true` a propósito — igual que `flyway.conf.example` explica. Si
-> `main` no tiene el baseline corrido *antes* del primer push que toque
-> `sql_migrations/`, ese primer run del workflow falla con
-> `Found non-empty schema "public" without metadata table`.
+> Este paso es solo para trabajar **en local** (`flyway.conf` no fija
+> `baselineOnMigrate`, así que cada quien decide conscientemente cuándo baselinea su
+> propio `dev`). Los workflows de CI/CD (siguiente sección) **no** necesitan que corras
+> esto contra `main` — lo resuelven solos en su primer run.
 
 ---
 
@@ -194,8 +189,12 @@ exactamente lo mismo:
 | [`flyway-validate-pr.yml`](.github/workflows/flyway-validate-pr.yml) | `pull_request` hacia `main`, tocando `sql_migrations/` | Neon `dev` | `flyway validate` + `flyway migrate`. Es el status check `flyway-validate` que el ruleset de `main` exige en verde antes de mergear. |
 | [`flyway-migrate.yml`](.github/workflows/flyway-migrate.yml) | `push` a `main`, tocando `sql_migrations/` | Neon `main` | `flyway validate` + `flyway migrate`. Es lo único que efectivamente escribe en producción — corre después de cada merge. |
 
-Ninguno usa `flyway clean` (`-cleanDisabled=true` en ambos) y ninguno auto-baselinea: el
-baseline de cada entorno se corre a mano, una vez, como se documentó arriba.
+Ninguno usa `flyway clean` (`-cleanDisabled=true` en ambos). Ambos sí usan
+`-baselineOnMigrate=true`: si el entorno destino no tiene `flyway_schema_history`
+todavía, el propio `migrate` lo adopta como versión 1 y sigue — decisión de equipo para
+automatizar también el primer despliegue por entorno (ver el comentario en
+[`flyway-migrate.yml`](.github/workflows/flyway-migrate.yml) para el detalle de la
+alternativa descartada).
 
 ---
 

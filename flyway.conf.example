@@ -22,9 +22,11 @@ flyway.locations=filesystem:sql_migrations
 # esto ya está aplicado hasta esta versión" — sin este paso, la primera migración real
 # fallaría intentando crear tablas que ya existen.
 #
-# Deliberadamente NO se usa flyway.baselineOnMigrate=true: el baseline es un acto único y
-# consciente que se corre a mano una vez por entorno (dev, luego main) — igual que el
-# guardrail de inyeccion_semilla.py, el entorno destino nunca debe quedar implícito en un
-# flag automático.
+# Esta plantilla NO fija flyway.baselineOnMigrate — para uso LOCAL se sigue corriendo
+# `flyway baseline` como comando explícito (ver README), así cada integrante decide
+# conscientemente cuándo adopta un schema nuevo. Los workflows de CI/CD
+# (.github/workflows/) sí usan -baselineOnMigrate=true directamente como flag de CLI:
+# decisión de equipo para automatizar también el primer despliegue por entorno. Ver el
+# comentario en flyway-migrate.yml para el detalle de esa decisión.
 flyway.baselineVersion=1
 flyway.baselineDescription=Estado base (inyeccion_semilla.py): category, business, business_category, users, review
