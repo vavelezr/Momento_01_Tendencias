@@ -14,6 +14,10 @@
 #
 # No hay riesgo de secretos filtrados por PRs de forks: este repo no acepta PRs desde
 # forks (equipo cerrado, todas las ramas viven en el mismo repositorio).
+#
+# Usa -baselineOnMigrate=true por la misma razón que flyway-migrate.yml: automatizar el
+# despliegue de punta a punta, incluido el primer run contra un entorno recién creado
+# (p. ej. si alguien recrea su branch `dev` de Neon desde cero).
 # ---------------------------------------------------------------------------
 
 name: flyway-validate
@@ -114,6 +118,9 @@ jobs:
             -user="${{ steps.conexion.outputs.usuario }}" \
             -password="${{ steps.conexion.outputs.clave }}" \
             -locations="filesystem:/flyway/sql" \
+            -baselineOnMigrate=true \
+            -baselineVersion=1 \
+            -baselineDescription="Yelp database base" \
             -outOfOrder=false \
             -cleanDisabled=true \
             migrate

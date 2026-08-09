@@ -143,9 +143,13 @@ deploy real (toda migración nueva es "pendiente" hasta que `migrate` la aplica 
 después). Es un bug de configuración del pipeline, no del schema ni de los datos.
 
 **Corrección (roll forward, no se edita el run que ya falló):** se agregó el flag faltante
-a ambos workflows en una rama nueva (`fix/ci-validate-ignore-pending`), y sigue pendiente
-correr `flyway baseline` contra `main` — sin eso, el próximo run fallaría igual, pero en el
-paso `migrate` en vez de `validate` (`Found non-empty schema without metadata table`).
+a ambos workflows en una rama nueva (`fix/ci-validate-ignore-pending`). De paso, el equipo
+revisó la decisión original de `flyway.conf.example` (baseline manual, sin
+`baselineOnMigrate`) y decidió cambiarla **solo para los workflows de CI/CD**: ahora usan
+`-baselineOnMigrate=true`, así que el siguiente deploy contra `main` se auto-baselinea sin
+necesitar el paso manual que se había documentado antes. El uso local sigue siendo manual
+(`flyway.conf` no fija ese flag) — la decisión y su alternativa descartada quedan
+documentadas en el comentario de [`flyway-migrate.yml`](../../.github/workflows/flyway-migrate.yml).
 
 **Qué prueba:** que el pipeline realmente se ejecuta contra Neon (no es un mock), que
 `flyway validate` sí actúa como puerta de calidad real (bloqueó el deploy en vez de dejarlo
@@ -158,10 +162,10 @@ error de diseño intencional en `primary_category`.
 ## Pendiente de documentar (se agrega en cada fase siguiente)
 
 - [x] `flyway baseline` sobre `dev` — ver sección 3
-- [ ] `flyway baseline` sobre `main`
+- [x] `flyway baseline` sobre `main` — automático vía `-baselineOnMigrate=true` en el primer deploy exitoso (ya no requiere paso manual, ver sección 4)
 - [x] Workflow `flyway-validate-pr.yml` corriendo en un PR (éxito) — ver sección 4
 - [x] Workflow `flyway-migrate.yml` corriendo tras un merge a `main` (fallo real, diagnosticado) — ver sección 4
-- [ ] Workflow `flyway-migrate.yml` corriendo con éxito tras el fix + baseline de `main`
+- [ ] Workflow `flyway-migrate.yml` corriendo con éxito tras el fix (`-ignoreMigrationPatterns` + `-baselineOnMigrate=true`)
 - [x] Runs de las migraciones `V__`/`R__` contra `dev` — ver sección 3
 - [ ] Runs de las migraciones `V__`/`R__` contra `main` (vía pipeline)
 - [ ] Falla real por un error de diseño (no de pipeline) + roll forward — Fase 6, pendiente
