@@ -114,13 +114,55 @@ Successfully applied 1 migration to schema "public" (execution time 00:00.825s)
 
 ---
 
+## 4. Primer run del workflow de despliegue: falla real de pipeline, diagnosticada y corregida
+
+Al mergear el PR de la Fase 5, `Flyway Deploy` corrió por primera vez contra `main` — y
+falló, como era esperable dado que `main` todavía no tenía el `baseline` corrido:
+
+![Historial de Actions: flyway-validate en el PR (éxito) y Flyway Deploy tras el merge (fallo)](images/first-execution-jobs-ci.png)
+
+```text
+Schema history table "public"."flyway_schema_history" does not exist yet
+ERROR: Validate failed: Migrations have failed validation
+Detected resolved migration not applied to database: 20260808190100.
+To fix this error, either run migrate, or set -ignoreMigrationPatterns='*:pending'.
+Detected resolved migration not applied to database: 20260808190200.
+Detected resolved migration not applied to database: 20260808190400.
+Detected resolved repeatable migration not applied to database: fn nivel negocio.
+Error: Process completed with exit code 1.
+```
+
+![Log del paso Flyway validate mostrando el error de migraciones pendientes](images/first-execution-error-ci.png)
+
+**Diagnóstico:** el paso `Flyway validate` de ambos workflows (`flyway-migrate.yml` y
+`flyway-validate-pr.yml`) no tenía el flag `-ignoreMigrationPatterns='*:pending'` — que sí
+está presente en la plantilla original del curso
+(`data_ops_course_101/.github/workflows/flyway-migrate.yml`). Sin ese flag, `validate`
+trata cualquier migración todavía no aplicada como un error, lo cual bloquea *cualquier*
+deploy real (toda migración nueva es "pendiente" hasta que `migrate` la aplica un paso
+después). Es un bug de configuración del pipeline, no del schema ni de los datos.
+
+**Corrección (roll forward, no se edita el run que ya falló):** se agregó el flag faltante
+a ambos workflows en una rama nueva (`fix/ci-validate-ignore-pending`), y sigue pendiente
+correr `flyway baseline` contra `main` — sin eso, el próximo run fallaría igual, pero en el
+paso `migrate` en vez de `validate` (`Found non-empty schema without metadata table`).
+
+**Qué prueba:** que el pipeline realmente se ejecuta contra Neon (no es un mock), que
+`flyway validate` sí actúa como puerta de calidad real (bloqueó el deploy en vez de dejarlo
+pasar a medias), y que el equipo puede diagnosticar y corregir un fallo de CI real con
+evidencia trazable en GitHub Actions — el mismo patrón que se usará en la Fase 6 para el
+error de diseño intencional en `primary_category`.
+
+---
+
 ## Pendiente de documentar (se agrega en cada fase siguiente)
 
-- [x] `flyway baseline` sobre `dev` — ver arriba (sección 3)
+- [x] `flyway baseline` sobre `dev` — ver sección 3
 - [ ] `flyway baseline` sobre `main`
-- [ ] Workflow `flyway-validate-pr.yml` corriendo en un PR (éxito) — Fase 5
-- [ ] Workflow `flyway-migrate.yml` corriendo tras un merge a `main` (éxito) — Fase 5
-- [x] Runs de las migraciones `V__`/`R__` contra `dev` — ver arriba (sección 3)
+- [x] Workflow `flyway-validate-pr.yml` corriendo en un PR (éxito) — ver sección 4
+- [x] Workflow `flyway-migrate.yml` corriendo tras un merge a `main` (fallo real, diagnosticado) — ver sección 4
+- [ ] Workflow `flyway-migrate.yml` corriendo con éxito tras el fix + baseline de `main`
+- [x] Runs de las migraciones `V__`/`R__` contra `dev` — ver sección 3
 - [ ] Runs de las migraciones `V__`/`R__` contra `main` (vía pipeline)
-- [ ] Falla real por editar una migración ya aplicada (checksum mismatch en CI) — Fase 6
-- [ ] Roll forward corregido y desplegado — Fase 6
+- [ ] Falla real por un error de diseño (no de pipeline) + roll forward — Fase 6, pendiente
+- [ ] Roll forward de `primary_category` corregido y desplegado — Fase 6

@@ -102,6 +102,7 @@ jobs:
             -password="${{ steps.conexion.outputs.clave }}" \
             -locations="filesystem:/flyway/sql" \
             -validateMigrationNaming=true \
+            -ignoreMigrationPatterns='*:pending' \
             validate
 
       - name: Flyway migrate (contra dev)
