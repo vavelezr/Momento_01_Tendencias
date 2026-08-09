@@ -159,14 +159,84 @@ error de diseño intencional en `primary_category`.
 
 ---
 
-## Pendiente de documentar (se agrega en cada fase siguiente)
+## 5. Fase 6 — Falla real de diseño y roll forward
 
-- [x] `flyway baseline` sobre `dev` — ver sección 3
-- [x] `flyway baseline` sobre `main` — automático vía `-baselineOnMigrate=true` en el primer deploy exitoso (ya no requiere paso manual, ver sección 4)
-- [x] Workflow `flyway-validate-pr.yml` corriendo en un PR (éxito) — ver sección 4
-- [x] Workflow `flyway-migrate.yml` corriendo tras un merge a `main` (fallo real, diagnosticado) — ver sección 4
-- [ ] Workflow `flyway-migrate.yml` corriendo con éxito tras el fix (`-ignoreMigrationPatterns` + `-baselineOnMigrate=true`)
-- [x] Runs de las migraciones `V__`/`R__` contra `dev` — ver sección 3
-- [ ] Runs de las migraciones `V__`/`R__` contra `main` (vía pipeline)
-- [ ] Falla real por un error de diseño (no de pipeline) + roll forward — Fase 6, pendiente
-- [ ] Roll forward de `primary_category` corregido y desplegado — Fase 6
+`business.primary_category` se agregó en la Fase 3 como `VARCHAR(15)`. No es un typo de
+sintaxis: es un error de diseño real — la muestra tiene 50 de sus 192 categorías (26%) con
+más de 15 caracteres, así que la columna falla con datos legítimos del propio dataset.
+
+### 5.1 El error, con datos reales
+
+SQL Editor de Neon, sobre `dev`:
+
+```sql
+UPDATE business SET primary_category = 'Health & Medical'
+WHERE business_id = '8iknYh-EMVCWAlzVtOYScw';
+```
+
+![Error de Postgres: value too long for type character varying(15)](images/update_too_long_error.png)
+
+```text
+ERROR: value too long for type character varying(15) (SQLSTATE 22001)
+```
+
+### 5.2 La tentación: editar la migración ya aplicada
+
+Rama `feature/wrong-fix-editar-migracion-vieja` (PR #13): cambia `VARCHAR(15)` por
+`VARCHAR(100)` directamente en `V20260808190100__add_primary_category.sql` — el archivo
+que Flyway ya aplicó, con su checksum ya grabado en `flyway_schema_history` de `dev` y de
+`main`. Se reproduce primero en local, contra `dev`:
+
+![flyway validate fallando en local por checksum mismatch](images/validate_error_dev.png)
+
+Y el mismo fallo en el PR real, en GitHub Actions:
+
+![Job flyway-validate fallido en el PR #13 por checksum mismatch](images/workflow_failure_version.png)
+
+```text
+ERROR: Validate failed: Migrations have failed validation
+Migration checksum mismatch for migration version 20260808190100
+ -> Applied to database : -340214653
+ -> Resolved locally    : 1267627153
+```
+
+**Qué prueba:** el ruleset de `main` exige `flyway-validate` en verde y no permite bypass
+ni a administradores — este PR queda bloqueado sin posibilidad de mergear, exactamente lo
+que se decidió en la Fase 1. El PR se cerró sin mergear y la rama se descartó.
+
+### 5.3 El roll forward real
+
+Rama `feature/fix-primary-category-length` (PR #14): migración **nueva**
+`V20260808200000__fix_primary_category_length.sql`:
+
+```sql
+ALTER TABLE business ALTER COLUMN primary_category TYPE VARCHAR(100);
+```
+
+Validada y aplicada primero en local, contra `dev`:
+
+![flyway validate exitoso sobre las 6 migraciones, incluida la nueva](images/validation_sucess_dev.png)
+![flyway migrate aplicando la migración del fix en dev](images/migrate_sucess_dev.png)
+
+Al ser un archivo nuevo, no toca ningún checksum existente: `flyway-validate` pasó en el
+PR y se mergeó a `main`, donde `Flyway Deploy` aplicó el `ALTER TABLE`. Verificación
+funcional sobre `main`, con la misma consulta que antes fallaba:
+
+![UPDATE con 'Health & Medical' ejecutado con éxito en main tras el fix](images/update_long_main.png)
+
+**Qué prueba:** el error de diseño se corrige con una migración nueva, nunca editando una
+ya aplicada — y el mismo pipeline que bloqueó el PR #13 dejó pasar el #14 sin fricción
+porque no había ningún checksum en conflicto.
+
+---
+
+## Pendiente de documentar
+
+- [x] `flyway baseline` sobre `dev` — sección 3
+- [x] `flyway baseline` sobre `main` — automático vía `-baselineOnMigrate=true` (sección 4)
+- [x] Workflow `flyway-validate-pr.yml` corriendo en un PR (éxito) — sección 4
+- [x] Workflow `flyway-migrate.yml` corriendo tras un merge a `main` (fallo real, diagnosticado) — sección 4
+- [x] Runs de las migraciones `V__`/`R__` contra `dev` — sección 3
+- [x] Runs de las migraciones `V__`/`R__` contra `main` (vía pipeline) — merge de los PR #6-#14, verificado funcionalmente en 5.3
+- [x] Falla real por un error de diseño (no de pipeline) + roll forward — sección 5
+- [x] Roll forward de `primary_category` corregido y desplegado — sección 5

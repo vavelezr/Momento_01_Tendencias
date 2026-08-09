@@ -2,28 +2,71 @@
 
 **Módulo:** Tendencias emergentes en desarrollo de software (SI6010-5979) · Pos ST1707
 **Entregable:** Momento evaluativo 1 — CI/CD sobre un dominio de negocio propio
-**Dominio elegido:** reseñas de negocios locales (Goodyear, AZ) — ver
-[`docs/dominio_de_negocio.md`](docs/dominio_de_negocio.md) para la descripción completa y
-el diagrama entidad-relación.
 
-Este repositorio replica, sobre un dominio propio, el patrón enseñado en las Sesiones 1 y 2
-del curso: estado base versionado en **Neon** (PostgreSQL serverless, branches `main`/`dev`
-aisladas), migraciones de esquema con **Flyway**, y despliegue automatizado con
-**GitHub Actions**.
+Este repositorio implementa, sobre un dominio propio, el patrón enseñado en el curso: estado
+base versionado en **Neon** (PostgreSQL serverless, branches `main`/`dev` aisladas),
+migraciones de esquema con **Flyway**, y despliegue automatizado con **GitHub Actions**.
 
 ---
 
-## Estado actual del repositorio
+## El dominio: reseñas de negocios locales (Goodyear, AZ)
+
+Los datos son una muestra real del [Yelp Academic Dataset]: todos los negocios de
+**Goodyear, AZ** (un suburbio de Phoenix, 308 negocios) junto con sus categorías, reseñas,
+tips y los usuarios que los escribieron. Descripción completa y diagrama entidad-relación
+en [`docs/dominio_de_negocio.md`](docs/dominio_de_negocio.md).
+
+**Por qué este dominio y no otro:**
+
+- **Es un dataset real, no un ejercicio sintético.** Trae los problemas de un dataset real —
+  categorías con nombres largos que rompen un `VARCHAR` mal dimensionado, fechas con
+  precisión inconsistente (`yelping_since` solo trae año-mes), campos que existen en el JSON
+  pero no en el modelo original — y esos problemas son justamente los que generan decisiones
+  de ingeniería defendibles, no solo un CRUD de relleno.
+- **Es deliberadamente distinto a Parch & Posey**, el ejemplo del curso. Parch & Posey es
+  B2B: una empresa le vende a cuentas corporativas a través de representantes de ventas y
+  territorios. Este dominio es de consumo masivo: miles de usuarios independientes
+  interactuando con negocios, sin ninguna jerarquía de ventas. El modelo, las preguntas de
+  negocio y hasta el tipo de migraciones que tiene sentido escribir son distintos por
+  diseño — no es el mismo schema con nombres de tabla cambiados.
+- **El tamaño es el correcto para el problema.** El Yelp Academic Dataset completo pesa
+  ~1.3 GB y excede el tier gratuito de Neon (0.5 GB); acotarlo a una sola ciudad deja
+  ~21 000 filas en 8 entidades relacionadas (5-6 tablas + relación N:N + funciones) —
+  suficiente complejidad relacional para justificar Flyway, sin necesitar una tarjeta de
+  crédito.
+
+**Preguntas de negocio que el modelo responde** (ver más en `docs/dominio_de_negocio.md`):
+¿qué categoría de negocio tiene mejor calificación promedio? ¿qué negocios tienen reseñas
+pero ningún tip, o viceversa? ¿qué tan bien correlacionan calificación y volumen de reseñas
+(la función `fn_nivel_negocio`, sección "Lógica de negocio" más abajo)?
+
+---
+
+## Decisiones técnicas clave
+
+| Decisión | Por qué |
+|---|---|
+| `main` protegida, cero push directo, todo vía PR | El entorno destino nunca es implícito: un commit local mal apuntado no debe poder tocar producción sin revisión — ver evidencia en [`docs/evidences/`](docs/evidences/) §1. |
+| Dos branches de Neon (`dev`/`main`), aisladas | `dev` es el banco de pruebas real de cada migración; `main` solo cambia por pipeline, nunca por una terminal. |
+| Migraciones atómicas, un propósito por archivo | Una tabla nueva, una columna nueva, un índice/restricción — nunca mezclados — para que un roll forward corrija exactamente una cosa. |
+| Dos workflows separados (`validate` en PR, `deploy` en push) | La misma imagen fija de Flyway corre en ambos: lo que se valida en el PR es *exactamente* lo que se despliega después, no una aproximación. |
+
+---
+
+## Estado del repositorio
 
 | Pieza | Estado |
 |---|---|
 | Dominio de negocio + ER | ✅ [`docs/dominio_de_negocio.md`](docs/dominio_de_negocio.md) |
 | Estado base (schema + carga) | ✅ [`scripts/inyeccion_semilla.py`](scripts/inyeccion_semilla.py) |
-| Protección de rama `main` | ✅ ruleset "No push to main" — ver [`docs/evidences/`](docs/evidences/) |
-| Configuración Flyway + baseline | ✅ [`flyway.conf.example`](flyway.conf.example) — baseline corrido contra `dev`; `main` se auto-baselinea en su primer deploy (`-baselineOnMigrate=true`) |
-| Migraciones Flyway (`V__`/`R__`) | ✅ 3 `V__` (tabla, columna, índice/restricción) + 1 `R__` en [`sql_migrations/`](sql_migrations/) — cumple el mínimo del enunciado |
+| Protección de rama `main` | ✅ ruleset "No push to main" |
+| Configuración Flyway + baseline | ✅ [`flyway.conf.example`](flyway.conf.example) |
+| Migraciones Flyway (`V__`/`R__`) | ✅ 4 `V__` (tabla, columna, índice/restricción, fix de columna) + 1 `R__` en [`sql_migrations/`](sql_migrations/) |
 | Workflows de CI/CD | ✅ [`.github/workflows/`](.github/workflows/) — deploy a `main` + validación en cada PR contra `dev` |
-| Evidencia de falla + roll forward | 🚧 pendiente |
+| Falla real + roll forward documentados | ✅ [`docs/evidences/`](docs/evidences/) §5 |
+
+Detalle completo de cada corrida (capturas de terminal y de GitHub Actions) en
+[`docs/evidences/README.md`](docs/evidences/README.md).
 
 ---
 
@@ -104,9 +147,9 @@ Verificación post-commit:
 Estado base listo. Total: 9105 filas en 5 tablas.
 ```
 
-Las tablas `business_hours`, `tip`, `checkin` y la columna `business.primary_category`
-**no** forman parte del baseline: llegan más adelante vía migraciones Flyway (`V__`) — ver
-la sección 3 de [`docs/dominio_de_negocio.md`](docs/dominio_de_negocio.md).
+La tabla `tip` y la columna `business.primary_category` **no** forman parte del baseline:
+llegan después vía migraciones Flyway (`V__`) — ver la sección 3 de
+[`docs/dominio_de_negocio.md`](docs/dominio_de_negocio.md).
 
 ### Aprovisionar el proyecto en Neon (una sola vez por integrante/entorno)
 
@@ -114,10 +157,10 @@ la sección 3 de [`docs/dominio_de_negocio.md`](docs/dominio_de_negocio.md).
 2. Neon crea la branch `main` por defecto — **queda vacía**, es la referencia intocable.
 3. **Branches → Create branch**: nombre `dev`, parent `main`. Ya tienes dos bases
    independientes.
-4. Copia ambos connection strings (paso 3 más arriba).
+4. Copia ambos connection strings (paso 2 más arriba).
 5. Corre la carga (paso 3 de "Cómo levantar el proyecto") apuntando **solo a `dev`**.
-6. **Bootstrap único de `main`** (se hace una sola vez en todo el proyecto, de forma
-   deliberada y documentada — no es lo mismo que tratar `main` como banco de pruebas):
+6. **Bootstrap único de `main`** (una sola vez en todo el proyecto, de forma deliberada y
+   documentada — no es lo mismo que tratar `main` como banco de pruebas):
 
    ```bash
    NEON_DEV_DATABASE_URL="<connection string de tu branch main>" \
@@ -134,9 +177,8 @@ la sección 3 de [`docs/dominio_de_negocio.md`](docs/dominio_de_negocio.md).
 
 A partir de aquí, ningún cambio de schema se hace corriendo `inyeccion_semilla.py` de
 nuevo: se hace con migraciones versionadas en [`sql_migrations/`](sql_migrations/)
-(`V__` evolutivas, `R__` repetibles — Fases 3 y 4). Flyway necesita saber, antes de
-aplicar la primera migración, que el schema del baseline ya existe — eso es lo que hace
-`baseline`.
+(`V__` evolutivas, `R__` repetibles). Flyway necesita saber, antes de aplicar la primera
+migración, que el schema del baseline ya existe — eso es lo que hace `baseline`.
 
 ### 1. Configurar `flyway.conf`
 
@@ -144,57 +186,43 @@ aplicar la primera migración, que el schema del baseline ya existe — eso es l
 cp flyway.conf.example flyway.conf
 ```
 
-Edita `flyway.conf` y pega tu connection string de Neon **convertido a formato JDBC**
-(el archivo trae el detalle de la conversión en un comentario). `flyway.conf` no se
-versiona — está en `.gitignore`, igual que `.env`.
+Edita `flyway.conf` y pega tu connection string de Neon **convertido a formato JDBC** (el
+archivo trae el detalle de la conversión en un comentario). `flyway.conf` no se versiona —
+está en `.gitignore`, igual que `.env`.
 
 ### 2. Correr el baseline (una vez por entorno: primero `dev`, luego `main`)
 
 Requiere que `scripts/inyeccion_semilla.py` ya se haya corrido contra ese entorno (el
-baseline le dice a Flyway "este schema que ya existe, cuéntalo como la versión 1" — no
-crea nada por sí mismo).
+baseline le dice a Flyway "este schema que ya existe, cuéntalo como la versión 1" — no crea
+nada por sí mismo).
 
 ```bash
-# Contra dev — banco de pruebas, aquí se valida el flujo primero.
 flyway -configFiles=flyway.conf baseline
-
-# Contra main — solo una vez, bootstrap consciente, igual que con inyeccion_semilla.py.
-# Cambia flyway.url/user/password en flyway.conf a los de la branch main antes de correrlo,
-# o usa flags -url/-user/-password para no tocar el archivo:
-flyway -configFiles=flyway.conf \
-  -url="jdbc:postgresql://<host-main>.neon.tech/<database>?sslmode=require" \
-  -user="<usuario>" -password="<password>" \
-  baseline
 ```
 
-Salida esperada: `Successfully baselined schema with version: 1`. A partir de este punto,
-`flyway migrate` sobre cualquiera de los dos entornos solo aplicará migraciones con
-versión posterior a la 1.
+Salida esperada: `Successfully baselined schema with version: 1`.
 
-> Este paso es solo para trabajar **en local** (`flyway.conf` no fija
-> `baselineOnMigrate`, así que cada quien decide conscientemente cuándo baselinea su
-> propio `dev`). Los workflows de CI/CD (siguiente sección) **no** necesitan que corras
-> esto contra `main` — lo resuelven solos en su primer run.
+> Este paso es solo para trabajar **en local**. Los workflows de CI/CD (siguiente sección)
+> **no** lo necesitan contra `main` — lo resuelven solos en su primer run
+> (`-baselineOnMigrate=true`).
 
 ---
 
 ## Workflows de CI/CD
 
-Dos workflows en [`.github/workflows/`](.github/workflows/), ambos usando la misma
-imagen Docker fijada (`flyway/flyway:13.1.0-alpine`) para que local y CI corran
-exactamente lo mismo:
+Dos workflows en [`.github/workflows/`](.github/workflows/), ambos con la misma imagen
+Docker fijada (`flyway/flyway:13.1.0-alpine`) para que local y CI corran exactamente lo
+mismo:
 
 | Workflow | Dispara con | Contra | Qué hace |
 |---|---|---|---|
 | [`flyway-validate-pr.yml`](.github/workflows/flyway-validate-pr.yml) | `pull_request` hacia `main`, tocando `sql_migrations/` | Neon `dev` | `flyway validate` + `flyway migrate`. Es el status check `flyway-validate` que el ruleset de `main` exige en verde antes de mergear. |
 | [`flyway-migrate.yml`](.github/workflows/flyway-migrate.yml) | `push` a `main`, tocando `sql_migrations/` | Neon `main` | `flyway validate` + `flyway migrate`. Es lo único que efectivamente escribe en producción — corre después de cada merge. |
 
-Ninguno usa `flyway clean` (`-cleanDisabled=true` en ambos). Ambos sí usan
-`-baselineOnMigrate=true`: si el entorno destino no tiene `flyway_schema_history`
-todavía, el propio `migrate` lo adopta como versión 1 y sigue — decisión de equipo para
-automatizar también el primer despliegue por entorno (ver el comentario en
-[`flyway-migrate.yml`](.github/workflows/flyway-migrate.yml) para el detalle de la
-alternativa descartada).
+Ninguno usa `flyway clean` (`-cleanDisabled=true`). Cuando alguien edita una migración ya
+aplicada en vez de escribir una nueva, `flyway validate` falla con *checksum mismatch* y
+bloquea el PR antes de tocar la base — evidencia real de esto en
+[`docs/evidences/README.md`](docs/evidences/README.md) §5.
 
 ---
 
@@ -211,10 +239,17 @@ git push origin feature/lo-que-sea
 # abrir Pull Request hacia main, esperar aprobación + status checks en verde, mergear
 ```
 
-Ver [`docs/evidences/`](docs/evidences/) para la prueba de que la protección está activa
+Ver [`docs/evidences/`](docs/evidences/) §1 para la prueba de que la protección está activa
 (incluye el rechazo real de un intento de push directo).
 
-### Secretos requeridos (GitHub → Settings → Secrets and variables → Actions)
+### Secretos y seguridad
+
+- Cero credenciales en el repositorio, verificado también en el historial de commits (solo
+  hay placeholders del tipo `usuario:password@ep-xxxx`, nunca un connection string real).
+- `.env` y `flyway.conf` están en `.gitignore` — cada integrante mantiene los suyos en
+  local, nunca se comparten por git.
+- Los dos secretos reales viven únicamente en GitHub → *Settings → Secrets and variables →
+  Actions*:
 
 | Secreto | Contenido | Usado por |
 |---|---|---|
@@ -234,11 +269,13 @@ Momento_01_Tendencias/
 ├── data/                         ← datos semilla (JSON), fuente de verdad de la muestra
 ├── scripts/
 │   └── inyeccion_semilla.py      ← carga el estado base en Neon
-├── sql_migrations/                ← migraciones Flyway: 3 V__ + 1 R__
+├── sql_migrations/                ← migraciones Flyway: 4 V__ + 1 R__
 ├── docs/
 │   ├── dominio_de_negocio.md     ← descripción del dominio + diagrama ER
-│   └── evidences/                ← capturas y evidencia de cada fase
+│   └── evidences/                ← capturas y evidencia de cada fase, incluida la Fase 6
 └── .github/workflows/
     ├── flyway-validate-pr.yml    ← corre en cada PR, contra dev
     └── flyway-migrate.yml        ← corre en cada push a main, contra main
 ```
+
+[Yelp Academic Dataset]: https://www.yelp.com/dataset
