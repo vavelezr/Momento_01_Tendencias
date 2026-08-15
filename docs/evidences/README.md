@@ -230,7 +230,54 @@ porque no había ningún checksum en conflicto.
 
 ---
 
-## Pendiente de documentar
+---
+
+# Momento 2 — Ingesta hacia Snowflake
+
+Arranca aquí la evidencia del Momento 2 (Cloud DW e ingesta), sobre el mismo dominio y
+la misma branch `dev` de Neon del Momento 1.
+
+## Sesión 4 adaptada — primera carga ELT (Neon → Snowflake RAW)
+
+Aprovisionamiento de Snowflake como código en [`snowflake/setup/`](../../snowflake/setup/)
+(base de datos `YELP_GOODYEAR_DW`, warehouse `WH_YELP_XS` con auto-suspend, rol de
+servicio `YELP_LOADER_ROLE` sin privilegios de administración, usuario `SVC_YELP_LOADER`
+autenticado por par de llaves RSA — `TYPE = SERVICE`, sin password, para evitar el MFA
+obligatorio que Snowflake exige en login interactivo). Extracción y carga con
+[`ingesta/elt_neon_to_snowflake.py`](../../ingesta/elt_neon_to_snowflake.py):
+
+![Terminal: carga exitosa de las 6 tablas del modelo propio en YELP_GOODYEAR_DW.RAW](images/elt_neon_to_snowflake.png)
+
+```text
+Extrayendo category desde Neon...          192 filas  ->  OK -> 192 filas en RAW.CATEGORY
+Extrayendo business desde Neon...          308 filas  ->  OK -> 308 filas en RAW.BUSINESS
+Extrayendo business_category desde Neon... 870 filas  ->  OK -> 870 filas en RAW.BUSINESS_CATEGORY
+Extrayendo users desde Neon...            2757 filas  ->  OK -> 2757 filas en RAW.USERS
+Extrayendo review desde Neon...           4978 filas  ->  OK -> 4978 filas en RAW.REVIEW
+Extrayendo tip desde Neon...              2239 filas  ->  OK -> 2239 filas en RAW.TIP
+```
+
+**Qué prueba:**
+- Las 6 tablas del modelo propio (baseline + `tip` del Momento 1) llegan completas a
+  Snowflake — 11 344 filas en total, el mismo número documentado en
+  [`docs/dominio_de_negocio.md`](../dominio_de_negocio.md).
+- La autenticación por par de llaves funciona de punta a punta: `SVC_YELP_LOADER` es un
+  usuario de servicio **compartido por el equipo**, cada integrante con su propia llave
+  registrada en un slot distinto (`RSA_PUBLIC_KEY` / `RSA_PUBLIC_KEY_2`) — documentado en
+  [`snowflake/setup/05_set_service_user_key.sql`](../../snowflake/setup/05_set_service_user_key.sql).
+- El script resuelve `SNOWFLAKE_PRIVATE_KEY_PATH` anclándose en la raíz del repositorio
+  (no en el directorio desde donde se invoca) — mismo patrón que
+  [`scripts/inyeccion_semilla.py`](../../scripts/inyeccion_semilla.py) usa para `data/`.
+
+**Qué falta todavía** (fuera del alcance de esta primera carga, ver
+[`ingesta/README.md`](../../ingesta/README.md)): provocar y resolver schema drift a
+propósito, Internal Stages (`PUT` + `COPY INTO`), idempotencia real, bitácora de carga y
+validaciones automatizadas — contenido de la Sesión 5 y del resto de la rúbrica del
+Momento 2.
+
+---
+
+## Pendiente de documentar (Momento 1)
 
 - [x] `flyway baseline` sobre `dev` — sección 3
 - [x] `flyway baseline` sobre `main` — automático vía `-baselineOnMigrate=true` (sección 4)
