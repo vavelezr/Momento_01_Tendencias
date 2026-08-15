@@ -2,6 +2,10 @@
 .env
 flyway.conf
 
+# Llaves RSA (key-pair auth de Snowflake) — la privada nunca se versiona
+snowflake/setup/keys/
+*.p8
+
 # Entornos Python (uv)
 .venv/
 __pycache__/
