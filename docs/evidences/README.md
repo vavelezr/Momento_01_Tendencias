@@ -270,10 +270,71 @@ Extrayendo tip desde Neon...              2239 filas  ->  OK -> 2239 filas en RA
   [`scripts/inyeccion_semilla.py`](../../scripts/inyeccion_semilla.py) usa para `data/`.
 
 **Qué falta todavía** (fuera del alcance de esta primera carga, ver
-[`ingesta/README.md`](../../ingesta/README.md)): provocar y resolver schema drift a
-propósito, Internal Stages (`PUT` + `COPY INTO`), idempotencia real, bitácora de carga y
-validaciones automatizadas — contenido de la Sesión 5 y del resto de la rúbrica del
-Momento 2.
+[`ingesta/README.md`](../../ingesta/README.md)): Internal Stages (`PUT` + `COPY INTO`),
+idempotencia real, bitácora de carga y validaciones automatizadas — contenido de la
+Sesión 5 y del resto de la rúbrica del Momento 2.
+
+## Schema drift: detectado y corregido con roll forward
+
+`review.sentiment_label` se agregó como columna **permanente** del modelo vía migración
+Flyway ([`V20260815154746__add_review_sentiment_label.sql`](../../sql_migrations/V20260815154746__add_review_sentiment_label.sql)),
+con el mismo flujo PR + `flyway-validate` + merge + `flyway-migrate` de siempre — no un
+`ALTER` suelto por fuera del pipeline. Aun así, Snowflake `RAW` no se entera de columnas
+nuevas hasta que algo las carga: es exactamente el escenario de schema drift que la
+ingesta debe manejar sin caerse a medias.
+
+### El drift, detectado antes de tocar Snowflake
+
+```bash
+cd ingesta
+uv run elt_neon_to_snowflake.py --tabla review
+```
+
+![Terminal: schema drift detectado en REVIEW, script detenido antes de escribir](images/drift-error.png)
+
+```text
+Extrayendo review desde Neon...
+  4978 filas · columnas: [..., 'SENTIMENT_LABEL']
+
+ERROR:
+Schema drift detectado en REVIEW: la fuente en Neon trae columna(s) nueva(s) que
+Snowflake no tiene todavía: ['SENTIMENT_LABEL'].
+
+Aplica esto en un Worksheet de Snowsight y vuelve a correr el script:
+
+ALTER TABLE REVIEW ADD COLUMN "SENTIMENT_LABEL" VARCHAR;
+```
+
+### Roll forward en Snowflake y recarga exitosa
+
+```sql
+USE ROLE YELP_LOADER_ROLE;  -- dueño real de la tabla; ACCOUNTADMIN no hereda MODIFY sobre objetos que no creó
+USE DATABASE YELP_GOODYEAR_DW;
+USE SCHEMA RAW;
+ALTER TABLE REVIEW ADD COLUMN "SENTIMENT_LABEL" VARCHAR;
+```
+
+```bash
+uv run elt_neon_to_snowflake.py --tabla review
+```
+
+![Terminal: recarga exitosa de REVIEW tras aplicar el DDL sugerido](images/drift-sucess.png)
+
+```text
+OK -> 4978 filas en RAW.REVIEW
+```
+
+**Qué prueba:**
+- El pipeline detecta un cambio de schema en el origen **antes** de escribir nada mal en
+  el destino — el mismo criterio de "detectar antes de fallar" que ya se demostró con
+  Flyway (`flyway validate` antes de `migrate`) en el Momento 1.
+- El DDL que corrige el drift lo genera el propio script, no alguien adivinando — y se
+  aplica manualmente en Snowflake, nunca automático, mismo principio que "generar el DDL,
+  no ejecutarlo solo" del rol de servicio sin privilegios de administración.
+- Detalle operativo real, no solo de script: `YELP_LOADER_ROLE` es el dueño de las tablas
+  de `RAW` (las creó él), así que un usuario humano con `ACCOUNTADMIN` necesita activar
+  ese rol explícitamente para poder alterarlas — Snowflake no da privilegios implícitos
+  por estar arriba en la jerarquía.
 
 ---
 
