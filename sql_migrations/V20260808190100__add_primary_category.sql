@@ -5,4 +5,4 @@
 -- Se puebla en un paso aparte (SQL Editor de Neon) a partir de business_category — no en
 -- esta migración, que solo agrega la columna.
 
-ALTER TABLE business ADD COLUMN primary_category VARCHAR(15);
+ALTER TABLE business ADD COLUMN primary_category VARCHAR(100);
