@@ -29,9 +29,12 @@ en la exploración manual) — correr el script 2 dos veces duplica filas en
 - Una task con `AFTER` nace `SUSPENDED` igual que la raíz. Nada corre hasta
   `SYSTEM$TASK_DEPENDENTS_ENABLE('TASK_INGEST_BUSINESS_HOURS')`, que activa la raíz y todo
   su árbol de dependientes de una vez.
-- **Al apagar: la raíz primero, siempre.** Suspender la hija con la raíz todavía activa
-  falla (error 091421 o similar) — el script deja ese intento fallido documentado antes
-  del apagado correcto, a propósito, como evidencia de haber entendido la regla.
+- **Al apagar: la raíz primero, siempre.** Tocar la hija (`RESUME` o `SUSPEND`) con la
+  raíz todavía activa falla en los dos sentidos — verificado contra la cuenta real, el
+  mensaje es *"Unable to update graph with root task ... since that root task is not
+  suspended"* (no el 091421 citado en clase, pero la misma regla). El script deja ambos
+  intentos fallidos documentados antes del apagado correcto, a propósito, como evidencia
+  de haber entendido la regla.
 
 ## Campo de PII y la Masking Policy (script 4)
 

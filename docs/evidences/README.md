@@ -383,11 +383,25 @@ Vista previa del contenido crudo del stage, antes de cargarlo a una tabla — co
 (`weekly_hours`) — es la condición mínima que exige la rúbrica para "Excelente" en este
 punto (no basta un JSON plano sin nada que aplanar).
 
-> ⚠️ **Falta captura:** el `COUNT(*)` post-`COPY INTO` (154 negocios esperados) y el
-> `COUNT(*)` / `GROUP BY business_id` post-`FLATTEN` de `02_flatten_query_exploration.sql`
-> todavía no tienen screenshot. Son solo dos queries de verificación, ya escritas en el
-> script — vale la pena tomarlas antes de la sustentación porque prueban que el `FLATTEN`
-> desenrolló el array completo, no solo la primera fila.
+Conteo post-`COPY INTO` y post-`FLATTEN`:
+
+![COUNT(*) sobre RAW.RAW_BUSINESS_HOURS (154) y sobre STAGING.STG_BUSINESS_HOURS_FLATTENED](images/momento_02_post_ingest_count.png)
+
+```text
+TOTAL_NEGOCIOS: 154
+```
+
+**Qué prueba:** los 154 negocios del export (77 + 77 de los dos archivos) llegaron
+completos a `RAW_BUSINESS_HOURS` — el `COPY INTO` no perdió ni duplicó filas.
+
+Negocios con menos de 7 días de horario reportado:
+
+![GROUP BY business_id ORDER BY dias_con_horario ASC: los 5 negocios con menos días registrados (4-5 días)](images/momento_02_days_with_business.png)
+
+**Qué prueba:** el `FLATTEN` desenrolló el array `weekly_hours` completo por negocio, no
+solo la primera posición — hay negocios con 4 y 5 días registrados (no los 7 parejos),
+lo que confirma que la cantidad de filas por negocio varía según lo que de verdad traía
+cada array, no según un número fijo asumido por el script.
 
 ### 2. Orquestación con Tasks (Punto 4): DAG raíz → hija
 
@@ -406,13 +420,41 @@ de Snowflake — `CORTEX_BASE_MODELS_REFRESH_TASK`, `APPLY_OVERRIDES_TASK`, etc.
 proyecto; el script ya filtra por `WHERE name IN (...)` para que la próxima captura salga
 limpia sin tener que recortarla.)
 
-> ⚠️ **Falta la evidencia más importante de este punto:** el script (líneas del bloque
-> "Evidencia de administración") ya incluye el intento de suspender la **hija primero**
-> con la raíz todavía activa, esperando el error real de Snowflake (091421 o similar) —
-> pero ese paso todavía no se corrió/capturó, solo el apagado en el orden correcto. Es
-> rápido de rehacer: `ALTER TASK ... RESUME` sobre las dos, intentar suspender la hija con
-> la raíz `started`, capturar el error, y **entonces sí** apagar raíz→hija. También falta
-> el `SHOW TASKS` con ambas en `started` justo después de `SYSTEM$TASK_DEPENDENTS_ENABLE`.
+**Administración: tocar la hija con la raíz activa falla, en cualquier dirección.**
+Con `TASK_INGEST_BUSINESS_HOURS` (raíz) ya `RESUME`d y activa, se intentó tanto
+reanudar como suspender la hija directamente:
+
+```sql
+ALTER TASK RAW.TASK_INGEST_BUSINESS_HOURS RESUME;
+ALTER TASK RAW.TASK_FLATTEN_BUSINESS_HOURS RESUME;  -- falla
+```
+
+![Error real de Snowflake al intentar RESUME de la hija con la raíz activa: "Unable to update graph with root task ... since that root task is not suspended"](images/momento_02_failed_to_resume.png)
+
+```sql
+ALTER TASK RAW.TASK_INGEST_BUSINESS_HOURS RESUME;
+ALTER TASK RAW.TASK_FLATTEN_BUSINESS_HOURS SUSPEND;  -- también falla
+```
+
+![Error real de Snowflake al intentar SUSPEND de la hija con la raíz activa: mismo mensaje](images/momento_02_failed_to_suspend.png)
+
+```text
+Unable to update graph with root task YELP_GOODYEAR_DW.RAW.TASK_INGEST_BUSINESS_HOURS
+since that root task is not suspended.
+```
+
+**Qué prueba:** el error real que devuelve Snowflake no es el código 091421 que
+esperábamos por el material de clase, sino este mensaje — pero es exactamente la misma
+regla: **ningún miembro de un DAG se puede alterar (ni `RESUME` ni `SUSPEND`) mientras la
+raíz esté activa**. Solo se puede tocar un hijo con la raíz ya `SUSPEND`ed, o dejar que
+`SYSTEM$TASK_DEPENDENTS_ENABLE`/`EXECUTE TASK` gestionen el árbol completo. Es evidencia
+de haber entendido la regla (y de haberla probado en los dos sentidos), no solo de
+citarla.
+
+> ⚠️ **Pendiente, sin resolver a propósito:** el `SHOW TASKS` con ambas tareas en
+> `started` justo después de `SYSTEM$TASK_DEPENDENTS_ENABLE` no tiene captura. Se decidió
+> dejarlo así — no es bloqueante: `TASK_HISTORY` ya prueba que ambas tareas corrieron y
+> `SUCCEEDED`, que es la evidencia de que el DAG sí estuvo activo.
 
 ### 3. RBAC + Masking Policy (Punto 5): visibilidad diferenciada por rol
 
@@ -420,10 +462,13 @@ Script: [`snowflake/json/04_rbac_and_masking.sql`](../../snowflake/json/04_rbac_
 roles `ROLE_YELP_DATA_ANALYST` (todo el dato) y `ROLE_YELP_BUSINESS_OWNER` (dato operativo,
 PII enmascarada), Masking Policy sobre `USERS.NAME` (único campo de PII del dominio).
 
-> ⚠️ **Falta captura del "antes":** el script incluye el `SELECT` con ambos roles de
-> negocio **antes** de crear la masking policy (ambos deberían ver el nombre completo) —
-> sin ese screenshot, el "antes vs. después" que pide la rúbrica para "Excelente" solo
-> queda documentado a medias (tenemos el "después", no el contraste completo).
+> **Sobre el "antes":** el script incluye el `SELECT` con ambos roles de negocio antes de
+> crear la masking policy, pero no quedó capturado — la política ya estaba aplicada para
+> cuando se tomaron las evidencias, y revertirla (`UNSET MASKING POLICY`) solo para la
+> foto habría alterado el estado ya validado del pipeline. Se decidió no perseguir esta
+> captura: la rúbrica (`C5 Excelente`, ver `snowflake/json/README.md`) exige mostrar la
+> **visibilidad diferenciada por rol** — el "después" de abajo — no un contraste explícito
+> de dos estados; el "antes" era refuerzo nuestro, no un requisito literal.
 
 **Después de aplicar la política:** mismo `SELECT`, tres roles, tres resultados distintos:
 
@@ -443,14 +488,16 @@ se le da una excepción a propósito.
 ### Checklist de evidencia — Sesión 5
 
 - [x] `COPY INTO` cargando el JSON semi-estructurado, con array anidado real (`weekly_hours`).
-- [ ] Conteo de filas post-`COPY INTO` y post-`FLATTEN` (falta captura, query ya escrita).
+- [x] Conteo de filas post-`COPY INTO` (154 negocios) y post-`FLATTEN` (variabilidad real
+      de días por negocio, 4-5 en los casos más bajos).
 - [x] DAG con `EXECUTE TASK` disparado manualmente y `TASK_HISTORY` mostrando la corrida
       exitosa de ambas tareas.
-- [ ] `SHOW TASKS` con el DAG en `started` tras `SYSTEM$TASK_DEPENDENTS_ENABLE` (falta captura).
-- [ ] Intento de suspender la hija con la raíz activa → error real de Snowflake (**falta
-      reproducir y capturar** — es el punto que el plan marca como "evidencia de haber
-      entendido la regla, no solo de citarla").
+- [ ] `SHOW TASKS` con el DAG en `started` tras `SYSTEM$TASK_DEPENDENTS_ENABLE` — **sin
+      capturar, a propósito** (no bloqueante: `TASK_HISTORY` ya prueba que el DAG corrió).
+- [x] Intento de tocar la hija con la raíz activa → error real de Snowflake, en las dos
+      direcciones (`RESUME` y `SUSPEND`). El mensaje real difiere del 091421 citado en
+      clase, pero es la misma regla de administración.
 - [x] Visibilidad diferenciada por rol después de aplicar la Masking Policy (3 roles, 3
       resultados distintos).
-- [ ] Visibilidad *antes* de aplicar la Masking Policy, para el contraste completo (falta
-      captura).
+- [ ] Visibilidad *antes* de aplicar la Masking Policy — **no capturada, a propósito**
+      (no es un requisito literal de la rúbrica; ver nota en la sección 3).

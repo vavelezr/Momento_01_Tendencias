@@ -65,10 +65,14 @@ ORDER BY scheduled_time DESC
 LIMIT 10;  -- CAPTURA: ambas SUCCEEDED, completed_time de la hija justo después de la raíz
 
 -- ---------------------------------------------------------------------------
--- Evidencia de administración: apagar la hija con la raíz activa falla (091421).
--- Corregir ANTES de la sustentación si todavía no se capturó este error real.
+-- Evidencia de administración: tocar la hija con la raíz activa falla, en las dos
+-- direcciones. Verificado contra la cuenta real: el mensaje no es el código 091421
+-- citado en clase, sino "Unable to update graph with root task ... since that root
+-- task is not suspended." — misma regla, error distinto. Ver docs/evidences/README.md.
 -- ---------------------------------------------------------------------------
-ALTER TASK RAW.TASK_FLATTEN_BUSINESS_HOURS SUSPEND;  -- CAPTURA: error esperado (091421 o similar)
+ALTER TASK RAW.TASK_INGEST_BUSINESS_HOURS RESUME;
+ALTER TASK RAW.TASK_FLATTEN_BUSINESS_HOURS RESUME;   -- CAPTURADO: falla, root no suspendido
+ALTER TASK RAW.TASK_FLATTEN_BUSINESS_HOURS SUSPEND;  -- CAPTURADO: también falla
 
 -- Orden correcto: la raíz primero, siempre.
 ALTER TASK RAW.TASK_INGEST_BUSINESS_HOURS SUSPEND;
