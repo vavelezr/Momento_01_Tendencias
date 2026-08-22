@@ -1,0 +1,2962 @@
+[
+  {
+    "business_id": "aivGtJ8QlzyS_nzZV6CUUQ",
+    "weekly_hours": [
+      {
+        "day_of_week": "Monday",
+        "open_time": "06:00",
+        "close_time": "21:00"
+      },
+      {
+        "day_of_week": "Tuesday",
+        "open_time": "06:00",
+        "close_time": "21:00"
+      },
+      {
+        "day_of_week": "Friday",
+        "open_time": "06:00",
+        "close_time": "10:30"
+      },
+      {
+        "day_of_week": "Wednesday",
+        "open_time": "06:00",
+        "close_time": "21:00"
+      },
+      {
+        "day_of_week": "Sunday",
+        "open_time": "06:00",
+        "close_time": "21:00"
+      },
+      {
+        "day_of_week": "Saturday",
+        "open_time": "06:00",
+        "close_time": "21:00"
+      }
+    ]
+  },
+  {
+    "business_id": "FuqWdD44gYFhofESN6JD1A",
+    "weekly_hours": [
+      {
+        "day_of_week": "Monday",
+        "open_time": "11:00",
+        "close_time": "22:00"
+      },
+      {
+        "day_of_week": "Tuesday",
+        "open_time": "11:00",
+        "close_time": "22:00"
+      },
+      {
+        "day_of_week": "Friday",
+        "open_time": "11:00",
+        "close_time": "22:00"
+      },
+      {
+        "day_of_week": "Wednesday",
+        "open_time": "11:00",
+        "close_time": "22:00"
+      },
+      {
+        "day_of_week": "Thursday",
+        "open_time": "11:00",
+        "close_time": "22:00"
+      },
+      {
+        "day_of_week": "Sunday",
+        "open_time": "11:00",
+        "close_time": "22:00"
+      },
+      {
+        "day_of_week": "Saturday",
+        "open_time": "11:00",
+        "close_time": "22:00"
+      }
+    ]
+  },
+  {
+    "business_id": "3X081wewB-J5tIMO_aOPnA",
+    "weekly_hours": [
+      {
+        "day_of_week": "Monday",
+        "open_time": "11:00",
+        "close_time": "22:00"
+      },
+      {
+        "day_of_week": "Tuesday",
+        "open_time": "11:00",
+        "close_time": "22:00"
+      },
+      {
+        "day_of_week": "Friday",
+        "open_time": "11:00",
+        "close_time": "22:00"
+      },
+      {
+        "day_of_week": "Wednesday",
+        "open_time": "11:00",
+        "close_time": "22:00"
+      },
+      {
+        "day_of_week": "Thursday",
+        "open_time": "11:00",
+        "close_time": "22:00"
+      },
+      {
+        "day_of_week": "Sunday",
+        "open_time": "12:00",
+        "close_time": "21:00"
+      },
+      {
+        "day_of_week": "Saturday",
+        "open_time": "11:00",
+        "close_time": "22:00"
+      }
+    ]
+  },
+  {
+    "business_id": "Ybp4q-EPT7RaIQ-xkrqdug",
+    "weekly_hours": [
+      {
+        "day_of_week": "Monday",
+        "open_time": "10:00",
+        "close_time": "20:00"
+      },
+      {
+        "day_of_week": "Tuesday",
+        "open_time": "10:00",
+        "close_time": "20:00"
+      },
+      {
+        "day_of_week": "Friday",
+        "open_time": "10:00",
+        "close_time": "20:00"
+      },
+      {
+        "day_of_week": "Wednesday",
+        "open_time": "10:00",
+        "close_time": "20:00"
+      },
+      {
+        "day_of_week": "Thursday",
+        "open_time": "10:00",
+        "close_time": "20:00"
+      },
+      {
+        "day_of_week": "Sunday",
+        "open_time": "12:00",
+        "close_time": "17:00"
+      },
+      {
+        "day_of_week": "Saturday",
+        "open_time": "09:00",
+        "close_time": "18:00"
+      }
+    ]
+  },
+  {
+    "business_id": "1FmyMPP4o1TvTvo7Ngz73w",
+    "weekly_hours": [
+      {
+        "day_of_week": "Monday",
+        "open_time": "09:00",
+        "close_time": "18:00"
+      },
+      {
+        "day_of_week": "Tuesday",
+        "open_time": "09:00",
+        "close_time": "18:00"
+      },
+      {
+        "day_of_week": "Friday",
+        "open_time": "09:00",
+        "close_time": "18:00"
+      },
+      {
+        "day_of_week": "Wednesday",
+        "open_time": "09:00",
+        "close_time": "18:00"
+      },
+      {
+        "day_of_week": "Thursday",
+        "open_time": "09:00",
+        "close_time": "18:00"
+      },
+      {
+        "day_of_week": "Sunday",
+        "open_time": "11:00",
+        "close_time": "17:00"
+      },
+      {
+        "day_of_week": "Saturday",
+        "open_time": "08:00",
+        "close_time": "17:00"
+      }
+    ]
+  },
+  {
+    "business_id": "3rTS_sopbW1pgj2DRav1ww",
+    "weekly_hours": [
+      {
+        "day_of_week": "Monday",
+        "open_time": "09:00",
+        "close_time": "21:00"
+      },
+      {
+        "day_of_week": "Tuesday",
+        "open_time": "09:00",
+        "close_time": "21:00"
+      },
+      {
+        "day_of_week": "Friday",
+        "open_time": "09:00",
+        "close_time": "21:00"
+      },
+      {
+        "day_of_week": "Wednesday",
+        "open_time": "09:00",
+        "close_time": "21:00"
+      },
+      {
+        "day_of_week": "Thursday",
+        "open_time": "09:00",
+        "close_time": "21:00"
+      },
+      {
+        "day_of_week": "Sunday",
+        "open_time": "10:00",
+        "close_time": "19:00"
+      },
+      {
+        "day_of_week": "Saturday",
+        "open_time": "09:00",
+        "close_time": "21:00"
+      }
+    ]
+  },
+  {
+    "business_id": "miUjtW5ZOc4WN0pB53VokA",
+    "weekly_hours": [
+      {
+        "day_of_week": "Monday",
+        "open_time": "11:00",
+        "close_time": "22:00"
+      },
+      {
+        "day_of_week": "Tuesday",
+        "open_time": "11:00",
+        "close_time": "22:00"
+      },
+      {
+        "day_of_week": "Friday",
+        "open_time": "11:00",
+        "close_time": "23:00"
+      },
+      {
+        "day_of_week": "Wednesday",
+        "open_time": "11:00",
+        "close_time": "22:00"
+      },
+      {
+        "day_of_week": "Thursday",
+        "open_time": "11:00",
+        "close_time": "22:00"
+      },
+      {
+        "day_of_week": "Sunday",
+        "open_time": "11:00",
+        "close_time": "22:00"
+      },
+      {
+        "day_of_week": "Saturday",
+        "open_time": "11:00",
+        "close_time": "23:00"
+      }
+    ]
+  },
+  {
+    "business_id": "e0wJd1deF4Wl-etBC7nBgQ",
+    "weekly_hours": [
+      {
+        "day_of_week": "Monday",
+        "open_time": "08:00",
+        "close_time": "18:00"
+      },
+      {
+        "day_of_week": "Tuesday",
+        "open_time": "08:00",
+        "close_time": "18:00"
+      },
+      {
+        "day_of_week": "Friday",
+        "open_time": "08:00",
+        "close_time": "18:00"
+      },
+      {
+        "day_of_week": "Wednesday",
+        "open_time": "08:00",
+        "close_time": "18:00"
+      },
+      {
+        "day_of_week": "Thursday",
+        "open_time": "08:00",
+        "close_time": "18:00"
+      },
+      {
+        "day_of_week": "Saturday",
+        "open_time": "08:00",
+        "close_time": "17:00"
+      }
+    ]
+  },
+  {
+    "business_id": "K45lBLY0uTnPduIOw7U_BQ",
+    "weekly_hours": [
+      {
+        "day_of_week": "Monday",
+        "open_time": "11:00",
+        "close_time": "22:00"
+      },
+      {
+        "day_of_week": "Tuesday",
+        "open_time": "11:00",
+        "close_time": "22:00"
+      },
+      {
+        "day_of_week": "Friday",
+        "open_time": "11:00",
+        "close_time": "23:00"
+      },
+      {
+        "day_of_week": "Wednesday",
+        "open_time": "11:00",
+        "close_time": "22:00"
+      },
+      {
+        "day_of_week": "Thursday",
+        "open_time": "11:00",
+        "close_time": "22:00"
+      },
+      {
+        "day_of_week": "Sunday",
+        "open_time": "11:00",
+        "close_time": "22:00"
+      },
+      {
+        "day_of_week": "Saturday",
+        "open_time": "11:00",
+        "close_time": "23:00"
+      }
+    ]
+  },
+  {
+    "business_id": "4ZZCdTOIJS7mchFLZfAzBA",
+    "weekly_hours": [
+      {
+        "day_of_week": "Monday",
+        "open_time": "07:30",
+        "close_time": "19:00"
+      },
+      {
+        "day_of_week": "Tuesday",
+        "open_time": "07:30",
+        "close_time": "19:00"
+      },
+      {
+        "day_of_week": "Friday",
+        "open_time": "07:30",
+        "close_time": "19:00"
+      },
+      {
+        "day_of_week": "Wednesday",
+        "open_time": "07:30",
+        "close_time": "19:00"
+      },
+      {
+        "day_of_week": "Thursday",
+        "open_time": "07:30",
+        "close_time": "19:00"
+      },
+      {
+        "day_of_week": "Sunday",
+        "open_time": "08:00",
+        "close_time": "17:00"
+      },
+      {
+        "day_of_week": "Saturday",
+        "open_time": "08:00",
+        "close_time": "18:00"
+      }
+    ]
+  },
+  {
+    "business_id": "64IrwpAlZKQ-Pd70gNmiOQ",
+    "weekly_hours": [
+      {
+        "day_of_week": "Monday",
+        "open_time": "11:00",
+        "close_time": "02:00"
+      },
+      {
+        "day_of_week": "Tuesday",
+        "open_time": "11:00",
+        "close_time": "02:00"
+      },
+      {
+        "day_of_week": "Friday",
+        "open_time": "11:00",
+        "close_time": "02:00"
+      },
+      {
+        "day_of_week": "Wednesday",
+        "open_time": "11:00",
+        "close_time": "02:00"
+      },
+      {
+        "day_of_week": "Thursday",
+        "open_time": "11:00",
+        "close_time": "02:00"
+      },
+      {
+        "day_of_week": "Sunday",
+        "open_time": "11:00",
+        "close_time": "02:00"
+      },
+      {
+        "day_of_week": "Saturday",
+        "open_time": "11:00",
+        "close_time": "02:00"
+      }
+    ]
+  },
+  {
+    "business_id": "A9DZjctmZyH7Wwl_pODL1g",
+    "weekly_hours": [
+      {
+        "day_of_week": "Monday",
+        "open_time": "07:30",
+        "close_time": "18:00"
+      },
+      {
+        "day_of_week": "Tuesday",
+        "open_time": "07:30",
+        "close_time": "18:00"
+      },
+      {
+        "day_of_week": "Friday",
+        "open_time": "07:30",
+        "close_time": "18:00"
+      },
+      {
+        "day_of_week": "Wednesday",
+        "open_time": "07:30",
+        "close_time": "18:00"
+      },
+      {
+        "day_of_week": "Thursday",
+        "open_time": "07:30",
+        "close_time": "18:00"
+      },
+      {
+        "day_of_week": "Saturday",
+        "open_time": "09:00",
+        "close_time": "12:00"
+      }
+    ]
+  },
+  {
+    "business_id": "EOq_et3St_S4S7DCLl_gww",
+    "weekly_hours": [
+      {
+        "day_of_week": "Monday",
+        "open_time": "00:00",
+        "close_time": "23:59"
+      },
+      {
+        "day_of_week": "Tuesday",
+        "open_time": "00:00",
+        "close_time": "23:59"
+      },
+      {
+        "day_of_week": "Friday",
+        "open_time": "00:00",
+        "close_time": "23:59"
+      },
+      {
+        "day_of_week": "Wednesday",
+        "open_time": "00:00",
+        "close_time": "23:59"
+      },
+      {
+        "day_of_week": "Thursday",
+        "open_time": "00:00",
+        "close_time": "23:59"
+      },
+      {
+        "day_of_week": "Sunday",
+        "open_time": "00:00",
+        "close_time": "23:59"
+      },
+      {
+        "day_of_week": "Saturday",
+        "open_time": "00:00",
+        "close_time": "23:59"
+      }
+    ]
+  },
+  {
+    "business_id": "XLn3Tm6Kr8SzJp8HuYXwnQ",
+    "weekly_hours": [
+      {
+        "day_of_week": "Monday",
+        "open_time": "16:00",
+        "close_time": "00:00"
+      },
+      {
+        "day_of_week": "Tuesday",
+        "open_time": "16:00",
+        "close_time": "00:00"
+      },
+      {
+        "day_of_week": "Friday",
+        "open_time": "16:00",
+        "close_time": "00:00"
+      },
+      {
+        "day_of_week": "Wednesday",
+        "open_time": "16:00",
+        "close_time": "00:00"
+      },
+      {
+        "day_of_week": "Thursday",
+        "open_time": "16:00",
+        "close_time": "00:00"
+      },
+      {
+        "day_of_week": "Sunday",
+        "open_time": "16:00",
+        "close_time": "00:00"
+      },
+      {
+        "day_of_week": "Saturday",
+        "open_time": "16:00",
+        "close_time": "00:00"
+      }
+    ]
+  },
+  {
+    "business_id": "-iJZ-PEnOw2oVUBFfg5wJw",
+    "weekly_hours": [
+      {
+        "day_of_week": "Tuesday",
+        "open_time": "07:00",
+        "close_time": "17:00"
+      },
+      {
+        "day_of_week": "Friday",
+        "open_time": "07:00",
+        "close_time": "17:00"
+      },
+      {
+        "day_of_week": "Wednesday",
+        "open_time": "07:00",
+        "close_time": "17:00"
+      },
+      {
+        "day_of_week": "Thursday",
+        "open_time": "07:00",
+        "close_time": "17:00"
+      },
+      {
+        "day_of_week": "Saturday",
+        "open_time": "07:00",
+        "close_time": "17:00"
+      }
+    ]
+  },
+  {
+    "business_id": "dVBQHpOvBlgpbb2HkFSEFg",
+    "weekly_hours": [
+      {
+        "day_of_week": "Monday",
+        "open_time": "00:00",
+        "close_time": "00:00"
+      },
+      {
+        "day_of_week": "Tuesday",
+        "open_time": "00:00",
+        "close_time": "00:00"
+      },
+      {
+        "day_of_week": "Friday",
+        "open_time": "00:00",
+        "close_time": "00:00"
+      },
+      {
+        "day_of_week": "Wednesday",
+        "open_time": "00:00",
+        "close_time": "00:00"
+      },
+      {
+        "day_of_week": "Thursday",
+        "open_time": "00:00",
+        "close_time": "00:00"
+      },
+      {
+        "day_of_week": "Sunday",
+        "open_time": "00:00",
+        "close_time": "00:00"
+      },
+      {
+        "day_of_week": "Saturday",
+        "open_time": "00:00",
+        "close_time": "00:00"
+      }
+    ]
+  },
+  {
+    "business_id": "wcOps1Ya0t4wWuakOSItYQ",
+    "weekly_hours": [
+      {
+        "day_of_week": "Monday",
+        "open_time": "08:00",
+        "close_time": "22:00"
+      },
+      {
+        "day_of_week": "Tuesday",
+        "open_time": "08:00",
+        "close_time": "22:00"
+      },
+      {
+        "day_of_week": "Friday",
+        "open_time": "08:00",
+        "close_time": "22:00"
+      },
+      {
+        "day_of_week": "Wednesday",
+        "open_time": "08:00",
+        "close_time": "22:00"
+      },
+      {
+        "day_of_week": "Thursday",
+        "open_time": "08:00",
+        "close_time": "22:00"
+      },
+      {
+        "day_of_week": "Sunday",
+        "open_time": "08:00",
+        "close_time": "21:00"
+      },
+      {
+        "day_of_week": "Saturday",
+        "open_time": "08:00",
+        "close_time": "22:00"
+      }
+    ]
+  },
+  {
+    "business_id": "lz2pW0Zr27IVhq-5g-GSyw",
+    "weekly_hours": [
+      {
+        "day_of_week": "Tuesday",
+        "open_time": "09:00",
+        "close_time": "18:00"
+      },
+      {
+        "day_of_week": "Friday",
+        "open_time": "07:00",
+        "close_time": "16:00"
+      },
+      {
+        "day_of_week": "Monday",
+        "open_time": "07:00",
+        "close_time": "16:00"
+      },
+      {
+        "day_of_week": "Wednesday",
+        "open_time": "07:00",
+        "close_time": "16:00"
+      },
+      {
+        "day_of_week": "Thursday",
+        "open_time": "09:00",
+        "close_time": "18:00"
+      }
+    ]
+  },
+  {
+    "business_id": "GLzndPnr-2iDKv5uzdR5ng",
+    "weekly_hours": [
+      {
+        "day_of_week": "Monday",
+        "open_time": "00:00",
+        "close_time": "00:00"
+      },
+      {
+        "day_of_week": "Tuesday",
+        "open_time": "00:00",
+        "close_time": "00:00"
+      },
+      {
+        "day_of_week": "Friday",
+        "open_time": "00:00",
+        "close_time": "00:00"
+      },
+      {
+        "day_of_week": "Wednesday",
+        "open_time": "00:00",
+        "close_time": "00:00"
+      },
+      {
+        "day_of_week": "Thursday",
+        "open_time": "00:00",
+        "close_time": "00:00"
+      },
+      {
+        "day_of_week": "Sunday",
+        "open_time": "00:00",
+        "close_time": "00:00"
+      },
+      {
+        "day_of_week": "Saturday",
+        "open_time": "00:00",
+        "close_time": "00:00"
+      }
+    ]
+  },
+  {
+    "business_id": "_SWb6l-M_ohosfSmet3e1w",
+    "weekly_hours": [
+      {
+        "day_of_week": "Monday",
+        "open_time": "11:00",
+        "close_time": "02:00"
+      },
+      {
+        "day_of_week": "Tuesday",
+        "open_time": "11:00",
+        "close_time": "02:00"
+      },
+      {
+        "day_of_week": "Friday",
+        "open_time": "11:00",
+        "close_time": "02:00"
+      },
+      {
+        "day_of_week": "Wednesday",
+        "open_time": "11:00",
+        "close_time": "02:00"
+      },
+      {
+        "day_of_week": "Thursday",
+        "open_time": "11:00",
+        "close_time": "02:00"
+      },
+      {
+        "day_of_week": "Sunday",
+        "open_time": "11:00",
+        "close_time": "02:00"
+      },
+      {
+        "day_of_week": "Saturday",
+        "open_time": "11:00",
+        "close_time": "02:00"
+      }
+    ]
+  },
+  {
+    "business_id": "RFMcLH3_58eAwvSfvLhJew",
+    "weekly_hours": [
+      {
+        "day_of_week": "Monday",
+        "open_time": "06:00",
+        "close_time": "21:00"
+      },
+      {
+        "day_of_week": "Tuesday",
+        "open_time": "06:00",
+        "close_time": "21:00"
+      },
+      {
+        "day_of_week": "Friday",
+        "open_time": "06:00",
+        "close_time": "21:00"
+      },
+      {
+        "day_of_week": "Wednesday",
+        "open_time": "06:00",
+        "close_time": "21:00"
+      },
+      {
+        "day_of_week": "Thursday",
+        "open_time": "06:00",
+        "close_time": "21:00"
+      },
+      {
+        "day_of_week": "Sunday",
+        "open_time": "07:00",
+        "close_time": "20:00"
+      },
+      {
+        "day_of_week": "Saturday",
+        "open_time": "07:00",
+        "close_time": "21:00"
+      }
+    ]
+  },
+  {
+    "business_id": "NtVb4bepyRxhJ3ytIx41qA",
+    "weekly_hours": [
+      {
+        "day_of_week": "Monday",
+        "open_time": "07:30",
+        "close_time": "18:00"
+      },
+      {
+        "day_of_week": "Tuesday",
+        "open_time": "07:30",
+        "close_time": "18:00"
+      },
+      {
+        "day_of_week": "Friday",
+        "open_time": "07:30",
+        "close_time": "18:00"
+      },
+      {
+        "day_of_week": "Wednesday",
+        "open_time": "07:30",
+        "close_time": "18:00"
+      },
+      {
+        "day_of_week": "Thursday",
+        "open_time": "07:30",
+        "close_time": "18:00"
+      },
+      {
+        "day_of_week": "Sunday",
+        "open_time": "07:30",
+        "close_time": "18:00"
+      },
+      {
+        "day_of_week": "Saturday",
+        "open_time": "07:30",
+        "close_time": "18:00"
+      }
+    ]
+  },
+  {
+    "business_id": "v-d8Fvd77bOLCysXCb21Cw",
+    "weekly_hours": [
+      {
+        "day_of_week": "Monday",
+        "open_time": "06:00",
+        "close_time": "00:00"
+      },
+      {
+        "day_of_week": "Tuesday",
+        "open_time": "06:00",
+        "close_time": "00:00"
+      },
+      {
+        "day_of_week": "Friday",
+        "open_time": "06:00",
+        "close_time": "02:00"
+      },
+      {
+        "day_of_week": "Wednesday",
+        "open_time": "06:00",
+        "close_time": "00:00"
+      },
+      {
+        "day_of_week": "Thursday",
+        "open_time": "06:00",
+        "close_time": "00:00"
+      },
+      {
+        "day_of_week": "Sunday",
+        "open_time": "06:00",
+        "close_time": "00:00"
+      },
+      {
+        "day_of_week": "Saturday",
+        "open_time": "06:00",
+        "close_time": "02:00"
+      }
+    ]
+  },
+  {
+    "business_id": "yq4NDtkYiNv__Qik0TYzyQ",
+    "weekly_hours": [
+      {
+        "day_of_week": "Monday",
+        "open_time": "05:00",
+        "close_time": "01:00"
+      },
+      {
+        "day_of_week": "Tuesday",
+        "open_time": "05:00",
+        "close_time": "01:00"
+      },
+      {
+        "day_of_week": "Friday",
+        "open_time": "05:00",
+        "close_time": "01:00"
+      },
+      {
+        "day_of_week": "Wednesday",
+        "open_time": "05:00",
+        "close_time": "01:00"
+      },
+      {
+        "day_of_week": "Thursday",
+        "open_time": "05:00",
+        "close_time": "01:00"
+      },
+      {
+        "day_of_week": "Sunday",
+        "open_time": "05:00",
+        "close_time": "01:00"
+      },
+      {
+        "day_of_week": "Saturday",
+        "open_time": "05:00",
+        "close_time": "01:00"
+      }
+    ]
+  },
+  {
+    "business_id": "Nh9BjVPHdrZMn2naUxO6hg",
+    "weekly_hours": [
+      {
+        "day_of_week": "Monday",
+        "open_time": "11:00",
+        "close_time": "22:00"
+      },
+      {
+        "day_of_week": "Tuesday",
+        "open_time": "11:00",
+        "close_time": "22:00"
+      },
+      {
+        "day_of_week": "Friday",
+        "open_time": "11:00",
+        "close_time": "22:00"
+      },
+      {
+        "day_of_week": "Wednesday",
+        "open_time": "11:00",
+        "close_time": "22:00"
+      },
+      {
+        "day_of_week": "Thursday",
+        "open_time": "11:00",
+        "close_time": "22:00"
+      },
+      {
+        "day_of_week": "Sunday",
+        "open_time": "11:00",
+        "close_time": "22:00"
+      },
+      {
+        "day_of_week": "Saturday",
+        "open_time": "11:00",
+        "close_time": "22:00"
+      }
+    ]
+  },
+  {
+    "business_id": "3DIG0gD6rL7AmukW3cdeKg",
+    "weekly_hours": [
+      {
+        "day_of_week": "Monday",
+        "open_time": "07:30",
+        "close_time": "17:30"
+      },
+      {
+        "day_of_week": "Tuesday",
+        "open_time": "07:30",
+        "close_time": "17:30"
+      },
+      {
+        "day_of_week": "Friday",
+        "open_time": "07:30",
+        "close_time": "17:30"
+      },
+      {
+        "day_of_week": "Wednesday",
+        "open_time": "07:30",
+        "close_time": "17:30"
+      },
+      {
+        "day_of_week": "Thursday",
+        "open_time": "07:30",
+        "close_time": "17:30"
+      },
+      {
+        "day_of_week": "Saturday",
+        "open_time": "07:30",
+        "close_time": "17:30"
+      }
+    ]
+  },
+  {
+    "business_id": "qFhBAD2hzvr7VC7n0ZNCOw",
+    "weekly_hours": [
+      {
+        "day_of_week": "Monday",
+        "open_time": "16:00",
+        "close_time": "21:00"
+      },
+      {
+        "day_of_week": "Tuesday",
+        "open_time": "16:00",
+        "close_time": "21:00"
+      },
+      {
+        "day_of_week": "Friday",
+        "open_time": "16:00",
+        "close_time": "21:30"
+      },
+      {
+        "day_of_week": "Wednesday",
+        "open_time": "16:00",
+        "close_time": "21:00"
+      },
+      {
+        "day_of_week": "Thursday",
+        "open_time": "16:00",
+        "close_time": "21:00"
+      },
+      {
+        "day_of_week": "Sunday",
+        "open_time": "11:00",
+        "close_time": "21:00"
+      },
+      {
+        "day_of_week": "Saturday",
+        "open_time": "11:00",
+        "close_time": "21:30"
+      }
+    ]
+  },
+  {
+    "business_id": "HHLpjTYURXShPRs6nuRaUQ",
+    "weekly_hours": [
+      {
+        "day_of_week": "Tuesday",
+        "open_time": "08:00",
+        "close_time": "16:00"
+      },
+      {
+        "day_of_week": "Friday",
+        "open_time": "08:00",
+        "close_time": "16:00"
+      },
+      {
+        "day_of_week": "Monday",
+        "open_time": "08:00",
+        "close_time": "16:00"
+      },
+      {
+        "day_of_week": "Wednesday",
+        "open_time": "08:00",
+        "close_time": "16:00"
+      },
+      {
+        "day_of_week": "Thursday",
+        "open_time": "08:00",
+        "close_time": "16:00"
+      }
+    ]
+  },
+  {
+    "business_id": "PXOMsNgU8gfyombvRO1IfA",
+    "weekly_hours": [
+      {
+        "day_of_week": "Monday",
+        "open_time": "08:00",
+        "close_time": "18:00"
+      },
+      {
+        "day_of_week": "Tuesday",
+        "open_time": "08:00",
+        "close_time": "18:00"
+      },
+      {
+        "day_of_week": "Friday",
+        "open_time": "08:00",
+        "close_time": "18:00"
+      },
+      {
+        "day_of_week": "Wednesday",
+        "open_time": "08:00",
+        "close_time": "18:00"
+      },
+      {
+        "day_of_week": "Thursday",
+        "open_time": "08:00",
+        "close_time": "18:00"
+      },
+      {
+        "day_of_week": "Saturday",
+        "open_time": "08:00",
+        "close_time": "14:00"
+      }
+    ]
+  },
+  {
+    "business_id": "_CUuy5l9IAn8f4iJt7cZmQ",
+    "weekly_hours": [
+      {
+        "day_of_week": "Monday",
+        "open_time": "09:00",
+        "close_time": "17:00"
+      },
+      {
+        "day_of_week": "Tuesday",
+        "open_time": "09:00",
+        "close_time": "19:00"
+      },
+      {
+        "day_of_week": "Friday",
+        "open_time": "09:00",
+        "close_time": "19:00"
+      },
+      {
+        "day_of_week": "Wednesday",
+        "open_time": "09:00",
+        "close_time": "19:00"
+      },
+      {
+        "day_of_week": "Thursday",
+        "open_time": "09:00",
+        "close_time": "19:00"
+      },
+      {
+        "day_of_week": "Sunday",
+        "open_time": "12:00",
+        "close_time": "16:00"
+      },
+      {
+        "day_of_week": "Saturday",
+        "open_time": "09:00",
+        "close_time": "17:00"
+      }
+    ]
+  },
+  {
+    "business_id": "HU1b1D0WUQE62M7ZiyqYoA",
+    "weekly_hours": [
+      {
+        "day_of_week": "Monday",
+        "open_time": "10:00",
+        "close_time": "21:00"
+      },
+      {
+        "day_of_week": "Tuesday",
+        "open_time": "10:00",
+        "close_time": "21:00"
+      },
+      {
+        "day_of_week": "Friday",
+        "open_time": "10:00",
+        "close_time": "21:00"
+      },
+      {
+        "day_of_week": "Wednesday",
+        "open_time": "10:00",
+        "close_time": "21:00"
+      },
+      {
+        "day_of_week": "Thursday",
+        "open_time": "10:00",
+        "close_time": "21:00"
+      },
+      {
+        "day_of_week": "Sunday",
+        "open_time": "11:00",
+        "close_time": "19:00"
+      },
+      {
+        "day_of_week": "Saturday",
+        "open_time": "09:00",
+        "close_time": "21:00"
+      }
+    ]
+  },
+  {
+    "business_id": "EYRaUAgeLc1gntkpZv2WHg",
+    "weekly_hours": [
+      {
+        "day_of_week": "Monday",
+        "open_time": "11:00",
+        "close_time": "22:00"
+      },
+      {
+        "day_of_week": "Tuesday",
+        "open_time": "11:00",
+        "close_time": "22:00"
+      },
+      {
+        "day_of_week": "Friday",
+        "open_time": "11:00",
+        "close_time": "22:00"
+      },
+      {
+        "day_of_week": "Wednesday",
+        "open_time": "11:00",
+        "close_time": "22:00"
+      },
+      {
+        "day_of_week": "Thursday",
+        "open_time": "11:00",
+        "close_time": "22:00"
+      },
+      {
+        "day_of_week": "Sunday",
+        "open_time": "11:00",
+        "close_time": "22:00"
+      },
+      {
+        "day_of_week": "Saturday",
+        "open_time": "11:00",
+        "close_time": "22:00"
+      }
+    ]
+  },
+  {
+    "business_id": "rjm5zAnCJ8Cxg0wb1CxtMg",
+    "weekly_hours": [
+      {
+        "day_of_week": "Monday",
+        "open_time": "11:00",
+        "close_time": "22:00"
+      },
+      {
+        "day_of_week": "Tuesday",
+        "open_time": "11:00",
+        "close_time": "22:00"
+      },
+      {
+        "day_of_week": "Friday",
+        "open_time": "11:00",
+        "close_time": "23:00"
+      },
+      {
+        "day_of_week": "Wednesday",
+        "open_time": "11:00",
+        "close_time": "22:00"
+      },
+      {
+        "day_of_week": "Thursday",
+        "open_time": "11:00",
+        "close_time": "22:00"
+      },
+      {
+        "day_of_week": "Sunday",
+        "open_time": "11:00",
+        "close_time": "22:00"
+      },
+      {
+        "day_of_week": "Saturday",
+        "open_time": "11:00",
+        "close_time": "23:00"
+      }
+    ]
+  },
+  {
+    "business_id": "G1ub1s3EELLrGWqrq3a2tw",
+    "weekly_hours": [
+      {
+        "day_of_week": "Monday",
+        "open_time": "06:30",
+        "close_time": "21:00"
+      },
+      {
+        "day_of_week": "Tuesday",
+        "open_time": "06:30",
+        "close_time": "22:00"
+      },
+      {
+        "day_of_week": "Friday",
+        "open_time": "06:30",
+        "close_time": "00:00"
+      },
+      {
+        "day_of_week": "Wednesday",
+        "open_time": "06:30",
+        "close_time": "22:00"
+      },
+      {
+        "day_of_week": "Thursday",
+        "open_time": "06:30",
+        "close_time": "22:00"
+      },
+      {
+        "day_of_week": "Sunday",
+        "open_time": "08:00",
+        "close_time": "21:00"
+      },
+      {
+        "day_of_week": "Saturday",
+        "open_time": "07:00",
+        "close_time": "00:00"
+      }
+    ]
+  },
+  {
+    "business_id": "0CG3ns3gwWV5nOnfzSfUIQ",
+    "weekly_hours": [
+      {
+        "day_of_week": "Monday",
+        "open_time": "06:00",
+        "close_time": "22:00"
+      },
+      {
+        "day_of_week": "Tuesday",
+        "open_time": "06:00",
+        "close_time": "22:00"
+      },
+      {
+        "day_of_week": "Friday",
+        "open_time": "06:00",
+        "close_time": "22:00"
+      },
+      {
+        "day_of_week": "Wednesday",
+        "open_time": "06:00",
+        "close_time": "22:00"
+      },
+      {
+        "day_of_week": "Thursday",
+        "open_time": "06:00",
+        "close_time": "22:00"
+      },
+      {
+        "day_of_week": "Sunday",
+        "open_time": "06:00",
+        "close_time": "22:00"
+      },
+      {
+        "day_of_week": "Saturday",
+        "open_time": "06:00",
+        "close_time": "22:00"
+      }
+    ]
+  },
+  {
+    "business_id": "Oc-F6O91vOe3T8iOsCBB8Q",
+    "weekly_hours": [
+      {
+        "day_of_week": "Monday",
+        "open_time": "11:00",
+        "close_time": "22:00"
+      },
+      {
+        "day_of_week": "Tuesday",
+        "open_time": "11:00",
+        "close_time": "22:00"
+      },
+      {
+        "day_of_week": "Friday",
+        "open_time": "11:00",
+        "close_time": "22:30"
+      },
+      {
+        "day_of_week": "Wednesday",
+        "open_time": "11:00",
+        "close_time": "22:00"
+      },
+      {
+        "day_of_week": "Thursday",
+        "open_time": "11:00",
+        "close_time": "22:00"
+      },
+      {
+        "day_of_week": "Sunday",
+        "open_time": "11:00",
+        "close_time": "22:00"
+      },
+      {
+        "day_of_week": "Saturday",
+        "open_time": "11:00",
+        "close_time": "22:00"
+      }
+    ]
+  },
+  {
+    "business_id": "kEICEqqG_01RgaNgvXc6Fw",
+    "weekly_hours": [
+      {
+        "day_of_week": "Monday",
+        "open_time": "11:00",
+        "close_time": "21:00"
+      },
+      {
+        "day_of_week": "Tuesday",
+        "open_time": "11:00",
+        "close_time": "21:00"
+      },
+      {
+        "day_of_week": "Friday",
+        "open_time": "11:00",
+        "close_time": "21:00"
+      },
+      {
+        "day_of_week": "Wednesday",
+        "open_time": "11:00",
+        "close_time": "21:00"
+      },
+      {
+        "day_of_week": "Thursday",
+        "open_time": "11:00",
+        "close_time": "21:00"
+      },
+      {
+        "day_of_week": "Sunday",
+        "open_time": "12:00",
+        "close_time": "21:00"
+      },
+      {
+        "day_of_week": "Saturday",
+        "open_time": "12:00",
+        "close_time": "21:00"
+      }
+    ]
+  },
+  {
+    "business_id": "0WI0ydH2HtFxFswYXhE--w",
+    "weekly_hours": [
+      {
+        "day_of_week": "Monday",
+        "open_time": "11:00",
+        "close_time": "21:00"
+      },
+      {
+        "day_of_week": "Tuesday",
+        "open_time": "11:00",
+        "close_time": "21:00"
+      },
+      {
+        "day_of_week": "Friday",
+        "open_time": "11:00",
+        "close_time": "22:00"
+      },
+      {
+        "day_of_week": "Wednesday",
+        "open_time": "11:00",
+        "close_time": "21:00"
+      },
+      {
+        "day_of_week": "Thursday",
+        "open_time": "11:00",
+        "close_time": "21:00"
+      },
+      {
+        "day_of_week": "Sunday",
+        "open_time": "11:00",
+        "close_time": "21:00"
+      },
+      {
+        "day_of_week": "Saturday",
+        "open_time": "11:00",
+        "close_time": "22:00"
+      }
+    ]
+  },
+  {
+    "business_id": "heA3OyKJq7O3HYPRAdfR4A",
+    "weekly_hours": [
+      {
+        "day_of_week": "Monday",
+        "open_time": "11:00",
+        "close_time": "21:00"
+      },
+      {
+        "day_of_week": "Tuesday",
+        "open_time": "11:00",
+        "close_time": "21:00"
+      },
+      {
+        "day_of_week": "Friday",
+        "open_time": "11:00",
+        "close_time": "21:00"
+      },
+      {
+        "day_of_week": "Wednesday",
+        "open_time": "11:00",
+        "close_time": "21:00"
+      },
+      {
+        "day_of_week": "Thursday",
+        "open_time": "11:00",
+        "close_time": "21:00"
+      },
+      {
+        "day_of_week": "Sunday",
+        "open_time": "11:00",
+        "close_time": "21:00"
+      },
+      {
+        "day_of_week": "Saturday",
+        "open_time": "11:00",
+        "close_time": "21:00"
+      }
+    ]
+  },
+  {
+    "business_id": "Zpq2THIjuzs6wenHn569XQ",
+    "weekly_hours": [
+      {
+        "day_of_week": "Monday",
+        "open_time": "07:30",
+        "close_time": "17:30"
+      },
+      {
+        "day_of_week": "Tuesday",
+        "open_time": "07:30",
+        "close_time": "17:30"
+      },
+      {
+        "day_of_week": "Friday",
+        "open_time": "07:30",
+        "close_time": "17:30"
+      },
+      {
+        "day_of_week": "Wednesday",
+        "open_time": "07:30",
+        "close_time": "17:30"
+      },
+      {
+        "day_of_week": "Thursday",
+        "open_time": "07:30",
+        "close_time": "17:30"
+      },
+      {
+        "day_of_week": "Saturday",
+        "open_time": "07:30",
+        "close_time": "16:00"
+      }
+    ]
+  },
+  {
+    "business_id": "xSVpRivdivdz1qgEdgXkAQ",
+    "weekly_hours": [
+      {
+        "day_of_week": "Monday",
+        "open_time": "06:00",
+        "close_time": "23:00"
+      },
+      {
+        "day_of_week": "Tuesday",
+        "open_time": "06:00",
+        "close_time": "23:00"
+      },
+      {
+        "day_of_week": "Friday",
+        "open_time": "06:00",
+        "close_time": "23:00"
+      },
+      {
+        "day_of_week": "Wednesday",
+        "open_time": "06:00",
+        "close_time": "23:00"
+      },
+      {
+        "day_of_week": "Thursday",
+        "open_time": "06:00",
+        "close_time": "23:00"
+      },
+      {
+        "day_of_week": "Sunday",
+        "open_time": "06:00",
+        "close_time": "23:00"
+      },
+      {
+        "day_of_week": "Saturday",
+        "open_time": "06:00",
+        "close_time": "23:00"
+      }
+    ]
+  },
+  {
+    "business_id": "x0NOgX6P4x-82cC0kcO1hg",
+    "weekly_hours": [
+      {
+        "day_of_week": "Monday",
+        "open_time": "11:00",
+        "close_time": "14:00"
+      },
+      {
+        "day_of_week": "Tuesday",
+        "open_time": "11:00",
+        "close_time": "14:00"
+      },
+      {
+        "day_of_week": "Friday",
+        "open_time": "11:00",
+        "close_time": "14:00"
+      },
+      {
+        "day_of_week": "Wednesday",
+        "open_time": "16:00",
+        "close_time": "21:00"
+      },
+      {
+        "day_of_week": "Thursday",
+        "open_time": "16:00",
+        "close_time": "21:00"
+      },
+      {
+        "day_of_week": "Sunday",
+        "open_time": "17:00",
+        "close_time": "21:00"
+      },
+      {
+        "day_of_week": "Saturday",
+        "open_time": "12:00",
+        "close_time": "22:00"
+      }
+    ]
+  },
+  {
+    "business_id": "hECOlng2SZ97IbUcabRH2Q",
+    "weekly_hours": [
+      {
+        "day_of_week": "Monday",
+        "open_time": "06:00",
+        "close_time": "21:00"
+      },
+      {
+        "day_of_week": "Tuesday",
+        "open_time": "06:00",
+        "close_time": "21:00"
+      },
+      {
+        "day_of_week": "Friday",
+        "open_time": "06:00",
+        "close_time": "21:00"
+      },
+      {
+        "day_of_week": "Wednesday",
+        "open_time": "06:00",
+        "close_time": "21:00"
+      },
+      {
+        "day_of_week": "Thursday",
+        "open_time": "06:00",
+        "close_time": "21:00"
+      },
+      {
+        "day_of_week": "Sunday",
+        "open_time": "06:00",
+        "close_time": "18:00"
+      },
+      {
+        "day_of_week": "Saturday",
+        "open_time": "06:00",
+        "close_time": "21:00"
+      }
+    ]
+  },
+  {
+    "business_id": "2Fretr5fh0ez34WqtLKrQg",
+    "weekly_hours": [
+      {
+        "day_of_week": "Tuesday",
+        "open_time": "08:00",
+        "close_time": "17:00"
+      },
+      {
+        "day_of_week": "Monday",
+        "open_time": "08:00",
+        "close_time": "17:00"
+      },
+      {
+        "day_of_week": "Wednesday",
+        "open_time": "08:00",
+        "close_time": "17:00"
+      },
+      {
+        "day_of_week": "Thursday",
+        "open_time": "08:00",
+        "close_time": "17:00"
+      }
+    ]
+  },
+  {
+    "business_id": "QFM_2n6DE80Mgw_f-WPMuw",
+    "weekly_hours": [
+      {
+        "day_of_week": "Monday",
+        "open_time": "09:30",
+        "close_time": "21:30"
+      },
+      {
+        "day_of_week": "Tuesday",
+        "open_time": "09:30",
+        "close_time": "21:30"
+      },
+      {
+        "day_of_week": "Friday",
+        "open_time": "09:30",
+        "close_time": "21:30"
+      },
+      {
+        "day_of_week": "Wednesday",
+        "open_time": "09:30",
+        "close_time": "21:30"
+      },
+      {
+        "day_of_week": "Thursday",
+        "open_time": "09:30",
+        "close_time": "21:30"
+      },
+      {
+        "day_of_week": "Sunday",
+        "open_time": "11:00",
+        "close_time": "20:00"
+      },
+      {
+        "day_of_week": "Saturday",
+        "open_time": "09:30",
+        "close_time": "21:30"
+      }
+    ]
+  },
+  {
+    "business_id": "AzDfm1RUDMrKIsBeDv04nQ",
+    "weekly_hours": [
+      {
+        "day_of_week": "Monday",
+        "open_time": "06:00",
+        "close_time": "18:00"
+      },
+      {
+        "day_of_week": "Tuesday",
+        "open_time": "06:00",
+        "close_time": "18:00"
+      },
+      {
+        "day_of_week": "Friday",
+        "open_time": "06:00",
+        "close_time": "18:00"
+      },
+      {
+        "day_of_week": "Wednesday",
+        "open_time": "06:00",
+        "close_time": "18:00"
+      },
+      {
+        "day_of_week": "Thursday",
+        "open_time": "06:00",
+        "close_time": "18:00"
+      },
+      {
+        "day_of_week": "Sunday",
+        "open_time": "07:00",
+        "close_time": "14:00"
+      },
+      {
+        "day_of_week": "Saturday",
+        "open_time": "06:00",
+        "close_time": "15:00"
+      }
+    ]
+  },
+  {
+    "business_id": "qKMyeuwmp-8immdLCqTwXA",
+    "weekly_hours": [
+      {
+        "day_of_week": "Monday",
+        "open_time": "09:00",
+        "close_time": "19:00"
+      },
+      {
+        "day_of_week": "Tuesday",
+        "open_time": "09:00",
+        "close_time": "19:00"
+      },
+      {
+        "day_of_week": "Friday",
+        "open_time": "09:00",
+        "close_time": "19:00"
+      },
+      {
+        "day_of_week": "Wednesday",
+        "open_time": "09:00",
+        "close_time": "19:00"
+      },
+      {
+        "day_of_week": "Thursday",
+        "open_time": "09:00",
+        "close_time": "19:00"
+      },
+      {
+        "day_of_week": "Saturday",
+        "open_time": "10:00",
+        "close_time": "19:00"
+      }
+    ]
+  },
+  {
+    "business_id": "OYdhdmejrmymQRa-gTaP4g",
+    "weekly_hours": [
+      {
+        "day_of_week": "Tuesday",
+        "open_time": "08:30",
+        "close_time": "17:30"
+      },
+      {
+        "day_of_week": "Friday",
+        "open_time": "08:30",
+        "close_time": "17:30"
+      },
+      {
+        "day_of_week": "Monday",
+        "open_time": "08:30",
+        "close_time": "17:30"
+      },
+      {
+        "day_of_week": "Thursday",
+        "open_time": "08:30",
+        "close_time": "17:30"
+      },
+      {
+        "day_of_week": "Wednesday",
+        "open_time": "08:30",
+        "close_time": "17:30"
+      }
+    ]
+  },
+  {
+    "business_id": "XKXLd7bFp4YtcIq0GgEXJQ",
+    "weekly_hours": [
+      {
+        "day_of_week": "Monday",
+        "open_time": "17:00",
+        "close_time": "22:00"
+      },
+      {
+        "day_of_week": "Tuesday",
+        "open_time": "11:30",
+        "close_time": "14:30"
+      },
+      {
+        "day_of_week": "Friday",
+        "open_time": "11:30",
+        "close_time": "23:00"
+      },
+      {
+        "day_of_week": "Wednesday",
+        "open_time": "17:00",
+        "close_time": "22:00"
+      },
+      {
+        "day_of_week": "Thursday",
+        "open_time": "17:00",
+        "close_time": "22:00"
+      },
+      {
+        "day_of_week": "Sunday",
+        "open_time": "12:00",
+        "close_time": "22:00"
+      },
+      {
+        "day_of_week": "Saturday",
+        "open_time": "12:00",
+        "close_time": "23:00"
+      }
+    ]
+  },
+  {
+    "business_id": "9d4i9ssv0XAc2I93ZgH5-Q",
+    "weekly_hours": [
+      {
+        "day_of_week": "Monday",
+        "open_time": "10:00",
+        "close_time": "21:00"
+      },
+      {
+        "day_of_week": "Tuesday",
+        "open_time": "10:00",
+        "close_time": "21:00"
+      },
+      {
+        "day_of_week": "Friday",
+        "open_time": "10:00",
+        "close_time": "21:30"
+      },
+      {
+        "day_of_week": "Wednesday",
+        "open_time": "10:00",
+        "close_time": "21:00"
+      },
+      {
+        "day_of_week": "Thursday",
+        "open_time": "10:00",
+        "close_time": "21:00"
+      },
+      {
+        "day_of_week": "Sunday",
+        "open_time": "11:00",
+        "close_time": "21:00"
+      },
+      {
+        "day_of_week": "Saturday",
+        "open_time": "10:00",
+        "close_time": "21:30"
+      }
+    ]
+  },
+  {
+    "business_id": "1kPUkLq_3gMtX_HRwcF17A",
+    "weekly_hours": [
+      {
+        "day_of_week": "Monday",
+        "open_time": "10:00",
+        "close_time": "21:00"
+      },
+      {
+        "day_of_week": "Tuesday",
+        "open_time": "10:00",
+        "close_time": "21:00"
+      },
+      {
+        "day_of_week": "Friday",
+        "open_time": "10:00",
+        "close_time": "21:00"
+      },
+      {
+        "day_of_week": "Wednesday",
+        "open_time": "10:00",
+        "close_time": "21:00"
+      },
+      {
+        "day_of_week": "Thursday",
+        "open_time": "10:00",
+        "close_time": "21:00"
+      },
+      {
+        "day_of_week": "Sunday",
+        "open_time": "11:00",
+        "close_time": "18:00"
+      },
+      {
+        "day_of_week": "Saturday",
+        "open_time": "10:00",
+        "close_time": "21:00"
+      }
+    ]
+  },
+  {
+    "business_id": "TP2b0UT0qsb6XSkIZdhsdQ",
+    "weekly_hours": [
+      {
+        "day_of_week": "Monday",
+        "open_time": "09:00",
+        "close_time": "21:00"
+      },
+      {
+        "day_of_week": "Tuesday",
+        "open_time": "09:00",
+        "close_time": "21:00"
+      },
+      {
+        "day_of_week": "Friday",
+        "open_time": "09:00",
+        "close_time": "21:00"
+      },
+      {
+        "day_of_week": "Wednesday",
+        "open_time": "09:00",
+        "close_time": "21:00"
+      },
+      {
+        "day_of_week": "Thursday",
+        "open_time": "09:00",
+        "close_time": "21:00"
+      },
+      {
+        "day_of_week": "Sunday",
+        "open_time": "10:00",
+        "close_time": "19:00"
+      },
+      {
+        "day_of_week": "Saturday",
+        "open_time": "09:00",
+        "close_time": "21:00"
+      }
+    ]
+  },
+  {
+    "business_id": "m-zkVdThpPsJxj3pZ2C7aw",
+    "weekly_hours": [
+      {
+        "day_of_week": "Monday",
+        "open_time": "11:00",
+        "close_time": "22:00"
+      },
+      {
+        "day_of_week": "Tuesday",
+        "open_time": "11:00",
+        "close_time": "22:00"
+      },
+      {
+        "day_of_week": "Friday",
+        "open_time": "11:00",
+        "close_time": "23:00"
+      },
+      {
+        "day_of_week": "Wednesday",
+        "open_time": "11:00",
+        "close_time": "22:00"
+      },
+      {
+        "day_of_week": "Thursday",
+        "open_time": "11:00",
+        "close_time": "22:00"
+      },
+      {
+        "day_of_week": "Sunday",
+        "open_time": "11:00",
+        "close_time": "22:00"
+      },
+      {
+        "day_of_week": "Saturday",
+        "open_time": "11:00",
+        "close_time": "23:00"
+      }
+    ]
+  },
+  {
+    "business_id": "qZEYgONHPn3B-ZobPSaONA",
+    "weekly_hours": [
+      {
+        "day_of_week": "Monday",
+        "open_time": "11:00",
+        "close_time": "22:00"
+      },
+      {
+        "day_of_week": "Tuesday",
+        "open_time": "11:00",
+        "close_time": "22:00"
+      },
+      {
+        "day_of_week": "Friday",
+        "open_time": "11:00",
+        "close_time": "23:00"
+      },
+      {
+        "day_of_week": "Wednesday",
+        "open_time": "11:00",
+        "close_time": "22:00"
+      },
+      {
+        "day_of_week": "Thursday",
+        "open_time": "11:00",
+        "close_time": "22:00"
+      },
+      {
+        "day_of_week": "Sunday",
+        "open_time": "11:00",
+        "close_time": "22:00"
+      },
+      {
+        "day_of_week": "Saturday",
+        "open_time": "11:00",
+        "close_time": "23:00"
+      }
+    ]
+  },
+  {
+    "business_id": "LYRAX4OZPGD3DRJew0zW4g",
+    "weekly_hours": [
+      {
+        "day_of_week": "Monday",
+        "open_time": "08:00",
+        "close_time": "17:00"
+      },
+      {
+        "day_of_week": "Tuesday",
+        "open_time": "08:00",
+        "close_time": "17:00"
+      },
+      {
+        "day_of_week": "Friday",
+        "open_time": "08:00",
+        "close_time": "17:00"
+      },
+      {
+        "day_of_week": "Wednesday",
+        "open_time": "08:00",
+        "close_time": "17:00"
+      },
+      {
+        "day_of_week": "Thursday",
+        "open_time": "08:00",
+        "close_time": "17:00"
+      },
+      {
+        "day_of_week": "Saturday",
+        "open_time": "10:00",
+        "close_time": "14:00"
+      }
+    ]
+  },
+  {
+    "business_id": "Th3ebWA6dqFmeetbIkIvGQ",
+    "weekly_hours": [
+      {
+        "day_of_week": "Monday",
+        "open_time": "09:00",
+        "close_time": "17:00"
+      },
+      {
+        "day_of_week": "Tuesday",
+        "open_time": "09:00",
+        "close_time": "17:00"
+      },
+      {
+        "day_of_week": "Friday",
+        "open_time": "09:00",
+        "close_time": "17:00"
+      },
+      {
+        "day_of_week": "Wednesday",
+        "open_time": "09:00",
+        "close_time": "17:00"
+      },
+      {
+        "day_of_week": "Thursday",
+        "open_time": "09:00",
+        "close_time": "17:00"
+      },
+      {
+        "day_of_week": "Saturday",
+        "open_time": "09:00",
+        "close_time": "17:00"
+      }
+    ]
+  },
+  {
+    "business_id": "SDs4eWoV-cpJystzTAH0qg",
+    "weekly_hours": [
+      {
+        "day_of_week": "Monday",
+        "open_time": "11:00",
+        "close_time": "21:00"
+      },
+      {
+        "day_of_week": "Tuesday",
+        "open_time": "11:00",
+        "close_time": "21:00"
+      },
+      {
+        "day_of_week": "Friday",
+        "open_time": "11:00",
+        "close_time": "22:00"
+      },
+      {
+        "day_of_week": "Wednesday",
+        "open_time": "11:00",
+        "close_time": "21:00"
+      },
+      {
+        "day_of_week": "Thursday",
+        "open_time": "11:00",
+        "close_time": "21:00"
+      },
+      {
+        "day_of_week": "Sunday",
+        "open_time": "11:00",
+        "close_time": "21:00"
+      },
+      {
+        "day_of_week": "Saturday",
+        "open_time": "11:00",
+        "close_time": "22:00"
+      }
+    ]
+  },
+  {
+    "business_id": "a8_lHwlsqvsEub43vgYqrw",
+    "weekly_hours": [
+      {
+        "day_of_week": "Monday",
+        "open_time": "11:00",
+        "close_time": "22:00"
+      },
+      {
+        "day_of_week": "Tuesday",
+        "open_time": "11:00",
+        "close_time": "22:00"
+      },
+      {
+        "day_of_week": "Friday",
+        "open_time": "11:00",
+        "close_time": "23:00"
+      },
+      {
+        "day_of_week": "Wednesday",
+        "open_time": "11:00",
+        "close_time": "22:00"
+      },
+      {
+        "day_of_week": "Thursday",
+        "open_time": "11:00",
+        "close_time": "22:00"
+      },
+      {
+        "day_of_week": "Sunday",
+        "open_time": "11:00",
+        "close_time": "22:00"
+      },
+      {
+        "day_of_week": "Saturday",
+        "open_time": "11:00",
+        "close_time": "23:00"
+      }
+    ]
+  },
+  {
+    "business_id": "crSme9ZoLQNMtRGxv0htTw",
+    "weekly_hours": [
+      {
+        "day_of_week": "Monday",
+        "open_time": "11:00",
+        "close_time": "02:00"
+      },
+      {
+        "day_of_week": "Tuesday",
+        "open_time": "11:00",
+        "close_time": "02:00"
+      },
+      {
+        "day_of_week": "Friday",
+        "open_time": "11:00",
+        "close_time": "02:00"
+      },
+      {
+        "day_of_week": "Wednesday",
+        "open_time": "11:00",
+        "close_time": "02:00"
+      },
+      {
+        "day_of_week": "Thursday",
+        "open_time": "11:00",
+        "close_time": "02:00"
+      },
+      {
+        "day_of_week": "Sunday",
+        "open_time": "11:00",
+        "close_time": "02:00"
+      },
+      {
+        "day_of_week": "Saturday",
+        "open_time": "11:00",
+        "close_time": "02:00"
+      }
+    ]
+  },
+  {
+    "business_id": "NlH2I30NNDocEC-j62MxIQ",
+    "weekly_hours": [
+      {
+        "day_of_week": "Monday",
+        "open_time": "10:30",
+        "close_time": "22:00"
+      },
+      {
+        "day_of_week": "Tuesday",
+        "open_time": "10:30",
+        "close_time": "22:00"
+      },
+      {
+        "day_of_week": "Friday",
+        "open_time": "10:30",
+        "close_time": "23:00"
+      },
+      {
+        "day_of_week": "Wednesday",
+        "open_time": "10:30",
+        "close_time": "22:00"
+      },
+      {
+        "day_of_week": "Thursday",
+        "open_time": "10:30",
+        "close_time": "22:00"
+      },
+      {
+        "day_of_week": "Sunday",
+        "open_time": "11:30",
+        "close_time": "22:00"
+      },
+      {
+        "day_of_week": "Saturday",
+        "open_time": "10:30",
+        "close_time": "23:00"
+      }
+    ]
+  },
+  {
+    "business_id": "LcyRBpYIki-Sx2-M5_bidQ",
+    "weekly_hours": [
+      {
+        "day_of_week": "Monday",
+        "open_time": "09:00",
+        "close_time": "20:00"
+      },
+      {
+        "day_of_week": "Tuesday",
+        "open_time": "09:00",
+        "close_time": "20:00"
+      },
+      {
+        "day_of_week": "Friday",
+        "open_time": "09:00",
+        "close_time": "21:00"
+      },
+      {
+        "day_of_week": "Wednesday",
+        "open_time": "09:00",
+        "close_time": "20:00"
+      },
+      {
+        "day_of_week": "Thursday",
+        "open_time": "09:00",
+        "close_time": "21:00"
+      },
+      {
+        "day_of_week": "Sunday",
+        "open_time": "09:30",
+        "close_time": "20:00"
+      },
+      {
+        "day_of_week": "Saturday",
+        "open_time": "09:00",
+        "close_time": "15:00"
+      }
+    ]
+  },
+  {
+    "business_id": "nOvUzM8gHkWmDj0eUQTSow",
+    "weekly_hours": [
+      {
+        "day_of_week": "Monday",
+        "open_time": "09:00",
+        "close_time": "19:00"
+      },
+      {
+        "day_of_week": "Tuesday",
+        "open_time": "09:00",
+        "close_time": "19:00"
+      },
+      {
+        "day_of_week": "Friday",
+        "open_time": "09:00",
+        "close_time": "19:00"
+      },
+      {
+        "day_of_week": "Wednesday",
+        "open_time": "09:00",
+        "close_time": "19:00"
+      },
+      {
+        "day_of_week": "Thursday",
+        "open_time": "09:00",
+        "close_time": "19:00"
+      },
+      {
+        "day_of_week": "Sunday",
+        "open_time": "11:00",
+        "close_time": "17:00"
+      },
+      {
+        "day_of_week": "Saturday",
+        "open_time": "09:00",
+        "close_time": "18:00"
+      }
+    ]
+  },
+  {
+    "business_id": "9NG_-_pdzfzFTlswEhJ-1g",
+    "weekly_hours": [
+      {
+        "day_of_week": "Monday",
+        "open_time": "10:00",
+        "close_time": "22:00"
+      },
+      {
+        "day_of_week": "Tuesday",
+        "open_time": "10:00",
+        "close_time": "22:00"
+      },
+      {
+        "day_of_week": "Friday",
+        "open_time": "10:00",
+        "close_time": "23:00"
+      },
+      {
+        "day_of_week": "Wednesday",
+        "open_time": "10:00",
+        "close_time": "22:00"
+      },
+      {
+        "day_of_week": "Thursday",
+        "open_time": "10:00",
+        "close_time": "22:00"
+      },
+      {
+        "day_of_week": "Sunday",
+        "open_time": "11:00",
+        "close_time": "22:00"
+      },
+      {
+        "day_of_week": "Saturday",
+        "open_time": "10:00",
+        "close_time": "23:00"
+      }
+    ]
+  },
+  {
+    "business_id": "txnCvfN26q_k4ICowNpigg",
+    "weekly_hours": [
+      {
+        "day_of_week": "Monday",
+        "open_time": "10:00",
+        "close_time": "02:00"
+      },
+      {
+        "day_of_week": "Tuesday",
+        "open_time": "10:00",
+        "close_time": "02:00"
+      },
+      {
+        "day_of_week": "Friday",
+        "open_time": "10:00",
+        "close_time": "02:00"
+      },
+      {
+        "day_of_week": "Wednesday",
+        "open_time": "10:00",
+        "close_time": "02:00"
+      },
+      {
+        "day_of_week": "Thursday",
+        "open_time": "10:00",
+        "close_time": "02:00"
+      },
+      {
+        "day_of_week": "Sunday",
+        "open_time": "10:00",
+        "close_time": "02:00"
+      },
+      {
+        "day_of_week": "Saturday",
+        "open_time": "10:00",
+        "close_time": "02:00"
+      }
+    ]
+  },
+  {
+    "business_id": "GfBgJm1t8Ftiec5pMUHqtg",
+    "weekly_hours": [
+      {
+        "day_of_week": "Monday",
+        "open_time": "05:00",
+        "close_time": "23:00"
+      },
+      {
+        "day_of_week": "Tuesday",
+        "open_time": "05:00",
+        "close_time": "23:00"
+      },
+      {
+        "day_of_week": "Friday",
+        "open_time": "05:00",
+        "close_time": "22:00"
+      },
+      {
+        "day_of_week": "Wednesday",
+        "open_time": "05:00",
+        "close_time": "23:00"
+      },
+      {
+        "day_of_week": "Thursday",
+        "open_time": "05:00",
+        "close_time": "23:00"
+      },
+      {
+        "day_of_week": "Sunday",
+        "open_time": "08:00",
+        "close_time": "20:00"
+      },
+      {
+        "day_of_week": "Saturday",
+        "open_time": "20:00",
+        "close_time": "20:00"
+      }
+    ]
+  },
+  {
+    "business_id": "o7iZrTxFCq4Ijwb0G8q1Mw",
+    "weekly_hours": [
+      {
+        "day_of_week": "Monday",
+        "open_time": "09:00",
+        "close_time": "21:00"
+      },
+      {
+        "day_of_week": "Tuesday",
+        "open_time": "09:00",
+        "close_time": "21:00"
+      },
+      {
+        "day_of_week": "Friday",
+        "open_time": "09:00",
+        "close_time": "21:00"
+      },
+      {
+        "day_of_week": "Wednesday",
+        "open_time": "09:00",
+        "close_time": "21:00"
+      },
+      {
+        "day_of_week": "Thursday",
+        "open_time": "09:00",
+        "close_time": "21:00"
+      },
+      {
+        "day_of_week": "Sunday",
+        "open_time": "10:00",
+        "close_time": "19:00"
+      },
+      {
+        "day_of_week": "Saturday",
+        "open_time": "09:00",
+        "close_time": "21:00"
+      }
+    ]
+  },
+  {
+    "business_id": "3od0SuqOl4BHiqc2jErlzw",
+    "weekly_hours": [
+      {
+        "day_of_week": "Monday",
+        "open_time": "10:00",
+        "close_time": "20:00"
+      },
+      {
+        "day_of_week": "Tuesday",
+        "open_time": "10:00",
+        "close_time": "20:00"
+      },
+      {
+        "day_of_week": "Friday",
+        "open_time": "10:00",
+        "close_time": "20:00"
+      },
+      {
+        "day_of_week": "Wednesday",
+        "open_time": "10:00",
+        "close_time": "20:00"
+      },
+      {
+        "day_of_week": "Thursday",
+        "open_time": "10:00",
+        "close_time": "20:00"
+      },
+      {
+        "day_of_week": "Sunday",
+        "open_time": "11:00",
+        "close_time": "18:00"
+      },
+      {
+        "day_of_week": "Saturday",
+        "open_time": "10:00",
+        "close_time": "19:00"
+      }
+    ]
+  },
+  {
+    "business_id": "qixbpFjrfUf6yBtr8ocwag",
+    "weekly_hours": [
+      {
+        "day_of_week": "Monday",
+        "open_time": "10:30",
+        "close_time": "22:00"
+      },
+      {
+        "day_of_week": "Tuesday",
+        "open_time": "10:30",
+        "close_time": "22:00"
+      },
+      {
+        "day_of_week": "Friday",
+        "open_time": "10:30",
+        "close_time": "23:00"
+      },
+      {
+        "day_of_week": "Wednesday",
+        "open_time": "10:30",
+        "close_time": "22:00"
+      },
+      {
+        "day_of_week": "Thursday",
+        "open_time": "10:30",
+        "close_time": "22:00"
+      },
+      {
+        "day_of_week": "Sunday",
+        "open_time": "10:30",
+        "close_time": "22:00"
+      },
+      {
+        "day_of_week": "Saturday",
+        "open_time": "10:30",
+        "close_time": "23:00"
+      }
+    ]
+  },
+  {
+    "business_id": "KeZ9gv2R5ABNezqXnLvamw",
+    "weekly_hours": [
+      {
+        "day_of_week": "Tuesday",
+        "open_time": "09:00",
+        "close_time": "18:00"
+      },
+      {
+        "day_of_week": "Friday",
+        "open_time": "09:00",
+        "close_time": "19:00"
+      },
+      {
+        "day_of_week": "Wednesday",
+        "open_time": "09:00",
+        "close_time": "19:00"
+      },
+      {
+        "day_of_week": "Thursday",
+        "open_time": "09:00",
+        "close_time": "19:00"
+      },
+      {
+        "day_of_week": "Saturday",
+        "open_time": "09:00",
+        "close_time": "17:00"
+      }
+    ]
+  },
+  {
+    "business_id": "KiCFtB4Y-wNLmPPjefLeJg",
+    "weekly_hours": [
+      {
+        "day_of_week": "Monday",
+        "open_time": "07:00",
+        "close_time": "00:00"
+      },
+      {
+        "day_of_week": "Tuesday",
+        "open_time": "07:00",
+        "close_time": "00:00"
+      },
+      {
+        "day_of_week": "Friday",
+        "open_time": "07:00",
+        "close_time": "01:00"
+      },
+      {
+        "day_of_week": "Wednesday",
+        "open_time": "07:00",
+        "close_time": "00:00"
+      },
+      {
+        "day_of_week": "Thursday",
+        "open_time": "07:00",
+        "close_time": "00:00"
+      },
+      {
+        "day_of_week": "Sunday",
+        "open_time": "07:00",
+        "close_time": "00:00"
+      },
+      {
+        "day_of_week": "Saturday",
+        "open_time": "07:00",
+        "close_time": "01:00"
+      }
+    ]
+  },
+  {
+    "business_id": "7xyz5uuUjtSTMI5ux1u9Sw",
+    "weekly_hours": [
+      {
+        "day_of_week": "Monday",
+        "open_time": "08:00",
+        "close_time": "20:00"
+      },
+      {
+        "day_of_week": "Tuesday",
+        "open_time": "08:00",
+        "close_time": "20:00"
+      },
+      {
+        "day_of_week": "Friday",
+        "open_time": "08:00",
+        "close_time": "20:00"
+      },
+      {
+        "day_of_week": "Wednesday",
+        "open_time": "08:00",
+        "close_time": "20:00"
+      },
+      {
+        "day_of_week": "Thursday",
+        "open_time": "08:00",
+        "close_time": "20:00"
+      },
+      {
+        "day_of_week": "Sunday",
+        "open_time": "08:00",
+        "close_time": "16:00"
+      },
+      {
+        "day_of_week": "Saturday",
+        "open_time": "08:00",
+        "close_time": "16:00"
+      }
+    ]
+  },
+  {
+    "business_id": "RoXpniL8AtWwnIzvY2XUXw",
+    "weekly_hours": [
+      {
+        "day_of_week": "Monday",
+        "open_time": "10:30",
+        "close_time": "22:00"
+      },
+      {
+        "day_of_week": "Tuesday",
+        "open_time": "10:30",
+        "close_time": "22:00"
+      },
+      {
+        "day_of_week": "Friday",
+        "open_time": "10:30",
+        "close_time": "23:00"
+      },
+      {
+        "day_of_week": "Wednesday",
+        "open_time": "10:30",
+        "close_time": "22:00"
+      },
+      {
+        "day_of_week": "Thursday",
+        "open_time": "10:30",
+        "close_time": "22:00"
+      },
+      {
+        "day_of_week": "Sunday",
+        "open_time": "11:00",
+        "close_time": "22:00"
+      },
+      {
+        "day_of_week": "Saturday",
+        "open_time": "10:30",
+        "close_time": "23:00"
+      }
+    ]
+  },
+  {
+    "business_id": "OJX06tomzPbhl9TCHBLHbw",
+    "weekly_hours": [
+      {
+        "day_of_week": "Monday",
+        "open_time": "09:00",
+        "close_time": "21:00"
+      },
+      {
+        "day_of_week": "Tuesday",
+        "open_time": "09:00",
+        "close_time": "21:00"
+      },
+      {
+        "day_of_week": "Friday",
+        "open_time": "09:00",
+        "close_time": "21:00"
+      },
+      {
+        "day_of_week": "Wednesday",
+        "open_time": "09:00",
+        "close_time": "21:00"
+      },
+      {
+        "day_of_week": "Thursday",
+        "open_time": "09:00",
+        "close_time": "21:00"
+      },
+      {
+        "day_of_week": "Saturday",
+        "open_time": "09:00",
+        "close_time": "21:00"
+      }
+    ]
+  },
+  {
+    "business_id": "F8sD8-VRr5RLCuxOY7SVaA",
+    "weekly_hours": [
+      {
+        "day_of_week": "Monday",
+        "open_time": "10:00",
+        "close_time": "21:00"
+      },
+      {
+        "day_of_week": "Tuesday",
+        "open_time": "10:00",
+        "close_time": "21:00"
+      },
+      {
+        "day_of_week": "Friday",
+        "open_time": "10:00",
+        "close_time": "21:00"
+      },
+      {
+        "day_of_week": "Wednesday",
+        "open_time": "10:00",
+        "close_time": "21:00"
+      },
+      {
+        "day_of_week": "Thursday",
+        "open_time": "10:00",
+        "close_time": "21:00"
+      },
+      {
+        "day_of_week": "Sunday",
+        "open_time": "10:00",
+        "close_time": "19:00"
+      },
+      {
+        "day_of_week": "Saturday",
+        "open_time": "09:00",
+        "close_time": "21:00"
+      }
+    ]
+  },
+  {
+    "business_id": "Xzw38YxopZ9CRNTPI6jwOg",
+    "weekly_hours": [
+      {
+        "day_of_week": "Monday",
+        "open_time": "10:00",
+        "close_time": "16:00"
+      },
+      {
+        "day_of_week": "Tuesday",
+        "open_time": "09:00",
+        "close_time": "19:00"
+      },
+      {
+        "day_of_week": "Friday",
+        "open_time": "09:00",
+        "close_time": "16:00"
+      },
+      {
+        "day_of_week": "Wednesday",
+        "open_time": "09:00",
+        "close_time": "19:00"
+      },
+      {
+        "day_of_week": "Thursday",
+        "open_time": "09:00",
+        "close_time": "19:00"
+      },
+      {
+        "day_of_week": "Saturday",
+        "open_time": "09:00",
+        "close_time": "16:00"
+      }
+    ]
+  },
+  {
+    "business_id": "fsL04IyN2sIMEU9kNQPJHQ",
+    "weekly_hours": [
+      {
+        "day_of_week": "Monday",
+        "open_time": "10:30",
+        "close_time": "22:00"
+      },
+      {
+        "day_of_week": "Tuesday",
+        "open_time": "10:30",
+        "close_time": "22:00"
+      },
+      {
+        "day_of_week": "Friday",
+        "open_time": "10:30",
+        "close_time": "11:00"
+      },
+      {
+        "day_of_week": "Wednesday",
+        "open_time": "10:30",
+        "close_time": "22:00"
+      },
+      {
+        "day_of_week": "Thursday",
+        "open_time": "10:30",
+        "close_time": "22:00"
+      },
+      {
+        "day_of_week": "Sunday",
+        "open_time": "10:30",
+        "close_time": "22:00"
+      },
+      {
+        "day_of_week": "Saturday",
+        "open_time": "10:30",
+        "close_time": "11:00"
+      }
+    ]
+  },
+  {
+    "business_id": "hw2Z9dfAYa06UDzQkOi7gg",
+    "weekly_hours": [
+      {
+        "day_of_week": "Monday",
+        "open_time": "09:00",
+        "close_time": "21:00"
+      },
+      {
+        "day_of_week": "Tuesday",
+        "open_time": "09:00",
+        "close_time": "21:00"
+      },
+      {
+        "day_of_week": "Friday",
+        "open_time": "09:00",
+        "close_time": "20:00"
+      },
+      {
+        "day_of_week": "Wednesday",
+        "open_time": "09:00",
+        "close_time": "21:00"
+      },
+      {
+        "day_of_week": "Thursday",
+        "open_time": "09:00",
+        "close_time": "21:00"
+      },
+      {
+        "day_of_week": "Sunday",
+        "open_time": "10:00",
+        "close_time": "17:00"
+      },
+      {
+        "day_of_week": "Saturday",
+        "open_time": "09:00",
+        "close_time": "17:00"
+      }
+    ]
+  }
+]
