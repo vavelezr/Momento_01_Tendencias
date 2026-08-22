@@ -348,3 +348,109 @@ OK -> 4978 filas en RAW.REVIEW
 - [x] Runs de las migraciones `V__`/`R__` contra `main` (vía pipeline) — merge de los PR #6-#14, verificado funcionalmente en 5.3
 - [x] Falla real por un error de diseño (no de pipeline) + roll forward — sección 5
 - [x] Roll forward de `primary_category` corregido y desplegado — sección 5
+
+---
+
+## Sesión 5 — Ingesta semi-estructurada, DAG de Tasks, RBAC + Masking
+
+Cierra los Puntos 3, 4 y 5 del Momento 2 sobre la segunda fuente elegida: horario semanal
+por negocio, agrupado en un array anidado (`weekly_hours`) a partir de
+`data/business_hours.json` — ver [`docs/dominio_de_negocio.md`](../dominio_de_negocio.md).
+Scripts versionados en [`snowflake/json/`](../../snowflake/json/) (ver su
+[`README.md`](../../snowflake/json/README.md) para el orden de ejecución completo);
+exports generados por
+[`scripts/generar_export_business_hours.py`](../../scripts/generar_export_business_hours.py)
+(`business_hours_export_1.json` / `_2.json`, 77 negocios cada uno).
+
+### 1. Ingesta semi-estructurada (Punto 3): Internal Stage + `VARIANT` + `FLATTEN`
+
+Script: [`snowflake/json/01_setup_stage_and_raw.sql`](../../snowflake/json/01_setup_stage_and_raw.sql)
+(file format `STRIP_OUTER_ARRAY = TRUE`, stage interno, tabla `RAW_BUSINESS_HOURS`,
+`COPY INTO`) + [`02_flatten_query_exploration.sql`](../../snowflake/json/02_flatten_query_exploration.sql)
+(`LATERAL FLATTEN` y materialización en `STAGING.STG_BUSINESS_HOURS_FLATTENED`).
+
+Subida de los dos archivos al stage (Snowsight → *Upload Your Files*, equivalente a `PUT`
+desde SnowSQL):
+
+![Snowsight: subida de business_hours_export_1.json y business_hours_export_2.json al stage STG_BUSINESS_HOURS_INTERNAL](images/momento_02_1.png)
+
+Vista previa del contenido crudo del stage, antes de cargarlo a una tabla — confirma que
+`weekly_hours` llega como array anidado real, no un JSON plano:
+
+![Preview de $1 sobre el stage: 5 filas, cada una con business_id y el array weekly_hours anidado](images/momento_02_data.png)
+
+**Qué prueba:** el archivo en el stage ya trae, por fila, un objeto con un array anidado
+(`weekly_hours`) — es la condición mínima que exige la rúbrica para "Excelente" en este
+punto (no basta un JSON plano sin nada que aplanar).
+
+> ⚠️ **Falta captura:** el `COUNT(*)` post-`COPY INTO` (154 negocios esperados) y el
+> `COUNT(*)` / `GROUP BY business_id` post-`FLATTEN` de `02_flatten_query_exploration.sql`
+> todavía no tienen screenshot. Son solo dos queries de verificación, ya escritas en el
+> script — vale la pena tomarlas antes de la sustentación porque prueban que el `FLATTEN`
+> desenrolló el array completo, no solo la primera fila.
+
+### 2. Orquestación con Tasks (Punto 4): DAG raíz → hija
+
+Script: [`snowflake/json/03_tasks_and_dag_management.sql`](../../snowflake/json/03_tasks_and_dag_management.sql) —
+DAG de dos tareas (`TASK_INGEST_BUSINESS_HOURS`, raíz con `SCHEDULE`;
+`TASK_FLATTEN_BUSINESS_HOURS`, hija con `AFTER`), activado con
+`SYSTEM$TASK_DEPENDENTS_ENABLE`, disparado con `EXECUTE TASK`.
+
+![TASK_HISTORY: TASK_INGEST_BUSINESS_HOURS y TASK_FLATTEN_BUSINESS_HOURS, ambas SUCCEEDED, completed_time consecutivo](images/momento_02_task_history.png)
+
+**Qué prueba:** `TASK_INGEST_BUSINESS_HOURS` completó a las 18:39:37 y
+`TASK_FLATTEN_BUSINESS_HOURS` a las 18:39:38 — la hija se disparó sola por la dependencia
+`AFTER` un segundo después de que la raíz terminó, sin que nadie ejecutara la segunda tarea
+a mano. (`TASK_HISTORY()` sin filtro devuelve además tareas de sistema de la propia cuenta
+de Snowflake — `CORTEX_BASE_MODELS_REFRESH_TASK`, `APPLY_OVERRIDES_TASK`, etc., no son del
+proyecto; el script ya filtra por `WHERE name IN (...)` para que la próxima captura salga
+limpia sin tener que recortarla.)
+
+> ⚠️ **Falta la evidencia más importante de este punto:** el script (líneas del bloque
+> "Evidencia de administración") ya incluye el intento de suspender la **hija primero**
+> con la raíz todavía activa, esperando el error real de Snowflake (091421 o similar) —
+> pero ese paso todavía no se corrió/capturó, solo el apagado en el orden correcto. Es
+> rápido de rehacer: `ALTER TASK ... RESUME` sobre las dos, intentar suspender la hija con
+> la raíz `started`, capturar el error, y **entonces sí** apagar raíz→hija. También falta
+> el `SHOW TASKS` con ambas en `started` justo después de `SYSTEM$TASK_DEPENDENTS_ENABLE`.
+
+### 3. RBAC + Masking Policy (Punto 5): visibilidad diferenciada por rol
+
+Script: [`snowflake/json/04_rbac_and_masking.sql`](../../snowflake/json/04_rbac_and_masking.sql) —
+roles `ROLE_YELP_DATA_ANALYST` (todo el dato) y `ROLE_YELP_BUSINESS_OWNER` (dato operativo,
+PII enmascarada), Masking Policy sobre `USERS.NAME` (único campo de PII del dominio).
+
+> ⚠️ **Falta captura del "antes":** el script incluye el `SELECT` con ambos roles de
+> negocio **antes** de crear la masking policy (ambos deberían ver el nombre completo) —
+> sin ese screenshot, el "antes vs. después" que pide la rúbrica para "Excelente" solo
+> queda documentado a medias (tenemos el "después", no el contraste completo).
+
+**Después de aplicar la política:** mismo `SELECT`, tres roles, tres resultados distintos:
+
+![ROLE_YELP_DATA_ANALYST: nombre completo sin enmascarar (Phil, Thomas, Regina...)](images/momento_02_tarea1.png)
+
+![ROLE_YELP_BUSINESS_OWNER: nombre enmascarado parcialmente (P.***, T.***, R.***...)](images/momento_02_tarea2.png)
+
+![ACCOUNTADMIN: nombre completamente enmascarado (***) — no coincide con ninguna de las dos ramas WHEN de la política](images/momento_02_tarea3.png)
+
+**Qué prueba:** el mismo `SELECT` sobre la misma tabla devuelve tres resultados distintos
+según el rol activo — la definición misma de "visibilidad diferenciada por rol" que pide
+`C5 Excelente`. `ACCOUNTADMIN` cae en la rama `ELSE` de la política (no es ninguno de los
+dos roles de negocio), así que ve el nombre igual de enmascarado que un rol sin privilegio
+explícito — mostrando que la política protege el dato incluso del rol administrativo si no
+se le da una excepción a propósito.
+
+### Checklist de evidencia — Sesión 5
+
+- [x] `COPY INTO` cargando el JSON semi-estructurado, con array anidado real (`weekly_hours`).
+- [ ] Conteo de filas post-`COPY INTO` y post-`FLATTEN` (falta captura, query ya escrita).
+- [x] DAG con `EXECUTE TASK` disparado manualmente y `TASK_HISTORY` mostrando la corrida
+      exitosa de ambas tareas.
+- [ ] `SHOW TASKS` con el DAG en `started` tras `SYSTEM$TASK_DEPENDENTS_ENABLE` (falta captura).
+- [ ] Intento de suspender la hija con la raíz activa → error real de Snowflake (**falta
+      reproducir y capturar** — es el punto que el plan marca como "evidencia de haber
+      entendido la regla, no solo de citarla").
+- [x] Visibilidad diferenciada por rol después de aplicar la Masking Policy (3 roles, 3
+      resultados distintos).
+- [ ] Visibilidad *antes* de aplicar la Masking Policy, para el contraste completo (falta
+      captura).
