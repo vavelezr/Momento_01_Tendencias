@@ -1,0 +1,3158 @@
+[
+  {
+    "business_id": "-TNwWa_OGPmZoBFl25zdYA",
+    "export_batch_id": "0f98a7a3-87a8-4345-9bfd-ffcd5ae86406",
+    "generated_at": "2026-08-09T06:35:17",
+    "source_system": "goodyear-biz-portal",
+    "weekly_hours": [
+      {
+        "day_of_week": "Monday",
+        "open_time": "05:30",
+        "close_time": "16:00"
+      },
+      {
+        "day_of_week": "Tuesday",
+        "open_time": "05:30",
+        "close_time": "16:00"
+      },
+      {
+        "day_of_week": "Wednesday",
+        "open_time": "05:30",
+        "close_time": "16:00"
+      },
+      {
+        "day_of_week": "Thursday",
+        "open_time": "05:30",
+        "close_time": "16:00"
+      },
+      {
+        "day_of_week": "Friday",
+        "open_time": "05:30",
+        "close_time": "16:00"
+      },
+      {
+        "day_of_week": "Saturday",
+        "open_time": "05:30",
+        "close_time": "16:00"
+      },
+      {
+        "day_of_week": "Sunday",
+        "open_time": "05:30",
+        "close_time": "14:00"
+      }
+    ]
+  },
+  {
+    "business_id": "-_JBgygYYD_UkuD-GVTp6A",
+    "export_batch_id": "0f98a7a3-87a8-4345-9bfd-ffcd5ae86406",
+    "generated_at": "2026-08-09T06:35:17",
+    "source_system": "goodyear-biz-portal",
+    "weekly_hours": [
+      {
+        "day_of_week": "Monday",
+        "open_time": "10:00",
+        "close_time": "21:00"
+      },
+      {
+        "day_of_week": "Tuesday",
+        "open_time": "10:00",
+        "close_time": "21:00"
+      },
+      {
+        "day_of_week": "Wednesday",
+        "open_time": "10:00",
+        "close_time": "21:00"
+      },
+      {
+        "day_of_week": "Thursday",
+        "open_time": "10:00",
+        "close_time": "21:00"
+      },
+      {
+        "day_of_week": "Friday",
+        "open_time": "10:00",
+        "close_time": "21:00"
+      },
+      {
+        "day_of_week": "Saturday",
+        "open_time": "10:00",
+        "close_time": "21:00"
+      },
+      {
+        "day_of_week": "Sunday",
+        "open_time": "11:00",
+        "close_time": "20:00"
+      }
+    ]
+  },
+  {
+    "business_id": "-iJZ-PEnOw2oVUBFfg5wJw",
+    "export_batch_id": "0f98a7a3-87a8-4345-9bfd-ffcd5ae86406",
+    "generated_at": "2026-08-09T06:35:17",
+    "source_system": "goodyear-biz-portal",
+    "weekly_hours": [
+      {
+        "day_of_week": "Tuesday",
+        "open_time": "07:00",
+        "close_time": "17:00"
+      },
+      {
+        "day_of_week": "Wednesday",
+        "open_time": "07:00",
+        "close_time": "17:00"
+      },
+      {
+        "day_of_week": "Thursday",
+        "open_time": "07:00",
+        "close_time": "17:00"
+      },
+      {
+        "day_of_week": "Friday",
+        "open_time": "07:00",
+        "close_time": "17:00"
+      },
+      {
+        "day_of_week": "Saturday",
+        "open_time": "07:00",
+        "close_time": "17:00"
+      }
+    ]
+  },
+  {
+    "business_id": "02rrDia_FTc8jN7LGqzIbQ",
+    "export_batch_id": "0f98a7a3-87a8-4345-9bfd-ffcd5ae86406",
+    "generated_at": "2026-08-09T06:35:17",
+    "source_system": "goodyear-biz-portal",
+    "weekly_hours": [
+      {
+        "day_of_week": "Monday",
+        "open_time": "08:30",
+        "close_time": "17:30"
+      },
+      {
+        "day_of_week": "Tuesday",
+        "open_time": "08:30",
+        "close_time": "17:30"
+      },
+      {
+        "day_of_week": "Wednesday",
+        "open_time": "08:30",
+        "close_time": "17:30"
+      },
+      {
+        "day_of_week": "Thursday",
+        "open_time": "08:30",
+        "close_time": "17:30"
+      },
+      {
+        "day_of_week": "Friday",
+        "open_time": "08:30",
+        "close_time": "17:30"
+      },
+      {
+        "day_of_week": "Saturday",
+        "open_time": "08:30",
+        "close_time": "17:30"
+      },
+      {
+        "day_of_week": "Sunday",
+        "open_time": "08:30",
+        "close_time": "17:30"
+      }
+    ]
+  },
+  {
+    "business_id": "0CG3ns3gwWV5nOnfzSfUIQ",
+    "export_batch_id": "0f98a7a3-87a8-4345-9bfd-ffcd5ae86406",
+    "generated_at": "2026-08-09T06:35:17",
+    "source_system": "goodyear-biz-portal",
+    "weekly_hours": [
+      {
+        "day_of_week": "Monday",
+        "open_time": "06:00",
+        "close_time": "22:00"
+      },
+      {
+        "day_of_week": "Tuesday",
+        "open_time": "06:00",
+        "close_time": "22:00"
+      },
+      {
+        "day_of_week": "Wednesday",
+        "open_time": "06:00",
+        "close_time": "22:00"
+      },
+      {
+        "day_of_week": "Thursday",
+        "open_time": "06:00",
+        "close_time": "22:00"
+      },
+      {
+        "day_of_week": "Friday",
+        "open_time": "06:00",
+        "close_time": "22:00"
+      },
+      {
+        "day_of_week": "Saturday",
+        "open_time": "06:00",
+        "close_time": "22:00"
+      },
+      {
+        "day_of_week": "Sunday",
+        "open_time": "06:00",
+        "close_time": "22:00"
+      }
+    ]
+  },
+  {
+    "business_id": "0WI0ydH2HtFxFswYXhE--w",
+    "export_batch_id": "0f98a7a3-87a8-4345-9bfd-ffcd5ae86406",
+    "generated_at": "2026-08-09T06:35:17",
+    "source_system": "goodyear-biz-portal",
+    "weekly_hours": [
+      {
+        "day_of_week": "Monday",
+        "open_time": "11:00",
+        "close_time": "21:00"
+      },
+      {
+        "day_of_week": "Tuesday",
+        "open_time": "11:00",
+        "close_time": "21:00"
+      },
+      {
+        "day_of_week": "Wednesday",
+        "open_time": "11:00",
+        "close_time": "21:00"
+      },
+      {
+        "day_of_week": "Thursday",
+        "open_time": "11:00",
+        "close_time": "21:00"
+      },
+      {
+        "day_of_week": "Friday",
+        "open_time": "11:00",
+        "close_time": "22:00"
+      },
+      {
+        "day_of_week": "Saturday",
+        "open_time": "11:00",
+        "close_time": "22:00"
+      },
+      {
+        "day_of_week": "Sunday",
+        "open_time": "11:00",
+        "close_time": "21:00"
+      }
+    ]
+  },
+  {
+    "business_id": "1EPf4WwkjSVMN0VvtfgZhw",
+    "export_batch_id": "0f98a7a3-87a8-4345-9bfd-ffcd5ae86406",
+    "generated_at": "2026-08-09T06:35:17",
+    "source_system": "goodyear-biz-portal",
+    "weekly_hours": [
+      {
+        "day_of_week": "Monday",
+        "open_time": "10:00",
+        "close_time": "21:00"
+      },
+      {
+        "day_of_week": "Tuesday",
+        "open_time": "10:00",
+        "close_time": "21:00"
+      },
+      {
+        "day_of_week": "Wednesday",
+        "open_time": "10:00",
+        "close_time": "21:00"
+      },
+      {
+        "day_of_week": "Thursday",
+        "open_time": "10:00",
+        "close_time": "21:00"
+      },
+      {
+        "day_of_week": "Friday",
+        "open_time": "10:00",
+        "close_time": "21:00"
+      },
+      {
+        "day_of_week": "Saturday",
+        "open_time": "10:00",
+        "close_time": "20:00"
+      },
+      {
+        "day_of_week": "Sunday",
+        "open_time": "11:00",
+        "close_time": "18:00"
+      }
+    ]
+  },
+  {
+    "business_id": "1FmyMPP4o1TvTvo7Ngz73w",
+    "export_batch_id": "0f98a7a3-87a8-4345-9bfd-ffcd5ae86406",
+    "generated_at": "2026-08-09T06:35:17",
+    "source_system": "goodyear-biz-portal",
+    "weekly_hours": [
+      {
+        "day_of_week": "Monday",
+        "open_time": "09:00",
+        "close_time": "18:00"
+      },
+      {
+        "day_of_week": "Tuesday",
+        "open_time": "09:00",
+        "close_time": "18:00"
+      },
+      {
+        "day_of_week": "Wednesday",
+        "open_time": "09:00",
+        "close_time": "18:00"
+      },
+      {
+        "day_of_week": "Thursday",
+        "open_time": "09:00",
+        "close_time": "18:00"
+      },
+      {
+        "day_of_week": "Friday",
+        "open_time": "09:00",
+        "close_time": "18:00"
+      },
+      {
+        "day_of_week": "Saturday",
+        "open_time": "08:00",
+        "close_time": "17:00"
+      },
+      {
+        "day_of_week": "Sunday",
+        "open_time": "11:00",
+        "close_time": "17:00"
+      }
+    ]
+  },
+  {
+    "business_id": "1kPUkLq_3gMtX_HRwcF17A",
+    "export_batch_id": "0f98a7a3-87a8-4345-9bfd-ffcd5ae86406",
+    "generated_at": "2026-08-09T06:35:17",
+    "source_system": "goodyear-biz-portal",
+    "weekly_hours": [
+      {
+        "day_of_week": "Monday",
+        "open_time": "10:00",
+        "close_time": "21:00"
+      },
+      {
+        "day_of_week": "Tuesday",
+        "open_time": "10:00",
+        "close_time": "21:00"
+      },
+      {
+        "day_of_week": "Wednesday",
+        "open_time": "10:00",
+        "close_time": "21:00"
+      },
+      {
+        "day_of_week": "Thursday",
+        "open_time": "10:00",
+        "close_time": "21:00"
+      },
+      {
+        "day_of_week": "Friday",
+        "open_time": "10:00",
+        "close_time": "21:00"
+      },
+      {
+        "day_of_week": "Saturday",
+        "open_time": "10:00",
+        "close_time": "21:00"
+      },
+      {
+        "day_of_week": "Sunday",
+        "open_time": "11:00",
+        "close_time": "18:00"
+      }
+    ]
+  },
+  {
+    "business_id": "2Bd3gy5lmINZ-2QxXVRLdA",
+    "export_batch_id": "0f98a7a3-87a8-4345-9bfd-ffcd5ae86406",
+    "generated_at": "2026-08-09T06:35:17",
+    "source_system": "goodyear-biz-portal",
+    "weekly_hours": [
+      {
+        "day_of_week": "Monday",
+        "open_time": "06:30",
+        "close_time": "19:00"
+      },
+      {
+        "day_of_week": "Tuesday",
+        "open_time": "06:30",
+        "close_time": "19:00"
+      },
+      {
+        "day_of_week": "Wednesday",
+        "open_time": "06:30",
+        "close_time": "19:00"
+      },
+      {
+        "day_of_week": "Thursday",
+        "open_time": "06:30",
+        "close_time": "19:00"
+      },
+      {
+        "day_of_week": "Friday",
+        "open_time": "06:30",
+        "close_time": "20:00"
+      },
+      {
+        "day_of_week": "Saturday",
+        "open_time": "07:30",
+        "close_time": "20:00"
+      },
+      {
+        "day_of_week": "Sunday",
+        "open_time": "08:00",
+        "close_time": "15:00"
+      }
+    ]
+  },
+  {
+    "business_id": "2Fretr5fh0ez34WqtLKrQg",
+    "export_batch_id": "0f98a7a3-87a8-4345-9bfd-ffcd5ae86406",
+    "generated_at": "2026-08-09T06:35:17",
+    "source_system": "goodyear-biz-portal",
+    "weekly_hours": [
+      {
+        "day_of_week": "Monday",
+        "open_time": "08:00",
+        "close_time": "17:00"
+      },
+      {
+        "day_of_week": "Tuesday",
+        "open_time": "08:00",
+        "close_time": "17:00"
+      },
+      {
+        "day_of_week": "Wednesday",
+        "open_time": "08:00",
+        "close_time": "17:00"
+      },
+      {
+        "day_of_week": "Thursday",
+        "open_time": "08:00",
+        "close_time": "17:00"
+      }
+    ]
+  },
+  {
+    "business_id": "2_0GmIzO2GftvpFjcwnIKg",
+    "export_batch_id": "0f98a7a3-87a8-4345-9bfd-ffcd5ae86406",
+    "generated_at": "2026-08-09T06:35:17",
+    "source_system": "goodyear-biz-portal",
+    "weekly_hours": [
+      {
+        "day_of_week": "Monday",
+        "open_time": "09:00",
+        "close_time": "17:00"
+      },
+      {
+        "day_of_week": "Tuesday",
+        "open_time": "09:00",
+        "close_time": "17:00"
+      },
+      {
+        "day_of_week": "Wednesday",
+        "open_time": "09:00",
+        "close_time": "17:00"
+      },
+      {
+        "day_of_week": "Thursday",
+        "open_time": "09:00",
+        "close_time": "17:00"
+      },
+      {
+        "day_of_week": "Friday",
+        "open_time": "09:00",
+        "close_time": "17:00"
+      },
+      {
+        "day_of_week": "Saturday",
+        "open_time": "08:00",
+        "close_time": "12:00"
+      },
+      {
+        "day_of_week": "Sunday",
+        "open_time": "09:00",
+        "close_time": "17:00"
+      }
+    ]
+  },
+  {
+    "business_id": "2mVDVpTYuEYhIT68Xgka4w",
+    "export_batch_id": "0f98a7a3-87a8-4345-9bfd-ffcd5ae86406",
+    "generated_at": "2026-08-09T06:35:17",
+    "source_system": "goodyear-biz-portal",
+    "weekly_hours": [
+      {
+        "day_of_week": "Monday",
+        "open_time": "16:30",
+        "close_time": "19:30"
+      },
+      {
+        "day_of_week": "Tuesday",
+        "open_time": "15:00",
+        "close_time": "17:00"
+      },
+      {
+        "day_of_week": "Wednesday",
+        "open_time": "16:30",
+        "close_time": "19:30"
+      },
+      {
+        "day_of_week": "Thursday",
+        "open_time": "15:00",
+        "close_time": "17:00"
+      },
+      {
+        "day_of_week": "Friday",
+        "open_time": "16:30",
+        "close_time": "19:30"
+      }
+    ]
+  },
+  {
+    "business_id": "3B-eqvDRowzk1jcHmL7xNQ",
+    "export_batch_id": "0f98a7a3-87a8-4345-9bfd-ffcd5ae86406",
+    "generated_at": "2026-08-09T06:35:17",
+    "source_system": "goodyear-biz-portal",
+    "weekly_hours": [
+      {
+        "day_of_week": "Tuesday",
+        "open_time": "09:00",
+        "close_time": "19:00"
+      },
+      {
+        "day_of_week": "Wednesday",
+        "open_time": "09:00",
+        "close_time": "19:00"
+      },
+      {
+        "day_of_week": "Thursday",
+        "open_time": "09:00",
+        "close_time": "19:00"
+      },
+      {
+        "day_of_week": "Friday",
+        "open_time": "09:00",
+        "close_time": "19:00"
+      },
+      {
+        "day_of_week": "Saturday",
+        "open_time": "09:00",
+        "close_time": "19:00"
+      },
+      {
+        "day_of_week": "Sunday",
+        "open_time": "09:00",
+        "close_time": "18:00"
+      }
+    ]
+  },
+  {
+    "business_id": "3CMoTN6UxlBSopTDPWajOQ",
+    "export_batch_id": "0f98a7a3-87a8-4345-9bfd-ffcd5ae86406",
+    "generated_at": "2026-08-09T06:35:17",
+    "source_system": "goodyear-biz-portal",
+    "weekly_hours": [
+      {
+        "day_of_week": "Monday",
+        "open_time": "10:00",
+        "close_time": "18:00"
+      },
+      {
+        "day_of_week": "Tuesday",
+        "open_time": "10:00",
+        "close_time": "18:00"
+      },
+      {
+        "day_of_week": "Wednesday",
+        "open_time": "10:00",
+        "close_time": "18:00"
+      },
+      {
+        "day_of_week": "Thursday",
+        "open_time": "10:00",
+        "close_time": "18:00"
+      },
+      {
+        "day_of_week": "Friday",
+        "open_time": "10:00",
+        "close_time": "18:00"
+      },
+      {
+        "day_of_week": "Saturday",
+        "open_time": "10:00",
+        "close_time": "17:00"
+      }
+    ]
+  },
+  {
+    "business_id": "3DIG0gD6rL7AmukW3cdeKg",
+    "export_batch_id": "0f98a7a3-87a8-4345-9bfd-ffcd5ae86406",
+    "generated_at": "2026-08-09T06:35:17",
+    "source_system": "goodyear-biz-portal",
+    "weekly_hours": [
+      {
+        "day_of_week": "Monday",
+        "open_time": "07:30",
+        "close_time": "17:30"
+      },
+      {
+        "day_of_week": "Tuesday",
+        "open_time": "07:30",
+        "close_time": "17:30"
+      },
+      {
+        "day_of_week": "Wednesday",
+        "open_time": "07:30",
+        "close_time": "17:30"
+      },
+      {
+        "day_of_week": "Thursday",
+        "open_time": "07:30",
+        "close_time": "17:30"
+      },
+      {
+        "day_of_week": "Friday",
+        "open_time": "07:30",
+        "close_time": "17:30"
+      },
+      {
+        "day_of_week": "Saturday",
+        "open_time": "07:30",
+        "close_time": "17:30"
+      }
+    ]
+  },
+  {
+    "business_id": "3GpihkrWZOmu1a5k1EfA6g",
+    "export_batch_id": "0f98a7a3-87a8-4345-9bfd-ffcd5ae86406",
+    "generated_at": "2026-08-09T06:35:17",
+    "source_system": "goodyear-biz-portal",
+    "weekly_hours": [
+      {
+        "day_of_week": "Monday",
+        "open_time": "11:00",
+        "close_time": "21:00"
+      },
+      {
+        "day_of_week": "Tuesday",
+        "open_time": "11:00",
+        "close_time": "21:00"
+      },
+      {
+        "day_of_week": "Wednesday",
+        "open_time": "11:00",
+        "close_time": "21:00"
+      },
+      {
+        "day_of_week": "Thursday",
+        "open_time": "11:00",
+        "close_time": "21:00"
+      },
+      {
+        "day_of_week": "Friday",
+        "open_time": "11:00",
+        "close_time": "22:00"
+      },
+      {
+        "day_of_week": "Saturday",
+        "open_time": "11:00",
+        "close_time": "22:00"
+      }
+    ]
+  },
+  {
+    "business_id": "3X081wewB-J5tIMO_aOPnA",
+    "export_batch_id": "0f98a7a3-87a8-4345-9bfd-ffcd5ae86406",
+    "generated_at": "2026-08-09T06:35:17",
+    "source_system": "goodyear-biz-portal",
+    "weekly_hours": [
+      {
+        "day_of_week": "Monday",
+        "open_time": "11:00",
+        "close_time": "22:00"
+      },
+      {
+        "day_of_week": "Tuesday",
+        "open_time": "11:00",
+        "close_time": "22:00"
+      },
+      {
+        "day_of_week": "Wednesday",
+        "open_time": "11:00",
+        "close_time": "22:00"
+      },
+      {
+        "day_of_week": "Thursday",
+        "open_time": "11:00",
+        "close_time": "22:00"
+      },
+      {
+        "day_of_week": "Friday",
+        "open_time": "11:00",
+        "close_time": "22:00"
+      },
+      {
+        "day_of_week": "Saturday",
+        "open_time": "11:00",
+        "close_time": "22:00"
+      },
+      {
+        "day_of_week": "Sunday",
+        "open_time": "12:00",
+        "close_time": "21:00"
+      }
+    ]
+  },
+  {
+    "business_id": "3od0SuqOl4BHiqc2jErlzw",
+    "export_batch_id": "0f98a7a3-87a8-4345-9bfd-ffcd5ae86406",
+    "generated_at": "2026-08-09T06:35:17",
+    "source_system": "goodyear-biz-portal",
+    "weekly_hours": [
+      {
+        "day_of_week": "Monday",
+        "open_time": "10:00",
+        "close_time": "20:00"
+      },
+      {
+        "day_of_week": "Tuesday",
+        "open_time": "10:00",
+        "close_time": "20:00"
+      },
+      {
+        "day_of_week": "Wednesday",
+        "open_time": "10:00",
+        "close_time": "20:00"
+      },
+      {
+        "day_of_week": "Thursday",
+        "open_time": "10:00",
+        "close_time": "20:00"
+      },
+      {
+        "day_of_week": "Friday",
+        "open_time": "10:00",
+        "close_time": "20:00"
+      },
+      {
+        "day_of_week": "Saturday",
+        "open_time": "10:00",
+        "close_time": "19:00"
+      },
+      {
+        "day_of_week": "Sunday",
+        "open_time": "11:00",
+        "close_time": "18:00"
+      }
+    ]
+  },
+  {
+    "business_id": "3rTS_sopbW1pgj2DRav1ww",
+    "export_batch_id": "0f98a7a3-87a8-4345-9bfd-ffcd5ae86406",
+    "generated_at": "2026-08-09T06:35:17",
+    "source_system": "goodyear-biz-portal",
+    "weekly_hours": [
+      {
+        "day_of_week": "Monday",
+        "open_time": "09:00",
+        "close_time": "21:00"
+      },
+      {
+        "day_of_week": "Tuesday",
+        "open_time": "09:00",
+        "close_time": "21:00"
+      },
+      {
+        "day_of_week": "Wednesday",
+        "open_time": "09:00",
+        "close_time": "21:00"
+      },
+      {
+        "day_of_week": "Thursday",
+        "open_time": "09:00",
+        "close_time": "21:00"
+      },
+      {
+        "day_of_week": "Friday",
+        "open_time": "09:00",
+        "close_time": "21:00"
+      },
+      {
+        "day_of_week": "Saturday",
+        "open_time": "09:00",
+        "close_time": "21:00"
+      },
+      {
+        "day_of_week": "Sunday",
+        "open_time": "10:00",
+        "close_time": "19:00"
+      }
+    ]
+  },
+  {
+    "business_id": "47xaD3fBnj_cLJbRgHmKfg",
+    "export_batch_id": "0f98a7a3-87a8-4345-9bfd-ffcd5ae86406",
+    "generated_at": "2026-08-09T06:35:17",
+    "source_system": "goodyear-biz-portal",
+    "weekly_hours": [
+      {
+        "day_of_week": "Monday",
+        "open_time": "07:00",
+        "close_time": "22:00"
+      },
+      {
+        "day_of_week": "Tuesday",
+        "open_time": "07:00",
+        "close_time": "22:00"
+      },
+      {
+        "day_of_week": "Wednesday",
+        "open_time": "07:00",
+        "close_time": "22:00"
+      },
+      {
+        "day_of_week": "Thursday",
+        "open_time": "07:00",
+        "close_time": "22:00"
+      },
+      {
+        "day_of_week": "Friday",
+        "open_time": "07:00",
+        "close_time": "22:30"
+      },
+      {
+        "day_of_week": "Saturday",
+        "open_time": "07:00",
+        "close_time": "22:30"
+      },
+      {
+        "day_of_week": "Sunday",
+        "open_time": "07:00",
+        "close_time": "22:00"
+      }
+    ]
+  },
+  {
+    "business_id": "4ZZCdTOIJS7mchFLZfAzBA",
+    "export_batch_id": "0f98a7a3-87a8-4345-9bfd-ffcd5ae86406",
+    "generated_at": "2026-08-09T06:35:17",
+    "source_system": "goodyear-biz-portal",
+    "weekly_hours": [
+      {
+        "day_of_week": "Monday",
+        "open_time": "07:30",
+        "close_time": "19:00"
+      },
+      {
+        "day_of_week": "Tuesday",
+        "open_time": "07:30",
+        "close_time": "19:00"
+      },
+      {
+        "day_of_week": "Wednesday",
+        "open_time": "07:30",
+        "close_time": "19:00"
+      },
+      {
+        "day_of_week": "Thursday",
+        "open_time": "07:30",
+        "close_time": "19:00"
+      },
+      {
+        "day_of_week": "Friday",
+        "open_time": "07:30",
+        "close_time": "19:00"
+      },
+      {
+        "day_of_week": "Saturday",
+        "open_time": "08:00",
+        "close_time": "18:00"
+      },
+      {
+        "day_of_week": "Sunday",
+        "open_time": "08:00",
+        "close_time": "17:00"
+      }
+    ]
+  },
+  {
+    "business_id": "4ieuLil-D58FBU1DVd_xGA",
+    "export_batch_id": "0f98a7a3-87a8-4345-9bfd-ffcd5ae86406",
+    "generated_at": "2026-08-09T06:35:17",
+    "source_system": "goodyear-biz-portal",
+    "weekly_hours": [
+      {
+        "day_of_week": "Monday",
+        "open_time": "16:30",
+        "close_time": "22:00"
+      },
+      {
+        "day_of_week": "Tuesday",
+        "open_time": "11:00",
+        "close_time": "15:00"
+      },
+      {
+        "day_of_week": "Wednesday",
+        "open_time": "16:30",
+        "close_time": "22:00"
+      },
+      {
+        "day_of_week": "Thursday",
+        "open_time": "16:30",
+        "close_time": "22:00"
+      },
+      {
+        "day_of_week": "Friday",
+        "open_time": "16:30",
+        "close_time": "22:30"
+      },
+      {
+        "day_of_week": "Saturday",
+        "open_time": "11:00",
+        "close_time": "22:30"
+      },
+      {
+        "day_of_week": "Sunday",
+        "open_time": "11:00",
+        "close_time": "21:30"
+      }
+    ]
+  },
+  {
+    "business_id": "4xJvGVgDTdlwrU32EoX9dw",
+    "export_batch_id": "0f98a7a3-87a8-4345-9bfd-ffcd5ae86406",
+    "generated_at": "2026-08-09T06:35:17",
+    "source_system": "goodyear-biz-portal",
+    "weekly_hours": [
+      {
+        "day_of_week": "Monday",
+        "open_time": "07:00",
+        "close_time": "16:00"
+      },
+      {
+        "day_of_week": "Tuesday",
+        "open_time": "07:00",
+        "close_time": "16:00"
+      },
+      {
+        "day_of_week": "Wednesday",
+        "open_time": "07:00",
+        "close_time": "16:00"
+      },
+      {
+        "day_of_week": "Thursday",
+        "open_time": "07:00",
+        "close_time": "16:00"
+      },
+      {
+        "day_of_week": "Friday",
+        "open_time": "07:00",
+        "close_time": "16:00"
+      }
+    ]
+  },
+  {
+    "business_id": "597qhd_yZjnsXt8TyaBbSg",
+    "export_batch_id": "0f98a7a3-87a8-4345-9bfd-ffcd5ae86406",
+    "generated_at": "2026-08-09T06:35:17",
+    "source_system": "goodyear-biz-portal",
+    "weekly_hours": [
+      {
+        "day_of_week": "Monday",
+        "open_time": "07:00",
+        "close_time": "18:00"
+      },
+      {
+        "day_of_week": "Tuesday",
+        "open_time": "07:00",
+        "close_time": "18:00"
+      },
+      {
+        "day_of_week": "Wednesday",
+        "open_time": "07:00",
+        "close_time": "18:00"
+      },
+      {
+        "day_of_week": "Thursday",
+        "open_time": "07:00",
+        "close_time": "18:00"
+      },
+      {
+        "day_of_week": "Friday",
+        "open_time": "07:00",
+        "close_time": "18:00"
+      },
+      {
+        "day_of_week": "Saturday",
+        "open_time": "08:00",
+        "close_time": "14:00"
+      }
+    ]
+  },
+  {
+    "business_id": "5gXgnr5VuTKeYu7UpDZWAg",
+    "export_batch_id": "0f98a7a3-87a8-4345-9bfd-ffcd5ae86406",
+    "generated_at": "2026-08-09T06:35:17",
+    "source_system": "goodyear-biz-portal",
+    "weekly_hours": [
+      {
+        "day_of_week": "Monday",
+        "open_time": "08:00",
+        "close_time": "16:00"
+      },
+      {
+        "day_of_week": "Tuesday",
+        "open_time": "08:00",
+        "close_time": "16:00"
+      },
+      {
+        "day_of_week": "Wednesday",
+        "open_time": "08:00",
+        "close_time": "16:00"
+      },
+      {
+        "day_of_week": "Thursday",
+        "open_time": "08:00",
+        "close_time": "16:00"
+      },
+      {
+        "day_of_week": "Friday",
+        "open_time": "08:00",
+        "close_time": "16:00"
+      },
+      {
+        "day_of_week": "Saturday",
+        "open_time": "08:00",
+        "close_time": "15:00"
+      }
+    ]
+  },
+  {
+    "business_id": "64IrwpAlZKQ-Pd70gNmiOQ",
+    "export_batch_id": "0f98a7a3-87a8-4345-9bfd-ffcd5ae86406",
+    "generated_at": "2026-08-09T06:35:17",
+    "source_system": "goodyear-biz-portal",
+    "weekly_hours": [
+      {
+        "day_of_week": "Monday",
+        "open_time": "11:00",
+        "close_time": "02:00"
+      },
+      {
+        "day_of_week": "Tuesday",
+        "open_time": "11:00",
+        "close_time": "02:00"
+      },
+      {
+        "day_of_week": "Wednesday",
+        "open_time": "11:00",
+        "close_time": "02:00"
+      },
+      {
+        "day_of_week": "Thursday",
+        "open_time": "11:00",
+        "close_time": "02:00"
+      },
+      {
+        "day_of_week": "Friday",
+        "open_time": "11:00",
+        "close_time": "02:00"
+      },
+      {
+        "day_of_week": "Saturday",
+        "open_time": "11:00",
+        "close_time": "02:00"
+      },
+      {
+        "day_of_week": "Sunday",
+        "open_time": "11:00",
+        "close_time": "02:00"
+      }
+    ]
+  },
+  {
+    "business_id": "74qDPs2dR6gSzDp6N1U-Og",
+    "export_batch_id": "0f98a7a3-87a8-4345-9bfd-ffcd5ae86406",
+    "generated_at": "2026-08-09T06:35:17",
+    "source_system": "goodyear-biz-portal",
+    "weekly_hours": [
+      {
+        "day_of_week": "Monday",
+        "open_time": "11:00",
+        "close_time": "22:00"
+      },
+      {
+        "day_of_week": "Tuesday",
+        "open_time": "11:00",
+        "close_time": "22:00"
+      },
+      {
+        "day_of_week": "Wednesday",
+        "open_time": "11:00",
+        "close_time": "22:00"
+      },
+      {
+        "day_of_week": "Thursday",
+        "open_time": "11:00",
+        "close_time": "22:00"
+      },
+      {
+        "day_of_week": "Friday",
+        "open_time": "11:00",
+        "close_time": "22:00"
+      },
+      {
+        "day_of_week": "Saturday",
+        "open_time": "11:00",
+        "close_time": "22:00"
+      },
+      {
+        "day_of_week": "Sunday",
+        "open_time": "11:00",
+        "close_time": "22:00"
+      }
+    ]
+  },
+  {
+    "business_id": "7oRb1tESUHyo_0x2Q_Hbeg",
+    "export_batch_id": "0f98a7a3-87a8-4345-9bfd-ffcd5ae86406",
+    "generated_at": "2026-08-09T06:35:17",
+    "source_system": "goodyear-biz-portal",
+    "weekly_hours": [
+      {
+        "day_of_week": "Monday",
+        "open_time": "09:00",
+        "close_time": "18:00"
+      },
+      {
+        "day_of_week": "Tuesday",
+        "open_time": "09:00",
+        "close_time": "18:00"
+      },
+      {
+        "day_of_week": "Wednesday",
+        "open_time": "09:00",
+        "close_time": "18:00"
+      },
+      {
+        "day_of_week": "Thursday",
+        "open_time": "09:00",
+        "close_time": "18:00"
+      },
+      {
+        "day_of_week": "Friday",
+        "open_time": "09:00",
+        "close_time": "18:00"
+      },
+      {
+        "day_of_week": "Saturday",
+        "open_time": "10:00",
+        "close_time": "18:00"
+      }
+    ]
+  },
+  {
+    "business_id": "7xyz5uuUjtSTMI5ux1u9Sw",
+    "export_batch_id": "0f98a7a3-87a8-4345-9bfd-ffcd5ae86406",
+    "generated_at": "2026-08-09T06:35:17",
+    "source_system": "goodyear-biz-portal",
+    "weekly_hours": [
+      {
+        "day_of_week": "Monday",
+        "open_time": "08:00",
+        "close_time": "20:00"
+      },
+      {
+        "day_of_week": "Tuesday",
+        "open_time": "08:00",
+        "close_time": "20:00"
+      },
+      {
+        "day_of_week": "Wednesday",
+        "open_time": "08:00",
+        "close_time": "20:00"
+      },
+      {
+        "day_of_week": "Thursday",
+        "open_time": "08:00",
+        "close_time": "20:00"
+      },
+      {
+        "day_of_week": "Friday",
+        "open_time": "08:00",
+        "close_time": "20:00"
+      },
+      {
+        "day_of_week": "Saturday",
+        "open_time": "08:00",
+        "close_time": "16:00"
+      },
+      {
+        "day_of_week": "Sunday",
+        "open_time": "08:00",
+        "close_time": "16:00"
+      }
+    ]
+  },
+  {
+    "business_id": "8K79GC8Vgj8zYMzWy4H7mg",
+    "export_batch_id": "0f98a7a3-87a8-4345-9bfd-ffcd5ae86406",
+    "generated_at": "2026-08-09T06:35:17",
+    "source_system": "goodyear-biz-portal",
+    "weekly_hours": [
+      {
+        "day_of_week": "Monday",
+        "open_time": "11:00",
+        "close_time": "21:00"
+      },
+      {
+        "day_of_week": "Tuesday",
+        "open_time": "11:00",
+        "close_time": "21:00"
+      },
+      {
+        "day_of_week": "Wednesday",
+        "open_time": "11:00",
+        "close_time": "21:00"
+      },
+      {
+        "day_of_week": "Thursday",
+        "open_time": "11:00",
+        "close_time": "21:00"
+      },
+      {
+        "day_of_week": "Friday",
+        "open_time": "11:00",
+        "close_time": "21:30"
+      },
+      {
+        "day_of_week": "Saturday",
+        "open_time": "11:00",
+        "close_time": "21:30"
+      },
+      {
+        "day_of_week": "Sunday",
+        "open_time": "12:00",
+        "close_time": "21:00"
+      }
+    ]
+  },
+  {
+    "business_id": "8SvCSiGwtaGL2Z78tRSSlQ",
+    "export_batch_id": "0f98a7a3-87a8-4345-9bfd-ffcd5ae86406",
+    "generated_at": "2026-08-09T06:35:17",
+    "source_system": "goodyear-biz-portal",
+    "weekly_hours": [
+      {
+        "day_of_week": "Monday",
+        "open_time": "11:00",
+        "close_time": "22:00"
+      },
+      {
+        "day_of_week": "Tuesday",
+        "open_time": "11:00",
+        "close_time": "22:00"
+      },
+      {
+        "day_of_week": "Wednesday",
+        "open_time": "11:00",
+        "close_time": "22:00"
+      },
+      {
+        "day_of_week": "Thursday",
+        "open_time": "11:00",
+        "close_time": "22:00"
+      },
+      {
+        "day_of_week": "Friday",
+        "open_time": "11:00",
+        "close_time": "22:00"
+      },
+      {
+        "day_of_week": "Saturday",
+        "open_time": "11:00",
+        "close_time": "22:00"
+      },
+      {
+        "day_of_week": "Sunday",
+        "open_time": "11:00",
+        "close_time": "22:00"
+      }
+    ]
+  },
+  {
+    "business_id": "8bqjvBfe1cAlXv98uYxLVg",
+    "export_batch_id": "0f98a7a3-87a8-4345-9bfd-ffcd5ae86406",
+    "generated_at": "2026-08-09T06:35:17",
+    "source_system": "goodyear-biz-portal",
+    "weekly_hours": [
+      {
+        "day_of_week": "Monday",
+        "open_time": "10:00",
+        "close_time": "22:00"
+      },
+      {
+        "day_of_week": "Tuesday",
+        "open_time": "10:00",
+        "close_time": "22:00"
+      },
+      {
+        "day_of_week": "Wednesday",
+        "open_time": "10:00",
+        "close_time": "22:00"
+      },
+      {
+        "day_of_week": "Thursday",
+        "open_time": "10:00",
+        "close_time": "22:00"
+      },
+      {
+        "day_of_week": "Friday",
+        "open_time": "10:00",
+        "close_time": "00:00"
+      },
+      {
+        "day_of_week": "Saturday",
+        "open_time": "10:00",
+        "close_time": "00:00"
+      },
+      {
+        "day_of_week": "Sunday",
+        "open_time": "12:00",
+        "close_time": "18:00"
+      }
+    ]
+  },
+  {
+    "business_id": "8p7Y0dssso7pW_ZxnFtRxQ",
+    "export_batch_id": "0f98a7a3-87a8-4345-9bfd-ffcd5ae86406",
+    "generated_at": "2026-08-09T06:35:17",
+    "source_system": "goodyear-biz-portal",
+    "weekly_hours": [
+      {
+        "day_of_week": "Monday",
+        "open_time": "10:30",
+        "close_time": "22:00"
+      },
+      {
+        "day_of_week": "Tuesday",
+        "open_time": "10:30",
+        "close_time": "22:00"
+      },
+      {
+        "day_of_week": "Wednesday",
+        "open_time": "10:30",
+        "close_time": "22:00"
+      },
+      {
+        "day_of_week": "Thursday",
+        "open_time": "10:30",
+        "close_time": "22:00"
+      },
+      {
+        "day_of_week": "Friday",
+        "open_time": "10:30",
+        "close_time": "23:00"
+      },
+      {
+        "day_of_week": "Saturday",
+        "open_time": "10:30",
+        "close_time": "23:00"
+      },
+      {
+        "day_of_week": "Sunday",
+        "open_time": "10:30",
+        "close_time": "22:00"
+      }
+    ]
+  },
+  {
+    "business_id": "9NG_-_pdzfzFTlswEhJ-1g",
+    "export_batch_id": "0f98a7a3-87a8-4345-9bfd-ffcd5ae86406",
+    "generated_at": "2026-08-09T06:35:17",
+    "source_system": "goodyear-biz-portal",
+    "weekly_hours": [
+      {
+        "day_of_week": "Monday",
+        "open_time": "10:00",
+        "close_time": "22:00"
+      },
+      {
+        "day_of_week": "Tuesday",
+        "open_time": "10:00",
+        "close_time": "22:00"
+      },
+      {
+        "day_of_week": "Wednesday",
+        "open_time": "10:00",
+        "close_time": "22:00"
+      },
+      {
+        "day_of_week": "Thursday",
+        "open_time": "10:00",
+        "close_time": "22:00"
+      },
+      {
+        "day_of_week": "Friday",
+        "open_time": "10:00",
+        "close_time": "23:00"
+      },
+      {
+        "day_of_week": "Saturday",
+        "open_time": "10:00",
+        "close_time": "23:00"
+      },
+      {
+        "day_of_week": "Sunday",
+        "open_time": "11:00",
+        "close_time": "22:00"
+      }
+    ]
+  },
+  {
+    "business_id": "9d4i9ssv0XAc2I93ZgH5-Q",
+    "export_batch_id": "0f98a7a3-87a8-4345-9bfd-ffcd5ae86406",
+    "generated_at": "2026-08-09T06:35:17",
+    "source_system": "goodyear-biz-portal",
+    "weekly_hours": [
+      {
+        "day_of_week": "Monday",
+        "open_time": "10:00",
+        "close_time": "21:00"
+      },
+      {
+        "day_of_week": "Tuesday",
+        "open_time": "10:00",
+        "close_time": "21:00"
+      },
+      {
+        "day_of_week": "Wednesday",
+        "open_time": "10:00",
+        "close_time": "21:00"
+      },
+      {
+        "day_of_week": "Thursday",
+        "open_time": "10:00",
+        "close_time": "21:00"
+      },
+      {
+        "day_of_week": "Friday",
+        "open_time": "10:00",
+        "close_time": "21:30"
+      },
+      {
+        "day_of_week": "Saturday",
+        "open_time": "10:00",
+        "close_time": "21:30"
+      },
+      {
+        "day_of_week": "Sunday",
+        "open_time": "11:00",
+        "close_time": "21:00"
+      }
+    ]
+  },
+  {
+    "business_id": "A9DZjctmZyH7Wwl_pODL1g",
+    "export_batch_id": "0f98a7a3-87a8-4345-9bfd-ffcd5ae86406",
+    "generated_at": "2026-08-09T06:35:17",
+    "source_system": "goodyear-biz-portal",
+    "weekly_hours": [
+      {
+        "day_of_week": "Monday",
+        "open_time": "07:30",
+        "close_time": "18:00"
+      },
+      {
+        "day_of_week": "Tuesday",
+        "open_time": "07:30",
+        "close_time": "18:00"
+      },
+      {
+        "day_of_week": "Wednesday",
+        "open_time": "07:30",
+        "close_time": "18:00"
+      },
+      {
+        "day_of_week": "Thursday",
+        "open_time": "07:30",
+        "close_time": "18:00"
+      },
+      {
+        "day_of_week": "Friday",
+        "open_time": "07:30",
+        "close_time": "18:00"
+      },
+      {
+        "day_of_week": "Saturday",
+        "open_time": "09:00",
+        "close_time": "12:00"
+      }
+    ]
+  },
+  {
+    "business_id": "An__PH4NQfr13CICyuWVDA",
+    "export_batch_id": "0f98a7a3-87a8-4345-9bfd-ffcd5ae86406",
+    "generated_at": "2026-08-09T06:35:17",
+    "source_system": "goodyear-biz-portal",
+    "weekly_hours": [
+      {
+        "day_of_week": "Monday",
+        "open_time": "07:30",
+        "close_time": "18:00"
+      },
+      {
+        "day_of_week": "Tuesday",
+        "open_time": "07:30",
+        "close_time": "18:00"
+      },
+      {
+        "day_of_week": "Wednesday",
+        "open_time": "07:30",
+        "close_time": "18:00"
+      },
+      {
+        "day_of_week": "Thursday",
+        "open_time": "07:30",
+        "close_time": "18:00"
+      },
+      {
+        "day_of_week": "Friday",
+        "open_time": "07:30",
+        "close_time": "18:00"
+      },
+      {
+        "day_of_week": "Saturday",
+        "open_time": "08:00",
+        "close_time": "17:00"
+      }
+    ]
+  },
+  {
+    "business_id": "AzDfm1RUDMrKIsBeDv04nQ",
+    "export_batch_id": "0f98a7a3-87a8-4345-9bfd-ffcd5ae86406",
+    "generated_at": "2026-08-09T06:35:17",
+    "source_system": "goodyear-biz-portal",
+    "weekly_hours": [
+      {
+        "day_of_week": "Monday",
+        "open_time": "06:00",
+        "close_time": "18:00"
+      },
+      {
+        "day_of_week": "Tuesday",
+        "open_time": "06:00",
+        "close_time": "18:00"
+      },
+      {
+        "day_of_week": "Wednesday",
+        "open_time": "06:00",
+        "close_time": "18:00"
+      },
+      {
+        "day_of_week": "Thursday",
+        "open_time": "06:00",
+        "close_time": "18:00"
+      },
+      {
+        "day_of_week": "Friday",
+        "open_time": "06:00",
+        "close_time": "18:00"
+      },
+      {
+        "day_of_week": "Saturday",
+        "open_time": "06:00",
+        "close_time": "15:00"
+      },
+      {
+        "day_of_week": "Sunday",
+        "open_time": "07:00",
+        "close_time": "14:00"
+      }
+    ]
+  },
+  {
+    "business_id": "DWxZhDdqGjJbLVJBMGsWZQ",
+    "export_batch_id": "0f98a7a3-87a8-4345-9bfd-ffcd5ae86406",
+    "generated_at": "2026-08-09T06:35:17",
+    "source_system": "goodyear-biz-portal",
+    "weekly_hours": [
+      {
+        "day_of_week": "Monday",
+        "open_time": "05:00",
+        "close_time": "19:00"
+      },
+      {
+        "day_of_week": "Tuesday",
+        "open_time": "05:00",
+        "close_time": "19:00"
+      },
+      {
+        "day_of_week": "Wednesday",
+        "open_time": "05:00",
+        "close_time": "19:00"
+      },
+      {
+        "day_of_week": "Thursday",
+        "open_time": "05:00",
+        "close_time": "19:00"
+      },
+      {
+        "day_of_week": "Friday",
+        "open_time": "05:00",
+        "close_time": "19:00"
+      },
+      {
+        "day_of_week": "Saturday",
+        "open_time": "05:00",
+        "close_time": "19:00"
+      },
+      {
+        "day_of_week": "Sunday",
+        "open_time": "06:00",
+        "close_time": "17:00"
+      }
+    ]
+  },
+  {
+    "business_id": "EKZPf0b2jlQ7kpnzf9XDuw",
+    "export_batch_id": "0f98a7a3-87a8-4345-9bfd-ffcd5ae86406",
+    "generated_at": "2026-08-09T06:35:17",
+    "source_system": "goodyear-biz-portal",
+    "weekly_hours": [
+      {
+        "day_of_week": "Monday",
+        "open_time": "14:00",
+        "close_time": "21:00"
+      },
+      {
+        "day_of_week": "Tuesday",
+        "open_time": "11:00",
+        "close_time": "21:00"
+      },
+      {
+        "day_of_week": "Wednesday",
+        "open_time": "11:00",
+        "close_time": "21:00"
+      },
+      {
+        "day_of_week": "Thursday",
+        "open_time": "11:00",
+        "close_time": "21:00"
+      },
+      {
+        "day_of_week": "Friday",
+        "open_time": "11:00",
+        "close_time": "21:00"
+      },
+      {
+        "day_of_week": "Saturday",
+        "open_time": "11:00",
+        "close_time": "21:00"
+      },
+      {
+        "day_of_week": "Sunday",
+        "open_time": "14:00",
+        "close_time": "21:00"
+      }
+    ]
+  },
+  {
+    "business_id": "EOq_et3St_S4S7DCLl_gww",
+    "export_batch_id": "0f98a7a3-87a8-4345-9bfd-ffcd5ae86406",
+    "generated_at": "2026-08-09T06:35:17",
+    "source_system": "goodyear-biz-portal",
+    "weekly_hours": [
+      {
+        "day_of_week": "Monday",
+        "open_time": "00:00",
+        "close_time": "23:59"
+      },
+      {
+        "day_of_week": "Tuesday",
+        "open_time": "00:00",
+        "close_time": "23:59"
+      },
+      {
+        "day_of_week": "Wednesday",
+        "open_time": "00:00",
+        "close_time": "23:59"
+      },
+      {
+        "day_of_week": "Thursday",
+        "open_time": "00:00",
+        "close_time": "23:59"
+      },
+      {
+        "day_of_week": "Friday",
+        "open_time": "00:00",
+        "close_time": "23:59"
+      },
+      {
+        "day_of_week": "Saturday",
+        "open_time": "00:00",
+        "close_time": "23:59"
+      },
+      {
+        "day_of_week": "Sunday",
+        "open_time": "00:00",
+        "close_time": "23:59"
+      }
+    ]
+  },
+  {
+    "business_id": "EYRaUAgeLc1gntkpZv2WHg",
+    "export_batch_id": "0f98a7a3-87a8-4345-9bfd-ffcd5ae86406",
+    "generated_at": "2026-08-09T06:35:17",
+    "source_system": "goodyear-biz-portal",
+    "weekly_hours": [
+      {
+        "day_of_week": "Monday",
+        "open_time": "11:00",
+        "close_time": "22:00"
+      },
+      {
+        "day_of_week": "Tuesday",
+        "open_time": "11:00",
+        "close_time": "22:00"
+      },
+      {
+        "day_of_week": "Wednesday",
+        "open_time": "11:00",
+        "close_time": "22:00"
+      },
+      {
+        "day_of_week": "Thursday",
+        "open_time": "11:00",
+        "close_time": "22:00"
+      },
+      {
+        "day_of_week": "Friday",
+        "open_time": "11:00",
+        "close_time": "22:00"
+      },
+      {
+        "day_of_week": "Saturday",
+        "open_time": "11:00",
+        "close_time": "22:00"
+      },
+      {
+        "day_of_week": "Sunday",
+        "open_time": "11:00",
+        "close_time": "22:00"
+      }
+    ]
+  },
+  {
+    "business_id": "F8sD8-VRr5RLCuxOY7SVaA",
+    "export_batch_id": "0f98a7a3-87a8-4345-9bfd-ffcd5ae86406",
+    "generated_at": "2026-08-09T06:35:17",
+    "source_system": "goodyear-biz-portal",
+    "weekly_hours": [
+      {
+        "day_of_week": "Monday",
+        "open_time": "10:00",
+        "close_time": "21:00"
+      },
+      {
+        "day_of_week": "Tuesday",
+        "open_time": "10:00",
+        "close_time": "21:00"
+      },
+      {
+        "day_of_week": "Wednesday",
+        "open_time": "10:00",
+        "close_time": "21:00"
+      },
+      {
+        "day_of_week": "Thursday",
+        "open_time": "10:00",
+        "close_time": "21:00"
+      },
+      {
+        "day_of_week": "Friday",
+        "open_time": "10:00",
+        "close_time": "21:00"
+      },
+      {
+        "day_of_week": "Saturday",
+        "open_time": "09:00",
+        "close_time": "21:00"
+      },
+      {
+        "day_of_week": "Sunday",
+        "open_time": "10:00",
+        "close_time": "19:00"
+      }
+    ]
+  },
+  {
+    "business_id": "FOgi-jctbZW_8QpVnLl_Ow",
+    "export_batch_id": "0f98a7a3-87a8-4345-9bfd-ffcd5ae86406",
+    "generated_at": "2026-08-09T06:35:17",
+    "source_system": "goodyear-biz-portal",
+    "weekly_hours": [
+      {
+        "day_of_week": "Monday",
+        "open_time": "09:00",
+        "close_time": "19:00"
+      },
+      {
+        "day_of_week": "Tuesday",
+        "open_time": "09:00",
+        "close_time": "19:00"
+      },
+      {
+        "day_of_week": "Wednesday",
+        "open_time": "09:00",
+        "close_time": "19:00"
+      },
+      {
+        "day_of_week": "Thursday",
+        "open_time": "09:00",
+        "close_time": "19:00"
+      },
+      {
+        "day_of_week": "Friday",
+        "open_time": "09:00",
+        "close_time": "17:00"
+      },
+      {
+        "day_of_week": "Saturday",
+        "open_time": "08:00",
+        "close_time": "14:30"
+      }
+    ]
+  },
+  {
+    "business_id": "FuqWdD44gYFhofESN6JD1A",
+    "export_batch_id": "0f98a7a3-87a8-4345-9bfd-ffcd5ae86406",
+    "generated_at": "2026-08-09T06:35:17",
+    "source_system": "goodyear-biz-portal",
+    "weekly_hours": [
+      {
+        "day_of_week": "Monday",
+        "open_time": "11:00",
+        "close_time": "22:00"
+      },
+      {
+        "day_of_week": "Tuesday",
+        "open_time": "11:00",
+        "close_time": "22:00"
+      },
+      {
+        "day_of_week": "Wednesday",
+        "open_time": "11:00",
+        "close_time": "22:00"
+      },
+      {
+        "day_of_week": "Thursday",
+        "open_time": "11:00",
+        "close_time": "22:00"
+      },
+      {
+        "day_of_week": "Friday",
+        "open_time": "11:00",
+        "close_time": "22:00"
+      },
+      {
+        "day_of_week": "Saturday",
+        "open_time": "11:00",
+        "close_time": "22:00"
+      },
+      {
+        "day_of_week": "Sunday",
+        "open_time": "11:00",
+        "close_time": "22:00"
+      }
+    ]
+  },
+  {
+    "business_id": "G1ub1s3EELLrGWqrq3a2tw",
+    "export_batch_id": "0f98a7a3-87a8-4345-9bfd-ffcd5ae86406",
+    "generated_at": "2026-08-09T06:35:17",
+    "source_system": "goodyear-biz-portal",
+    "weekly_hours": [
+      {
+        "day_of_week": "Monday",
+        "open_time": "06:30",
+        "close_time": "21:00"
+      },
+      {
+        "day_of_week": "Tuesday",
+        "open_time": "06:30",
+        "close_time": "22:00"
+      },
+      {
+        "day_of_week": "Wednesday",
+        "open_time": "06:30",
+        "close_time": "22:00"
+      },
+      {
+        "day_of_week": "Thursday",
+        "open_time": "06:30",
+        "close_time": "22:00"
+      },
+      {
+        "day_of_week": "Friday",
+        "open_time": "06:30",
+        "close_time": "00:00"
+      },
+      {
+        "day_of_week": "Saturday",
+        "open_time": "07:00",
+        "close_time": "00:00"
+      },
+      {
+        "day_of_week": "Sunday",
+        "open_time": "08:00",
+        "close_time": "21:00"
+      }
+    ]
+  },
+  {
+    "business_id": "GLzndPnr-2iDKv5uzdR5ng",
+    "export_batch_id": "0f98a7a3-87a8-4345-9bfd-ffcd5ae86406",
+    "generated_at": "2026-08-09T06:35:17",
+    "source_system": "goodyear-biz-portal",
+    "weekly_hours": [
+      {
+        "day_of_week": "Monday",
+        "open_time": "00:00",
+        "close_time": "00:00"
+      },
+      {
+        "day_of_week": "Tuesday",
+        "open_time": "00:00",
+        "close_time": "00:00"
+      },
+      {
+        "day_of_week": "Wednesday",
+        "open_time": "00:00",
+        "close_time": "00:00"
+      },
+      {
+        "day_of_week": "Thursday",
+        "open_time": "00:00",
+        "close_time": "00:00"
+      },
+      {
+        "day_of_week": "Friday",
+        "open_time": "00:00",
+        "close_time": "00:00"
+      },
+      {
+        "day_of_week": "Saturday",
+        "open_time": "00:00",
+        "close_time": "00:00"
+      },
+      {
+        "day_of_week": "Sunday",
+        "open_time": "00:00",
+        "close_time": "00:00"
+      }
+    ]
+  },
+  {
+    "business_id": "GfBgJm1t8Ftiec5pMUHqtg",
+    "export_batch_id": "0f98a7a3-87a8-4345-9bfd-ffcd5ae86406",
+    "generated_at": "2026-08-09T06:35:17",
+    "source_system": "goodyear-biz-portal",
+    "weekly_hours": [
+      {
+        "day_of_week": "Monday",
+        "open_time": "05:00",
+        "close_time": "23:00"
+      },
+      {
+        "day_of_week": "Tuesday",
+        "open_time": "05:00",
+        "close_time": "23:00"
+      },
+      {
+        "day_of_week": "Wednesday",
+        "open_time": "05:00",
+        "close_time": "23:00"
+      },
+      {
+        "day_of_week": "Thursday",
+        "open_time": "05:00",
+        "close_time": "23:00"
+      },
+      {
+        "day_of_week": "Friday",
+        "open_time": "05:00",
+        "close_time": "22:00"
+      },
+      {
+        "day_of_week": "Saturday",
+        "open_time": "20:00",
+        "close_time": "20:00"
+      },
+      {
+        "day_of_week": "Sunday",
+        "open_time": "08:00",
+        "close_time": "20:00"
+      }
+    ]
+  },
+  {
+    "business_id": "HHLpjTYURXShPRs6nuRaUQ",
+    "export_batch_id": "0f98a7a3-87a8-4345-9bfd-ffcd5ae86406",
+    "generated_at": "2026-08-09T06:35:17",
+    "source_system": "goodyear-biz-portal",
+    "weekly_hours": [
+      {
+        "day_of_week": "Monday",
+        "open_time": "08:00",
+        "close_time": "16:00"
+      },
+      {
+        "day_of_week": "Tuesday",
+        "open_time": "08:00",
+        "close_time": "16:00"
+      },
+      {
+        "day_of_week": "Wednesday",
+        "open_time": "08:00",
+        "close_time": "16:00"
+      },
+      {
+        "day_of_week": "Thursday",
+        "open_time": "08:00",
+        "close_time": "16:00"
+      },
+      {
+        "day_of_week": "Friday",
+        "open_time": "08:00",
+        "close_time": "16:00"
+      }
+    ]
+  },
+  {
+    "business_id": "HU1b1D0WUQE62M7ZiyqYoA",
+    "export_batch_id": "0f98a7a3-87a8-4345-9bfd-ffcd5ae86406",
+    "generated_at": "2026-08-09T06:35:17",
+    "source_system": "goodyear-biz-portal",
+    "weekly_hours": [
+      {
+        "day_of_week": "Monday",
+        "open_time": "10:00",
+        "close_time": "21:00"
+      },
+      {
+        "day_of_week": "Tuesday",
+        "open_time": "10:00",
+        "close_time": "21:00"
+      },
+      {
+        "day_of_week": "Wednesday",
+        "open_time": "10:00",
+        "close_time": "21:00"
+      },
+      {
+        "day_of_week": "Thursday",
+        "open_time": "10:00",
+        "close_time": "21:00"
+      },
+      {
+        "day_of_week": "Friday",
+        "open_time": "10:00",
+        "close_time": "21:00"
+      },
+      {
+        "day_of_week": "Saturday",
+        "open_time": "09:00",
+        "close_time": "21:00"
+      },
+      {
+        "day_of_week": "Sunday",
+        "open_time": "11:00",
+        "close_time": "19:00"
+      }
+    ]
+  },
+  {
+    "business_id": "J4d0dY8k71Osot0GypK2kg",
+    "export_batch_id": "0f98a7a3-87a8-4345-9bfd-ffcd5ae86406",
+    "generated_at": "2026-08-09T06:35:17",
+    "source_system": "goodyear-biz-portal",
+    "weekly_hours": [
+      {
+        "day_of_week": "Monday",
+        "open_time": "10:00",
+        "close_time": "20:30"
+      },
+      {
+        "day_of_week": "Tuesday",
+        "open_time": "10:00",
+        "close_time": "20:30"
+      },
+      {
+        "day_of_week": "Thursday",
+        "open_time": "10:00",
+        "close_time": "20:30"
+      },
+      {
+        "day_of_week": "Friday",
+        "open_time": "10:00",
+        "close_time": "20:30"
+      },
+      {
+        "day_of_week": "Saturday",
+        "open_time": "10:00",
+        "close_time": "20:30"
+      },
+      {
+        "day_of_week": "Sunday",
+        "open_time": "09:00",
+        "close_time": "19:00"
+      }
+    ]
+  },
+  {
+    "business_id": "JDkgL5ZT67ONTBwiCM9moQ",
+    "export_batch_id": "0f98a7a3-87a8-4345-9bfd-ffcd5ae86406",
+    "generated_at": "2026-08-09T06:35:17",
+    "source_system": "goodyear-biz-portal",
+    "weekly_hours": [
+      {
+        "day_of_week": "Monday",
+        "open_time": "09:00",
+        "close_time": "17:00"
+      },
+      {
+        "day_of_week": "Tuesday",
+        "open_time": "09:00",
+        "close_time": "17:00"
+      },
+      {
+        "day_of_week": "Wednesday",
+        "open_time": "09:00",
+        "close_time": "17:00"
+      },
+      {
+        "day_of_week": "Thursday",
+        "open_time": "09:00",
+        "close_time": "17:00"
+      },
+      {
+        "day_of_week": "Friday",
+        "open_time": "09:00",
+        "close_time": "17:00"
+      },
+      {
+        "day_of_week": "Saturday",
+        "open_time": "09:00",
+        "close_time": "12:00"
+      }
+    ]
+  },
+  {
+    "business_id": "K45lBLY0uTnPduIOw7U_BQ",
+    "export_batch_id": "0f98a7a3-87a8-4345-9bfd-ffcd5ae86406",
+    "generated_at": "2026-08-09T06:35:17",
+    "source_system": "goodyear-biz-portal",
+    "weekly_hours": [
+      {
+        "day_of_week": "Monday",
+        "open_time": "11:00",
+        "close_time": "22:00"
+      },
+      {
+        "day_of_week": "Tuesday",
+        "open_time": "11:00",
+        "close_time": "22:00"
+      },
+      {
+        "day_of_week": "Wednesday",
+        "open_time": "11:00",
+        "close_time": "22:00"
+      },
+      {
+        "day_of_week": "Thursday",
+        "open_time": "11:00",
+        "close_time": "22:00"
+      },
+      {
+        "day_of_week": "Friday",
+        "open_time": "11:00",
+        "close_time": "23:00"
+      },
+      {
+        "day_of_week": "Saturday",
+        "open_time": "11:00",
+        "close_time": "23:00"
+      },
+      {
+        "day_of_week": "Sunday",
+        "open_time": "11:00",
+        "close_time": "22:00"
+      }
+    ]
+  },
+  {
+    "business_id": "KeZ9gv2R5ABNezqXnLvamw",
+    "export_batch_id": "0f98a7a3-87a8-4345-9bfd-ffcd5ae86406",
+    "generated_at": "2026-08-09T06:35:17",
+    "source_system": "goodyear-biz-portal",
+    "weekly_hours": [
+      {
+        "day_of_week": "Tuesday",
+        "open_time": "09:00",
+        "close_time": "18:00"
+      },
+      {
+        "day_of_week": "Wednesday",
+        "open_time": "09:00",
+        "close_time": "19:00"
+      },
+      {
+        "day_of_week": "Thursday",
+        "open_time": "09:00",
+        "close_time": "19:00"
+      },
+      {
+        "day_of_week": "Friday",
+        "open_time": "09:00",
+        "close_time": "19:00"
+      },
+      {
+        "day_of_week": "Saturday",
+        "open_time": "09:00",
+        "close_time": "17:00"
+      }
+    ]
+  },
+  {
+    "business_id": "KiCFtB4Y-wNLmPPjefLeJg",
+    "export_batch_id": "0f98a7a3-87a8-4345-9bfd-ffcd5ae86406",
+    "generated_at": "2026-08-09T06:35:17",
+    "source_system": "goodyear-biz-portal",
+    "weekly_hours": [
+      {
+        "day_of_week": "Monday",
+        "open_time": "07:00",
+        "close_time": "00:00"
+      },
+      {
+        "day_of_week": "Tuesday",
+        "open_time": "07:00",
+        "close_time": "00:00"
+      },
+      {
+        "day_of_week": "Wednesday",
+        "open_time": "07:00",
+        "close_time": "00:00"
+      },
+      {
+        "day_of_week": "Thursday",
+        "open_time": "07:00",
+        "close_time": "00:00"
+      },
+      {
+        "day_of_week": "Friday",
+        "open_time": "07:00",
+        "close_time": "01:00"
+      },
+      {
+        "day_of_week": "Saturday",
+        "open_time": "07:00",
+        "close_time": "01:00"
+      },
+      {
+        "day_of_week": "Sunday",
+        "open_time": "07:00",
+        "close_time": "00:00"
+      }
+    ]
+  },
+  {
+    "business_id": "L70XE-I7lfi9tJBlpqkoRw",
+    "export_batch_id": "0f98a7a3-87a8-4345-9bfd-ffcd5ae86406",
+    "generated_at": "2026-08-09T06:35:17",
+    "source_system": "goodyear-biz-portal",
+    "weekly_hours": [
+      {
+        "day_of_week": "Monday",
+        "open_time": "06:00",
+        "close_time": "21:00"
+      },
+      {
+        "day_of_week": "Tuesday",
+        "open_time": "06:00",
+        "close_time": "21:00"
+      },
+      {
+        "day_of_week": "Wednesday",
+        "open_time": "06:00",
+        "close_time": "21:00"
+      },
+      {
+        "day_of_week": "Thursday",
+        "open_time": "06:00",
+        "close_time": "21:00"
+      },
+      {
+        "day_of_week": "Friday",
+        "open_time": "06:00",
+        "close_time": "21:00"
+      },
+      {
+        "day_of_week": "Saturday",
+        "open_time": "08:00",
+        "close_time": "21:00"
+      },
+      {
+        "day_of_week": "Sunday",
+        "open_time": "08:00",
+        "close_time": "21:00"
+      }
+    ]
+  },
+  {
+    "business_id": "LYRAX4OZPGD3DRJew0zW4g",
+    "export_batch_id": "0f98a7a3-87a8-4345-9bfd-ffcd5ae86406",
+    "generated_at": "2026-08-09T06:35:17",
+    "source_system": "goodyear-biz-portal",
+    "weekly_hours": [
+      {
+        "day_of_week": "Monday",
+        "open_time": "08:00",
+        "close_time": "17:00"
+      },
+      {
+        "day_of_week": "Tuesday",
+        "open_time": "08:00",
+        "close_time": "17:00"
+      },
+      {
+        "day_of_week": "Wednesday",
+        "open_time": "08:00",
+        "close_time": "17:00"
+      },
+      {
+        "day_of_week": "Thursday",
+        "open_time": "08:00",
+        "close_time": "17:00"
+      },
+      {
+        "day_of_week": "Friday",
+        "open_time": "08:00",
+        "close_time": "17:00"
+      },
+      {
+        "day_of_week": "Saturday",
+        "open_time": "10:00",
+        "close_time": "14:00"
+      }
+    ]
+  },
+  {
+    "business_id": "LcyRBpYIki-Sx2-M5_bidQ",
+    "export_batch_id": "0f98a7a3-87a8-4345-9bfd-ffcd5ae86406",
+    "generated_at": "2026-08-09T06:35:17",
+    "source_system": "goodyear-biz-portal",
+    "weekly_hours": [
+      {
+        "day_of_week": "Monday",
+        "open_time": "09:00",
+        "close_time": "20:00"
+      },
+      {
+        "day_of_week": "Tuesday",
+        "open_time": "09:00",
+        "close_time": "20:00"
+      },
+      {
+        "day_of_week": "Wednesday",
+        "open_time": "09:00",
+        "close_time": "20:00"
+      },
+      {
+        "day_of_week": "Thursday",
+        "open_time": "09:00",
+        "close_time": "21:00"
+      },
+      {
+        "day_of_week": "Friday",
+        "open_time": "09:00",
+        "close_time": "21:00"
+      },
+      {
+        "day_of_week": "Saturday",
+        "open_time": "09:00",
+        "close_time": "15:00"
+      },
+      {
+        "day_of_week": "Sunday",
+        "open_time": "09:30",
+        "close_time": "20:00"
+      }
+    ]
+  },
+  {
+    "business_id": "MUMqaXllrS_b7-D8QAj6bA",
+    "export_batch_id": "0f98a7a3-87a8-4345-9bfd-ffcd5ae86406",
+    "generated_at": "2026-08-09T06:35:17",
+    "source_system": "goodyear-biz-portal",
+    "weekly_hours": [
+      {
+        "day_of_week": "Monday",
+        "open_time": "09:00",
+        "close_time": "18:00"
+      },
+      {
+        "day_of_week": "Tuesday",
+        "open_time": "09:00",
+        "close_time": "18:00"
+      },
+      {
+        "day_of_week": "Wednesday",
+        "open_time": "09:00",
+        "close_time": "18:00"
+      },
+      {
+        "day_of_week": "Thursday",
+        "open_time": "09:00",
+        "close_time": "18:00"
+      },
+      {
+        "day_of_week": "Friday",
+        "open_time": "09:00",
+        "close_time": "18:00"
+      },
+      {
+        "day_of_week": "Saturday",
+        "open_time": "10:00",
+        "close_time": "17:00"
+      },
+      {
+        "day_of_week": "Sunday",
+        "open_time": "10:00",
+        "close_time": "17:00"
+      }
+    ]
+  },
+  {
+    "business_id": "Nh9BjVPHdrZMn2naUxO6hg",
+    "export_batch_id": "0f98a7a3-87a8-4345-9bfd-ffcd5ae86406",
+    "generated_at": "2026-08-09T06:35:17",
+    "source_system": "goodyear-biz-portal",
+    "weekly_hours": [
+      {
+        "day_of_week": "Monday",
+        "open_time": "11:00",
+        "close_time": "22:00"
+      },
+      {
+        "day_of_week": "Tuesday",
+        "open_time": "11:00",
+        "close_time": "22:00"
+      },
+      {
+        "day_of_week": "Wednesday",
+        "open_time": "11:00",
+        "close_time": "22:00"
+      },
+      {
+        "day_of_week": "Thursday",
+        "open_time": "11:00",
+        "close_time": "22:00"
+      },
+      {
+        "day_of_week": "Friday",
+        "open_time": "11:00",
+        "close_time": "22:00"
+      },
+      {
+        "day_of_week": "Saturday",
+        "open_time": "11:00",
+        "close_time": "22:00"
+      },
+      {
+        "day_of_week": "Sunday",
+        "open_time": "11:00",
+        "close_time": "22:00"
+      }
+    ]
+  },
+  {
+    "business_id": "NlH2I30NNDocEC-j62MxIQ",
+    "export_batch_id": "0f98a7a3-87a8-4345-9bfd-ffcd5ae86406",
+    "generated_at": "2026-08-09T06:35:17",
+    "source_system": "goodyear-biz-portal",
+    "weekly_hours": [
+      {
+        "day_of_week": "Monday",
+        "open_time": "10:30",
+        "close_time": "22:00"
+      },
+      {
+        "day_of_week": "Tuesday",
+        "open_time": "10:30",
+        "close_time": "22:00"
+      },
+      {
+        "day_of_week": "Wednesday",
+        "open_time": "10:30",
+        "close_time": "22:00"
+      },
+      {
+        "day_of_week": "Thursday",
+        "open_time": "10:30",
+        "close_time": "22:00"
+      },
+      {
+        "day_of_week": "Friday",
+        "open_time": "10:30",
+        "close_time": "23:00"
+      },
+      {
+        "day_of_week": "Saturday",
+        "open_time": "10:30",
+        "close_time": "23:00"
+      },
+      {
+        "day_of_week": "Sunday",
+        "open_time": "11:30",
+        "close_time": "22:00"
+      }
+    ]
+  },
+  {
+    "business_id": "NtVb4bepyRxhJ3ytIx41qA",
+    "export_batch_id": "0f98a7a3-87a8-4345-9bfd-ffcd5ae86406",
+    "generated_at": "2026-08-09T06:35:17",
+    "source_system": "goodyear-biz-portal",
+    "weekly_hours": [
+      {
+        "day_of_week": "Monday",
+        "open_time": "07:30",
+        "close_time": "18:00"
+      },
+      {
+        "day_of_week": "Tuesday",
+        "open_time": "07:30",
+        "close_time": "18:00"
+      },
+      {
+        "day_of_week": "Wednesday",
+        "open_time": "07:30",
+        "close_time": "18:00"
+      },
+      {
+        "day_of_week": "Thursday",
+        "open_time": "07:30",
+        "close_time": "18:00"
+      },
+      {
+        "day_of_week": "Friday",
+        "open_time": "07:30",
+        "close_time": "18:00"
+      },
+      {
+        "day_of_week": "Saturday",
+        "open_time": "07:30",
+        "close_time": "18:00"
+      },
+      {
+        "day_of_week": "Sunday",
+        "open_time": "07:30",
+        "close_time": "18:00"
+      }
+    ]
+  },
+  {
+    "business_id": "OJX06tomzPbhl9TCHBLHbw",
+    "export_batch_id": "0f98a7a3-87a8-4345-9bfd-ffcd5ae86406",
+    "generated_at": "2026-08-09T06:35:17",
+    "source_system": "goodyear-biz-portal",
+    "weekly_hours": [
+      {
+        "day_of_week": "Monday",
+        "open_time": "09:00",
+        "close_time": "21:00"
+      },
+      {
+        "day_of_week": "Tuesday",
+        "open_time": "09:00",
+        "close_time": "21:00"
+      },
+      {
+        "day_of_week": "Wednesday",
+        "open_time": "09:00",
+        "close_time": "21:00"
+      },
+      {
+        "day_of_week": "Thursday",
+        "open_time": "09:00",
+        "close_time": "21:00"
+      },
+      {
+        "day_of_week": "Friday",
+        "open_time": "09:00",
+        "close_time": "21:00"
+      },
+      {
+        "day_of_week": "Saturday",
+        "open_time": "09:00",
+        "close_time": "21:00"
+      }
+    ]
+  },
+  {
+    "business_id": "ORwyUtfcsJwONIDL7ldVOA",
+    "export_batch_id": "0f98a7a3-87a8-4345-9bfd-ffcd5ae86406",
+    "generated_at": "2026-08-09T06:35:17",
+    "source_system": "goodyear-biz-portal",
+    "weekly_hours": [
+      {
+        "day_of_week": "Monday",
+        "open_time": "08:00",
+        "close_time": "22:00"
+      },
+      {
+        "day_of_week": "Tuesday",
+        "open_time": "08:00",
+        "close_time": "22:00"
+      },
+      {
+        "day_of_week": "Wednesday",
+        "open_time": "08:00",
+        "close_time": "22:00"
+      },
+      {
+        "day_of_week": "Thursday",
+        "open_time": "08:00",
+        "close_time": "22:00"
+      },
+      {
+        "day_of_week": "Friday",
+        "open_time": "08:00",
+        "close_time": "22:00"
+      },
+      {
+        "day_of_week": "Saturday",
+        "open_time": "08:00",
+        "close_time": "22:00"
+      },
+      {
+        "day_of_week": "Sunday",
+        "open_time": "08:00",
+        "close_time": "22:00"
+      }
+    ]
+  },
+  {
+    "business_id": "OYdhdmejrmymQRa-gTaP4g",
+    "export_batch_id": "0f98a7a3-87a8-4345-9bfd-ffcd5ae86406",
+    "generated_at": "2026-08-09T06:35:17",
+    "source_system": "goodyear-biz-portal",
+    "weekly_hours": [
+      {
+        "day_of_week": "Monday",
+        "open_time": "08:30",
+        "close_time": "17:30"
+      },
+      {
+        "day_of_week": "Tuesday",
+        "open_time": "08:30",
+        "close_time": "17:30"
+      },
+      {
+        "day_of_week": "Wednesday",
+        "open_time": "08:30",
+        "close_time": "17:30"
+      },
+      {
+        "day_of_week": "Thursday",
+        "open_time": "08:30",
+        "close_time": "17:30"
+      },
+      {
+        "day_of_week": "Friday",
+        "open_time": "08:30",
+        "close_time": "17:30"
+      }
+    ]
+  },
+  {
+    "business_id": "Oc-F6O91vOe3T8iOsCBB8Q",
+    "export_batch_id": "0f98a7a3-87a8-4345-9bfd-ffcd5ae86406",
+    "generated_at": "2026-08-09T06:35:17",
+    "source_system": "goodyear-biz-portal",
+    "weekly_hours": [
+      {
+        "day_of_week": "Monday",
+        "open_time": "11:00",
+        "close_time": "22:00"
+      },
+      {
+        "day_of_week": "Tuesday",
+        "open_time": "11:00",
+        "close_time": "22:00"
+      },
+      {
+        "day_of_week": "Wednesday",
+        "open_time": "11:00",
+        "close_time": "22:00"
+      },
+      {
+        "day_of_week": "Thursday",
+        "open_time": "11:00",
+        "close_time": "22:00"
+      },
+      {
+        "day_of_week": "Friday",
+        "open_time": "11:00",
+        "close_time": "22:30"
+      },
+      {
+        "day_of_week": "Saturday",
+        "open_time": "11:00",
+        "close_time": "22:00"
+      },
+      {
+        "day_of_week": "Sunday",
+        "open_time": "11:00",
+        "close_time": "22:00"
+      }
+    ]
+  },
+  {
+    "business_id": "OeRv62WhCFepxeUB9uW51A",
+    "export_batch_id": "0f98a7a3-87a8-4345-9bfd-ffcd5ae86406",
+    "generated_at": "2026-08-09T06:35:17",
+    "source_system": "goodyear-biz-portal",
+    "weekly_hours": [
+      {
+        "day_of_week": "Monday",
+        "open_time": "09:00",
+        "close_time": "20:00"
+      },
+      {
+        "day_of_week": "Tuesday",
+        "open_time": "09:00",
+        "close_time": "20:00"
+      },
+      {
+        "day_of_week": "Wednesday",
+        "open_time": "09:00",
+        "close_time": "20:00"
+      },
+      {
+        "day_of_week": "Thursday",
+        "open_time": "09:00",
+        "close_time": "20:00"
+      },
+      {
+        "day_of_week": "Friday",
+        "open_time": "09:00",
+        "close_time": "20:00"
+      },
+      {
+        "day_of_week": "Saturday",
+        "open_time": "09:00",
+        "close_time": "20:00"
+      },
+      {
+        "day_of_week": "Sunday",
+        "open_time": "09:00",
+        "close_time": "17:00"
+      }
+    ]
+  },
+  {
+    "business_id": "PXOMsNgU8gfyombvRO1IfA",
+    "export_batch_id": "0f98a7a3-87a8-4345-9bfd-ffcd5ae86406",
+    "generated_at": "2026-08-09T06:35:17",
+    "source_system": "goodyear-biz-portal",
+    "weekly_hours": [
+      {
+        "day_of_week": "Monday",
+        "open_time": "08:00",
+        "close_time": "18:00"
+      },
+      {
+        "day_of_week": "Tuesday",
+        "open_time": "08:00",
+        "close_time": "18:00"
+      },
+      {
+        "day_of_week": "Wednesday",
+        "open_time": "08:00",
+        "close_time": "18:00"
+      },
+      {
+        "day_of_week": "Thursday",
+        "open_time": "08:00",
+        "close_time": "18:00"
+      },
+      {
+        "day_of_week": "Friday",
+        "open_time": "08:00",
+        "close_time": "18:00"
+      },
+      {
+        "day_of_week": "Saturday",
+        "open_time": "08:00",
+        "close_time": "14:00"
+      }
+    ]
+  },
+  {
+    "business_id": "Q0NUbJ_adu8g-pz79UgAFw",
+    "export_batch_id": "0f98a7a3-87a8-4345-9bfd-ffcd5ae86406",
+    "generated_at": "2026-08-09T06:35:17",
+    "source_system": "goodyear-biz-portal",
+    "weekly_hours": [
+      {
+        "day_of_week": "Monday",
+        "open_time": "09:00",
+        "close_time": "21:00"
+      },
+      {
+        "day_of_week": "Tuesday",
+        "open_time": "09:00",
+        "close_time": "21:00"
+      },
+      {
+        "day_of_week": "Wednesday",
+        "open_time": "09:00",
+        "close_time": "21:00"
+      },
+      {
+        "day_of_week": "Thursday",
+        "open_time": "09:00",
+        "close_time": "21:00"
+      },
+      {
+        "day_of_week": "Friday",
+        "open_time": "09:00",
+        "close_time": "21:00"
+      },
+      {
+        "day_of_week": "Saturday",
+        "open_time": "09:00",
+        "close_time": "21:00"
+      },
+      {
+        "day_of_week": "Sunday",
+        "open_time": "10:00",
+        "close_time": "18:00"
+      }
+    ]
+  },
+  {
+    "business_id": "QFM_2n6DE80Mgw_f-WPMuw",
+    "export_batch_id": "0f98a7a3-87a8-4345-9bfd-ffcd5ae86406",
+    "generated_at": "2026-08-09T06:35:17",
+    "source_system": "goodyear-biz-portal",
+    "weekly_hours": [
+      {
+        "day_of_week": "Monday",
+        "open_time": "09:30",
+        "close_time": "21:30"
+      },
+      {
+        "day_of_week": "Tuesday",
+        "open_time": "09:30",
+        "close_time": "21:30"
+      },
+      {
+        "day_of_week": "Wednesday",
+        "open_time": "09:30",
+        "close_time": "21:30"
+      },
+      {
+        "day_of_week": "Thursday",
+        "open_time": "09:30",
+        "close_time": "21:30"
+      },
+      {
+        "day_of_week": "Friday",
+        "open_time": "09:30",
+        "close_time": "21:30"
+      },
+      {
+        "day_of_week": "Saturday",
+        "open_time": "09:30",
+        "close_time": "21:30"
+      },
+      {
+        "day_of_week": "Sunday",
+        "open_time": "11:00",
+        "close_time": "20:00"
+      }
+    ]
+  },
+  {
+    "business_id": "RFMcLH3_58eAwvSfvLhJew",
+    "export_batch_id": "0f98a7a3-87a8-4345-9bfd-ffcd5ae86406",
+    "generated_at": "2026-08-09T06:35:17",
+    "source_system": "goodyear-biz-portal",
+    "weekly_hours": [
+      {
+        "day_of_week": "Monday",
+        "open_time": "06:00",
+        "close_time": "21:00"
+      },
+      {
+        "day_of_week": "Tuesday",
+        "open_time": "06:00",
+        "close_time": "21:00"
+      },
+      {
+        "day_of_week": "Wednesday",
+        "open_time": "06:00",
+        "close_time": "21:00"
+      },
+      {
+        "day_of_week": "Thursday",
+        "open_time": "06:00",
+        "close_time": "21:00"
+      },
+      {
+        "day_of_week": "Friday",
+        "open_time": "06:00",
+        "close_time": "21:00"
+      },
+      {
+        "day_of_week": "Saturday",
+        "open_time": "07:00",
+        "close_time": "21:00"
+      },
+      {
+        "day_of_week": "Sunday",
+        "open_time": "07:00",
+        "close_time": "20:00"
+      }
+    ]
+  },
+  {
+    "business_id": "RoXpniL8AtWwnIzvY2XUXw",
+    "export_batch_id": "0f98a7a3-87a8-4345-9bfd-ffcd5ae86406",
+    "generated_at": "2026-08-09T06:35:17",
+    "source_system": "goodyear-biz-portal",
+    "weekly_hours": [
+      {
+        "day_of_week": "Monday",
+        "open_time": "10:30",
+        "close_time": "22:00"
+      },
+      {
+        "day_of_week": "Tuesday",
+        "open_time": "10:30",
+        "close_time": "22:00"
+      },
+      {
+        "day_of_week": "Wednesday",
+        "open_time": "10:30",
+        "close_time": "22:00"
+      },
+      {
+        "day_of_week": "Thursday",
+        "open_time": "10:30",
+        "close_time": "22:00"
+      },
+      {
+        "day_of_week": "Friday",
+        "open_time": "10:30",
+        "close_time": "23:00"
+      },
+      {
+        "day_of_week": "Saturday",
+        "open_time": "10:30",
+        "close_time": "23:00"
+      },
+      {
+        "day_of_week": "Sunday",
+        "open_time": "11:00",
+        "close_time": "22:00"
+      }
+    ]
+  },
+  {
+    "business_id": "RroUdGop9iKwVOISl0KIeg",
+    "export_batch_id": "0f98a7a3-87a8-4345-9bfd-ffcd5ae86406",
+    "generated_at": "2026-08-09T06:35:17",
+    "source_system": "goodyear-biz-portal",
+    "weekly_hours": [
+      {
+        "day_of_week": "Monday",
+        "open_time": "09:00",
+        "close_time": "19:00"
+      },
+      {
+        "day_of_week": "Tuesday",
+        "open_time": "09:00",
+        "close_time": "19:00"
+      },
+      {
+        "day_of_week": "Wednesday",
+        "open_time": "09:00",
+        "close_time": "19:00"
+      },
+      {
+        "day_of_week": "Thursday",
+        "open_time": "09:00",
+        "close_time": "19:00"
+      },
+      {
+        "day_of_week": "Friday",
+        "open_time": "09:00",
+        "close_time": "19:00"
+      },
+      {
+        "day_of_week": "Saturday",
+        "open_time": "09:00",
+        "close_time": "19:00"
+      },
+      {
+        "day_of_week": "Sunday",
+        "open_time": "11:00",
+        "close_time": "17:00"
+      }
+    ]
+  },
+  {
+    "business_id": "SDs4eWoV-cpJystzTAH0qg",
+    "export_batch_id": "0f98a7a3-87a8-4345-9bfd-ffcd5ae86406",
+    "generated_at": "2026-08-09T06:35:17",
+    "source_system": "goodyear-biz-portal",
+    "weekly_hours": [
+      {
+        "day_of_week": "Monday",
+        "open_time": "11:00",
+        "close_time": "21:00"
+      },
+      {
+        "day_of_week": "Tuesday",
+        "open_time": "11:00",
+        "close_time": "21:00"
+      },
+      {
+        "day_of_week": "Wednesday",
+        "open_time": "11:00",
+        "close_time": "21:00"
+      },
+      {
+        "day_of_week": "Thursday",
+        "open_time": "11:00",
+        "close_time": "21:00"
+      },
+      {
+        "day_of_week": "Friday",
+        "open_time": "11:00",
+        "close_time": "22:00"
+      },
+      {
+        "day_of_week": "Saturday",
+        "open_time": "11:00",
+        "close_time": "22:00"
+      },
+      {
+        "day_of_week": "Sunday",
+        "open_time": "11:00",
+        "close_time": "21:00"
+      }
+    ]
+  },
+  {
+    "business_id": "SJVPANlM-ZKzL6Za1i9HYQ",
+    "export_batch_id": "0f98a7a3-87a8-4345-9bfd-ffcd5ae86406",
+    "generated_at": "2026-08-09T06:35:17",
+    "source_system": "goodyear-biz-portal",
+    "weekly_hours": [
+      {
+        "day_of_week": "Monday",
+        "open_time": "10:00",
+        "close_time": "22:00"
+      },
+      {
+        "day_of_week": "Tuesday",
+        "open_time": "10:00",
+        "close_time": "22:00"
+      },
+      {
+        "day_of_week": "Wednesday",
+        "open_time": "10:00",
+        "close_time": "22:00"
+      },
+      {
+        "day_of_week": "Thursday",
+        "open_time": "10:00",
+        "close_time": "22:00"
+      },
+      {
+        "day_of_week": "Friday",
+        "open_time": "10:00",
+        "close_time": "23:00"
+      },
+      {
+        "day_of_week": "Sunday",
+        "open_time": "12:00",
+        "close_time": "22:00"
+      }
+    ]
+  },
+  {
+    "business_id": "SRkFgiyXb7NlCox9WxltvQ",
+    "export_batch_id": "0f98a7a3-87a8-4345-9bfd-ffcd5ae86406",
+    "generated_at": "2026-08-09T06:35:17",
+    "source_system": "goodyear-biz-portal",
+    "weekly_hours": [
+      {
+        "day_of_week": "Monday",
+        "open_time": "10:30",
+        "close_time": "21:00"
+      },
+      {
+        "day_of_week": "Tuesday",
+        "open_time": "10:30",
+        "close_time": "21:00"
+      },
+      {
+        "day_of_week": "Wednesday",
+        "open_time": "10:30",
+        "close_time": "21:00"
+      },
+      {
+        "day_of_week": "Thursday",
+        "open_time": "10:30",
+        "close_time": "21:00"
+      },
+      {
+        "day_of_week": "Friday",
+        "open_time": "10:30",
+        "close_time": "22:30"
+      },
+      {
+        "day_of_week": "Saturday",
+        "open_time": "10:30",
+        "close_time": "22:30"
+      },
+      {
+        "day_of_week": "Sunday",
+        "open_time": "11:00",
+        "close_time": "21:00"
+      }
+    ]
+  }
+]

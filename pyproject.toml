@@ -8,6 +8,7 @@ dependencies = [
     "python-dotenv>=1.0",
     "snowflake-connector-python>=3.12",
     "cryptography>=42.0",
+    "faker>=40.37.0",
 ]
 
 [dependency-groups]
