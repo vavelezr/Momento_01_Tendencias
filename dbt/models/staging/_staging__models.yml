@@ -1,0 +1,62 @@
+version: 2
+
+models:
+  - name: stg_category
+    description: Una fila por categoría de negocio.
+    columns:
+      - name: category_id
+        tests: [unique, not_null]
+
+  - name: stg_business
+    description: Una fila por negocio de Goodyear, AZ.
+    columns:
+      - name: business_id
+        tests: [unique, not_null]
+
+  - name: stg_business_category
+    description: Relación N:N entre negocio y categoría.
+    columns:
+      - name: business_id
+        tests:
+          - relationships:
+              arguments:
+                to: ref('stg_business')
+                field: business_id
+      - name: category_id
+        tests:
+          - relationships:
+              arguments:
+                to: ref('stg_category')
+                field: category_id
+
+  - name: stg_users
+    description: Una fila por usuario autor de al menos una reseña o tip.
+    columns:
+      - name: user_id
+        tests: [unique, not_null]
+
+  - name: stg_review
+    description: Una fila por reseña (calificación + texto).
+    columns:
+      - name: review_id
+        tests: [unique, not_null]
+      - name: business_id
+        tests:
+          - relationships:
+              arguments:
+                to: ref('stg_business')
+                field: business_id
+      - name: stars
+        tests:
+          - accepted_values:
+              arguments:
+                values: [1, 2, 3, 4, 5]
+
+  - name: stg_tip
+    description: Una fila por tip (recomendación corta, sin calificación).
+    columns:
+      - name: tip_id
+        tests: [unique, not_null]
+
+  - name: stg_business_hours
+    description: Horario semanal por negocio — una fila por día efectivamente reportado.
