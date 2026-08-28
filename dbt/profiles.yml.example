@@ -1,26 +1,31 @@
-# Copia este archivo a dbt/profiles.yml y completa los valores — dbt/profiles.yml NUNCA
-# se versiona (ver .gitignore de la raíz). Reusa las mismas variables SNOWFLAKE_* que ya
-# tienes en tu .env de la raíz (mismo usuario de servicio SVC_YELP_LOADER, misma llave
-# RSA — ver snowflake/setup/README.md para cómo generarla).
+# Plantilla de profiles.yml -- NUNCA se versiona con credenciales reales (dbt/profiles.yml
+# está en el .gitignore de la raíz). Todos los valores se leen con env_var() de las MISMAS
+# variables SNOWFLAKE_* que ya usas en el .env de la raíz para ingesta/ -- no hay un
+# segundo juego de credenciales que mantener sincronizado.
 #
-# schema: ANALYTICS es el esquema de destino de los modelos dbt (staging/intermediate/
-# marts) — separado de RAW y STAGING (carga cruda) a propósito. Antes de correr `dbt run`
-# por primera vez, alguien con ACCOUNTADMIN debe correr una vez
-# snowflake/setup/07_dbt_analytics_schema.sql (crea el esquema y le da a YELP_LOADER_ROLE
-# los privilegios CREATE TABLE / CREATE VIEW que necesita — hoy solo tiene CREATE TABLE
-# sobre RAW/STAGING, no sobre ANALYTICS ni CREATE VIEW en ningún esquema).
-
+# dbt no lee .env por si solo -- hay que exportar las variables al shell antes de invocar
+# dbt (mismo patrón que usa la Sesión 7 del curso):
+#
+#   cd dbt
+#   cp profiles.yml.example profiles.yml
+#   set -a && source ../.env && set +a
+#   uv run dbt debug --profiles-dir .
+#
+# Autenticación por llave RSA (key-pair), no password -- SVC_YELP_LOADER no tiene
+# contraseña configurada (ver snowflake/setup/README.md). private_key_path es relativo al
+# directorio desde donde se invoca dbt (dbt/), por eso el default sube un nivel.
 yelp_goodyear_analytics:
   target: dev
   outputs:
     dev:
       type: snowflake
-      account: TU_CUENTA_AQUI          # SNOWFLAKE_ACCOUNT en .env, ej. KHAQLHC-QE64876
-      user: SVC_YELP_LOADER
-      role: YELP_LOADER_ROLE
-      database: YELP_GOODYEAR_DW
-      warehouse: WH_YELP_XS
-      schema: ANALYTICS
-      private_key_path: ../snowflake/setup/keys/rsa_key.p8   # ruta relativa a dbt/
-      private_key_passphrase: TU_PASSPHRASE_AQUI
+      account: "{{ env_var('SNOWFLAKE_ACCOUNT') }}"
+      user: "{{ env_var('SNOWFLAKE_USER') }}"
+      role: "{{ env_var('SNOWFLAKE_ROLE', 'YELP_LOADER_ROLE') }}"
+      warehouse: "{{ env_var('SNOWFLAKE_WAREHOUSE', 'WH_YELP_XS') }}"
+      database: "{{ env_var('SNOWFLAKE_DATABASE', 'YELP_GOODYEAR_DW') }}"
+      schema: "{{ env_var('SNOWFLAKE_DBT_SCHEMA', 'ANALYTICS') }}"
+      private_key_path: "{{ env_var('SNOWFLAKE_PRIVATE_KEY_PATH', '../snowflake/setup/keys/rsa_key.p8') }}"
+      private_key_passphrase: "{{ env_var('SNOWFLAKE_PRIVATE_KEY_PASSPHRASE', '') }}"
       threads: 4
+      client_session_keep_alive: false

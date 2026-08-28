@@ -17,15 +17,19 @@ clean-targets:
   - "target"
   - "dbt_packages"
 
-# staging/: una vista por tabla fuente, sin joins ni lógica de negocio.
-# intermediate/: agregados reutilizables entre marts (también vista — no es capa de consumo final).
-# marts/: tablas listas para consumo (Streamlit, análisis ad-hoc). fct_reviews sobreescribe a
-# 'incremental' en su propio archivo (ver models/marts/fct_reviews.sql).
+# Arquitectura Medallón (Sesión 7 del curso): la carpeta declara la capa, la capa declara
+# la materialización y el esquema físico en Snowflake.
+#   Bronze = RAW/STAGING de Snowflake (ya existen, fuera de este proyecto -- Momento 1/2).
+#   Silver = staging/  -- cast y rename, VIEW (relectura barata de la fuente cruda).
+#   Gold   = core/     -- listos para consumo, TABLE (agregan/cruzan datos; se persisten
+#            para no pagar ese costo en cada consulta).
+# +schema por capa separa físicamente ANALYTICS_STAGING de ANALYTICS_CORE en Snowflake
+# (dbt antepone el schema del target -- ANALYTICS -- al valor de +schema).
 models:
   yelp_goodyear_analytics:
     staging:
       +materialized: view
-    intermediate:
-      +materialized: view
-    marts:
+      +schema: staging
+    core:
       +materialized: table
+      +schema: core
