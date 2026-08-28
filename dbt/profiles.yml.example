@@ -1,0 +1,31 @@
+# Plantilla de profiles.yml -- NUNCA se versiona con credenciales reales (dbt/profiles.yml
+# está en el .gitignore de la raíz). Todos los valores se leen con env_var() de las MISMAS
+# variables SNOWFLAKE_* que ya usas en el .env de la raíz para ingesta/ -- no hay un
+# segundo juego de credenciales que mantener sincronizado.
+#
+# dbt no lee .env por si solo -- hay que exportar las variables al shell antes de invocar
+# dbt (mismo patrón que usa la Sesión 7 del curso):
+#
+#   cd dbt
+#   cp profiles.yml.example profiles.yml
+#   set -a && source ../.env && set +a
+#   uv run dbt debug --profiles-dir .
+#
+# Autenticación por llave RSA (key-pair), no password -- SVC_YELP_LOADER no tiene
+# contraseña configurada (ver snowflake/setup/README.md). private_key_path es relativo al
+# directorio desde donde se invoca dbt (dbt/), por eso el default sube un nivel.
+yelp_goodyear_analytics:
+  target: dev
+  outputs:
+    dev:
+      type: snowflake
+      account: "{{ env_var('SNOWFLAKE_ACCOUNT') }}"
+      user: "{{ env_var('SNOWFLAKE_USER') }}"
+      role: "{{ env_var('SNOWFLAKE_ROLE', 'YELP_LOADER_ROLE') }}"
+      warehouse: "{{ env_var('SNOWFLAKE_WAREHOUSE', 'WH_YELP_XS') }}"
+      database: "{{ env_var('SNOWFLAKE_DATABASE', 'YELP_GOODYEAR_DW') }}"
+      schema: "{{ env_var('SNOWFLAKE_DBT_SCHEMA', 'ANALYTICS') }}"
+      private_key_path: "{{ env_var('SNOWFLAKE_PRIVATE_KEY_PATH', '../snowflake/setup/keys/rsa_key.p8') }}"
+      private_key_passphrase: "{{ env_var('SNOWFLAKE_PRIVATE_KEY_PASSPHRASE', '') }}"
+      threads: 4
+      client_session_keep_alive: false

@@ -1,0 +1,7 @@
+# dbt deps los descarga en dbt/dbt_packages/ (gitignorado, se reconstruye en cada
+# entorno). metaplane/dbt_expectations es el fork activo del paquete original
+# calogica/dbt_expectations -- dbt deps marca el de calogica como deprecado en favor de
+# este (mismo criterio usado en la Sesión 7 del curso).
+packages:
+  - package: metaplane/dbt_expectations
+    version: [">=0.10.0", "<0.11.0"]

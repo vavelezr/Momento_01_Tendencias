@@ -1,0 +1,8 @@
+[project]
+name = "dbt-yelp-goodyear-analytics"
+version = "0.1.0"
+description = "Entorno de dbt para el Momento 3 — separado del resto del repo porque dbt-snowflake fija sus propias versiones de dependencias."
+requires-python = ">=3.12"
+dependencies = [
+    "dbt-snowflake>=1.8",
+]

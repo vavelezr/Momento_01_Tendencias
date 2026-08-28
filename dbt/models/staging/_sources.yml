@@ -1,0 +1,37 @@
+version: 2
+
+sources:
+  - name: raw
+    database: YELP_GOODYEAR_DW
+    schema: RAW
+    description: >
+      Espejo sin transformar del modelo transaccional de Neon (Momento 1). Llega vía
+      ingesta/elt_neon_to_snowflake.py (Momento 2, Sesión 4) — tipos amplios, sin PK/FK
+      forzadas a propósito. El tipado y la limpieza ocurren en staging/, no aquí.
+    tables:
+      - name: category
+        description: Catálogo de categorías de negocio (192 en la muestra de Goodyear, AZ).
+      - name: business
+        description: Negocios de Goodyear, AZ (308), con su categoría principal denormalizada.
+      - name: business_category
+        description: Relación N:N negocio↔categoría (870 filas).
+      - name: users
+        description: Usuarios autores de al menos una reseña o tip (2 757).
+      - name: review
+        description: Reseñas (calificación + texto) por negocio (4 978).
+        config:
+          loaded_at_field: review_date
+      - name: tip
+        description: Recomendaciones cortas, sin calificación (2 239).
+
+  - name: raw_json
+    database: YELP_GOODYEAR_DW
+    schema: STAGING
+    description: >
+      Salida ya aplanada (LATERAL FLATTEN) de la ingesta semi-estructurada (Momento 2,
+      Sesión 5 — snowflake/json/). El nombre del esquema de Snowflake ("STAGING") es
+      anterior a este proyecto dbt y no debe confundirse con la carpeta staging/ de este
+      proyecto: ese esquema guarda un JSON ya aplanado, no modelos dbt.
+    tables:
+      - name: stg_business_hours_flattened
+        description: Horario semanal por negocio — una fila por día efectivamente reportado.

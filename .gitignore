@@ -13,3 +13,10 @@ __pycache__/
 
 # Artefactos generados por scripts de extracción/carga
 data/output/
+
+# dbt (Momento 3) — credenciales y artefactos generados, nunca versionados
+dbt/profiles.yml
+dbt/target/
+dbt/logs/
+dbt/dbt_packages/
+dbt/.user.yml
