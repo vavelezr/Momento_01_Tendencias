@@ -1,0 +1,31 @@
+name: 'yelp_goodyear_analytics'
+version: '1.0.0'
+config-version: 2
+
+# Coincide con el nombre de perfil en profiles.yml (no versionado — ver profiles.yml.example).
+profile: 'yelp_goodyear_analytics'
+
+model-paths: ["models"]
+analysis-paths: ["analyses"]
+test-paths: ["tests"]
+seed-paths: ["seeds"]
+macro-paths: ["macros"]
+snapshot-paths: ["snapshots"]
+
+target-path: "target"
+clean-targets:
+  - "target"
+  - "dbt_packages"
+
+# staging/: una vista por tabla fuente, sin joins ni lógica de negocio.
+# intermediate/: agregados reutilizables entre marts (también vista — no es capa de consumo final).
+# marts/: tablas listas para consumo (Streamlit, análisis ad-hoc). fct_reviews sobreescribe a
+# 'incremental' en su propio archivo (ver models/marts/fct_reviews.sql).
+models:
+  yelp_goodyear_analytics:
+    staging:
+      +materialized: view
+    intermediate:
+      +materialized: view
+    marts:
+      +materialized: table
