@@ -1,0 +1,26 @@
+# Copia este archivo a dbt/profiles.yml y completa los valores — dbt/profiles.yml NUNCA
+# se versiona (ver .gitignore de la raíz). Reusa las mismas variables SNOWFLAKE_* que ya
+# tienes en tu .env de la raíz (mismo usuario de servicio SVC_YELP_LOADER, misma llave
+# RSA — ver snowflake/setup/README.md para cómo generarla).
+#
+# schema: ANALYTICS es el esquema de destino de los modelos dbt (staging/intermediate/
+# marts) — separado de RAW y STAGING (carga cruda) a propósito. Antes de correr `dbt run`
+# por primera vez, alguien con ACCOUNTADMIN debe correr una vez
+# snowflake/setup/07_dbt_analytics_schema.sql (crea el esquema y le da a YELP_LOADER_ROLE
+# los privilegios CREATE TABLE / CREATE VIEW que necesita — hoy solo tiene CREATE TABLE
+# sobre RAW/STAGING, no sobre ANALYTICS ni CREATE VIEW en ningún esquema).
+
+yelp_goodyear_analytics:
+  target: dev
+  outputs:
+    dev:
+      type: snowflake
+      account: TU_CUENTA_AQUI          # SNOWFLAKE_ACCOUNT en .env, ej. KHAQLHC-QE64876
+      user: SVC_YELP_LOADER
+      role: YELP_LOADER_ROLE
+      database: YELP_GOODYEAR_DW
+      warehouse: WH_YELP_XS
+      schema: ANALYTICS
+      private_key_path: ../snowflake/setup/keys/rsa_key.p8   # ruta relativa a dbt/
+      private_key_passphrase: TU_PASSPHRASE_AQUI
+      threads: 4
