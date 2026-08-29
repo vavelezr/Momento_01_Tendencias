@@ -1,0 +1,98 @@
+# ---------------------------------------------------------------------------
+# Automatización de la transformación dbt (Momento 3), sobre el patrón de
+# data_ops_course_101/.github/workflows/dbt_schedule.yml (Sesión 7), adaptado a
+# autenticación por llave RSA (key-pair) -- el usuario de servicio SVC_YELP_LOADER no
+# tiene password configurado (ver snowflake/setup/README.md).
+#
+# Qué hace: instala el entorno dbt con uv, reconstruye la llave privada desde un Secret,
+# corre `dbt build` (run + test respetando el orden del grafo) contra Snowflake.
+#
+# Secretos requeridos (Settings -> Secrets and variables -> Actions):
+#   SNOWFLAKE_ACCOUNT, SNOWFLAKE_USER, SNOWFLAKE_ROLE, SNOWFLAKE_WAREHOUSE,
+#   SNOWFLAKE_DATABASE, SNOWFLAKE_DBT_SCHEMA, SNOWFLAKE_PRIVATE_KEY,
+#   SNOWFLAKE_PRIVATE_KEY_PASSPHRASE (dejar vacío si la llave no está cifrada)
+# ---------------------------------------------------------------------------
+
+name: dbt Build
+
+on:
+  workflow_dispatch:
+  push:
+    branches: [main]
+    paths:
+      - "dbt/**"
+      - ".github/workflows/dbt_build.yml"
+
+# Dos corridas simultáneas contra el mismo warehouse podrían pisarse la materialización
+# de un modelo a mitad de escritura -- mismo criterio que el workflow de Flyway.
+concurrency:
+  group: dbt-build
+  cancel-in-progress: false
+
+env:
+  PROJECT_DIR: dbt
+
+jobs:
+  build:
+    name: dbt build sobre Snowflake
+    runs-on: ubuntu-latest
+    timeout-minutes: 20
+
+    steps:
+      - name: Checkout del repositorio
+        uses: actions/checkout@v7
+
+      - name: Instalar uv
+        uses: astral-sh/setup-uv@v10.0.1
+        with:
+          enable-cache: true
+
+      - name: Sincronizar el entorno del proyecto dbt
+        working-directory: ${{ env.PROJECT_DIR }}
+        run: uv sync --locked
+
+      - name: Crear profiles.yml desde la plantilla
+        working-directory: ${{ env.PROJECT_DIR }}
+        run: cp profiles.yml.example profiles.yml
+
+      # La llave privada es un archivo, no un valor simple -- se reconstruye en el runner
+      # desde el Secret (que guarda el .p8 completo, con encabezados) y nunca se escribe
+      # en un paso versionado del repositorio.
+      - name: Reconstruir la llave privada desde el Secret
+        working-directory: ${{ env.PROJECT_DIR }}
+        run: |
+          mkdir -p keys
+          echo "${{ secrets.SNOWFLAKE_PRIVATE_KEY }}" > keys/rsa_key.p8
+
+      - name: dbt deps
+        working-directory: ${{ env.PROJECT_DIR }}
+        run: uv run dbt deps --profiles-dir .
+
+      # dbt build = dbt run + dbt test respetando el orden del grafo: si un test de un
+      # modelo Silver falla, los modelos Gold que dependen de él ni siquiera se intentan.
+      - name: dbt build
+        working-directory: ${{ env.PROJECT_DIR }}
+        env:
+          SNOWFLAKE_ACCOUNT: ${{ secrets.SNOWFLAKE_ACCOUNT }}
+          SNOWFLAKE_USER: ${{ secrets.SNOWFLAKE_USER }}
+          SNOWFLAKE_ROLE: ${{ secrets.SNOWFLAKE_ROLE }}
+          SNOWFLAKE_WAREHOUSE: ${{ secrets.SNOWFLAKE_WAREHOUSE }}
+          SNOWFLAKE_DATABASE: ${{ secrets.SNOWFLAKE_DATABASE }}
+          SNOWFLAKE_DBT_SCHEMA: ${{ secrets.SNOWFLAKE_DBT_SCHEMA }}
+          SNOWFLAKE_PRIVATE_KEY_PATH: keys/rsa_key.p8
+          SNOWFLAKE_PRIVATE_KEY_PASSPHRASE: ${{ secrets.SNOWFLAKE_PRIVATE_KEY_PASSPHRASE }}
+        run: uv run dbt build --profiles-dir . --target dev
+
+      - name: Resumen del run
+        if: always()
+        run: |
+          {
+            echo "## dbt build — resultado"
+            echo ""
+            echo "| Campo | Valor |"
+            echo "|---|---|"
+            echo "| Proyecto | \`${PROJECT_DIR}\` |"
+            echo "| Commit | \`${{ github.sha }}\` |"
+            echo "| Disparado por | \`${{ github.event_name }}\` |"
+            echo "| Estado | \`${{ job.status }}\` |"
+          } >> "$GITHUB_STEP_SUMMARY"
