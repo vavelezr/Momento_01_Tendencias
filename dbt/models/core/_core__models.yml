@@ -20,7 +20,10 @@ models:
 
       - name: primary_category
         description: Categoría principal denormalizada (llegó vía migración Flyway, Momento 1).
-
+      
+      - name: tiene_multiples_categorias
+        description: Si el negocio pertenece a más de una categoría distinta.
+      
       - name: stars
         description: Calificación promedio del negocio, entre 1 y 5 estrellas.
         tests:

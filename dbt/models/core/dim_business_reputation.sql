@@ -23,6 +23,7 @@ select
     b.stars,
     b.review_count,
     coalesce(c.num_categorias, 0)                    as num_categorias,
+    coalesce(c.num_categorias, 0) > 1                as tiene_multiples_categorias,
     {{ nivel_negocio('b.stars', 'b.review_count') }}  as reputation_tier
 from {{ ref('stg_business') }} b
 left join categorias_por_negocio c
