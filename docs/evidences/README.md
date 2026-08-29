@@ -501,3 +501,51 @@ se le da una excepción a propósito.
       resultados distintos).
 - [ ] Visibilidad *antes* de aplicar la Masking Policy — **no capturada, a propósito**
       (no es un requisito literal de la rúbrica; ver nota en la sección 3).
+
+---
+
+# Momento 3 — Transformación con dbt (arquitectura Medallón)
+
+Proyecto dbt en [`dbt/`](../../dbt/) sobre `YELP_GOODYEAR_DW`: `staging/` (Silver, 7
+vistas) → `core/` (Gold, 2 tablas). Detalle de diseño en
+[`dbt/README.md`](../../dbt/README.md).
+
+## Silver: 7 vistas + tests, corridos contra Snowflake real
+
+![Snowsight: esquema ANALYTICS_STAGING con las 7 vistas (stg_business, stg_category, stg_review...)](images/momento_03_staging_views.png)
+
+![Terminal: dbt test — 14 de 14 tests en verde](images/momento_03_all_test_ok.png)
+
+**Qué prueba:** las vistas de staging no son solo archivos `.sql` sin correr — están
+creadas de verdad en Snowflake, con sus tests genéricos (`unique`, `not_null`,
+`relationships`, `accepted_values`) pasando contra los datos reales.
+
+## Gold: 2 modelos, uno cruzando dos orígenes de datos
+
+- `dim_business_reputation` (308 filas) — reputación del negocio, misma regla que
+  `R__fn_nivel_negocio.sql` del Momento 1.
+- `fct_business_hours_performance` (154 filas) — cruza el horario semi-estructurado
+  (Sesión 5) con las reseñas relacionales (Momento 1): ¿más horas de atención implican
+  más o mejores reseñas?
+
+![Lineage graph: 7 sources -> 7 vistas de staging -> 2 modelos Gold, sin huérfanos](images/seven-silver-two-gold.png)
+
+**Qué prueba:** el lineage completo, sin modelos sueltos — todo Gold llega desde Silver
+vía `ref()`, nunca tocando una fuente cruda directamente.
+
+## Automatización: GitHub Actions
+
+Workflow [`dbt_build.yml`](../../.github/workflows/dbt_build.yml) — corre `dbt build`
+contra Snowflake con autenticación por llave RSA (Secrets del repositorio). Ya tiene una
+ejecución real y exitosa registrada (disparada por el merge del PR #26 a `main`, ~41s,
+success).
+
+## Checklist rápido — Momento 3
+
+- [x] `dbt build` corre limpio (Silver + Gold, 31/31).
+- [x] Modelos Gold solo usan `ref()`, nunca `source()` directo.
+- [x] Modelo Gold que cruza dos orígenes de datos distintos.
+- [x] ≥2 tests de `dbt_expectations`, justificados con razón de negocio.
+- [x] Lineage completo, sin modelos huérfanos.
+- [x] Workflow de GitHub Actions con ≥1 corrida real exitosa.
+- [x] `profiles.yml.example` y `.env.example` sin credenciales reales.
