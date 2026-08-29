@@ -64,6 +64,7 @@ pero ningún tip, o viceversa? ¿qué tan bien correlacionan calificación y vol
 | Migraciones Flyway (`V__`/`R__`) | ✅ 4 `V__` (tabla, columna, índice/restricción, fix de columna) + 1 `R__` en [`sql_migrations/`](sql_migrations/) |
 | Workflows de CI/CD | ✅ [`.github/workflows/`](.github/workflows/) — deploy a `main` + validación en cada PR contra `dev` |
 | Falla real + roll forward documentados | ✅ [`docs/evidences/`](docs/evidences/) §5 |
+| Momento 3 — dbt (Silver/Gold) + GitHub Actions | ✅ [`dbt/`](dbt/) · [`docs/evidences/`](docs/evidences/) §Momento 3 |
 
 Detalle completo de cada corrida (capturas de terminal y de GitHub Actions) en
 [`docs/evidences/README.md`](docs/evidences/README.md).

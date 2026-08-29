@@ -7,7 +7,9 @@ la Sesión 7 del curso):
   proyecto).
 - **Silver** — `models/staging/`: un modelo por fuente cruda, cast/rename, `VIEW`.
 - **Gold** — `models/core/`: modelos listos para consumo, `ref()` exclusivamente sobre
-  Silver, `TABLE`.
+  Silver, `TABLE`. Hoy son 2: `dim_business_reputation` (reputación por negocio) y
+  `fct_business_hours_performance` (cruza horario semi-estructurado de la Sesión 5 con
+  reseñas relacionales del Momento 1).
 
 > **Fuera de alcance de este Momento** (según `momento_3.md`, actualizado por el profesor
 > el 28/08): modelos incrementales y capa de entrega/dashboard (Streamlit). No se
