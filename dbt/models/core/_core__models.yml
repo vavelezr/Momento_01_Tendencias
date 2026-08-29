@@ -1,0 +1,106 @@
+version: 2
+
+models:
+  - name: dim_business_reputation
+    description: >
+      Un negocio por fila, con su reputación clasificada (`reputation_tier`, misma regla
+      que `R__fn_nivel_negocio.sql` del Momento 1) y cuántas categorías distintas cubre.
+      Responde: ¿qué negocios son de fiar para un usuario que busca dónde ir, y qué tan
+      especializados o generalistas son?
+    columns:
+      - name: business_id
+        description: Identificador del negocio (PK).
+        tests: [unique, not_null]
+
+      - name: business_name
+        description: Nombre comercial del negocio.
+
+      - name: city
+        description: Ciudad del negocio (todos en Goodyear, AZ, en esta muestra).
+
+      - name: primary_category
+        description: Categoría principal denormalizada (llegó vía migración Flyway, Momento 1).
+
+      - name: stars
+        description: Calificación promedio del negocio, entre 1 y 5 estrellas.
+        tests:
+          - dbt_expectations.expect_column_values_to_be_between:
+              arguments:
+                min_value: 1
+                max_value: 5
+              config:
+                severity: error
+                # Yelp acota su escala a 1-5 estrellas por diseño. Un valor fuera de ese
+                # rango no es una opinión válida de un usuario -- es una carga rota
+                # (schema drift, fila corrupta) y debe bloquear el build, no pasar
+                # silenciosamente a un dashboard de negocio.
+
+      - name: review_count
+        description: Cantidad total de reseñas del negocio (denormalizado desde origen).
+
+      - name: num_categorias
+        description: Cantidad de categorías distintas a las que pertenece el negocio (relación N:N).
+
+      - name: reputation_tier
+        description: >
+          Nuevo (<5 reseñas) / Destacado (≥4.5★ y ≥50 reseñas) / Recomendado (≥4.0★ y
+          ≥10 reseñas) / Regular (cualquier otro caso) -- misma regla del Momento 1.
+        tests:
+          - accepted_values:
+              arguments:
+                values: ['Nuevo', 'Destacado', 'Recomendado', 'Regular']
+
+  - name: fct_business_hours_performance
+    description: >
+      Cruza el horario semanal de cada negocio (semi-estructurado, Momento 2 Sesión 5)
+      con su volumen y calificación de reseñas (relacional, Momento 1). Responde: ¿los
+      negocios con más horas de atención a la semana reciben más reseñas, o mejores
+      calificaciones? Grano: un negocio por fila, solo los 154 que reportan horario.
+    columns:
+      - name: business_id
+        description: Identificador del negocio (PK de este modelo).
+        tests: [unique, not_null]
+
+      - name: business_name
+        description: Nombre comercial del negocio.
+
+      - name: city
+        description: Ciudad del negocio.
+
+      - name: dias_abierto_semana
+        description: Cantidad de días de la semana en los que el negocio reporta horario.
+
+      - name: horas_abiertas_semana
+        description: Suma de horas de atención reportadas en toda la semana.
+        tests:
+          - dbt_expectations.expect_column_values_to_be_between:
+              arguments:
+                min_value: 0
+                max_value: 168
+              config:
+                severity: error
+                # Una semana física tiene 168 horas -- ningún negocio puede reportar más.
+                # Si esto falla, el LATERAL FLATTEN de la Sesión 5 o el cálculo de
+                # horas duplicó filas de horario para algún negocio: hay que mirar
+                # stg_business_hours antes de confiar en cualquier reporte que use esta
+                # tabla.
+
+      - name: horario_tier
+        description: >
+          Extendido (60+ h/semana) / Estándar (40-59 h/semana) / Reducido (<40 h/semana).
+        tests:
+          - accepted_values:
+              arguments:
+                values:
+                  - 'Extendido (60+ h/semana)'
+                  - 'Estándar (40-59 h/semana)'
+                  - 'Reducido (<40 h/semana)'
+
+      - name: total_resenas
+        description: Cantidad de reseñas recibidas por el negocio (calculado desde stg_review).
+
+      - name: calificacion_promedio
+        description: Promedio de estrellas de las reseñas del negocio (calculado, no denormalizado).
+
+      - name: fecha_ultima_resena
+        description: Fecha de la reseña más reciente del negocio.
